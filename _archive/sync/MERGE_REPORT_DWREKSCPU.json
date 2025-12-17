@@ -1,0 +1,514 @@
+{
+  "timestamp": "2025-11-27T13:53:17.090978",
+  "computer": "DWREKSCPU",
+  "summary": {
+    "exact_duplicate_groups": 0,
+    "exact_duplicate_atoms": 0,
+    "similar_pairs": 3154,
+    "source_duplicate_groups": 7,
+    "estimated_mergeable": 3154
+  },
+  "exact_duplicate_groups": [],
+  "similar_pairs": [
+    {
+      "atom1_id": "e865f6eaffc9",
+      "atom2_id": "4f169a007050",
+      "similarity": 0.855
+    },
+    {
+      "atom1_id": "e865f6eaffc9",
+      "atom2_id": "86e5d7d0420e",
+      "similarity": 0.853
+    },
+    {
+      "atom1_id": "1015f3a2a77f",
+      "atom2_id": "9908a56e5807",
+      "similarity": 0.867
+    },
+    {
+      "atom1_id": "1015f3a2a77f",
+      "atom2_id": "4ad13033e077",
+      "similarity": 0.858
+    },
+    {
+      "atom1_id": "c17763c2d20c",
+      "atom2_id": "e6106aec064d",
+      "similarity": 0.853
+    },
+    {
+      "atom1_id": "61960f48ccb5",
+      "atom2_id": "a8020fdf2928",
+      "similarity": 0.854
+    },
+    {
+      "atom1_id": "495e689d30c5",
+      "atom2_id": "ea3bedf60b11",
+      "similarity": 0.863
+    },
+    {
+      "atom1_id": "495e689d30c5",
+      "atom2_id": "69b50f794a00",
+      "similarity": 0.863
+    },
+    {
+      "atom1_id": "495e689d30c5",
+      "atom2_id": "76ee5963513e",
+      "similarity": 0.853
+    },
+    {
+      "atom1_id": "495e689d30c5",
+      "atom2_id": "3147596edc0d",
+      "similarity": 0.855
+    },
+    {
+      "atom1_id": "e60f190f7b56",
+      "atom2_id": "1eecd0371dff",
+      "similarity": 0.85
+    },
+    {
+      "atom1_id": "046f223728e7",
+      "atom2_id": "aee40ba47976",
+      "similarity": 0.864
+    },
+    {
+      "atom1_id": "046f223728e7",
+      "atom2_id": "047d7afbd0fc",
+      "similarity": 0.854
+    },
+    {
+      "atom1_id": "046f223728e7",
+      "atom2_id": "01d2c658a861",
+      "similarity": 0.863
+    },
+    {
+      "atom1_id": "046f223728e7",
+      "atom2_id": "7a158447c93a",
+      "similarity": 0.862
+    },
+    {
+      "atom1_id": "046f223728e7",
+      "atom2_id": "a8003c33b4f4",
+      "similarity": 0.853
+    },
+    {
+      "atom1_id": "bd98d15eaab1",
+      "atom2_id": "b90fc79a1a6f",
+      "similarity": 0.851
+    },
+    {
+      "atom1_id": "bd98d15eaab1",
+      "atom2_id": "64486b838585",
+      "similarity": 0.858
+    },
+    {
+      "atom1_id": "f9bbd89547e9",
+      "atom2_id": "b7d8ecbd9ac2",
+      "similarity": 0.851
+    },
+    {
+      "atom1_id": "f9bbd89547e9",
+      "atom2_id": "c747ec0fce7a",
+      "similarity": 0.851
+    },
+    {
+      "atom1_id": "acd4b3bcca99",
+      "atom2_id": "7c122f1ca36f",
+      "similarity": 0.855
+    },
+    {
+      "atom1_id": "f6fe02e519bd",
+      "atom2_id": "79366bb426f1",
+      "similarity": 0.863
+    },
+    {
+      "atom1_id": "f6fe02e519bd",
+      "atom2_id": "5606a8470ed9",
+      "similarity": 0.853
+    },
+    {
+      "atom1_id": "f6fe02e519bd",
+      "atom2_id": "1601c98e85f7",
+      "similarity": 0.857
+    },
+    {
+      "atom1_id": "f6fe02e519bd",
+      "atom2_id": "3913ad0f4d45",
+      "similarity": 0.852
+    },
+    {
+      "atom1_id": "f6fe02e519bd",
+      "atom2_id": "7678dd471fbe",
+      "similarity": 0.87
+    },
+    {
+      "atom1_id": "f6fe02e519bd",
+      "atom2_id": "d4b299e8a3f3",
+      "similarity": 0.852
+    },
+    {
+      "atom1_id": "f6fe02e519bd",
+      "atom2_id": "0aa68732e418",
+      "similarity": 0.868
+    },
+    {
+      "atom1_id": "f6fe02e519bd",
+      "atom2_id": "7e0d09bd29c7",
+      "similarity": 0.867
+    },
+    {
+      "atom1_id": "4a356fc28ad2",
+      "atom2_id": "74bfa3292eae",
+      "similarity": 0.852
+    },
+    {
+      "atom1_id": "4a356fc28ad2",
+      "atom2_id": "456575428221",
+      "similarity": 0.867
+    },
+    {
+      "atom1_id": "4a356fc28ad2",
+      "atom2_id": "06e25fcd154b",
+      "similarity": 0.854
+    },
+    {
+      "atom1_id": "4a356fc28ad2",
+      "atom2_id": "cf3ed5577744",
+      "similarity": 0.853
+    },
+    {
+      "atom1_id": "4a356fc28ad2",
+      "atom2_id": "7714c7cb66ed",
+      "similarity": 0.854
+    },
+    {
+      "atom1_id": "4a356fc28ad2",
+      "atom2_id": "dafe4af8e6ac",
+      "similarity": 0.855
+    },
+    {
+      "atom1_id": "220c731f7140",
+      "atom2_id": "6861c1a2e637",
+      "similarity": 0.858
+    },
+    {
+      "atom1_id": "220c731f7140",
+      "atom2_id": "5a489e6d5975",
+      "similarity": 0.854
+    },
+    {
+      "atom1_id": "220c731f7140",
+      "atom2_id": "4eb9abb1be98",
+      "similarity": 0.851
+    },
+    {
+      "atom1_id": "220c731f7140",
+      "atom2_id": "a93f2d3d9cfa",
+      "similarity": 0.855
+    },
+    {
+      "atom1_id": "220c731f7140",
+      "atom2_id": "0674870d899b",
+      "similarity": 0.863
+    },
+    {
+      "atom1_id": "1fd2c0c20b2d",
+      "atom2_id": "328bb7285363",
+      "similarity": 0.852
+    },
+    {
+      "atom1_id": "3d59c9059973",
+      "atom2_id": "6c6abb5beb51",
+      "similarity": 0.871
+    },
+    {
+      "atom1_id": "3d59c9059973",
+      "atom2_id": "1bf2a23c422c",
+      "similarity": 0.855
+    },
+    {
+      "atom1_id": "3d59c9059973",
+      "atom2_id": "19bbed78ac4a",
+      "similarity": 0.851
+    },
+    {
+      "atom1_id": "3d59c9059973",
+      "atom2_id": "35ab88e3ad74",
+      "similarity": 0.853
+    },
+    {
+      "atom1_id": "42f49e0b9b18",
+      "atom2_id": "8cd375836735",
+      "similarity": 0.85
+    },
+    {
+      "atom1_id": "42f49e0b9b18",
+      "atom2_id": "16f9c02bcf32",
+      "similarity": 0.87
+    },
+    {
+      "atom1_id": "42f49e0b9b18",
+      "atom2_id": "1423000302c8",
+      "similarity": 0.85
+    },
+    {
+      "atom1_id": "42f49e0b9b18",
+      "atom2_id": "35224b2af7e6",
+      "similarity": 0.853
+    },
+    {
+      "atom1_id": "a82a46da7955",
+      "atom2_id": "36e7590ffce0",
+      "similarity": 0.861
+    },
+    {
+      "atom1_id": "e4e44a1eab96",
+      "atom2_id": "43c431e62079",
+      "similarity": 0.859
+    },
+    {
+      "atom1_id": "5d81f89bc14a",
+      "atom2_id": "9909ac300e92",
+      "similarity": 0.852
+    },
+    {
+      "atom1_id": "0f9861c3be4f",
+      "atom2_id": "cb82eeb599cb",
+      "similarity": 0.868
+    },
+    {
+      "atom1_id": "0f9861c3be4f",
+      "atom2_id": "a94bd537fe5a",
+      "similarity": 0.851
+    },
+    {
+      "atom1_id": "20d08d6c761a",
+      "atom2_id": "035a20c033f5",
+      "similarity": 0.85
+    },
+    {
+      "atom1_id": "777289447202",
+      "atom2_id": "2a3fb0fe62c3",
+      "similarity": 0.85
+    },
+    {
+      "atom1_id": "39320371328d",
+      "atom2_id": "f0438232f5d0",
+      "similarity": 0.865
+    },
+    {
+      "atom1_id": "39320371328d",
+      "atom2_id": "4ba5c18920a2",
+      "similarity": 0.851
+    },
+    {
+      "atom1_id": "e001d2617d40",
+      "atom2_id": "90ed6cd9d326",
+      "similarity": 0.851
+    },
+    {
+      "atom1_id": "e59616938d70",
+      "atom2_id": "6c4d54ecd3c1",
+      "similarity": 0.851
+    },
+    {
+      "atom1_id": "e59616938d70",
+      "atom2_id": "361a283c5b62",
+      "similarity": 0.851
+    },
+    {
+      "atom1_id": "e59616938d70",
+      "atom2_id": "6450afb5af92",
+      "similarity": 0.859
+    },
+    {
+      "atom1_id": "7871769f7ea5",
+      "atom2_id": "e2a0b1209f55",
+      "similarity": 0.853
+    },
+    {
+      "atom1_id": "7871769f7ea5",
+      "atom2_id": "a745f21217b5",
+      "similarity": 0.857
+    },
+    {
+      "atom1_id": "7871769f7ea5",
+      "atom2_id": "032991323947",
+      "similarity": 0.863
+    },
+    {
+      "atom1_id": "7871769f7ea5",
+      "atom2_id": "d92824a25f90",
+      "similarity": 0.854
+    },
+    {
+      "atom1_id": "03ab2d49e4d2",
+      "atom2_id": "51568b8fa1ac",
+      "similarity": 0.864
+    },
+    {
+      "atom1_id": "03ab2d49e4d2",
+      "atom2_id": "6be2dce268fd",
+      "similarity": 0.863
+    },
+    {
+      "atom1_id": "03ab2d49e4d2",
+      "atom2_id": "a9e6d5d5a3ce",
+      "similarity": 0.852
+    },
+    {
+      "atom1_id": "97ebeb09cbe2",
+      "atom2_id": "a9ce84b45cd5",
+      "similarity": 0.854
+    },
+    {
+      "atom1_id": "12967d5eccb1",
+      "atom2_id": "1950b953c870",
+      "similarity": 0.85
+    },
+    {
+      "atom1_id": "12967d5eccb1",
+      "atom2_id": "5c4f94ac2da9",
+      "similarity": 0.86
+    },
+    {
+      "atom1_id": "12967d5eccb1",
+      "atom2_id": "109c84c9f2f2",
+      "similarity": 0.855
+    },
+    {
+      "atom1_id": "9619a8543981",
+      "atom2_id": "86e5d7d0420e",
+      "similarity": 0.852
+    },
+    {
+      "atom1_id": "9619a8543981",
+      "atom2_id": "b6cde9ad9dea",
+      "similarity": 0.868
+    },
+    {
+      "atom1_id": "9619a8543981",
+      "atom2_id": "06d764f105f3",
+      "similarity": 0.851
+    },
+    {
+      "atom1_id": "1ee88d0af81b",
+      "atom2_id": "2fca3606a2da",
+      "similarity": 0.853
+    },
+    {
+      "atom1_id": "175095672f07",
+      "atom2_id": "bbfad9e48004",
+      "similarity": 0.868
+    },
+    {
+      "atom1_id": "175095672f07",
+      "atom2_id": "502a59ddd604",
+      "similarity": 0.856
+    },
+    {
+      "atom1_id": "175095672f07",
+      "atom2_id": "727d1b45d765",
+      "similarity": 0.852
+    },
+    {
+      "atom1_id": "175095672f07",
+      "atom2_id": "ae75feac8f93",
+      "similarity": 0.85
+    },
+    {
+      "atom1_id": "cac68f5640d9",
+      "atom2_id": "cf46b208e700",
+      "similarity": 0.872
+    },
+    {
+      "atom1_id": "cac68f5640d9",
+      "atom2_id": "fab7f118c59c",
+      "similarity": 0.855
+    },
+    {
+      "atom1_id": "7fd48bb51cfa",
+      "atom2_id": "fb73a57f428b",
+      "similarity": 0.862
+    },
+    {
+      "atom1_id": "7fd48bb51cfa",
+      "atom2_id": "94f6f84188af",
+      "similarity": 0.87
+    },
+    {
+      "atom1_id": "7fd48bb51cfa",
+      "atom2_id": "251105cb0365",
+      "similarity": 0.857
+    },
+    {
+      "atom1_id": "7fd48bb51cfa",
+      "atom2_id": "2ba84675bde9",
+      "similarity": 0.863
+    },
+    {
+      "atom1_id": "31bd23fd0e11",
+      "atom2_id": "4ea23046763a",
+      "similarity": 0.85
+    },
+    {
+      "atom1_id": "31bd23fd0e11",
+      "atom2_id": "2c8079a48126",
+      "similarity": 0.858
+    },
+    {
+      "atom1_id": "31bd23fd0e11",
+      "atom2_id": "f3d3788651b5",
+      "similarity": 0.858
+    },
+    {
+      "atom1_id": "31bd23fd0e11",
+      "atom2_id": "1e14294dc2b7",
+      "similarity": 0.85
+    },
+    {
+      "atom1_id": "31bd23fd0e11",
+      "atom2_id": "8bca480eeaad",
+      "similarity": 0.851
+    },
+    {
+      "atom1_id": "2df7af43a87b",
+      "atom2_id": "2ef115461ce0",
+      "similarity": 0.852
+    },
+    {
+      "atom1_id": "4cad2bba8e4d",
+      "atom2_id": "13747771c31a",
+      "similarity": 0.867
+    },
+    {
+      "atom1_id": "4cad2bba8e4d",
+      "atom2_id": "4a49c4be5a20",
+      "similarity": 0.852
+    },
+    {
+      "atom1_id": "4cad2bba8e4d",
+      "atom2_id": "b58037de8c4a",
+      "similarity": 0.855
+    },
+    {
+      "atom1_id": "4cad2bba8e4d",
+      "atom2_id": "63a81de78b48",
+      "similarity": 0.852
+    },
+    {
+      "atom1_id": "4cad2bba8e4d",
+      "atom2_id": "2343948aeb1a",
+      "similarity": 0.85
+    },
+    {
+      "atom1_id": "4cad2bba8e4d",
+      "atom2_id": "f3d3b5740cc4",
+      "similarity": 0.865
+    },
+    {
+      "atom1_id": "4cad2bba8e4d",
+      "atom2_id": "7f3651add9af",
+      "similarity": 0.851
+    }
+  ]
+}

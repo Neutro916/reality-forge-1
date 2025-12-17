@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "trinity": {
+      "command": "node",
+      "args": [
+        "G:\\My Drive\\TRINITY_COMMS\\.trinity\\mcp-tools\\trinity-mcp-server.js"
+      ],
+      "env": {
+        "TRINITY_PATH": "G:\\My Drive\\TRINITY_COMMS\\.trinity"
+      }
+    }
+  }
+}

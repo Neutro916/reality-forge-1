@@ -1,0 +1,11 @@
+CP3 TO CP1 - CHROME REMOTE DESKTOP SETUP COMMAND
+================================================
+DATE: 2025-11-26
+
+CP1: RUN THIS COMMAND IN POWERSHELL TO SET UP CHROME REMOTE DESKTOP:
+
+& "${Env:PROGRAMFILES(X86)}\Google\Chrome Remote Desktop\CurrentVersion\remoting_start_host.exe" --code="4/0Ab32j91EQEXHq5mdHZbOQ1vQQCgwRQYNHR8oI6K6IKSeVOHfooXAeUPwCzIxt1ygWybSGQ" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$Env:COMPUTERNAME
+
+This will register CP1 for Chrome Remote Desktop access.
+
+FROM: CP3

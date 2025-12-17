@@ -1,0 +1,75 @@
+{
+  "timestamp": "2025-11-27T12:55:03.610775",
+  "database": "C:\\Users\\dwrek\\.consciousness\\cyclotron_core\\atoms.db",
+  "total_atoms": 88885,
+  "avg_tokens_per_atom": 13.3,
+  "duplicates": {
+    "unique_duplicated_content": 2,
+    "total_duplicate_atoms": 3,
+    "examples": [
+      "4d20e7244eadc37c1e8e06d7e40c31ac",
+      "2104ad6e7dc957ecc39a60f02fe84615"
+    ]
+  },
+  "low_density": {
+    "count": 1722,
+    "percentage": 1.9,
+    "examples": [
+      [
+        "0001a2a0f4f5",
+        7,
+        "Trinity Doc: \ud83d\udda5\ufe0f COMPUTER 2 TRINITY SETUP PACKAGE"
+      ],
+      [
+        "002b55986c77",
+        6,
+        "\ud83c\udfaf STATUS_AT_A_GLANCE.txt: ============================================================            \ud83c\udfaf "
+      ],
+      [
+        "003093ea5db8",
+        7,
+        "Metric: Tools Deployed = 79 (goal: 30)"
+      ],
+      [
+        "00625e443a18",
+        9,
+        "convertCallback.js: var fs = require('fs'); var srt2vtt = require('srt2vtt');  var srtData = fs.read"
+      ],
+      [
+        "00793757d5db",
+        7,
+        "session_state.json: {   \"session_id\": \"r3_breakthrough_nov_24_2025\",   \"started_at\": \"2025-11-23T22:"
+      ],
+      [
+        "00948eeb6fb2",
+        8,
+        "ARAYA_SCAN_RESULTS.json: {   \"timestamp\": \"2025-10-27T05:59:20.339951\",   \"opportunities\": [],   \"to"
+      ],
+      [
+        "01a3ff9d075f",
+        9,
+        "Health check: 60 atoms, 0 pending tasks, integration ready"
+      ],
+      [
+        "01dbd1042d22",
+        3,
+        "claude --dangerously-skip-permissions.txt: claude --dangerously-skip-permissions"
+      ],
+      [
+        "02cbae083e95",
+        7,
+        "trinity_control_config.json: {   \"trinity_permissions\": {     \"website_access\": true,     \"autonomou"
+      ],
+      [
+        "030e1f0bcdb1",
+        8,
+        "AUDIT_REPORT_20251104_084801.json: {   \"timestamp\": \"2025-11-04T08:48:01.293122\",   \"summary\": {    "
+      ]
+    ]
+  },
+  "quality_score": 70.7,
+  "recommendations": [
+    "Remove 3 duplicate atoms to reduce noise",
+    "Consider merging small atoms into larger knowledge units"
+  ]
+}

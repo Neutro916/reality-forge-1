@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-11-27T11:43:52.887313",
+  "database": "C:\\Users\\dwrek\\.consciousness\\cyclotron_core\\atoms.db",
+  "dry_run": false,
+  "before": 4392,
+  "after": 3998,
+  "deleted": 394,
+  "duplicates_removed": 394,
+  "low_density_flagged": 89
+}

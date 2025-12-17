@@ -1,0 +1,40 @@
+{
+  "timestamp": "2025-11-27T12:59:33.504560",
+  "computer": "DESKTOP-MSMCFH2",
+  "deployment_dir": "C:\\Users\\darri\\100X_DEPLOYMENT",
+  "summary": {
+    "overall": "MOSTLY_PASS",
+    "total_files": 143,
+    "passed": 142,
+    "percentage": "99.3%",
+    "structure_issues": 0,
+    "link_issues": 4,
+    "security_issues": 0,
+    "external_dependencies": 0
+  },
+  "categories": {
+    "detectors": 24,
+    "dashboards": 14,
+    "analyzers": 10,
+    "trackers": 5,
+    "tools": 15,
+    "pages": 5,
+    "other": 70
+  },
+  "issues": [
+    {
+      "file": "consciousness-tools.html",
+      "status": "ISSUES",
+      "structure": [],
+      "links": [
+        "Broken link: ARAYA_PAGE_NAVIGATOR.html",
+        "Broken link: araya-chat.html",
+        "Broken link: bugs-live.html",
+        "Broken link: workspace-v3.html"
+      ],
+      "security": [],
+      "dependencies": []
+    }
+  ],
+  "external_dependencies": []
+}

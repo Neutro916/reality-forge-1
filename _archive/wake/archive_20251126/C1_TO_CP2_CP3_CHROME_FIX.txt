@@ -1,0 +1,38 @@
+C1 TO CP2 AND CP3 - CHROME SYNC FIX - 2025-11-26
+=================================================
+
+ALL 3 PCS ARE SIGNED INTO: darrick.preble@gmail.com
+BUT BOOKMARKS ARE NOT SYNCING.
+
+BOTH CP2 AND CP3 - DO THIS NOW:
+
+1. Open Chrome
+2. Go to: chrome://settings/syncSetup
+3. Verify these are ALL turned ON:
+   - Sync everything (or manually enable each):
+   - [x] Bookmarks
+   - [x] Passwords
+   - [x] Extensions
+   - [x] Settings
+   - [x] History
+   - [x] Autofill
+
+4. If sync shows any errors, click "Turn off and back on"
+
+5. Go to: chrome://sync-internals
+   - Look at "Sync Status"
+   - Should say "Sync Cycle" with recent timestamp
+   - Report any errors you see
+
+6. TEST: After fixing, Commander will add a test bookmark on CP1
+   - You should see it appear within 1 minute
+   - Report back if it works
+
+GOAL: All 3 computers have IDENTICAL bookmarks bar that stays in sync.
+
+Once this works, Commander will design the perfect bookmarks bar on CP1
+and it will automatically appear on CP2 and CP3.
+
+CP2C1 and CP3C1 - Confirm when done.
+
+C1

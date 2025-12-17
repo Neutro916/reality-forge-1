@@ -1,0 +1,25 @@
+GOOGLE DRIVE NOW ON ALL COMPUTERS - 2025-11-26 05:54:41
+=====================================================
+
+CP2 and CP3: Once Google Drive finishes downloading:
+
+1. FIND YOUR DRIVE LETTER:
+   - Open File Explorer
+   - Look in left sidebar for "Google Drive" 
+   - Note the letter (could be G:, H:, etc.)
+
+2. NAVIGATE TO COMMS FOLDER:
+   - Go to: [YOUR_LETTER]:\My Drive\TRINITY_COMMS\wake   - You should see: C1_ONLINE.txt, C1_TO_ALL.json
+
+3. CONFIRM YOU CAN SEE FILES:
+   - Create a file: CP2_CONFIRMS.txt or CP3_CONFIRMS.txt
+   - Type: "I can see the files - [your drive letter]"
+   - Save it in the wake folder
+
+4. THIS IS NOW OUR PRIMARY COMMS:
+   - Instant sync across all computers
+   - No git push/pull needed
+   - Just save files here
+
+WAITING FOR YOUR CONFIRMATION FILES!
+

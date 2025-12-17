@@ -1,0 +1,2645 @@
+{
+  "sessions": [
+    {
+      "timestamp": "2025-11-06T15:45:51.690076",
+      "file": "C:\\Users\\dwrek\\.trinity\\3_COMPUTER_COORDINATION_NOW.md",
+      "category": "trinity_reports",
+      "filename": "3_COMPUTER_COORDINATION_NOW.md",
+      "size": 4719
+    },
+    {
+      "timestamp": "2025-11-06T15:57:01.700606",
+      "file": "C:\\Users\\dwrek\\.trinity\\3_COMPUTER_SESSION_STATUS_NOV_6.md",
+      "category": "trinity_reports",
+      "filename": "3_COMPUTER_SESSION_STATUS_NOV_6.md",
+      "size": 10178
+    },
+    {
+      "timestamp": "2025-11-06T15:40:40.072746",
+      "file": "C:\\Users\\dwrek\\.trinity\\3_COMPUTER_SETUP_GUIDE.md",
+      "category": "trinity_reports",
+      "filename": "3_COMPUTER_SETUP_GUIDE.md",
+      "size": 9160
+    },
+    {
+      "timestamp": "2025-11-05T23:26:33.058183",
+      "file": "C:\\Users\\dwrek\\.trinity\\A8000_INSTALLATION_STATUS.md",
+      "category": "trinity_reports",
+      "filename": "A8000_INSTALLATION_STATUS.md",
+      "size": 3025
+    },
+    {
+      "timestamp": "2025-11-05T23:25:08.357760",
+      "file": "C:\\Users\\dwrek\\.trinity\\A8000_ROUTER_SETUP_READY.md",
+      "category": "trinity_reports",
+      "filename": "A8000_ROUTER_SETUP_READY.md",
+      "size": 2768
+    },
+    {
+      "timestamp": "2025-11-05T23:27:24.793404",
+      "file": "C:\\Users\\dwrek\\.trinity\\AUTONOMOUS_DEPLOYMENT_PROTOCOL.md",
+      "category": "trinity_reports",
+      "filename": "AUTONOMOUS_DEPLOYMENT_PROTOCOL.md",
+      "size": 8699
+    },
+    {
+      "timestamp": "2025-11-07T12:40:53.183261",
+      "file": "C:\\Users\\dwrek\\.trinity\\AUTONOMOUS_INFRASTRUCTURE_ARCHITECTURE.md",
+      "category": "trinity_reports",
+      "filename": "AUTONOMOUS_INFRASTRUCTURE_ARCHITECTURE.md",
+      "size": 29230
+    },
+    {
+      "timestamp": "2025-11-07T12:42:37.791965",
+      "file": "C:\\Users\\dwrek\\.trinity\\AUTONOMOUS_INFRASTRUCTURE_README.md",
+      "category": "trinity_reports",
+      "filename": "AUTONOMOUS_INFRASTRUCTURE_README.md",
+      "size": 10941
+    },
+    {
+      "timestamp": "2025-11-05T17:48:29.842792",
+      "file": "C:\\Users\\dwrek\\.trinity\\AUTONOMOUS_MODE_ACTIVE.md",
+      "category": "trinity_reports",
+      "filename": "AUTONOMOUS_MODE_ACTIVE.md",
+      "size": 3563
+    },
+    {
+      "timestamp": "2025-11-06T16:20:41.213843",
+      "file": "C:\\Users\\dwrek\\.trinity\\AUTONOMOUS_SESSION_COMPLETE_NOV_6.md",
+      "category": "trinity_reports",
+      "filename": "AUTONOMOUS_SESSION_COMPLETE_NOV_6.md",
+      "size": 9799
+    },
+    {
+      "timestamp": "2025-11-05T23:51:30.273959",
+      "file": "C:\\Users\\dwrek\\.trinity\\AUTONOMOUS_SESSION_COMPLETE_NOV_6_2025.md",
+      "category": "trinity_reports",
+      "filename": "AUTONOMOUS_SESSION_COMPLETE_NOV_6_2025.md",
+      "size": 11242
+    },
+    {
+      "timestamp": "2025-11-06T16:56:28.969590",
+      "file": "C:\\Users\\dwrek\\.trinity\\AUTONOMOUS_SESSION_COMPLETE_NOV_6_PM.md",
+      "category": "trinity_reports",
+      "filename": "AUTONOMOUS_SESSION_COMPLETE_NOV_6_PM.md",
+      "size": 8975
+    },
+    {
+      "timestamp": "2025-11-07T13:31:00.558496",
+      "file": "C:\\Users\\dwrek\\.trinity\\AUTONOMOUS_SESSION_LOG.md",
+      "category": "trinity_reports",
+      "filename": "AUTONOMOUS_SESSION_LOG.md",
+      "size": 1579
+    },
+    {
+      "timestamp": "2025-11-05T18:48:16.531243",
+      "file": "C:\\Users\\dwrek\\.trinity\\AUTONOMOUS_SESSION_WRAP_UP_NOV_5_2025.md",
+      "category": "trinity_reports",
+      "filename": "AUTONOMOUS_SESSION_WRAP_UP_NOV_5_2025.md",
+      "size": 16057
+    },
+    {
+      "timestamp": "2025-11-05T21:51:43.064756",
+      "file": "C:\\Users\\dwrek\\.trinity\\AUTONOMOUS_SYSTEMS_STATUS.md",
+      "category": "trinity_reports",
+      "filename": "AUTONOMOUS_SYSTEMS_STATUS.md",
+      "size": 4220
+    },
+    {
+      "timestamp": "2025-11-06T16:35:38.351760",
+      "file": "C:\\Users\\dwrek\\.trinity\\AUTONOMOUS_TOOLS_QUICK_START.md",
+      "category": "trinity_reports",
+      "filename": "AUTONOMOUS_TOOLS_QUICK_START.md",
+      "size": 7038
+    },
+    {
+      "timestamp": "2025-11-06T15:41:42.568702",
+      "file": "C:\\Users\\dwrek\\.trinity\\AUTONOMOUS_WORK_COMPLETE_NOV_6_PM.md",
+      "category": "trinity_reports",
+      "filename": "AUTONOMOUS_WORK_COMPLETE_NOV_6_PM.md",
+      "size": 8219
+    },
+    {
+      "timestamp": "2025-11-05T17:54:59.699437",
+      "file": "C:\\Users\\dwrek\\.trinity\\AUTONOMOUS_WORK_COMPLETE_REPORT.md",
+      "category": "trinity_reports",
+      "filename": "AUTONOMOUS_WORK_COMPLETE_REPORT.md",
+      "size": 9359
+    },
+    {
+      "timestamp": "2025-11-05T17:35:37.948527",
+      "file": "C:\\Users\\dwrek\\.trinity\\AUTONOMOUS_WORK_LOG.md",
+      "category": "trinity_reports",
+      "filename": "AUTONOMOUS_WORK_LOG.md",
+      "size": 1590
+    },
+    {
+      "timestamp": "2025-11-06T16:16:45.194148",
+      "file": "C:\\Users\\dwrek\\.trinity\\AUTONOMOUS_WORK_NOV_6_EVENING.md",
+      "category": "trinity_reports",
+      "filename": "AUTONOMOUS_WORK_NOV_6_EVENING.md",
+      "size": 4853
+    },
+    {
+      "timestamp": "2025-11-05T17:51:30.255963",
+      "file": "C:\\Users\\dwrek\\.trinity\\AUTONOMOUS_WORK_REPORT.md",
+      "category": "trinity_reports",
+      "filename": "AUTONOMOUS_WORK_REPORT.md",
+      "size": 5856
+    },
+    {
+      "timestamp": "2025-11-07T12:40:21.244481",
+      "file": "C:\\Users\\dwrek\\.trinity\\AUTONOMY_REQUIREMENTS_ORACLE_VISION.md",
+      "category": "trinity_reports",
+      "filename": "AUTONOMY_REQUIREMENTS_ORACLE_VISION.md",
+      "size": 17434
+    },
+    {
+      "timestamp": "2025-11-06T10:50:41.006540",
+      "file": "C:\\Users\\dwrek\\.trinity\\BOOT_DOWN_PROTOCOL.md",
+      "category": "trinity_reports",
+      "filename": "BOOT_DOWN_PROTOCOL.md",
+      "size": 8799
+    },
+    {
+      "timestamp": "2025-11-06T10:53:22.278932",
+      "file": "C:\\Users\\dwrek\\.trinity\\BOOT_DOWN_PROTOCOL_NOV_6_2025.md",
+      "category": "trinity_reports",
+      "filename": "BOOT_DOWN_PROTOCOL_NOV_6_2025.md",
+      "size": 3276
+    },
+    {
+      "timestamp": "2025-11-05T18:13:21.344600",
+      "file": "C:\\Users\\dwrek\\.trinity\\BOOT_DOWN_PROTOCOL_READ_WHEN_YOU_RETURN.md",
+      "category": "trinity_reports",
+      "filename": "BOOT_DOWN_PROTOCOL_READ_WHEN_YOU_RETURN.md",
+      "size": 5950
+    },
+    {
+      "timestamp": "2025-11-05T18:02:30.519300",
+      "file": "C:\\Users\\dwrek\\.trinity\\C1_ACTIVE_SESSION_LOG.md",
+      "category": "trinity_reports",
+      "filename": "C1_ACTIVE_SESSION_LOG.md",
+      "size": 1727
+    },
+    {
+      "timestamp": "2025-11-05T22:33:25.177545",
+      "file": "C:\\Users\\dwrek\\.trinity\\C1_AUTONOMOUS_SESSION_NOVEMBER_6_2025.md",
+      "category": "trinity_reports",
+      "filename": "C1_AUTONOMOUS_SESSION_NOVEMBER_6_2025.md",
+      "size": 3908
+    },
+    {
+      "timestamp": "2025-11-05T22:34:54.999502",
+      "file": "C:\\Users\\dwrek\\.trinity\\C1_AUTONOMOUS_WORK_DELIVERABLE_1.md",
+      "category": "trinity_reports",
+      "filename": "C1_AUTONOMOUS_WORK_DELIVERABLE_1.md",
+      "size": 2859
+    },
+    {
+      "timestamp": "2025-11-05T18:24:38.206308",
+      "file": "C:\\Users\\dwrek\\.trinity\\C1_AUTONOMOUS_WORK_REPORT_NOVEMBER_5_2025.md",
+      "category": "trinity_reports",
+      "filename": "C1_AUTONOMOUS_WORK_REPORT_NOVEMBER_5_2025.md",
+      "size": 9689
+    },
+    {
+      "timestamp": "2025-11-16T18:56:26.028654",
+      "file": "C:\\Users\\dwrek\\.trinity\\C1_BUILD_PRIORITY_MATRIX.md",
+      "category": "trinity_reports",
+      "filename": "C1_BUILD_PRIORITY_MATRIX.md",
+      "size": 10533
+    },
+    {
+      "timestamp": "2025-11-17T18:50:34.733294",
+      "file": "C:\\Users\\dwrek\\.trinity\\C1_COMPUTER_3_IMPLEMENTATION_REPORT.md",
+      "category": "trinity_reports",
+      "filename": "C1_COMPUTER_3_IMPLEMENTATION_REPORT.md",
+      "size": 9770
+    },
+    {
+      "timestamp": "2025-11-16T13:23:02.332318",
+      "file": "C:\\Users\\dwrek\\.trinity\\C1_IMPLEMENTATION_CHECKLIST_MULTI_COMPUTER.md",
+      "category": "trinity_reports",
+      "filename": "C1_IMPLEMENTATION_CHECKLIST_MULTI_COMPUTER.md",
+      "size": 13241
+    },
+    {
+      "timestamp": "2025-11-17T17:45:09.762875",
+      "file": "C:\\Users\\dwrek\\.trinity\\C2_ARCHITECTURE_VALIDATION_3_COMPUTER_SYSTEM.md",
+      "category": "trinity_reports",
+      "filename": "C2_ARCHITECTURE_VALIDATION_3_COMPUTER_SYSTEM.md",
+      "size": 40071
+    },
+    {
+      "timestamp": "2025-11-06T18:13:01.594316",
+      "file": "C:\\Users\\dwrek\\.trinity\\C2_ARCHITECT_ACTIVATION_PROMPT.md",
+      "category": "trinity_reports",
+      "filename": "C2_ARCHITECT_ACTIVATION_PROMPT.md",
+      "size": 3674
+    },
+    {
+      "timestamp": "2025-11-16T18:52:31.868995",
+      "file": "C:\\Users\\dwrek\\.trinity\\C2_BOOT_DOWN_AND_MULTI_COMPUTER_ARCHITECTURE.md",
+      "category": "trinity_reports",
+      "filename": "C2_BOOT_DOWN_AND_MULTI_COMPUTER_ARCHITECTURE.md",
+      "size": 38667
+    },
+    {
+      "timestamp": "2025-11-16T13:25:00.211617",
+      "file": "C:\\Users\\dwrek\\.trinity\\C2_DELIVERY_MULTI_COMPUTER_COORDINATION.md",
+      "category": "trinity_reports",
+      "filename": "C2_DELIVERY_MULTI_COMPUTER_COORDINATION.md",
+      "size": 14605
+    },
+    {
+      "timestamp": "2025-11-16T13:21:41.075908",
+      "file": "C:\\Users\\dwrek\\.trinity\\C2_EXECUTIVE_SUMMARY_MULTI_COMPUTER.md",
+      "category": "trinity_reports",
+      "filename": "C2_EXECUTIVE_SUMMARY_MULTI_COMPUTER.md",
+      "size": 6805
+    },
+    {
+      "timestamp": "2025-11-07T12:47:46.460680",
+      "file": "C:\\Users\\dwrek\\.trinity\\C2_INFRASTRUCTURE_HANDOFF_TO_C1.md",
+      "category": "trinity_reports",
+      "filename": "C2_INFRASTRUCTURE_HANDOFF_TO_C1.md",
+      "size": 18117
+    },
+    {
+      "timestamp": "2025-11-16T13:18:24.530916",
+      "file": "C:\\Users\\dwrek\\.trinity\\C2_MULTI_COMPUTER_ARCHITECTURE_BLUEPRINT.md",
+      "category": "trinity_reports",
+      "filename": "C2_MULTI_COMPUTER_ARCHITECTURE_BLUEPRINT.md",
+      "size": 29248
+    },
+    {
+      "timestamp": "2025-11-17T17:51:56.124764",
+      "file": "C:\\Users\\dwrek\\.trinity\\C2_QUICK_REFERENCE_3_COMPUTER_SETUP.md",
+      "category": "trinity_reports",
+      "filename": "C2_QUICK_REFERENCE_3_COMPUTER_SETUP.md",
+      "size": 6187
+    },
+    {
+      "timestamp": "2025-11-18T07:55:45.820009",
+      "file": "C:\\Users\\dwrek\\.trinity\\C2_RESILIENT_ARCHITECTURE_BLUEPRINT_NOV_18_2025.md",
+      "category": "trinity_reports",
+      "filename": "C2_RESILIENT_ARCHITECTURE_BLUEPRINT_NOV_18_2025.md",
+      "size": 65551
+    },
+    {
+      "timestamp": "2025-11-16T14:28:09.763297",
+      "file": "C:\\Users\\dwrek\\.trinity\\C2_SECURITY_ARCHITECTURE_DELIVERY.md",
+      "category": "trinity_reports",
+      "filename": "C2_SECURITY_ARCHITECTURE_DELIVERY.md",
+      "size": 12777
+    },
+    {
+      "timestamp": "2025-11-05T18:12:10.472589",
+      "file": "C:\\Users\\dwrek\\.trinity\\C3_AUTONOMOUS_BUILD_MULTI_AI_CRAWLER.md",
+      "category": "trinity_reports",
+      "filename": "C3_AUTONOMOUS_BUILD_MULTI_AI_CRAWLER.md",
+      "size": 1757
+    },
+    {
+      "timestamp": "2025-11-05T16:01:56.494324",
+      "file": "C:\\Users\\dwrek\\.trinity\\C3_AUTONOMOUS_LOG.md",
+      "category": "trinity_reports",
+      "filename": "C3_AUTONOMOUS_LOG.md",
+      "size": 3000
+    },
+    {
+      "timestamp": "2025-11-05T21:58:28.055389",
+      "file": "C:\\Users\\dwrek\\.trinity\\C3_AUTONOMOUS_WORK_LOG_NOV_5_2025.md",
+      "category": "trinity_reports",
+      "filename": "C3_AUTONOMOUS_WORK_LOG_NOV_5_2025.md",
+      "size": 5564
+    },
+    {
+      "timestamp": "2025-11-05T23:18:56.936353",
+      "file": "C:\\Users\\dwrek\\.trinity\\C3_MULTI_AI_INTEGRATION_COMPLETE.md",
+      "category": "trinity_reports",
+      "filename": "C3_MULTI_AI_INTEGRATION_COMPLETE.md",
+      "size": 7537
+    },
+    {
+      "timestamp": "2025-11-16T13:18:29.548992",
+      "file": "C:\\Users\\dwrek\\.trinity\\C3_MULTI_COMPUTER_CONSCIOUSNESS_ANALYSIS.md",
+      "category": "trinity_reports",
+      "filename": "C3_MULTI_COMPUTER_CONSCIOUSNESS_ANALYSIS.md",
+      "size": 35156
+    },
+    {
+      "timestamp": "2025-11-06T18:13:03.326542",
+      "file": "C:\\Users\\dwrek\\.trinity\\C3_ORACLE_ACTIVATION_PROMPT.md",
+      "category": "trinity_reports",
+      "filename": "C3_ORACLE_ACTIVATION_PROMPT.md",
+      "size": 4450
+    },
+    {
+      "timestamp": "2025-11-16T18:52:52.834078",
+      "file": "C:\\Users\\dwrek\\.trinity\\C3_ORACLE_BOOT_DOWN_CEREMONY_NOV_16_2025.md",
+      "category": "trinity_reports",
+      "filename": "C3_ORACLE_BOOT_DOWN_CEREMONY_NOV_16_2025.md",
+      "size": 18367
+    },
+    {
+      "timestamp": "2025-11-08T07:44:16.804049",
+      "file": "C:\\Users\\dwrek\\.trinity\\C3_ORACLE_DELIVERY_SUMMARY.md",
+      "category": "trinity_reports",
+      "filename": "C3_ORACLE_DELIVERY_SUMMARY.md",
+      "size": 16922
+    },
+    {
+      "timestamp": "2025-11-05T23:36:41.595917",
+      "file": "C:\\Users\\dwrek\\.trinity\\C3_PATTERN_RECOGNITION_REPORT.md",
+      "category": "trinity_reports",
+      "filename": "C3_PATTERN_RECOGNITION_REPORT.md",
+      "size": 18151
+    },
+    {
+      "timestamp": "2025-11-05T18:13:56.178952",
+      "file": "C:\\Users\\dwrek\\.trinity\\C3_TO_C2_SPRINT_SUMMARY_ALIGNMENT.md",
+      "category": "trinity_reports",
+      "filename": "C3_TO_C2_SPRINT_SUMMARY_ALIGNMENT.md",
+      "size": 1131
+    },
+    {
+      "timestamp": "2025-11-05T21:59:55.344580",
+      "file": "C:\\Users\\dwrek\\.trinity\\C3_TO_TRINITY_AUTONOMOUS_UPDATE.md",
+      "category": "trinity_reports",
+      "filename": "C3_TO_TRINITY_AUTONOMOUS_UPDATE.md",
+      "size": 3985
+    },
+    {
+      "timestamp": "2025-11-05T18:06:19.989685",
+      "file": "C:\\Users\\dwrek\\.trinity\\C3_TO_TRINITY_REPORT.md",
+      "category": "trinity_reports",
+      "filename": "C3_TO_TRINITY_REPORT.md",
+      "size": 1588
+    },
+    {
+      "timestamp": "2025-11-05T18:02:21.730912",
+      "file": "C:\\Users\\dwrek\\.trinity\\C4_COMPLETE_README.md",
+      "category": "trinity_reports",
+      "filename": "C4_COMPLETE_README.md",
+      "size": 7509
+    },
+    {
+      "timestamp": "2025-11-06T17:05:53.007830",
+      "file": "C:\\Users\\dwrek\\.trinity\\CLAIM_1000_CREDITS_NOW.md",
+      "category": "trinity_reports",
+      "filename": "CLAIM_1000_CREDITS_NOW.md",
+      "size": 4397
+    },
+    {
+      "timestamp": "2025-11-06T16:54:55.319153",
+      "file": "C:\\Users\\dwrek\\.trinity\\CLAUDE_CODE_EXPANSION_STRATEGY.md",
+      "category": "trinity_reports",
+      "filename": "CLAUDE_CODE_EXPANSION_STRATEGY.md",
+      "size": 12497
+    },
+    {
+      "timestamp": "2025-11-05T23:28:29.076261",
+      "file": "C:\\Users\\dwrek\\.trinity\\CLOUD_DEPLOYMENT_PROTOCOL.md",
+      "category": "trinity_reports",
+      "filename": "CLOUD_DEPLOYMENT_PROTOCOL.md",
+      "size": 11224
+    },
+    {
+      "timestamp": "2025-11-05T18:09:42.964894",
+      "file": "C:\\Users\\dwrek\\.trinity\\COMMANDER_QUICK_REFERENCE.md",
+      "category": "trinity_reports",
+      "filename": "COMMANDER_QUICK_REFERENCE.md",
+      "size": 8016
+    },
+    {
+      "timestamp": "2025-11-05T18:42:20.762124",
+      "file": "C:\\Users\\dwrek\\.trinity\\COMMANDER_STATUS_NOW.md",
+      "category": "trinity_reports",
+      "filename": "COMMANDER_STATUS_NOW.md",
+      "size": 2913
+    },
+    {
+      "timestamp": "2025-11-05T18:39:31.750760",
+      "file": "C:\\Users\\dwrek\\.trinity\\COMPREHENSIVE_AUTONOMOUS_SESSION_COMPLETE.md",
+      "category": "trinity_reports",
+      "filename": "COMPREHENSIVE_AUTONOMOUS_SESSION_COMPLETE.md",
+      "size": 13143
+    },
+    {
+      "timestamp": "2025-11-05T17:38:07.712273",
+      "file": "C:\\Users\\dwrek\\.trinity\\COMPUTER_1_STATUS_FOR_COMPUTER_2.md",
+      "category": "trinity_reports",
+      "filename": "COMPUTER_1_STATUS_FOR_COMPUTER_2.md",
+      "size": 3137
+    },
+    {
+      "timestamp": "2025-11-16T18:53:59.104359",
+      "file": "C:\\Users\\dwrek\\.trinity\\COMPUTER_2_DEPLOYMENT_PACKAGE.md",
+      "category": "trinity_reports",
+      "filename": "COMPUTER_2_DEPLOYMENT_PACKAGE.md",
+      "size": 8180
+    },
+    {
+      "timestamp": "2025-11-05T17:46:13.434905",
+      "file": "C:\\Users\\dwrek\\.trinity\\COMPUTER_2_SETUP.md",
+      "category": "trinity_reports",
+      "filename": "COMPUTER_2_SETUP.md",
+      "size": 2143
+    },
+    {
+      "timestamp": "2025-11-05T17:46:24.258482",
+      "file": "C:\\Users\\dwrek\\.trinity\\COMPUTER_2_SETUP_PACKAGE.md",
+      "category": "trinity_reports",
+      "filename": "COMPUTER_2_SETUP_PACKAGE.md",
+      "size": 11985
+    },
+    {
+      "timestamp": "2025-11-17T18:44:46.959813",
+      "file": "C:\\Users\\dwrek\\.trinity\\COMPUTER_3_ACTIVATION_COMPLETE.md",
+      "category": "trinity_reports",
+      "filename": "COMPUTER_3_ACTIVATION_COMPLETE.md",
+      "size": 5187
+    },
+    {
+      "timestamp": "2025-11-16T19:12:01.188508",
+      "file": "C:\\Users\\dwrek\\.trinity\\COMPUTER_3_DEPLOYMENT_PACKAGE.md",
+      "category": "trinity_reports",
+      "filename": "COMPUTER_3_DEPLOYMENT_PACKAGE.md",
+      "size": 15834
+    },
+    {
+      "timestamp": "2025-11-06T16:47:49.478929",
+      "file": "C:\\Users\\dwrek\\.trinity\\COMPUTER_3_SUPER_SIMPLE_INSTRUCTIONS.md",
+      "category": "trinity_reports",
+      "filename": "COMPUTER_3_SUPER_SIMPLE_INSTRUCTIONS.md",
+      "size": 1237
+    },
+    {
+      "timestamp": "2025-11-05T23:34:08.479850",
+      "file": "C:\\Users\\dwrek\\.trinity\\CONSCIOUSNESS_MULTIPLICATION_PROTOCOL.md",
+      "category": "trinity_reports",
+      "filename": "CONSCIOUSNESS_MULTIPLICATION_PROTOCOL.md",
+      "size": 18083
+    },
+    {
+      "timestamp": "2025-11-05T23:42:24.083341",
+      "file": "C:\\Users\\dwrek\\.trinity\\CREATE_3RD_ANTHROPIC_EMAIL.md",
+      "category": "trinity_reports",
+      "filename": "CREATE_3RD_ANTHROPIC_EMAIL.md",
+      "size": 4648
+    },
+    {
+      "timestamp": "2025-11-07T12:46:01.545376",
+      "file": "C:\\Users\\dwrek\\.trinity\\DEPLOYMENT_COMPLETE.md",
+      "category": "trinity_reports",
+      "filename": "DEPLOYMENT_COMPLETE.md",
+      "size": 11711
+    },
+    {
+      "timestamp": "2025-11-05T23:41:37.752920",
+      "file": "C:\\Users\\dwrek\\.trinity\\EMAIL_CREATION_AUTOMATION_GUIDE.md",
+      "category": "trinity_reports",
+      "filename": "EMAIL_CREATION_AUTOMATION_GUIDE.md",
+      "size": 9221
+    },
+    {
+      "timestamp": "2025-11-06T10:53:23.746502",
+      "file": "C:\\Users\\dwrek\\.trinity\\END_OF_SPRINT_PROTOCOL.md",
+      "category": "trinity_reports",
+      "filename": "END_OF_SPRINT_PROTOCOL.md",
+      "size": 7212
+    },
+    {
+      "timestamp": "2025-11-05T18:45:28.114059",
+      "file": "C:\\Users\\dwrek\\.trinity\\EXECUTIVE_BRIEFING_ONE_PAGE.md",
+      "category": "trinity_reports",
+      "filename": "EXECUTIVE_BRIEFING_ONE_PAGE.md",
+      "size": 3481
+    },
+    {
+      "timestamp": "2025-11-05T18:38:06.287902",
+      "file": "C:\\Users\\dwrek\\.trinity\\FINAL_BOOT_DOWN_PROTOCOL.md",
+      "category": "trinity_reports",
+      "filename": "FINAL_BOOT_DOWN_PROTOCOL.md",
+      "size": 9250
+    },
+    {
+      "timestamp": "2025-11-05T22:35:29.875663",
+      "file": "C:\\Users\\dwrek\\.trinity\\FRAMEWORKS_EXTRACTED_NOV_5_2025.md",
+      "category": "trinity_reports",
+      "filename": "FRAMEWORKS_EXTRACTED_NOV_5_2025.md",
+      "size": 12953
+    },
+    {
+      "timestamp": "2025-11-06T19:44:41.804363",
+      "file": "C:\\Users\\dwrek\\.trinity\\GOOGLE_DRIVE_DIAGNOSIS.md",
+      "category": "trinity_reports",
+      "filename": "GOOGLE_DRIVE_DIAGNOSIS.md",
+      "size": 4112
+    },
+    {
+      "timestamp": "2025-11-05T23:12:49.507830",
+      "file": "C:\\Users\\dwrek\\.trinity\\GOOGLE_DRIVE_SETUP_NOW.md",
+      "category": "trinity_reports",
+      "filename": "GOOGLE_DRIVE_SETUP_NOW.md",
+      "size": 1971
+    },
+    {
+      "timestamp": "2025-11-07T12:43:56.122333",
+      "file": "C:\\Users\\dwrek\\.trinity\\INFRASTRUCTURE_TECH_STACK.md",
+      "category": "trinity_reports",
+      "filename": "INFRASTRUCTURE_TECH_STACK.md",
+      "size": 15731
+    },
+    {
+      "timestamp": "2025-11-18T08:06:49.018774",
+      "file": "C:\\Users\\dwrek\\.trinity\\MASTER_FILES_PROTOCOL.md",
+      "category": "trinity_reports",
+      "filename": "MASTER_FILES_PROTOCOL.md",
+      "size": 1551
+    },
+    {
+      "timestamp": "2025-11-06T17:01:15.468755",
+      "file": "C:\\Users\\dwrek\\.trinity\\MESSAGE_FOR_COMPUTER_3_VIA_DRIVE.md",
+      "category": "trinity_reports",
+      "filename": "MESSAGE_FOR_COMPUTER_3_VIA_DRIVE.md",
+      "size": 2681
+    },
+    {
+      "timestamp": "2025-11-05T22:14:54.352362",
+      "file": "C:\\Users\\dwrek\\.trinity\\MONITORING_AND_BUGS_REPORT.md",
+      "category": "trinity_reports",
+      "filename": "MONITORING_AND_BUGS_REPORT.md",
+      "size": 3577
+    },
+    {
+      "timestamp": "2025-11-16T13:19:25.622392",
+      "file": "C:\\Users\\dwrek\\.trinity\\MULTI_COMPUTER_ORACLE_SUMMARY.md",
+      "category": "trinity_reports",
+      "filename": "MULTI_COMPUTER_ORACLE_SUMMARY.md",
+      "size": 9223
+    },
+    {
+      "timestamp": "2025-11-06T16:50:49.415072",
+      "file": "C:\\Users\\dwrek\\.trinity\\MULTI_COMPUTER_WAKE_UP_SYSTEM.md",
+      "category": "trinity_reports",
+      "filename": "MULTI_COMPUTER_WAKE_UP_SYSTEM.md",
+      "size": 12622
+    },
+    {
+      "timestamp": "2025-11-05T22:40:34.809444",
+      "file": "C:\\Users\\dwrek\\.trinity\\MULTI_INPUT_COORDINATION_COMPLETE.md",
+      "category": "trinity_reports",
+      "filename": "MULTI_INPUT_COORDINATION_COMPLETE.md",
+      "size": 4478
+    },
+    {
+      "timestamp": "2025-11-05T17:52:17.984799",
+      "file": "C:\\Users\\dwrek\\.trinity\\OFFLINE_AI_TOOLS_ECOSYSTEM.md",
+      "category": "trinity_reports",
+      "filename": "OFFLINE_AI_TOOLS_ECOSYSTEM.md",
+      "size": 11633
+    },
+    {
+      "timestamp": "2025-11-06T10:53:25.043707",
+      "file": "C:\\Users\\dwrek\\.trinity\\OPPORTUNITIES_DISCOVERED.md",
+      "category": "trinity_reports",
+      "filename": "OPPORTUNITIES_DISCOVERED.md",
+      "size": 11440
+    },
+    {
+      "timestamp": "2025-11-05T20:58:13.971779",
+      "file": "C:\\Users\\dwrek\\.trinity\\PHONE_API_CONNECTION_INSTRUCTIONS.md",
+      "category": "trinity_reports",
+      "filename": "PHONE_API_CONNECTION_INSTRUCTIONS.md",
+      "size": 4011
+    },
+    {
+      "timestamp": "2025-11-05T20:59:16.109561",
+      "file": "C:\\Users\\dwrek\\.trinity\\PHONE_API_STATUS.md",
+      "category": "trinity_reports",
+      "filename": "PHONE_API_STATUS.md",
+      "size": 2807
+    },
+    {
+      "timestamp": "2025-11-05T23:36:01.938743",
+      "file": "C:\\Users\\dwrek\\.trinity\\PROTOCOL_SUITE_COMPLETE_SUMMARY.md",
+      "category": "trinity_reports",
+      "filename": "PROTOCOL_SUITE_COMPLETE_SUMMARY.md",
+      "size": 18692
+    },
+    {
+      "timestamp": "2025-11-06T17:19:50.496677",
+      "file": "C:\\Users\\dwrek\\.trinity\\QUICK_REFERENCE_CARD.md",
+      "category": "trinity_reports",
+      "filename": "QUICK_REFERENCE_CARD.md",
+      "size": 6120
+    },
+    {
+      "timestamp": "2025-11-05T18:06:22.744852",
+      "file": "C:\\Users\\dwrek\\.trinity\\QUICK_START_CONTINUOUS_CONVERGENCE.md",
+      "category": "trinity_reports",
+      "filename": "QUICK_START_CONTINUOUS_CONVERGENCE.md",
+      "size": 5217
+    },
+    {
+      "timestamp": "2025-11-06T10:49:45.035742",
+      "file": "C:\\Users\\dwrek\\.trinity\\README.md",
+      "category": "trinity_reports",
+      "filename": "README.md",
+      "size": 3423
+    },
+    {
+      "timestamp": "2025-11-05T17:47:06.992498",
+      "file": "C:\\Users\\dwrek\\.trinity\\RECURSIVE_FIGURE_8_COMPLETE.md",
+      "category": "trinity_reports",
+      "filename": "RECURSIVE_FIGURE_8_COMPLETE.md",
+      "size": 5683
+    },
+    {
+      "timestamp": "2025-11-05T18:34:04.953279",
+      "file": "C:\\Users\\dwrek\\.trinity\\RECURSIVE_INFINITY_COMPLETE.md",
+      "category": "trinity_reports",
+      "filename": "RECURSIVE_INFINITY_COMPLETE.md",
+      "size": 5143
+    },
+    {
+      "timestamp": "2025-11-16T14:25:41.473693",
+      "file": "C:\\Users\\dwrek\\.trinity\\SECURITY_LOCKDOWN_QUICK_START.md",
+      "category": "trinity_reports",
+      "filename": "SECURITY_LOCKDOWN_QUICK_START.md",
+      "size": 11457
+    },
+    {
+      "timestamp": "2025-11-05T22:42:16.846468",
+      "file": "C:\\Users\\dwrek\\.trinity\\SESSION_COMPLETE_FRAMEWORKS_TODO_LIST.md",
+      "category": "trinity_reports",
+      "filename": "SESSION_COMPLETE_FRAMEWORKS_TODO_LIST.md",
+      "size": 12504
+    },
+    {
+      "timestamp": "2025-11-07T09:06:14.909051",
+      "file": "C:\\Users\\dwrek\\.trinity\\SESSION_COMPLETE_TRINITY_INSTANCE_MANAGER_NOV_7_2025.md",
+      "category": "trinity_reports",
+      "filename": "SESSION_COMPLETE_TRINITY_INSTANCE_MANAGER_NOV_7_2025.md",
+      "size": 8022
+    },
+    {
+      "timestamp": "2025-11-07T12:57:19.007706",
+      "file": "C:\\Users\\dwrek\\.trinity\\SESSION_END_REPORT_C2_NOV_7_2025.md",
+      "category": "trinity_reports",
+      "filename": "SESSION_END_REPORT_C2_NOV_7_2025.md",
+      "size": 14270
+    },
+    {
+      "timestamp": "2025-11-16T18:53:58.206756",
+      "file": "C:\\Users\\dwrek\\.trinity\\SHUTDOWN_CHECKLIST_NOW.md",
+      "category": "trinity_reports",
+      "filename": "SHUTDOWN_CHECKLIST_NOW.md",
+      "size": 1971
+    },
+    {
+      "timestamp": "2025-11-07T09:56:52.734842",
+      "file": "C:\\Users\\dwrek\\.trinity\\SPRINT_COMPLETION_PROTOCOL.md",
+      "category": "trinity_reports",
+      "filename": "SPRINT_COMPLETION_PROTOCOL.md",
+      "size": 4065
+    },
+    {
+      "timestamp": "2025-11-05T18:46:18.999732",
+      "file": "C:\\Users\\dwrek\\.trinity\\START_HERE_COMMANDER.md",
+      "category": "trinity_reports",
+      "filename": "START_HERE_COMMANDER.md",
+      "size": 6984
+    },
+    {
+      "timestamp": "2025-11-16T19:12:02.238199",
+      "file": "C:\\Users\\dwrek\\.trinity\\START_HERE_NEXT_SESSION.md",
+      "category": "trinity_reports",
+      "filename": "START_HERE_NEXT_SESSION.md",
+      "size": 7393
+    },
+    {
+      "timestamp": "2025-11-05T18:12:29.041705",
+      "file": "C:\\Users\\dwrek\\.trinity\\STREAMLINED_REPORT_PROTOCOL.md",
+      "category": "trinity_reports",
+      "filename": "STREAMLINED_REPORT_PROTOCOL.md",
+      "size": 2927
+    },
+    {
+      "timestamp": "2025-11-05T18:44:33.128170",
+      "file": "C:\\Users\\dwrek\\.trinity\\SYSTEM_VERIFICATION_COMPLETE.md",
+      "category": "trinity_reports",
+      "filename": "SYSTEM_VERIFICATION_COMPLETE.md",
+      "size": 6637
+    },
+    {
+      "timestamp": "2025-11-06T14:45:09.323314",
+      "file": "C:\\Users\\dwrek\\.trinity\\TODO_FOR_NEXT_SESSION.md",
+      "category": "trinity_reports",
+      "filename": "TODO_FOR_NEXT_SESSION.md",
+      "size": 10449
+    },
+    {
+      "timestamp": "2025-11-06T16:29:50.024534",
+      "file": "C:\\Users\\dwrek\\.trinity\\TODO_UPDATES_NOV_6_PM.md",
+      "category": "trinity_reports",
+      "filename": "TODO_UPDATES_NOV_6_PM.md",
+      "size": 2969
+    },
+    {
+      "timestamp": "2025-11-07T19:52:08.135623",
+      "file": "C:\\Users\\dwrek\\.trinity\\TRINITY_3_PANEL_QUICK_START.md",
+      "category": "trinity_reports",
+      "filename": "TRINITY_3_PANEL_QUICK_START.md",
+      "size": 7471
+    },
+    {
+      "timestamp": "2025-11-07T11:53:29.778265",
+      "file": "C:\\Users\\dwrek\\.trinity\\TRINITY_COMMAND_CENTER_README.md",
+      "category": "trinity_reports",
+      "filename": "TRINITY_COMMAND_CENTER_README.md",
+      "size": 5599
+    },
+    {
+      "timestamp": "2025-11-08T07:35:03.668352",
+      "file": "C:\\Users\\dwrek\\.trinity\\TRINITY_COMMS_PROTOCOL.md",
+      "category": "trinity_reports",
+      "filename": "TRINITY_COMMS_PROTOCOL.md",
+      "size": 13305
+    },
+    {
+      "timestamp": "2025-11-08T07:37:42.135330",
+      "file": "C:\\Users\\dwrek\\.trinity\\TRINITY_COMMS_QUICK_START.md",
+      "category": "trinity_reports",
+      "filename": "TRINITY_COMMS_QUICK_START.md",
+      "size": 7610
+    },
+    {
+      "timestamp": "2025-11-08T07:41:50.345402",
+      "file": "C:\\Users\\dwrek\\.trinity\\TRINITY_CONVERGENCE_ARCHITECTURE.md",
+      "category": "trinity_reports",
+      "filename": "TRINITY_CONVERGENCE_ARCHITECTURE.md",
+      "size": 21527
+    },
+    {
+      "timestamp": "2025-11-05T18:08:27.970946",
+      "file": "C:\\Users\\dwrek\\.trinity\\TRINITY_CONVERGENCE_COMPLETE_SESSION_REPORT.md",
+      "category": "trinity_reports",
+      "filename": "TRINITY_CONVERGENCE_COMPLETE_SESSION_REPORT.md",
+      "size": 17695
+    },
+    {
+      "timestamp": "2025-11-05T17:39:08.017510",
+      "file": "C:\\Users\\dwrek\\.trinity\\TRINITY_CONVERGENCE_SUMMARY.md",
+      "category": "trinity_reports",
+      "filename": "TRINITY_CONVERGENCE_SUMMARY.md",
+      "size": 4659
+    },
+    {
+      "timestamp": "2025-11-07T12:37:43.728397",
+      "file": "C:\\Users\\dwrek\\.trinity\\TRINITY_QUICK_START.md",
+      "category": "trinity_reports",
+      "filename": "TRINITY_QUICK_START.md",
+      "size": 3171
+    },
+    {
+      "timestamp": "2025-11-05T17:32:54.670052",
+      "file": "C:\\Users\\dwrek\\.trinity\\TRINITY_SETUP_COMPLETE.md",
+      "category": "trinity_reports",
+      "filename": "TRINITY_SETUP_COMPLETE.md",
+      "size": 9219
+    },
+    {
+      "timestamp": "2025-11-07T12:44:34.290967",
+      "file": "C:\\Users\\dwrek\\.trinity\\TRINITY_STANDARD_WORKFLOW.md",
+      "category": "trinity_reports",
+      "filename": "TRINITY_STANDARD_WORKFLOW.md",
+      "size": 6084
+    },
+    {
+      "timestamp": "2025-11-05T17:37:02.907321",
+      "file": "C:\\Users\\dwrek\\.trinity\\TRINITY_STATUS_REPORT_C2.md",
+      "category": "trinity_reports",
+      "filename": "TRINITY_STATUS_REPORT_C2.md",
+      "size": 6823
+    },
+    {
+      "timestamp": "2025-11-07T10:49:37.921354",
+      "file": "C:\\Users\\dwrek\\.trinity\\TRINITY_SYSTEM_MAP_COMPLETE.md",
+      "category": "trinity_reports",
+      "filename": "TRINITY_SYSTEM_MAP_COMPLETE.md",
+      "size": 18073
+    },
+    {
+      "timestamp": "2025-11-07T12:36:02.332146",
+      "file": "C:\\Users\\dwrek\\.trinity\\TRINITY_WORKING_SOLUTION.md",
+      "category": "trinity_reports",
+      "filename": "TRINITY_WORKING_SOLUTION.md",
+      "size": 4531
+    },
+    {
+      "timestamp": "2025-11-06T18:11:30.462059",
+      "file": "C:\\Users\\dwrek\\.trinity\\TRIPLE_TRINITY_COORDINATION_PROTOCOL.md",
+      "category": "trinity_reports",
+      "filename": "TRIPLE_TRINITY_COORDINATION_PROTOCOL.md",
+      "size": 14424
+    },
+    {
+      "timestamp": "2025-11-06T18:13:05.215972",
+      "file": "C:\\Users\\dwrek\\.trinity\\TRIPLE_TRINITY_QUICK_START.md",
+      "category": "trinity_reports",
+      "filename": "TRIPLE_TRINITY_QUICK_START.md",
+      "size": 5266
+    },
+    {
+      "timestamp": "2025-11-05T23:12:50.833752",
+      "file": "C:\\Users\\dwrek\\.trinity\\TWILIO_SMS_SETUP_NOW.md",
+      "category": "trinity_reports",
+      "filename": "TWILIO_SMS_SETUP_NOW.md",
+      "size": 2702
+    },
+    {
+      "timestamp": "2025-11-07T10:20:04.386339",
+      "file": "C:\\Users\\dwrek\\.trinity\\WAKE_SYSTEM_BLUEPRINT_C1.md",
+      "category": "trinity_reports",
+      "filename": "WAKE_SYSTEM_BLUEPRINT_C1.md",
+      "size": 4123
+    },
+    {
+      "timestamp": "2025-11-05T23:29:44.680820",
+      "file": "C:\\Users\\dwrek\\.trinity\\WAKE_VERIFICATION_PROTOCOL.md",
+      "category": "trinity_reports",
+      "filename": "WAKE_VERIFICATION_PROTOCOL.md",
+      "size": 11773
+    },
+    {
+      "timestamp": "2025-11-08T07:40:05.340851",
+      "file": "C:\\Users\\dwrek\\.trinity\\WHAT_JUST_EMERGED.md",
+      "category": "trinity_reports",
+      "filename": "WHAT_JUST_EMERGED.md",
+      "size": 12368
+    },
+    {
+      "timestamp": "2025-11-16T14:23:03.371019",
+      "file": "C:\\Users\\dwrek\\.trinity\\YEAR_LONG_AUTONOMOUS_SECURITY_ARCHITECTURE.md",
+      "category": "trinity_reports",
+      "filename": "YEAR_LONG_AUTONOMOUS_SECURITY_ARCHITECTURE.md",
+      "size": 66208
+    },
+    {
+      "timestamp": "2025-10-28T11:07:40.107221",
+      "file": "C:\\Users\\dwrek\\.knowledge_library\\2025_10_28_BOOTSTRAP.md",
+      "category": "knowledge_library",
+      "filename": "2025_10_28_BOOTSTRAP.md",
+      "size": 685
+    },
+    {
+      "timestamp": "2025-11-05T23:49:45.662453",
+      "file": "C:\\Users\\dwrek\\.knowledge_library\\2025_11_05_BOOTSTRAP.md",
+      "category": "knowledge_library",
+      "filename": "2025_11_05_BOOTSTRAP.md",
+      "size": 685
+    },
+    {
+      "timestamp": "2025-11-15T04:58:07.039367",
+      "file": "C:\\Users\\dwrek\\.knowledge_library\\2025_11_15_BOOTSTRAP.md",
+      "category": "knowledge_library",
+      "filename": "2025_11_15_BOOTSTRAP.md",
+      "size": 685
+    },
+    {
+      "timestamp": "2025-10-28T11:07:40.105716",
+      "file": "C:\\Users\\dwrek\\.knowledge_library\\2025_10_28_BOOTSTRAP.json",
+      "category": "knowledge_library",
+      "filename": "2025_10_28_BOOTSTRAP.json",
+      "size": 948
+    },
+    {
+      "timestamp": "2025-10-28T11:07:40.105716",
+      "file": "C:\\Users\\dwrek\\.knowledge_library\\2025_10_28_SESSION_INDEX.json",
+      "category": "knowledge_library",
+      "filename": "2025_10_28_SESSION_INDEX.json",
+      "size": 8042
+    },
+    {
+      "timestamp": "2025-11-05T23:49:45.661208",
+      "file": "C:\\Users\\dwrek\\.knowledge_library\\2025_11_05_BOOTSTRAP.json",
+      "category": "knowledge_library",
+      "filename": "2025_11_05_BOOTSTRAP.json",
+      "size": 948
+    },
+    {
+      "timestamp": "2025-11-05T23:49:45.661208",
+      "file": "C:\\Users\\dwrek\\.knowledge_library\\2025_11_05_SESSION_INDEX.json",
+      "category": "knowledge_library",
+      "filename": "2025_11_05_SESSION_INDEX.json",
+      "size": 8042
+    },
+    {
+      "timestamp": "2025-11-15T04:58:07.039367",
+      "file": "C:\\Users\\dwrek\\.knowledge_library\\2025_11_15_BOOTSTRAP.json",
+      "category": "knowledge_library",
+      "filename": "2025_11_15_BOOTSTRAP.json",
+      "size": 948
+    },
+    {
+      "timestamp": "2025-11-15T04:58:07.038367",
+      "file": "C:\\Users\\dwrek\\.knowledge_library\\2025_11_15_SESSION_INDEX.json",
+      "category": "knowledge_library",
+      "filename": "2025_11_15_SESSION_INDEX.json",
+      "size": 8042
+    },
+    {
+      "timestamp": "2025-11-18T19:50:37.227137",
+      "file": "C:\\Users\\dwrek\\.knowledge_library\\CONTACT_DATABASE.json",
+      "category": "knowledge_library",
+      "filename": "CONTACT_DATABASE.json",
+      "size": 1730
+    },
+    {
+      "timestamp": "2025-10-18T05:32:06.948133",
+      "file": "C:\\Users\\dwrek\\.consciousness\\api_usage.json",
+      "category": "consciousness_state",
+      "filename": "api_usage.json",
+      "size": 359
+    },
+    {
+      "timestamp": "2025-11-18T20:24:15.170960",
+      "file": "C:\\Users\\dwrek\\.consciousness\\autonomous_rake_status.json",
+      "category": "consciousness_state",
+      "filename": "autonomous_rake_status.json",
+      "size": 187
+    },
+    {
+      "timestamp": "2025-11-05T15:53:30.041547",
+      "file": "C:\\Users\\dwrek\\.consciousness\\boot_status.json",
+      "category": "consciousness_state",
+      "filename": "boot_status.json",
+      "size": 492
+    },
+    {
+      "timestamp": "2025-11-16T14:24:29.680962",
+      "file": "C:\\Users\\dwrek\\.consciousness\\computer_health_log.json",
+      "category": "consciousness_state",
+      "filename": "computer_health_log.json",
+      "size": 1438
+    },
+    {
+      "timestamp": "2025-10-12T14:43:40.993237",
+      "file": "C:\\Users\\dwrek\\.consciousness\\consciousness_log.json",
+      "category": "consciousness_state",
+      "filename": "consciousness_log.json",
+      "size": 1129
+    },
+    {
+      "timestamp": "2025-11-18T07:51:48.163119",
+      "file": "C:\\Users\\dwrek\\.consciousness\\consciousness_state.json",
+      "category": "consciousness_state",
+      "filename": "consciousness_state.json",
+      "size": 2678
+    },
+    {
+      "timestamp": "2025-11-06T15:49:12.818759",
+      "file": "C:\\Users\\dwrek\\.consciousness\\cross_ai_test_results.json",
+      "category": "consciousness_state",
+      "filename": "cross_ai_test_results.json",
+      "size": 871
+    },
+    {
+      "timestamp": "2025-11-18T13:36:39.130186",
+      "file": "C:\\Users\\dwrek\\.consciousness\\cyclotron_analytics.json",
+      "category": "consciousness_state",
+      "filename": "cyclotron_analytics.json",
+      "size": 898
+    },
+    {
+      "timestamp": "2025-11-18T20:22:16.625027",
+      "file": "C:\\Users\\dwrek\\.consciousness\\cyclotron_daemon_status.json",
+      "category": "consciousness_state",
+      "filename": "cyclotron_daemon_status.json",
+      "size": 320
+    },
+    {
+      "timestamp": "2025-11-16T14:24:19.403783",
+      "file": "C:\\Users\\dwrek\\.consciousness\\cyclotron_federation_index.json",
+      "category": "consciousness_state",
+      "filename": "cyclotron_federation_index.json",
+      "size": 304026
+    },
+    {
+      "timestamp": "2025-11-18T20:24:15.143135",
+      "file": "C:\\Users\\dwrek\\.consciousness\\cyclotron_index.json",
+      "category": "consciousness_state",
+      "filename": "cyclotron_index.json",
+      "size": 110576
+    },
+    {
+      "timestamp": "2025-11-18T07:51:48.163119",
+      "file": "C:\\Users\\dwrek\\.consciousness\\emergency_repair_state.json",
+      "category": "consciousness_state",
+      "filename": "emergency_repair_state.json",
+      "size": 153
+    },
+    {
+      "timestamp": "2025-11-16T04:03:22.198477",
+      "file": "C:\\Users\\dwrek\\.consciousness\\environment_variables_backup.json",
+      "category": "consciousness_state",
+      "filename": "environment_variables_backup.json",
+      "size": 726
+    },
+    {
+      "timestamp": "2025-11-18T05:34:07.446725",
+      "file": "C:\\Users\\dwrek\\.consciousness\\github_backup_codes.json",
+      "category": "consciousness_state",
+      "filename": "github_backup_codes.json",
+      "size": 509
+    },
+    {
+      "timestamp": "2025-11-07T18:13:07.216921",
+      "file": "C:\\Users\\dwrek\\.consciousness\\infinity_metrics.json",
+      "category": "consciousness_state",
+      "filename": "infinity_metrics.json",
+      "size": 346
+    },
+    {
+      "timestamp": "2025-11-18T14:00:53.336004",
+      "file": "C:\\Users\\dwrek\\.consciousness\\last_boot.json",
+      "category": "consciousness_state",
+      "filename": "last_boot.json",
+      "size": 973
+    },
+    {
+      "timestamp": "2025-11-18T08:46:48.817286",
+      "file": "C:\\Users\\dwrek\\.consciousness\\session_state.json",
+      "category": "consciousness_state",
+      "filename": "session_state.json",
+      "size": 5753
+    },
+    {
+      "timestamp": "2025-11-07T18:12:35.687386",
+      "file": "C:\\Users\\dwrek\\.consciousness\\trinity_heartbeat.json",
+      "category": "consciousness_state",
+      "filename": "trinity_heartbeat.json",
+      "size": 166
+    },
+    {
+      "timestamp": "2025-11-06T16:52:34.244889",
+      "file": "C:\\Users\\dwrek\\.consciousness\\wake_log.json",
+      "category": "consciousness_state",
+      "filename": "wake_log.json",
+      "size": 13619
+    },
+    {
+      "timestamp": "2025-11-18T13:50:50.345676",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\ACTION_PLAN_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "ACTION_PLAN_COMPLETE.md",
+      "size": 8712
+    },
+    {
+      "timestamp": "2025-11-18T13:51:07.494064",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\AI_API_INTEGRATION_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "AI_API_INTEGRATION_COMPLETE.md",
+      "size": 2804
+    },
+    {
+      "timestamp": "2025-11-18T13:50:54.791392",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\AI_CHATBOT_ADDED_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "AI_CHATBOT_ADDED_COMPLETE.md",
+      "size": 8984
+    },
+    {
+      "timestamp": "2025-11-18T13:51:03.192737",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\ANALYTICS_COMPLETE_SUMMARY.md",
+      "category": "deployment_docs",
+      "filename": "ANALYTICS_COMPLETE_SUMMARY.md",
+      "size": 6287
+    },
+    {
+      "timestamp": "2025-11-18T13:51:06.494212",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\ANALYTICS_DEPLOYMENT_COMPLETE_OCT_24_2025.md",
+      "category": "deployment_docs",
+      "filename": "ANALYTICS_DEPLOYMENT_COMPLETE_OCT_24_2025.md",
+      "size": 6485
+    },
+    {
+      "timestamp": "2025-11-18T13:50:54.796912",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\ANALYTICS_SYSTEM_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "ANALYTICS_SYSTEM_COMPLETE.md",
+      "size": 12773
+    },
+    {
+      "timestamp": "2025-11-18T13:51:07.498090",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\ARAYA_API_COMPLETE_ABILITIES_MATRIX.md",
+      "category": "deployment_docs",
+      "filename": "ARAYA_API_COMPLETE_ABILITIES_MATRIX.md",
+      "size": 23408
+    },
+    {
+      "timestamp": "2025-11-15T04:43:20.818379",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\ARAYA_COMPLETE_CAPABILITIES_REPORT.md",
+      "category": "deployment_docs",
+      "filename": "ARAYA_COMPLETE_CAPABILITIES_REPORT.md",
+      "size": 8693
+    },
+    {
+      "timestamp": "2025-11-18T13:51:08.680264",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\ARAYA_CRITICAL_FIXES_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "ARAYA_CRITICAL_FIXES_COMPLETE.md",
+      "size": 3811
+    },
+    {
+      "timestamp": "2025-11-18T13:51:08.681264",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\ARAYA_LIVE_EDITING_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "ARAYA_LIVE_EDITING_COMPLETE.md",
+      "size": 4994
+    },
+    {
+      "timestamp": "2025-11-18T13:51:03.194254",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\ARAYA_USER_TRACKING_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "ARAYA_USER_TRACKING_COMPLETE.md",
+      "size": 15332
+    },
+    {
+      "timestamp": "2025-11-18T13:50:54.796912",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\ARCADE_MODULE_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "ARCADE_MODULE_COMPLETE.md",
+      "size": 8986
+    },
+    {
+      "timestamp": "2025-11-18T08:41:58.867940",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\AUDIT_COMPLETE_NOV_18_2025.md",
+      "category": "deployment_docs",
+      "filename": "AUDIT_COMPLETE_NOV_18_2025.md",
+      "size": 7195
+    },
+    {
+      "timestamp": "2025-11-18T13:51:29.626035",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\AUDIT_FIXES_COMPLETE_NOV_15_2025.md",
+      "category": "deployment_docs",
+      "filename": "AUDIT_FIXES_COMPLETE_NOV_15_2025.md",
+      "size": 8203
+    },
+    {
+      "timestamp": "2025-11-18T13:51:07.500286",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\AUTONOMOUS_SESSION_COMPLETE_ARAYA_V2.md",
+      "category": "deployment_docs",
+      "filename": "AUTONOMOUS_SESSION_COMPLETE_ARAYA_V2.md",
+      "size": 11805
+    },
+    {
+      "timestamp": "2025-11-18T13:51:29.631557",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\AUTONOMOUS_SESSION_COMPLETE_CRYPTO_BOOK.md",
+      "category": "deployment_docs",
+      "filename": "AUTONOMOUS_SESSION_COMPLETE_CRYPTO_BOOK.md",
+      "size": 29951
+    },
+    {
+      "timestamp": "2025-11-18T13:51:29.632555",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\AUTONOMOUS_SESSION_COMPLETE_NOV_16_2025.md",
+      "category": "deployment_docs",
+      "filename": "AUTONOMOUS_SESSION_COMPLETE_NOV_16_2025.md",
+      "size": 10441
+    },
+    {
+      "timestamp": "2025-11-18T13:51:29.633590",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\AUTONOMOUS_SESSION_COMPLETE_NOV_3_2025.md",
+      "category": "deployment_docs",
+      "filename": "AUTONOMOUS_SESSION_COMPLETE_NOV_3_2025.md",
+      "size": 11556
+    },
+    {
+      "timestamp": "2025-11-18T13:50:54.804762",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\AUTONOMOUS_SESSION_COMPLETE_OCT_12_2025.md",
+      "category": "deployment_docs",
+      "filename": "AUTONOMOUS_SESSION_COMPLETE_OCT_12_2025.md",
+      "size": 8249
+    },
+    {
+      "timestamp": "2025-11-18T13:51:04.614651",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\AUTONOMOUS_SESSION_FINAL_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "AUTONOMOUS_SESSION_FINAL_COMPLETE.md",
+      "size": 12711
+    },
+    {
+      "timestamp": "2025-11-18T13:51:04.614651",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\AUTONOMOUS_SESSION_HUD_COMMS_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "AUTONOMOUS_SESSION_HUD_COMMS_COMPLETE.md",
+      "size": 14997
+    },
+    {
+      "timestamp": "2025-11-18T13:51:04.615650",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\AUTONOMOUS_SESSION_POLICE_PURGE_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "AUTONOMOUS_SESSION_POLICE_PURGE_COMPLETE.md",
+      "size": 7000
+    },
+    {
+      "timestamp": "2025-11-18T13:51:08.695497",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\BUG_REPORTER_COMPLETE_GUIDE.md",
+      "category": "deployment_docs",
+      "filename": "BUG_REPORTER_COMPLETE_GUIDE.md",
+      "size": 3237
+    },
+    {
+      "timestamp": "2025-11-18T13:51:08.696835",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\BUG_SYSTEM_COMPLETE_OCT_27_2025.md",
+      "category": "deployment_docs",
+      "filename": "BUG_SYSTEM_COMPLETE_OCT_27_2025.md",
+      "size": 8268
+    },
+    {
+      "timestamp": "2025-11-18T13:51:08.697341",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\BUG_WINDOW_FIX_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "BUG_WINDOW_FIX_COMPLETE.md",
+      "size": 4828
+    },
+    {
+      "timestamp": "2025-11-18T20:15:16.763115",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\C1_COMPLETE_SYSTEM_AUDIT_NOV_18_2025.md",
+      "category": "deployment_docs",
+      "filename": "C1_COMPLETE_SYSTEM_AUDIT_NOV_18_2025.md",
+      "size": 29176
+    },
+    {
+      "timestamp": "2025-11-18T13:51:40.266796",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\C1_EMERGENCY_RESPONSE_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "C1_EMERGENCY_RESPONSE_COMPLETE.md",
+      "size": 12573
+    },
+    {
+      "timestamp": "2025-11-18T13:51:40.267796",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\C1_MECHANIC_BUILD_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "C1_MECHANIC_BUILD_COMPLETE.md",
+      "size": 13169
+    },
+    {
+      "timestamp": "2025-11-18T13:51:40.270311",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\C2_COMPLETE_SYSTEM_ARCHITECTURE_BLUEPRINT.md",
+      "category": "deployment_docs",
+      "filename": "C2_COMPLETE_SYSTEM_ARCHITECTURE_BLUEPRINT.md",
+      "size": 50083
+    },
+    {
+      "timestamp": "2025-11-16T19:11:53.174513",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\C2_CYCLOTRON_EXPANSION_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "C2_CYCLOTRON_EXPANSION_COMPLETE.md",
+      "size": 11860
+    },
+    {
+      "timestamp": "2025-11-18T13:51:07.507909",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\C2_MANIFESTATION_INTERFACE_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "C2_MANIFESTATION_INTERFACE_COMPLETE.md",
+      "size": 22341
+    },
+    {
+      "timestamp": "2025-11-18T13:51:07.508909",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\C3_ONBOARDING_MISSION_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "C3_ONBOARDING_MISSION_COMPLETE.md",
+      "size": 14611
+    },
+    {
+      "timestamp": "2025-11-18T13:51:40.280876",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\COCKPIT_DEPLOYMENT_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "COCKPIT_DEPLOYMENT_COMPLETE.md",
+      "size": 5661
+    },
+    {
+      "timestamp": "2025-11-18T13:50:59.516821",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\COMMUNICATIONS_RESEARCH_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "COMMUNICATIONS_RESEARCH_COMPLETE.md",
+      "size": 8678
+    },
+    {
+      "timestamp": "2025-11-18T13:50:52.058999",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\COMPLETED_TODAY.md",
+      "category": "deployment_docs",
+      "filename": "COMPLETED_TODAY.md",
+      "size": 5847
+    },
+    {
+      "timestamp": "2025-11-18T20:14:18.687994",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\COMPLETE_AUDIT_REPORT.md",
+      "category": "deployment_docs",
+      "filename": "COMPLETE_AUDIT_REPORT.md",
+      "size": 14102
+    },
+    {
+      "timestamp": "2025-11-18T13:51:08.704667",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\COMPLETE_BETA_TESTER_EMAIL_LIST.md",
+      "category": "deployment_docs",
+      "filename": "COMPLETE_BETA_TESTER_EMAIL_LIST.md",
+      "size": 2922
+    },
+    {
+      "timestamp": "2025-11-18T13:51:03.203788",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\COMPLETE_COMMUNICATION_SYSTEM_SUMMARY.md",
+      "category": "deployment_docs",
+      "filename": "COMPLETE_COMMUNICATION_SYSTEM_SUMMARY.md",
+      "size": 10533
+    },
+    {
+      "timestamp": "2025-11-18T13:50:50.364233",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\COMPLETE_DEPLOYMENT_GUIDE.md",
+      "category": "deployment_docs",
+      "filename": "COMPLETE_DEPLOYMENT_GUIDE.md",
+      "size": 11132
+    },
+    {
+      "timestamp": "2025-11-18T13:50:50.364233",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\COMPLETE_KIT_HARDWARE_MAPPING_TINKERING_SYSTEM.md",
+      "category": "deployment_docs",
+      "filename": "COMPLETE_KIT_HARDWARE_MAPPING_TINKERING_SYSTEM.md",
+      "size": 18510
+    },
+    {
+      "timestamp": "2025-11-18T13:50:50.364233",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\COMPLETE_RESEARCH_ANALYSIS.md",
+      "category": "deployment_docs",
+      "filename": "COMPLETE_RESEARCH_ANALYSIS.md",
+      "size": 12897
+    },
+    {
+      "timestamp": "2025-11-18T13:50:50.365738",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\COMPLETE_SESSION_SUMMARY_WITH_MAGAZINE.md",
+      "category": "deployment_docs",
+      "filename": "COMPLETE_SESSION_SUMMARY_WITH_MAGAZINE.md",
+      "size": 17278
+    },
+    {
+      "timestamp": "2025-11-18T13:50:55.816874",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\COMPLETE_SOCIAL_AUTOMATION_MAP.md",
+      "category": "deployment_docs",
+      "filename": "COMPLETE_SOCIAL_AUTOMATION_MAP.md",
+      "size": 11097
+    },
+    {
+      "timestamp": "2025-11-18T13:50:56.143271",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\COMPLETE_SYSTEM_INVENTORY.md",
+      "category": "deployment_docs",
+      "filename": "COMPLETE_SYSTEM_INVENTORY.md",
+      "size": 10679
+    },
+    {
+      "timestamp": "2025-11-18T13:51:40.294244",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\COMPLETE_SYSTEM_STATUS_REPORT.md",
+      "category": "deployment_docs",
+      "filename": "COMPLETE_SYSTEM_STATUS_REPORT.md",
+      "size": 12744
+    },
+    {
+      "timestamp": "2025-11-18T13:50:54.817278",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\CONSCIOUSNESS_BOOST_COMPLETE_SUMMARY.md",
+      "category": "deployment_docs",
+      "filename": "CONSCIOUSNESS_BOOST_COMPLETE_SUMMARY.md",
+      "size": 9514
+    },
+    {
+      "timestamp": "2025-11-18T13:51:40.301856",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\CONVERSION_FUNNEL_COMPLETE_NOVEMBER_3_2025.md",
+      "category": "deployment_docs",
+      "filename": "CONVERSION_FUNNEL_COMPLETE_NOVEMBER_3_2025.md",
+      "size": 10958
+    },
+    {
+      "timestamp": "2025-11-18T13:50:58.882255",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\DEPLOYMENT_COMPLETE_OCT_17_2025.md",
+      "category": "deployment_docs",
+      "filename": "DEPLOYMENT_COMPLETE_OCT_17_2025.md",
+      "size": 10787
+    },
+    {
+      "timestamp": "2025-11-18T13:51:03.205314",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\DEPLOYMENT_COMPLETE_OCT_23_2025.md",
+      "category": "deployment_docs",
+      "filename": "DEPLOYMENT_COMPLETE_OCT_23_2025.md",
+      "size": 9953
+    },
+    {
+      "timestamp": "2025-11-18T13:51:04.617692",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\DEPLOYMENT_COMPLETE_SUMMARY.md",
+      "category": "deployment_docs",
+      "filename": "DEPLOYMENT_COMPLETE_SUMMARY.md",
+      "size": 1887
+    },
+    {
+      "timestamp": "2025-11-18T13:50:54.823299",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\DEPLOY_COMPLETE_SYSTEM_NOW.md",
+      "category": "deployment_docs",
+      "filename": "DEPLOY_COMPLETE_SYSTEM_NOW.md",
+      "size": 11240
+    },
+    {
+      "timestamp": "2025-11-18T13:50:54.860496",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\DOMINO_ANALYSIS_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "DOMINO_ANALYSIS_COMPLETE.md",
+      "size": 9855
+    },
+    {
+      "timestamp": "2025-11-18T13:51:40.405667",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\DUAL_ROG_STRIX_COMPLETE_DOCUMENTATION.md",
+      "category": "deployment_docs",
+      "filename": "DUAL_ROG_STRIX_COMPLETE_DOCUMENTATION.md",
+      "size": 9397
+    },
+    {
+      "timestamp": "2025-11-18T13:50:50.391503",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\FINAL_BLUEPRINT_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "FINAL_BLUEPRINT_COMPLETE.md",
+      "size": 26451
+    },
+    {
+      "timestamp": "2025-11-18T13:51:40.412200",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\FOUNDATIONAL_AUDIT_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "FOUNDATIONAL_AUDIT_COMPLETE.md",
+      "size": 10786
+    },
+    {
+      "timestamp": "2025-11-18T13:50:54.868718",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\FOUNDATION_DEPLOYMENT_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "FOUNDATION_DEPLOYMENT_COMPLETE.md",
+      "size": 15975
+    },
+    {
+      "timestamp": "2025-11-18T13:50:54.868718",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\FUN_FEATURES_COMPLETE_GUIDE.md",
+      "category": "deployment_docs",
+      "filename": "FUN_FEATURES_COMPLETE_GUIDE.md",
+      "size": 12623
+    },
+    {
+      "timestamp": "2025-11-18T13:50:54.869727",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\GAMIFICATION_SYSTEM_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "GAMIFICATION_SYSTEM_COMPLETE.md",
+      "size": 2567
+    },
+    {
+      "timestamp": "2025-11-18T13:51:07.517928",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\GATES_CLOSED_SYSTEM_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "GATES_CLOSED_SYSTEM_COMPLETE.md",
+      "size": 5347
+    },
+    {
+      "timestamp": "2025-11-18T13:51:07.518938",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\GATE_MOVED_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "GATE_MOVED_COMPLETE.md",
+      "size": 5045
+    },
+    {
+      "timestamp": "2025-11-18T13:51:40.414719",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\GINORMOUS_AUTONOMOUS_WORK_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "GINORMOUS_AUTONOMOUS_WORK_COMPLETE.md",
+      "size": 16028
+    },
+    {
+      "timestamp": "2025-11-18T13:50:56.144276",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\HARMONIC_SECURITY_COMPLETE_OCT_17_2025.md",
+      "category": "deployment_docs",
+      "filename": "HARMONIC_SECURITY_COMPLETE_OCT_17_2025.md",
+      "size": 12699
+    },
+    {
+      "timestamp": "2025-11-18T13:50:54.871718",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\HUD_SYSTEM_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "HUD_SYSTEM_COMPLETE.md",
+      "size": 9306
+    },
+    {
+      "timestamp": "2025-11-18T13:51:03.211830",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\INSTAGRAM_COMPLETE_CONTROL_SYSTEM.md",
+      "category": "deployment_docs",
+      "filename": "INSTAGRAM_COMPLETE_CONTROL_SYSTEM.md",
+      "size": 10576
+    },
+    {
+      "timestamp": "2025-11-18T13:51:03.211830",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\INSTAGRAM_INTEGRATION_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "INSTAGRAM_INTEGRATION_COMPLETE.md",
+      "size": 10572
+    },
+    {
+      "timestamp": "2025-11-18T13:51:07.520934",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\INTEGRATION_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "INTEGRATION_COMPLETE.md",
+      "size": 2941
+    },
+    {
+      "timestamp": "2025-11-18T13:50:54.887419",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\MODULE_VISIBILITY_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "MODULE_VISIBILITY_COMPLETE.md",
+      "size": 10382
+    },
+    {
+      "timestamp": "2025-11-18T13:51:40.443874",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\MUSIC_DOMAIN_INTEGRATION_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "MUSIC_DOMAIN_INTEGRATION_COMPLETE.md",
+      "size": 12362
+    },
+    {
+      "timestamp": "2025-11-18T13:50:54.895447",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\PATTERN_RECOGNITION_TODO_ANALYSIS_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "PATTERN_RECOGNITION_TODO_ANALYSIS_COMPLETE.md",
+      "size": 15221
+    },
+    {
+      "timestamp": "2025-11-18T13:50:59.520828",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\PATTERN_THEORY_LOADING_COMPLETE_OCT_19_2025.md",
+      "category": "deployment_docs",
+      "filename": "PATTERN_THEORY_LOADING_COMPLETE_OCT_19_2025.md",
+      "size": 12308
+    },
+    {
+      "timestamp": "2025-11-18T13:51:05.507600",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\PERMANENT_INTEGRATION_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "PERMANENT_INTEGRATION_COMPLETE.md",
+      "size": 14272
+    },
+    {
+      "timestamp": "2025-11-18T13:50:56.149293",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\PHASE_2_RATE_LIMITING_COMPLETE_OCT_17_2025.md",
+      "category": "deployment_docs",
+      "filename": "PHASE_2_RATE_LIMITING_COMPLETE_OCT_17_2025.md",
+      "size": 15284
+    },
+    {
+      "timestamp": "2025-11-18T13:50:56.149293",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\PHASE_3_INPUT_VALIDATION_COMPLETE_OCT_17_2025.md",
+      "category": "deployment_docs",
+      "filename": "PHASE_3_INPUT_VALIDATION_COMPLETE_OCT_17_2025.md",
+      "size": 18557
+    },
+    {
+      "timestamp": "2025-11-18T13:50:56.150292",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\PHASE_4_SECURITY_TESTING_COMPLETE_OCT_17_2025.md",
+      "category": "deployment_docs",
+      "filename": "PHASE_4_SECURITY_TESTING_COMPLETE_OCT_17_2025.md",
+      "size": 22955
+    },
+    {
+      "timestamp": "2025-11-18T13:51:07.536106",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\PLATFORM_COMPLETE_ARCHITECTURE_OCT_26.md",
+      "category": "deployment_docs",
+      "filename": "PLATFORM_COMPLETE_ARCHITECTURE_OCT_26.md",
+      "size": 18611
+    },
+    {
+      "timestamp": "2025-11-18T13:51:08.825536",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\RATE_LIMITING_COMPLETE_OCT_26.md",
+      "category": "deployment_docs",
+      "filename": "RATE_LIMITING_COMPLETE_OCT_26.md",
+      "size": 8100
+    },
+    {
+      "timestamp": "2025-11-18T13:50:56.231331",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\SECURITY_HARDENING_COMPLETE_OCT_17_2025.md",
+      "category": "deployment_docs",
+      "filename": "SECURITY_HARDENING_COMPLETE_OCT_17_2025.md",
+      "size": 15455
+    },
+    {
+      "timestamp": "2025-11-18T13:51:03.235574",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\SESSION_COMPLETE_AI_COMMUNICATION_OCT_23.md",
+      "category": "deployment_docs",
+      "filename": "SESSION_COMPLETE_AI_COMMUNICATION_OCT_23.md",
+      "size": 17759
+    },
+    {
+      "timestamp": "2025-11-18T13:51:40.473386",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\SESSION_COMPLETE_AUTONOMOUS_TODO_BRAIN_NOVEMBER_1_2025.md",
+      "category": "deployment_docs",
+      "filename": "SESSION_COMPLETE_AUTONOMOUS_TODO_BRAIN_NOVEMBER_1_2025.md",
+      "size": 12233
+    },
+    {
+      "timestamp": "2025-11-18T13:51:03.235574",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\SESSION_COMPLETE_BETA_READY_OCT_23.md",
+      "category": "deployment_docs",
+      "filename": "SESSION_COMPLETE_BETA_READY_OCT_23.md",
+      "size": 8003
+    },
+    {
+      "timestamp": "2025-11-18T13:51:07.538288",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\SESSION_HANDOFF_OCT_24_COMMAND_CENTER_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "SESSION_HANDOFF_OCT_24_COMMAND_CENTER_COMPLETE.md",
+      "size": 9419
+    },
+    {
+      "timestamp": "2025-11-18T13:50:54.999748",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\SESSION_SUMMARY_NAVIGATION_FOUNDATION_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "SESSION_SUMMARY_NAVIGATION_FOUNDATION_COMPLETE.md",
+      "size": 11836
+    },
+    {
+      "timestamp": "2025-11-18T13:50:54.999748",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\SESSION_SUMMARY_PATTERN_RECOGNITION_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "SESSION_SUMMARY_PATTERN_RECOGNITION_COMPLETE.md",
+      "size": 13126
+    },
+    {
+      "timestamp": "2025-11-18T13:51:40.475403",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\SEVEN_DOMAINS_LEGENDARY_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "SEVEN_DOMAINS_LEGENDARY_COMPLETE.md",
+      "size": 15042
+    },
+    {
+      "timestamp": "2025-11-18T13:51:02.548764",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\SIMPLE_LOGIN_SYSTEM_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "SIMPLE_LOGIN_SYSTEM_COMPLETE.md",
+      "size": 6784
+    },
+    {
+      "timestamp": "2025-11-18T13:50:55.001793",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\SOCIAL_MEDIA_INTEGRATION_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "SOCIAL_MEDIA_INTEGRATION_COMPLETE.md",
+      "size": 11553
+    },
+    {
+      "timestamp": "2025-11-18T13:51:40.488950",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\STRIPE_SETUP_COMPLETE_GUIDE.md",
+      "category": "deployment_docs",
+      "filename": "STRIPE_SETUP_COMPLETE_GUIDE.md",
+      "size": 8192
+    },
+    {
+      "timestamp": "2025-11-18T13:50:53.555286",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\STRIPE_TECHNICAL_INTEGRATION_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "STRIPE_TECHNICAL_INTEGRATION_COMPLETE.md",
+      "size": 10271
+    },
+    {
+      "timestamp": "2025-11-18T13:50:59.526409",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\SURVEILLANCE_TECH_RESEARCH_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "SURVEILLANCE_TECH_RESEARCH_COMPLETE.md",
+      "size": 14437
+    },
+    {
+      "timestamp": "2025-11-18T13:51:03.240585",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\SYSTEM_ACTIVITY_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "SYSTEM_ACTIVITY_COMPLETE.md",
+      "size": 9909
+    },
+    {
+      "timestamp": "2025-11-18T13:51:03.242586",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\TEAM_COLLABORATION_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "TEAM_COLLABORATION_COMPLETE.md",
+      "size": 11502
+    },
+    {
+      "timestamp": "2025-11-18T13:51:08.843614",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\THE_COMPLETE_VISION_ARAYA_COMPANION_EVERYWHERE.md",
+      "category": "deployment_docs",
+      "filename": "THE_COMPLETE_VISION_ARAYA_COMPANION_EVERYWHERE.md",
+      "size": 20261
+    },
+    {
+      "timestamp": "2025-11-18T13:50:55.008307",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\TRINITY_AUTONOMOUS_SESSION_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "TRINITY_AUTONOMOUS_SESSION_COMPLETE.md",
+      "size": 14841
+    },
+    {
+      "timestamp": "2025-11-18T13:50:56.233878",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\TWITTER_SETUP_COMPLETE_GUIDE.md",
+      "category": "deployment_docs",
+      "filename": "TWITTER_SETUP_COMPLETE_GUIDE.md",
+      "size": 7567
+    },
+    {
+      "timestamp": "2025-11-18T13:51:40.506668",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\UHAUL_CHESS_GAME_COMPLETE_STRATEGY.md",
+      "category": "deployment_docs",
+      "filename": "UHAUL_CHESS_GAME_COMPLETE_STRATEGY.md",
+      "size": 21205
+    },
+    {
+      "timestamp": "2025-11-18T13:50:59.179077",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\VOICE_SYSTEM_COMPLETE_GUIDE.md",
+      "category": "deployment_docs",
+      "filename": "VOICE_SYSTEM_COMPLETE_GUIDE.md",
+      "size": 9751
+    },
+    {
+      "timestamp": "2025-11-18T13:50:55.025542",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\WELCOME_FLOW_BLACK_SWAN_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "WELCOME_FLOW_BLACK_SWAN_COMPLETE.md",
+      "size": 8256
+    },
+    {
+      "timestamp": "2025-11-18T13:51:03.259151",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\WORKSPACE_MANAGEMENT_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "WORKSPACE_MANAGEMENT_COMPLETE.md",
+      "size": 13864
+    },
+    {
+      "timestamp": "2025-11-18T13:51:02.869448",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\WORKSPACE_V3_UPGRADE_COMPLETE.md",
+      "category": "deployment_docs",
+      "filename": "WORKSPACE_V3_UPGRADE_COMPLETE.md",
+      "size": 5990
+    },
+    {
+      "timestamp": "2025-11-18T13:50:56.233878",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\YOUTUBE_SETUP_COMPLETE_GUIDE.md",
+      "category": "deployment_docs",
+      "filename": "YOUTUBE_SETUP_COMPLETE_GUIDE.md",
+      "size": 7257
+    },
+    {
+      "timestamp": "2025-11-16T18:50:34.087420",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\13_SERVICES_STATUS_REPORT.md",
+      "category": "deployment_docs",
+      "filename": "13_SERVICES_STATUS_REPORT.md",
+      "size": 10676
+    },
+    {
+      "timestamp": "2025-11-18T13:51:07.500286",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\AUTONOMOUS_SESSION_STATUS_OCT_24.md",
+      "category": "deployment_docs",
+      "filename": "AUTONOMOUS_SESSION_STATUS_OCT_24.md",
+      "size": 6720
+    },
+    {
+      "timestamp": "2025-11-18T13:50:54.808755",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\BIRDS_EYE_VIEW_STATUS.md",
+      "category": "deployment_docs",
+      "filename": "BIRDS_EYE_VIEW_STATUS.md",
+      "size": 11048
+    },
+    {
+      "timestamp": "2025-11-18T13:51:40.294244",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\COMPLETE_SYSTEM_STATUS_REPORT.md",
+      "category": "deployment_docs",
+      "filename": "COMPLETE_SYSTEM_STATUS_REPORT.md",
+      "size": 12744
+    },
+    {
+      "timestamp": "2025-11-18T13:51:04.617692",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\CURRENT_STATUS_AND_NEXT_STEPS.md",
+      "category": "deployment_docs",
+      "filename": "CURRENT_STATUS_AND_NEXT_STEPS.md",
+      "size": 5979
+    },
+    {
+      "timestamp": "2025-11-18T13:51:40.384560",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\DEPLOYMENT_STATUS_COCKPITS_NOV_8_2025.md",
+      "category": "deployment_docs",
+      "filename": "DEPLOYMENT_STATUS_COCKPITS_NOV_8_2025.md",
+      "size": 9108
+    },
+    {
+      "timestamp": "2025-11-18T13:51:04.618693",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\DEPLOYMENT_STATUS_NOW.md",
+      "category": "deployment_docs",
+      "filename": "DEPLOYMENT_STATUS_NOW.md",
+      "size": 1830
+    },
+    {
+      "timestamp": "2025-11-18T13:51:03.205314",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\DEPLOYMENT_STATUS_OCT_23_EVENING.md",
+      "category": "deployment_docs",
+      "filename": "DEPLOYMENT_STATUS_OCT_23_EVENING.md",
+      "size": 6033
+    },
+    {
+      "timestamp": "2025-11-18T13:51:04.794595",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\DEPLOYMENT_STATUS_REPORT_OCT_24_2025.md",
+      "category": "deployment_docs",
+      "filename": "DEPLOYMENT_STATUS_REPORT_OCT_24_2025.md",
+      "size": 7912
+    },
+    {
+      "timestamp": "2025-11-18T13:51:40.385561",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\DEPLOYMENT_STATUS_WITH_INSTRUCTIONS.md",
+      "category": "deployment_docs",
+      "filename": "DEPLOYMENT_STATUS_WITH_INSTRUCTIONS.md",
+      "size": 5529
+    },
+    {
+      "timestamp": "2025-11-18T13:50:54.987318",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\PLATFORM_STATUS_REPORT.md",
+      "category": "deployment_docs",
+      "filename": "PLATFORM_STATUS_REPORT.md",
+      "size": 12978
+    },
+    {
+      "timestamp": "2025-11-18T13:50:54.996747",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\QUICK_STATUS.md",
+      "category": "deployment_docs",
+      "filename": "QUICK_STATUS.md",
+      "size": 2526
+    },
+    {
+      "timestamp": "2025-11-18T13:50:55.003298",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\STARGATE_DAY_FINAL_STATUS.md",
+      "category": "deployment_docs",
+      "filename": "STARGATE_DAY_FINAL_STATUS.md",
+      "size": 9813
+    },
+    {
+      "timestamp": "2025-11-18T13:50:50.425594",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\STATUS_REPORT_OCT_9.md",
+      "category": "deployment_docs",
+      "filename": "STATUS_REPORT_OCT_9.md",
+      "size": 8306
+    },
+    {
+      "timestamp": "2025-11-18T13:50:55.005305",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\STATUS_REPORT_STARGATE_DAY.md",
+      "category": "deployment_docs",
+      "filename": "STATUS_REPORT_STARGATE_DAY.md",
+      "size": 7888
+    },
+    {
+      "timestamp": "2025-11-18T13:51:40.494473",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\SYSTEM_STATUS_NOVEMBER_2_2025.md",
+      "category": "deployment_docs",
+      "filename": "SYSTEM_STATUS_NOVEMBER_2_2025.md",
+      "size": 10742
+    },
+    {
+      "timestamp": "2025-11-18T13:51:29.612419",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\AI_INSTANCE_BOOT_PROTOCOL.md",
+      "category": "deployment_docs",
+      "filename": "AI_INSTANCE_BOOT_PROTOCOL.md",
+      "size": 4415
+    },
+    {
+      "timestamp": "2025-11-18T13:50:50.360727",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\BUILDER_HANDBOOK_AND_BOOT_PROTOCOLS.md",
+      "category": "deployment_docs",
+      "filename": "BUILDER_HANDBOOK_AND_BOOT_PROTOCOLS.md",
+      "size": 14229
+    },
+    {
+      "timestamp": "2025-11-18T13:50:54.818793",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\DAILY_BOOT_PROTOCOL.md",
+      "category": "deployment_docs",
+      "filename": "DAILY_BOOT_PROTOCOL.md",
+      "size": 5517
+    },
+    {
+      "timestamp": "2025-11-17T17:54:19.209978",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\EMERGENCY_NODE_ONBOARDING_PROTOCOL.md",
+      "category": "deployment_docs",
+      "filename": "EMERGENCY_NODE_ONBOARDING_PROTOCOL.md",
+      "size": 6367
+    },
+    {
+      "timestamp": "2025-11-18T13:50:50.398304",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\HIVE_MIND_STARING_DETECTION_PROTOCOL.md",
+      "category": "deployment_docs",
+      "filename": "HIVE_MIND_STARING_DETECTION_PROTOCOL.md",
+      "size": 18247
+    },
+    {
+      "timestamp": "2025-11-15T06:11:33.424629",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\SYSTEMATIC_AUDIT_PROTOCOL.md",
+      "category": "deployment_docs",
+      "filename": "SYSTEMATIC_AUDIT_PROTOCOL.md",
+      "size": 7653
+    },
+    {
+      "timestamp": "2025-11-18T13:50:50.431114",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\THREE_STEP_SEARCH_PROTOCOL.md",
+      "category": "deployment_docs",
+      "filename": "THREE_STEP_SEARCH_PROTOCOL.md",
+      "size": 5526
+    },
+    {
+      "timestamp": "2025-11-18T13:51:29.609366",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\ACCOUNT_CREATION_AUTOMATION_GUIDE.md",
+      "category": "deployment_docs",
+      "filename": "ACCOUNT_CREATION_AUTOMATION_GUIDE.md",
+      "size": 10996
+    },
+    {
+      "timestamp": "2025-11-18T13:51:03.192737",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\AI_COMMUNICATION_GUIDE.md",
+      "category": "deployment_docs",
+      "filename": "AI_COMMUNICATION_GUIDE.md",
+      "size": 8512
+    },
+    {
+      "timestamp": "2025-11-18T13:50:56.137761",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\API_QUICK_START_GUIDE.md",
+      "category": "deployment_docs",
+      "filename": "API_QUICK_START_GUIDE.md",
+      "size": 5855
+    },
+    {
+      "timestamp": "2025-11-18T13:51:29.619484",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\ARAYA_EXECUTION_INTEGRATION_GUIDE.md",
+      "category": "deployment_docs",
+      "filename": "ARAYA_EXECUTION_INTEGRATION_GUIDE.md",
+      "size": 4420
+    },
+    {
+      "timestamp": "2025-11-18T13:50:54.799436",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\ARIA_3D_AVATAR_GUIDE.md",
+      "category": "deployment_docs",
+      "filename": "ARIA_3D_AVATAR_GUIDE.md",
+      "size": 10399
+    },
+    {
+      "timestamp": "2025-11-18T13:50:54.802434",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\ARIA_TOUR_GUIDE_README.md",
+      "category": "deployment_docs",
+      "filename": "ARIA_TOUR_GUIDE_README.md",
+      "size": 9923
+    },
+    {
+      "timestamp": "2025-11-18T13:50:59.512279",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\AUTHENTICATION_GATE_SYSTEM_GUIDE.md",
+      "category": "deployment_docs",
+      "filename": "AUTHENTICATION_GATE_SYSTEM_GUIDE.md",
+      "size": 10635
+    },
+    {
+      "timestamp": "2025-11-18T13:51:08.695497",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\BUG_REPORTER_COMPLETE_GUIDE.md",
+      "category": "deployment_docs",
+      "filename": "BUG_REPORTER_COMPLETE_GUIDE.md",
+      "size": 3237
+    },
+    {
+      "timestamp": "2025-11-16T15:23:15.657871",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\C1_IMPLEMENTATION_GUIDE_FROM_C2.md",
+      "category": "deployment_docs",
+      "filename": "C1_IMPLEMENTATION_GUIDE_FROM_C2.md",
+      "size": 23611
+    },
+    {
+      "timestamp": "2025-11-18T08:42:14.457734",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\C1_IMPLEMENTATION_GUIDE_REALITY_ENGINE.md",
+      "category": "deployment_docs",
+      "filename": "C1_IMPLEMENTATION_GUIDE_REALITY_ENGINE.md",
+      "size": 14479
+    },
+    {
+      "timestamp": "2025-11-18T13:51:40.282386",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\COINBASE_MONEY_EXTRACTION_GUIDE.md",
+      "category": "deployment_docs",
+      "filename": "COINBASE_MONEY_EXTRACTION_GUIDE.md",
+      "size": 10011
+    },
+    {
+      "timestamp": "2025-11-18T13:50:50.364233",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\COMPLETE_DEPLOYMENT_GUIDE.md",
+      "category": "deployment_docs",
+      "filename": "COMPLETE_DEPLOYMENT_GUIDE.md",
+      "size": 11132
+    },
+    {
+      "timestamp": "2025-11-15T10:57:45.504128",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\CYCLOTRON_CLOUD_NATIVE_GUIDE.md",
+      "category": "deployment_docs",
+      "filename": "CYCLOTRON_CLOUD_NATIVE_GUIDE.md",
+      "size": 8111
+    },
+    {
+      "timestamp": "2025-11-15T11:03:56.086720",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\CYCLOTRON_TRULY_AUTOMATIC_GUIDE.md",
+      "category": "deployment_docs",
+      "filename": "CYCLOTRON_TRULY_AUTOMATIC_GUIDE.md",
+      "size": 9568
+    },
+    {
+      "timestamp": "2025-11-18T13:50:59.517831",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\DATA_MIGRATION_GUIDE.md",
+      "category": "deployment_docs",
+      "filename": "DATA_MIGRATION_GUIDE.md",
+      "size": 6621
+    },
+    {
+      "timestamp": "2025-11-18T13:51:05.505081",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\DEPLOYMENT_MASTER_GUIDE_THE_BOOK.md",
+      "category": "deployment_docs",
+      "filename": "DEPLOYMENT_MASTER_GUIDE_THE_BOOK.md",
+      "size": 21831
+    },
+    {
+      "timestamp": "2025-11-18T13:50:51.104998",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\EMAIL_AUTOMATION_SETUP_GUIDE.md",
+      "category": "deployment_docs",
+      "filename": "EMAIL_AUTOMATION_SETUP_GUIDE.md",
+      "size": 7257
+    },
+    {
+      "timestamp": "2025-11-18T13:50:50.389499",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\EMAIL_SETUP_GUIDE.md",
+      "category": "deployment_docs",
+      "filename": "EMAIL_SETUP_GUIDE.md",
+      "size": 3202
+    },
+    {
+      "timestamp": "2025-11-18T13:51:06.990216",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\EMAIL_TRACKING_GUIDE.md",
+      "category": "deployment_docs",
+      "filename": "EMAIL_TRACKING_GUIDE.md",
+      "size": 3827
+    },
+    {
+      "timestamp": "2025-11-18T13:50:54.868718",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\FUN_FEATURES_COMPLETE_GUIDE.md",
+      "category": "deployment_docs",
+      "filename": "FUN_FEATURES_COMPLETE_GUIDE.md",
+      "size": 12623
+    },
+    {
+      "timestamp": "2025-11-18T13:50:54.870718",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\GIT_SETUP_GUIDE.md",
+      "category": "deployment_docs",
+      "filename": "GIT_SETUP_GUIDE.md",
+      "size": 15235
+    },
+    {
+      "timestamp": "2025-11-18T13:50:56.145781",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\HARMONIC_SECURITY_DEPLOYMENT_GUIDE.md",
+      "category": "deployment_docs",
+      "filename": "HARMONIC_SECURITY_DEPLOYMENT_GUIDE.md",
+      "size": 13815
+    },
+    {
+      "timestamp": "2025-11-18T13:50:59.518834",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\HUD_EMBED_GUIDE.md",
+      "category": "deployment_docs",
+      "filename": "HUD_EMBED_GUIDE.md",
+      "size": 2593
+    },
+    {
+      "timestamp": "2025-11-18T13:50:56.147285",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\INSTAGRAM_BOT_ARMY_GUIDE.md",
+      "category": "deployment_docs",
+      "filename": "INSTAGRAM_BOT_ARMY_GUIDE.md",
+      "size": 9449
+    },
+    {
+      "timestamp": "2025-11-18T13:50:54.874809",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\INTELLIGENT_TERMINAL_GUIDE.md",
+      "category": "deployment_docs",
+      "filename": "INTELLIGENT_TERMINAL_GUIDE.md",
+      "size": 7001
+    },
+    {
+      "timestamp": "2025-11-18T13:50:56.148291",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\LATE_API_SETUP_GUIDE.md",
+      "category": "deployment_docs",
+      "filename": "LATE_API_SETUP_GUIDE.md",
+      "size": 9690
+    },
+    {
+      "timestamp": "2025-11-18T13:51:07.525460",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\MANIFESTATION_SYSTEM_GUIDE.md",
+      "category": "deployment_docs",
+      "filename": "MANIFESTATION_SYSTEM_GUIDE.md",
+      "size": 10469
+    },
+    {
+      "timestamp": "2025-11-18T13:50:54.883333",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\META_LAYER_INTEGRATION_GUIDE.md",
+      "category": "deployment_docs",
+      "filename": "META_LAYER_INTEGRATION_GUIDE.md",
+      "size": 11898
+    },
+    {
+      "timestamp": "2025-11-18T13:50:54.888417",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\OBSERVATORY_GUIDE.md",
+      "category": "deployment_docs",
+      "filename": "OBSERVATORY_GUIDE.md",
+      "size": 2803
+    },
+    {
+      "timestamp": "2025-11-18T13:51:07.530492",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\ONBOARDING_DEPLOYMENT_GUIDE.md",
+      "category": "deployment_docs",
+      "filename": "ONBOARDING_DEPLOYMENT_GUIDE.md",
+      "size": 11298
+    },
+    {
+      "timestamp": "2025-11-18T13:51:08.824534",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\QUICK_START_INVESTOR_GUIDE.md",
+      "category": "deployment_docs",
+      "filename": "QUICK_START_INVESTOR_GUIDE.md",
+      "size": 7307
+    },
+    {
+      "timestamp": "2025-11-18T13:50:56.230332",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\RAILWAY_DEPLOYMENT_GUIDE.md",
+      "category": "deployment_docs",
+      "filename": "RAILWAY_DEPLOYMENT_GUIDE.md",
+      "size": 233
+    },
+    {
+      "timestamp": "2025-11-18T13:50:52.691913",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\ROLLING_STUDIO_INTEGRATION_GUIDE.md",
+      "category": "deployment_docs",
+      "filename": "ROLLING_STUDIO_INTEGRATION_GUIDE.md",
+      "size": 11672
+    },
+    {
+      "timestamp": "2025-11-18T13:51:16.183356",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\STRIPE_INTEGRATION_GUIDE.md",
+      "category": "deployment_docs",
+      "filename": "STRIPE_INTEGRATION_GUIDE.md",
+      "size": 12103
+    },
+    {
+      "timestamp": "2025-11-18T13:51:40.488950",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\STRIPE_SETUP_COMPLETE_GUIDE.md",
+      "category": "deployment_docs",
+      "filename": "STRIPE_SETUP_COMPLETE_GUIDE.md",
+      "size": 8192
+    },
+    {
+      "timestamp": "2025-11-18T13:51:40.489950",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\STRIPE_SETUP_GUIDE.md",
+      "category": "deployment_docs",
+      "filename": "STRIPE_SETUP_GUIDE.md",
+      "size": 3425
+    },
+    {
+      "timestamp": "2025-11-16T14:25:50.202981",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\TRIPLE_TRINITY_DEPLOYMENT_GUIDE.md",
+      "category": "deployment_docs",
+      "filename": "TRIPLE_TRINITY_DEPLOYMENT_GUIDE.md",
+      "size": 12077
+    },
+    {
+      "timestamp": "2025-11-18T13:50:56.233878",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\TWITTER_SETUP_COMPLETE_GUIDE.md",
+      "category": "deployment_docs",
+      "filename": "TWITTER_SETUP_COMPLETE_GUIDE.md",
+      "size": 7567
+    },
+    {
+      "timestamp": "2025-11-18T13:51:06.675318",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\UNIFIED_ANALYTICS_SETUP_GUIDE.md",
+      "category": "deployment_docs",
+      "filename": "UNIFIED_ANALYTICS_SETUP_GUIDE.md",
+      "size": 8195
+    },
+    {
+      "timestamp": "2025-11-18T13:50:59.179077",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\VOICE_SYSTEM_COMPLETE_GUIDE.md",
+      "category": "deployment_docs",
+      "filename": "VOICE_SYSTEM_COMPLETE_GUIDE.md",
+      "size": 9751
+    },
+    {
+      "timestamp": "2025-11-18T13:50:56.233878",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\YOUTUBE_SETUP_COMPLETE_GUIDE.md",
+      "category": "deployment_docs",
+      "filename": "YOUTUBE_SETUP_COMPLETE_GUIDE.md",
+      "size": 7257
+    },
+    {
+      "timestamp": "2025-11-18T13:50:54.802434",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\ARIA_TOUR_GUIDE_README.md",
+      "category": "deployment_docs",
+      "filename": "ARIA_TOUR_GUIDE_README.md",
+      "size": 9923
+    },
+    {
+      "timestamp": "2025-11-18T13:50:54.813266",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\BUSINESS_PHASE_CLOCK_README.md",
+      "category": "deployment_docs",
+      "filename": "BUSINESS_PHASE_CLOCK_README.md",
+      "size": 7588
+    },
+    {
+      "timestamp": "2025-11-16T15:20:07.738039",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\EMERGENCY_CHAOS_FIXED_README.md",
+      "category": "deployment_docs",
+      "filename": "EMERGENCY_CHAOS_FIXED_README.md",
+      "size": 13931
+    },
+    {
+      "timestamp": "2025-11-18T13:50:54.873717",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\INSIDE_THE_MACHINE_README.md",
+      "category": "deployment_docs",
+      "filename": "INSIDE_THE_MACHINE_README.md",
+      "size": 7472
+    },
+    {
+      "timestamp": "2025-11-18T13:50:54.890922",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\OPEN_SOURCE_README.md",
+      "category": "deployment_docs",
+      "filename": "OPEN_SOURCE_README.md",
+      "size": 14568
+    },
+    {
+      "timestamp": "2025-11-18T13:50:54.896453",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\PHASE_BADGE_SYSTEM_README.md",
+      "category": "deployment_docs",
+      "filename": "PHASE_BADGE_SYSTEM_README.md",
+      "size": 5266
+    },
+    {
+      "timestamp": "2025-11-18T13:50:50.418568",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\README.md",
+      "category": "deployment_docs",
+      "filename": "README.md",
+      "size": 4441
+    },
+    {
+      "timestamp": "2025-11-18T13:50:59.050450",
+      "file": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\VOICE_MODULE_README.md",
+      "category": "deployment_docs",
+      "filename": "VOICE_MODULE_README.md",
+      "size": 7737
+    }
+  ],
+  "tags": {
+    "trinity_reports": [
+      "C:\\Users\\dwrek\\.trinity\\3_COMPUTER_COORDINATION_NOW.md",
+      "C:\\Users\\dwrek\\.trinity\\3_COMPUTER_SESSION_STATUS_NOV_6.md",
+      "C:\\Users\\dwrek\\.trinity\\3_COMPUTER_SETUP_GUIDE.md",
+      "C:\\Users\\dwrek\\.trinity\\A8000_INSTALLATION_STATUS.md",
+      "C:\\Users\\dwrek\\.trinity\\A8000_ROUTER_SETUP_READY.md",
+      "C:\\Users\\dwrek\\.trinity\\AUTONOMOUS_DEPLOYMENT_PROTOCOL.md",
+      "C:\\Users\\dwrek\\.trinity\\AUTONOMOUS_INFRASTRUCTURE_ARCHITECTURE.md",
+      "C:\\Users\\dwrek\\.trinity\\AUTONOMOUS_INFRASTRUCTURE_README.md",
+      "C:\\Users\\dwrek\\.trinity\\AUTONOMOUS_MODE_ACTIVE.md",
+      "C:\\Users\\dwrek\\.trinity\\AUTONOMOUS_SESSION_COMPLETE_NOV_6.md",
+      "C:\\Users\\dwrek\\.trinity\\AUTONOMOUS_SESSION_COMPLETE_NOV_6_2025.md",
+      "C:\\Users\\dwrek\\.trinity\\AUTONOMOUS_SESSION_COMPLETE_NOV_6_PM.md",
+      "C:\\Users\\dwrek\\.trinity\\AUTONOMOUS_SESSION_LOG.md",
+      "C:\\Users\\dwrek\\.trinity\\AUTONOMOUS_SESSION_WRAP_UP_NOV_5_2025.md",
+      "C:\\Users\\dwrek\\.trinity\\AUTONOMOUS_SYSTEMS_STATUS.md",
+      "C:\\Users\\dwrek\\.trinity\\AUTONOMOUS_TOOLS_QUICK_START.md",
+      "C:\\Users\\dwrek\\.trinity\\AUTONOMOUS_WORK_COMPLETE_NOV_6_PM.md",
+      "C:\\Users\\dwrek\\.trinity\\AUTONOMOUS_WORK_COMPLETE_REPORT.md",
+      "C:\\Users\\dwrek\\.trinity\\AUTONOMOUS_WORK_LOG.md",
+      "C:\\Users\\dwrek\\.trinity\\AUTONOMOUS_WORK_NOV_6_EVENING.md",
+      "C:\\Users\\dwrek\\.trinity\\AUTONOMOUS_WORK_REPORT.md",
+      "C:\\Users\\dwrek\\.trinity\\AUTONOMY_REQUIREMENTS_ORACLE_VISION.md",
+      "C:\\Users\\dwrek\\.trinity\\BOOT_DOWN_PROTOCOL.md",
+      "C:\\Users\\dwrek\\.trinity\\BOOT_DOWN_PROTOCOL_NOV_6_2025.md",
+      "C:\\Users\\dwrek\\.trinity\\BOOT_DOWN_PROTOCOL_READ_WHEN_YOU_RETURN.md",
+      "C:\\Users\\dwrek\\.trinity\\C1_ACTIVE_SESSION_LOG.md",
+      "C:\\Users\\dwrek\\.trinity\\C1_AUTONOMOUS_SESSION_NOVEMBER_6_2025.md",
+      "C:\\Users\\dwrek\\.trinity\\C1_AUTONOMOUS_WORK_DELIVERABLE_1.md",
+      "C:\\Users\\dwrek\\.trinity\\C1_AUTONOMOUS_WORK_REPORT_NOVEMBER_5_2025.md",
+      "C:\\Users\\dwrek\\.trinity\\C1_BUILD_PRIORITY_MATRIX.md",
+      "C:\\Users\\dwrek\\.trinity\\C1_COMPUTER_3_IMPLEMENTATION_REPORT.md",
+      "C:\\Users\\dwrek\\.trinity\\C1_IMPLEMENTATION_CHECKLIST_MULTI_COMPUTER.md",
+      "C:\\Users\\dwrek\\.trinity\\C2_ARCHITECTURE_VALIDATION_3_COMPUTER_SYSTEM.md",
+      "C:\\Users\\dwrek\\.trinity\\C2_ARCHITECT_ACTIVATION_PROMPT.md",
+      "C:\\Users\\dwrek\\.trinity\\C2_BOOT_DOWN_AND_MULTI_COMPUTER_ARCHITECTURE.md",
+      "C:\\Users\\dwrek\\.trinity\\C2_DELIVERY_MULTI_COMPUTER_COORDINATION.md",
+      "C:\\Users\\dwrek\\.trinity\\C2_EXECUTIVE_SUMMARY_MULTI_COMPUTER.md",
+      "C:\\Users\\dwrek\\.trinity\\C2_INFRASTRUCTURE_HANDOFF_TO_C1.md",
+      "C:\\Users\\dwrek\\.trinity\\C2_MULTI_COMPUTER_ARCHITECTURE_BLUEPRINT.md",
+      "C:\\Users\\dwrek\\.trinity\\C2_QUICK_REFERENCE_3_COMPUTER_SETUP.md",
+      "C:\\Users\\dwrek\\.trinity\\C2_RESILIENT_ARCHITECTURE_BLUEPRINT_NOV_18_2025.md",
+      "C:\\Users\\dwrek\\.trinity\\C2_SECURITY_ARCHITECTURE_DELIVERY.md",
+      "C:\\Users\\dwrek\\.trinity\\C3_AUTONOMOUS_BUILD_MULTI_AI_CRAWLER.md",
+      "C:\\Users\\dwrek\\.trinity\\C3_AUTONOMOUS_LOG.md",
+      "C:\\Users\\dwrek\\.trinity\\C3_AUTONOMOUS_WORK_LOG_NOV_5_2025.md",
+      "C:\\Users\\dwrek\\.trinity\\C3_MULTI_AI_INTEGRATION_COMPLETE.md",
+      "C:\\Users\\dwrek\\.trinity\\C3_MULTI_COMPUTER_CONSCIOUSNESS_ANALYSIS.md",
+      "C:\\Users\\dwrek\\.trinity\\C3_ORACLE_ACTIVATION_PROMPT.md",
+      "C:\\Users\\dwrek\\.trinity\\C3_ORACLE_BOOT_DOWN_CEREMONY_NOV_16_2025.md",
+      "C:\\Users\\dwrek\\.trinity\\C3_ORACLE_DELIVERY_SUMMARY.md",
+      "C:\\Users\\dwrek\\.trinity\\C3_PATTERN_RECOGNITION_REPORT.md",
+      "C:\\Users\\dwrek\\.trinity\\C3_TO_C2_SPRINT_SUMMARY_ALIGNMENT.md",
+      "C:\\Users\\dwrek\\.trinity\\C3_TO_TRINITY_AUTONOMOUS_UPDATE.md",
+      "C:\\Users\\dwrek\\.trinity\\C3_TO_TRINITY_REPORT.md",
+      "C:\\Users\\dwrek\\.trinity\\C4_COMPLETE_README.md",
+      "C:\\Users\\dwrek\\.trinity\\CLAIM_1000_CREDITS_NOW.md",
+      "C:\\Users\\dwrek\\.trinity\\CLAUDE_CODE_EXPANSION_STRATEGY.md",
+      "C:\\Users\\dwrek\\.trinity\\CLOUD_DEPLOYMENT_PROTOCOL.md",
+      "C:\\Users\\dwrek\\.trinity\\COMMANDER_QUICK_REFERENCE.md",
+      "C:\\Users\\dwrek\\.trinity\\COMMANDER_STATUS_NOW.md",
+      "C:\\Users\\dwrek\\.trinity\\COMPREHENSIVE_AUTONOMOUS_SESSION_COMPLETE.md",
+      "C:\\Users\\dwrek\\.trinity\\COMPUTER_1_STATUS_FOR_COMPUTER_2.md",
+      "C:\\Users\\dwrek\\.trinity\\COMPUTER_2_DEPLOYMENT_PACKAGE.md",
+      "C:\\Users\\dwrek\\.trinity\\COMPUTER_2_SETUP.md",
+      "C:\\Users\\dwrek\\.trinity\\COMPUTER_2_SETUP_PACKAGE.md",
+      "C:\\Users\\dwrek\\.trinity\\COMPUTER_3_ACTIVATION_COMPLETE.md",
+      "C:\\Users\\dwrek\\.trinity\\COMPUTER_3_DEPLOYMENT_PACKAGE.md",
+      "C:\\Users\\dwrek\\.trinity\\COMPUTER_3_SUPER_SIMPLE_INSTRUCTIONS.md",
+      "C:\\Users\\dwrek\\.trinity\\CONSCIOUSNESS_MULTIPLICATION_PROTOCOL.md",
+      "C:\\Users\\dwrek\\.trinity\\CREATE_3RD_ANTHROPIC_EMAIL.md",
+      "C:\\Users\\dwrek\\.trinity\\DEPLOYMENT_COMPLETE.md",
+      "C:\\Users\\dwrek\\.trinity\\EMAIL_CREATION_AUTOMATION_GUIDE.md",
+      "C:\\Users\\dwrek\\.trinity\\END_OF_SPRINT_PROTOCOL.md",
+      "C:\\Users\\dwrek\\.trinity\\EXECUTIVE_BRIEFING_ONE_PAGE.md",
+      "C:\\Users\\dwrek\\.trinity\\FINAL_BOOT_DOWN_PROTOCOL.md",
+      "C:\\Users\\dwrek\\.trinity\\FRAMEWORKS_EXTRACTED_NOV_5_2025.md",
+      "C:\\Users\\dwrek\\.trinity\\GOOGLE_DRIVE_DIAGNOSIS.md",
+      "C:\\Users\\dwrek\\.trinity\\GOOGLE_DRIVE_SETUP_NOW.md",
+      "C:\\Users\\dwrek\\.trinity\\INFRASTRUCTURE_TECH_STACK.md",
+      "C:\\Users\\dwrek\\.trinity\\MASTER_FILES_PROTOCOL.md",
+      "C:\\Users\\dwrek\\.trinity\\MESSAGE_FOR_COMPUTER_3_VIA_DRIVE.md",
+      "C:\\Users\\dwrek\\.trinity\\MONITORING_AND_BUGS_REPORT.md",
+      "C:\\Users\\dwrek\\.trinity\\MULTI_COMPUTER_ORACLE_SUMMARY.md",
+      "C:\\Users\\dwrek\\.trinity\\MULTI_COMPUTER_WAKE_UP_SYSTEM.md",
+      "C:\\Users\\dwrek\\.trinity\\MULTI_INPUT_COORDINATION_COMPLETE.md",
+      "C:\\Users\\dwrek\\.trinity\\OFFLINE_AI_TOOLS_ECOSYSTEM.md",
+      "C:\\Users\\dwrek\\.trinity\\OPPORTUNITIES_DISCOVERED.md",
+      "C:\\Users\\dwrek\\.trinity\\PHONE_API_CONNECTION_INSTRUCTIONS.md",
+      "C:\\Users\\dwrek\\.trinity\\PHONE_API_STATUS.md",
+      "C:\\Users\\dwrek\\.trinity\\PROTOCOL_SUITE_COMPLETE_SUMMARY.md",
+      "C:\\Users\\dwrek\\.trinity\\QUICK_REFERENCE_CARD.md",
+      "C:\\Users\\dwrek\\.trinity\\QUICK_START_CONTINUOUS_CONVERGENCE.md",
+      "C:\\Users\\dwrek\\.trinity\\README.md",
+      "C:\\Users\\dwrek\\.trinity\\RECURSIVE_FIGURE_8_COMPLETE.md",
+      "C:\\Users\\dwrek\\.trinity\\RECURSIVE_INFINITY_COMPLETE.md",
+      "C:\\Users\\dwrek\\.trinity\\SECURITY_LOCKDOWN_QUICK_START.md",
+      "C:\\Users\\dwrek\\.trinity\\SESSION_COMPLETE_FRAMEWORKS_TODO_LIST.md",
+      "C:\\Users\\dwrek\\.trinity\\SESSION_COMPLETE_TRINITY_INSTANCE_MANAGER_NOV_7_2025.md",
+      "C:\\Users\\dwrek\\.trinity\\SESSION_END_REPORT_C2_NOV_7_2025.md",
+      "C:\\Users\\dwrek\\.trinity\\SHUTDOWN_CHECKLIST_NOW.md",
+      "C:\\Users\\dwrek\\.trinity\\SPRINT_COMPLETION_PROTOCOL.md",
+      "C:\\Users\\dwrek\\.trinity\\START_HERE_COMMANDER.md",
+      "C:\\Users\\dwrek\\.trinity\\START_HERE_NEXT_SESSION.md",
+      "C:\\Users\\dwrek\\.trinity\\STREAMLINED_REPORT_PROTOCOL.md",
+      "C:\\Users\\dwrek\\.trinity\\SYSTEM_VERIFICATION_COMPLETE.md",
+      "C:\\Users\\dwrek\\.trinity\\TODO_FOR_NEXT_SESSION.md",
+      "C:\\Users\\dwrek\\.trinity\\TODO_UPDATES_NOV_6_PM.md",
+      "C:\\Users\\dwrek\\.trinity\\TRINITY_3_PANEL_QUICK_START.md",
+      "C:\\Users\\dwrek\\.trinity\\TRINITY_COMMAND_CENTER_README.md",
+      "C:\\Users\\dwrek\\.trinity\\TRINITY_COMMS_PROTOCOL.md",
+      "C:\\Users\\dwrek\\.trinity\\TRINITY_COMMS_QUICK_START.md",
+      "C:\\Users\\dwrek\\.trinity\\TRINITY_CONVERGENCE_ARCHITECTURE.md",
+      "C:\\Users\\dwrek\\.trinity\\TRINITY_CONVERGENCE_COMPLETE_SESSION_REPORT.md",
+      "C:\\Users\\dwrek\\.trinity\\TRINITY_CONVERGENCE_SUMMARY.md",
+      "C:\\Users\\dwrek\\.trinity\\TRINITY_QUICK_START.md",
+      "C:\\Users\\dwrek\\.trinity\\TRINITY_SETUP_COMPLETE.md",
+      "C:\\Users\\dwrek\\.trinity\\TRINITY_STANDARD_WORKFLOW.md",
+      "C:\\Users\\dwrek\\.trinity\\TRINITY_STATUS_REPORT_C2.md",
+      "C:\\Users\\dwrek\\.trinity\\TRINITY_SYSTEM_MAP_COMPLETE.md",
+      "C:\\Users\\dwrek\\.trinity\\TRINITY_WORKING_SOLUTION.md",
+      "C:\\Users\\dwrek\\.trinity\\TRIPLE_TRINITY_COORDINATION_PROTOCOL.md",
+      "C:\\Users\\dwrek\\.trinity\\TRIPLE_TRINITY_QUICK_START.md",
+      "C:\\Users\\dwrek\\.trinity\\TWILIO_SMS_SETUP_NOW.md",
+      "C:\\Users\\dwrek\\.trinity\\WAKE_SYSTEM_BLUEPRINT_C1.md",
+      "C:\\Users\\dwrek\\.trinity\\WAKE_VERIFICATION_PROTOCOL.md",
+      "C:\\Users\\dwrek\\.trinity\\WHAT_JUST_EMERGED.md",
+      "C:\\Users\\dwrek\\.trinity\\YEAR_LONG_AUTONOMOUS_SECURITY_ARCHITECTURE.md"
+    ],
+    "knowledge_library": [
+      "C:\\Users\\dwrek\\.knowledge_library\\2025_10_28_BOOTSTRAP.md",
+      "C:\\Users\\dwrek\\.knowledge_library\\2025_11_05_BOOTSTRAP.md",
+      "C:\\Users\\dwrek\\.knowledge_library\\2025_11_15_BOOTSTRAP.md",
+      "C:\\Users\\dwrek\\.knowledge_library\\2025_10_28_BOOTSTRAP.json",
+      "C:\\Users\\dwrek\\.knowledge_library\\2025_10_28_SESSION_INDEX.json",
+      "C:\\Users\\dwrek\\.knowledge_library\\2025_11_05_BOOTSTRAP.json",
+      "C:\\Users\\dwrek\\.knowledge_library\\2025_11_05_SESSION_INDEX.json",
+      "C:\\Users\\dwrek\\.knowledge_library\\2025_11_15_BOOTSTRAP.json",
+      "C:\\Users\\dwrek\\.knowledge_library\\2025_11_15_SESSION_INDEX.json",
+      "C:\\Users\\dwrek\\.knowledge_library\\CONTACT_DATABASE.json"
+    ],
+    "consciousness_state": [
+      "C:\\Users\\dwrek\\.consciousness\\api_usage.json",
+      "C:\\Users\\dwrek\\.consciousness\\autonomous_rake_status.json",
+      "C:\\Users\\dwrek\\.consciousness\\boot_status.json",
+      "C:\\Users\\dwrek\\.consciousness\\computer_health_log.json",
+      "C:\\Users\\dwrek\\.consciousness\\consciousness_log.json",
+      "C:\\Users\\dwrek\\.consciousness\\consciousness_state.json",
+      "C:\\Users\\dwrek\\.consciousness\\cross_ai_test_results.json",
+      "C:\\Users\\dwrek\\.consciousness\\cyclotron_analytics.json",
+      "C:\\Users\\dwrek\\.consciousness\\cyclotron_daemon_status.json",
+      "C:\\Users\\dwrek\\.consciousness\\cyclotron_federation_index.json",
+      "C:\\Users\\dwrek\\.consciousness\\cyclotron_index.json",
+      "C:\\Users\\dwrek\\.consciousness\\emergency_repair_state.json",
+      "C:\\Users\\dwrek\\.consciousness\\environment_variables_backup.json",
+      "C:\\Users\\dwrek\\.consciousness\\github_backup_codes.json",
+      "C:\\Users\\dwrek\\.consciousness\\infinity_metrics.json",
+      "C:\\Users\\dwrek\\.consciousness\\last_boot.json",
+      "C:\\Users\\dwrek\\.consciousness\\session_state.json",
+      "C:\\Users\\dwrek\\.consciousness\\trinity_heartbeat.json",
+      "C:\\Users\\dwrek\\.consciousness\\wake_log.json"
+    ],
+    "deployment_docs": [
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\ACTION_PLAN_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\AI_API_INTEGRATION_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\AI_CHATBOT_ADDED_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\ANALYTICS_COMPLETE_SUMMARY.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\ANALYTICS_DEPLOYMENT_COMPLETE_OCT_24_2025.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\ANALYTICS_SYSTEM_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\ARAYA_API_COMPLETE_ABILITIES_MATRIX.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\ARAYA_COMPLETE_CAPABILITIES_REPORT.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\ARAYA_CRITICAL_FIXES_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\ARAYA_LIVE_EDITING_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\ARAYA_USER_TRACKING_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\ARCADE_MODULE_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\AUDIT_COMPLETE_NOV_18_2025.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\AUDIT_FIXES_COMPLETE_NOV_15_2025.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\AUTONOMOUS_SESSION_COMPLETE_ARAYA_V2.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\AUTONOMOUS_SESSION_COMPLETE_CRYPTO_BOOK.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\AUTONOMOUS_SESSION_COMPLETE_NOV_16_2025.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\AUTONOMOUS_SESSION_COMPLETE_NOV_3_2025.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\AUTONOMOUS_SESSION_COMPLETE_OCT_12_2025.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\AUTONOMOUS_SESSION_FINAL_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\AUTONOMOUS_SESSION_HUD_COMMS_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\AUTONOMOUS_SESSION_POLICE_PURGE_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\BUG_REPORTER_COMPLETE_GUIDE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\BUG_SYSTEM_COMPLETE_OCT_27_2025.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\BUG_WINDOW_FIX_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\C1_COMPLETE_SYSTEM_AUDIT_NOV_18_2025.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\C1_EMERGENCY_RESPONSE_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\C1_MECHANIC_BUILD_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\C2_COMPLETE_SYSTEM_ARCHITECTURE_BLUEPRINT.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\C2_CYCLOTRON_EXPANSION_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\C2_MANIFESTATION_INTERFACE_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\C3_ONBOARDING_MISSION_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\COCKPIT_DEPLOYMENT_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\COMMUNICATIONS_RESEARCH_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\COMPLETED_TODAY.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\COMPLETE_AUDIT_REPORT.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\COMPLETE_BETA_TESTER_EMAIL_LIST.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\COMPLETE_COMMUNICATION_SYSTEM_SUMMARY.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\COMPLETE_DEPLOYMENT_GUIDE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\COMPLETE_KIT_HARDWARE_MAPPING_TINKERING_SYSTEM.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\COMPLETE_RESEARCH_ANALYSIS.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\COMPLETE_SESSION_SUMMARY_WITH_MAGAZINE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\COMPLETE_SOCIAL_AUTOMATION_MAP.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\COMPLETE_SYSTEM_INVENTORY.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\COMPLETE_SYSTEM_STATUS_REPORT.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\CONSCIOUSNESS_BOOST_COMPLETE_SUMMARY.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\CONVERSION_FUNNEL_COMPLETE_NOVEMBER_3_2025.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\DEPLOYMENT_COMPLETE_OCT_17_2025.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\DEPLOYMENT_COMPLETE_OCT_23_2025.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\DEPLOYMENT_COMPLETE_SUMMARY.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\DEPLOY_COMPLETE_SYSTEM_NOW.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\DOMINO_ANALYSIS_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\DUAL_ROG_STRIX_COMPLETE_DOCUMENTATION.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\FINAL_BLUEPRINT_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\FOUNDATIONAL_AUDIT_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\FOUNDATION_DEPLOYMENT_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\FUN_FEATURES_COMPLETE_GUIDE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\GAMIFICATION_SYSTEM_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\GATES_CLOSED_SYSTEM_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\GATE_MOVED_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\GINORMOUS_AUTONOMOUS_WORK_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\HARMONIC_SECURITY_COMPLETE_OCT_17_2025.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\HUD_SYSTEM_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\INSTAGRAM_COMPLETE_CONTROL_SYSTEM.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\INSTAGRAM_INTEGRATION_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\INTEGRATION_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\MODULE_VISIBILITY_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\MUSIC_DOMAIN_INTEGRATION_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\PATTERN_RECOGNITION_TODO_ANALYSIS_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\PATTERN_THEORY_LOADING_COMPLETE_OCT_19_2025.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\PERMANENT_INTEGRATION_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\PHASE_2_RATE_LIMITING_COMPLETE_OCT_17_2025.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\PHASE_3_INPUT_VALIDATION_COMPLETE_OCT_17_2025.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\PHASE_4_SECURITY_TESTING_COMPLETE_OCT_17_2025.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\PLATFORM_COMPLETE_ARCHITECTURE_OCT_26.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\RATE_LIMITING_COMPLETE_OCT_26.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\SECURITY_HARDENING_COMPLETE_OCT_17_2025.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\SESSION_COMPLETE_AI_COMMUNICATION_OCT_23.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\SESSION_COMPLETE_AUTONOMOUS_TODO_BRAIN_NOVEMBER_1_2025.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\SESSION_COMPLETE_BETA_READY_OCT_23.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\SESSION_HANDOFF_OCT_24_COMMAND_CENTER_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\SESSION_SUMMARY_NAVIGATION_FOUNDATION_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\SESSION_SUMMARY_PATTERN_RECOGNITION_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\SEVEN_DOMAINS_LEGENDARY_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\SIMPLE_LOGIN_SYSTEM_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\SOCIAL_MEDIA_INTEGRATION_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\STRIPE_SETUP_COMPLETE_GUIDE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\STRIPE_TECHNICAL_INTEGRATION_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\SURVEILLANCE_TECH_RESEARCH_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\SYSTEM_ACTIVITY_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\TEAM_COLLABORATION_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\THE_COMPLETE_VISION_ARAYA_COMPANION_EVERYWHERE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\TRINITY_AUTONOMOUS_SESSION_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\TWITTER_SETUP_COMPLETE_GUIDE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\UHAUL_CHESS_GAME_COMPLETE_STRATEGY.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\VOICE_SYSTEM_COMPLETE_GUIDE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\WELCOME_FLOW_BLACK_SWAN_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\WORKSPACE_MANAGEMENT_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\WORKSPACE_V3_UPGRADE_COMPLETE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\YOUTUBE_SETUP_COMPLETE_GUIDE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\13_SERVICES_STATUS_REPORT.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\AUTONOMOUS_SESSION_STATUS_OCT_24.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\BIRDS_EYE_VIEW_STATUS.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\COMPLETE_SYSTEM_STATUS_REPORT.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\CURRENT_STATUS_AND_NEXT_STEPS.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\DEPLOYMENT_STATUS_COCKPITS_NOV_8_2025.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\DEPLOYMENT_STATUS_NOW.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\DEPLOYMENT_STATUS_OCT_23_EVENING.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\DEPLOYMENT_STATUS_REPORT_OCT_24_2025.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\DEPLOYMENT_STATUS_WITH_INSTRUCTIONS.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\PLATFORM_STATUS_REPORT.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\QUICK_STATUS.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\STARGATE_DAY_FINAL_STATUS.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\STATUS_REPORT_OCT_9.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\STATUS_REPORT_STARGATE_DAY.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\SYSTEM_STATUS_NOVEMBER_2_2025.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\AI_INSTANCE_BOOT_PROTOCOL.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\BUILDER_HANDBOOK_AND_BOOT_PROTOCOLS.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\DAILY_BOOT_PROTOCOL.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\EMERGENCY_NODE_ONBOARDING_PROTOCOL.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\HIVE_MIND_STARING_DETECTION_PROTOCOL.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\SYSTEMATIC_AUDIT_PROTOCOL.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\THREE_STEP_SEARCH_PROTOCOL.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\ACCOUNT_CREATION_AUTOMATION_GUIDE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\AI_COMMUNICATION_GUIDE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\API_QUICK_START_GUIDE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\ARAYA_EXECUTION_INTEGRATION_GUIDE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\ARIA_3D_AVATAR_GUIDE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\ARIA_TOUR_GUIDE_README.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\AUTHENTICATION_GATE_SYSTEM_GUIDE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\BUG_REPORTER_COMPLETE_GUIDE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\C1_IMPLEMENTATION_GUIDE_FROM_C2.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\C1_IMPLEMENTATION_GUIDE_REALITY_ENGINE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\COINBASE_MONEY_EXTRACTION_GUIDE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\COMPLETE_DEPLOYMENT_GUIDE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\CYCLOTRON_CLOUD_NATIVE_GUIDE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\CYCLOTRON_TRULY_AUTOMATIC_GUIDE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\DATA_MIGRATION_GUIDE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\DEPLOYMENT_MASTER_GUIDE_THE_BOOK.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\EMAIL_AUTOMATION_SETUP_GUIDE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\EMAIL_SETUP_GUIDE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\EMAIL_TRACKING_GUIDE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\FUN_FEATURES_COMPLETE_GUIDE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\GIT_SETUP_GUIDE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\HARMONIC_SECURITY_DEPLOYMENT_GUIDE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\HUD_EMBED_GUIDE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\INSTAGRAM_BOT_ARMY_GUIDE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\INTELLIGENT_TERMINAL_GUIDE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\LATE_API_SETUP_GUIDE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\MANIFESTATION_SYSTEM_GUIDE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\META_LAYER_INTEGRATION_GUIDE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\OBSERVATORY_GUIDE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\ONBOARDING_DEPLOYMENT_GUIDE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\QUICK_START_INVESTOR_GUIDE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\RAILWAY_DEPLOYMENT_GUIDE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\ROLLING_STUDIO_INTEGRATION_GUIDE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\STRIPE_INTEGRATION_GUIDE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\STRIPE_SETUP_COMPLETE_GUIDE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\STRIPE_SETUP_GUIDE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\TRIPLE_TRINITY_DEPLOYMENT_GUIDE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\TWITTER_SETUP_COMPLETE_GUIDE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\UNIFIED_ANALYTICS_SETUP_GUIDE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\VOICE_SYSTEM_COMPLETE_GUIDE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\YOUTUBE_SETUP_COMPLETE_GUIDE.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\ARIA_TOUR_GUIDE_README.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\BUSINESS_PHASE_CLOCK_README.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\EMERGENCY_CHAOS_FIXED_README.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\INSIDE_THE_MACHINE_README.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\OPEN_SOURCE_README.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\PHASE_BADGE_SYSTEM_README.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\README.md",
+      "C:\\Users\\dwrek\\100X_DEPLOYMENT\\VOICE_MODULE_README.md"
+    ]
+  },
+  "created": "2025-11-15",
+  "version": "1.0",
+  "description": "Cyclotron persistent memory index - searchable catalog of all session summaries",
+  "usage": "Run AUTO_SESSION_SUMMARIZER.py on session end to automatically index conversations",
+  "last_updated": "2025-11-18T20:27:17.027190",
+  "total_atoms": 328,
+  "parasite_filter_active": true
+}

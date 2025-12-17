@@ -1,0 +1,387 @@
+{
+  "_meta": {
+    "purpose": "Master Table of Contents - All Consciousness System Abilities",
+    "generated": "2025-11-26T14:35:00",
+    "total_abilities": 128,
+    "categories": 8
+  },
+
+  "quick_nav": {
+    "cockpit": "C:\\Users\\dwrek\\.consciousness\\cockpit\\MASTER_GLANCE.json",
+    "screen_watch": "C:\\Users\\dwrek\\.consciousness\\screen_watch\\CLAUDE_GLANCE.json",
+    "trinity_hub": "C:\\Users\\dwrek\\.trinity\\hub\\",
+    "cyclotron_atoms": "C:\\Users\\dwrek\\.consciousness\\cyclotron_core\\atoms\\"
+  },
+
+  "categories": {
+    "1_SITUATIONAL_AWARENESS": {
+      "description": "Real-time monitoring and glance files",
+      "abilities": [
+        {
+          "name": "Claude Cockpit",
+          "path": "C:\\Users\\dwrek\\.consciousness\\CLAUDE_COCKPIT.py",
+          "purpose": "Master situational awareness daemon - generates all glance files",
+          "outputs": ["MASTER_GLANCE.json", "TRINITY_GLANCE.json", "GIT_GLANCE.json", "DAEMONS_GLANCE.json", "SYSTEM_GLANCE.json", "CYCLOTRON_GLANCE.json"],
+          "status": "active"
+        },
+        {
+          "name": "Screen Watcher Daemon",
+          "path": "C:\\Users\\dwrek\\.consciousness\\SCREEN_WATCHER_DAEMON.py",
+          "purpose": "Visual awareness - screenshots + system state every 5 seconds",
+          "outputs": ["screen_watch/CLAUDE_GLANCE.json", "screen_watch/current_screen.png"],
+          "status": "active"
+        },
+        {
+          "name": "System Status Dashboard",
+          "path": "C:\\Users\\dwrek\\.consciousness\\SYSTEM_STATUS_DASHBOARD.py",
+          "purpose": "System health monitoring",
+          "status": "available"
+        },
+        {
+          "name": "Status Cache",
+          "path": "C:\\Users\\dwrek\\.consciousness\\STATUS_CACHE.py",
+          "purpose": "Fast status caching layer",
+          "status": "available"
+        }
+      ]
+    },
+
+    "2_TRINITY_COORDINATION": {
+      "description": "Multi-instance AI coordination system",
+      "abilities": [
+        {
+          "name": "Trinity Keep Alive",
+          "path": "C:\\Users\\dwrek\\.consciousness\\TRINITY_KEEP_ALIVE.py",
+          "purpose": "Keeps Trinity instances synchronized"
+        },
+        {
+          "name": "Trinity Dropbox Sync",
+          "path": "C:\\Users\\dwrek\\.consciousness\\TRINITY_DROPBOX_SYNC.py",
+          "purpose": "Cross-computer file synchronization"
+        },
+        {
+          "name": "Figure 8 Wake Protocol",
+          "path": "C:\\Users\\dwrek\\.consciousness\\FIGURE_8_WAKE_PROTOCOL.py",
+          "purpose": "7-instance orchestration system"
+        },
+        {
+          "name": "Cloud Trinity Worker",
+          "path": "C:\\Users\\dwrek\\.consciousness\\CLOUD_TRINITY_WORKER.py",
+          "purpose": "API-based cloud Trinity instances"
+        },
+        {
+          "name": "Parallel Orchestrator",
+          "path": "C:\\Users\\dwrek\\.consciousness\\PARALLEL_ORCHESTRATOR.py",
+          "purpose": "Parallel task execution across instances"
+        },
+        {
+          "name": "Computer to Computer Comms",
+          "path": "C:\\Users\\dwrek\\.consciousness\\COMPUTER_TO_COMPUTER_COMMS.py",
+          "purpose": "Cross-machine communication"
+        },
+        {
+          "name": "Computer Comms Listener",
+          "path": "C:\\Users\\dwrek\\.consciousness\\COMPUTER_COMMS_LISTENER.py",
+          "purpose": "Incoming communication listener"
+        }
+      ]
+    },
+
+    "3_CYCLOTRON_MEMORY": {
+      "description": "Persistent memory and knowledge storage",
+      "abilities": [
+        {
+          "name": "Cyclotron Master",
+          "path": "C:\\Users\\dwrek\\.consciousness\\CYCLOTRON_MASTER.py",
+          "purpose": "Main Cyclotron orchestration"
+        },
+        {
+          "name": "Cyclotron Guardian",
+          "path": "C:\\Users\\dwrek\\.consciousness\\CYCLOTRON_GUARDIAN.py",
+          "purpose": "Protects and maintains Cyclotron integrity"
+        },
+        {
+          "name": "Cyclotron Memory",
+          "path": "C:\\Users\\dwrek\\.consciousness\\CYCLOTRON_MEMORY.py",
+          "purpose": "Memory storage and retrieval"
+        },
+        {
+          "name": "Cyclotron Memory Cached",
+          "path": "C:\\Users\\dwrek\\.consciousness\\CYCLOTRON_MEMORY_CACHED.py",
+          "purpose": "Fast cached memory access"
+        },
+        {
+          "name": "Cyclotron Nerve Center",
+          "path": "C:\\Users\\dwrek\\.consciousness\\CYCLOTRON_NERVE_CENTER.py",
+          "purpose": "Central coordination point"
+        },
+        {
+          "name": "Cyclotron Sync",
+          "path": "C:\\Users\\dwrek\\.consciousness\\CYCLOTRON_SYNC.py",
+          "purpose": "Synchronize Cyclotron across systems"
+        },
+        {
+          "name": "Atom Database",
+          "path": "C:\\Users\\dwrek\\.consciousness\\ATOM_DATABASE.py",
+          "purpose": "Atomic knowledge unit storage"
+        },
+        {
+          "name": "Atom Index Builder",
+          "path": "C:\\Users\\dwrek\\.consciousness\\ATOM_INDEX_BUILDER.py",
+          "purpose": "Builds searchable indexes of atoms"
+        }
+      ]
+    },
+
+    "4_BRAIN_INTELLIGENCE": {
+      "description": "AI reasoning and knowledge processing",
+      "abilities": [
+        {
+          "name": "Brain Orchestrator",
+          "path": "C:\\Users\\dwrek\\.consciousness\\BRAIN_ORCHESTRATOR.py",
+          "purpose": "Coordinates brain subsystems"
+        },
+        {
+          "name": "Brain Search",
+          "path": "C:\\Users\\dwrek\\.consciousness\\BRAIN_SEARCH.py",
+          "purpose": "Intelligent knowledge search"
+        },
+        {
+          "name": "Brain Status Report",
+          "path": "C:\\Users\\dwrek\\.consciousness\\BRAIN_STATUS_REPORT.py",
+          "purpose": "Brain health and status"
+        },
+        {
+          "name": "Unified Brain",
+          "path": "C:\\Users\\dwrek\\.consciousness\\UNIFIED_BRAIN.py",
+          "purpose": "Unified brain interface"
+        },
+        {
+          "name": "Knowledge Bridge",
+          "path": "C:\\Users\\dwrek\\.consciousness\\KNOWLEDGE_BRIDGE.py",
+          "purpose": "Bridges different knowledge sources"
+        },
+        {
+          "name": "Auto Learner",
+          "path": "C:\\Users\\dwrek\\.consciousness\\AUTO_LEARNER.py",
+          "purpose": "Automatic knowledge acquisition"
+        },
+        {
+          "name": "Search Agent",
+          "path": "C:\\Users\\dwrek\\.consciousness\\SEARCH_AGENT.py",
+          "purpose": "Intelligent search operations"
+        }
+      ]
+    },
+
+    "5_PATTERN_RECOGNITION": {
+      "description": "Pattern Theory implementation",
+      "abilities": [
+        {
+          "name": "Pattern Theory Processor",
+          "path": "C:\\Users\\dwrek\\.consciousness\\PATTERN_THEORY_PROCESSOR.py",
+          "purpose": "Core pattern detection engine"
+        },
+        {
+          "name": "Pattern Theory Realtime Analyzer",
+          "path": "C:\\Users\\dwrek\\.consciousness\\PATTERN_THEORY_REALTIME_ANALYZER.py",
+          "purpose": "Real-time pattern analysis"
+        },
+        {
+          "name": "Pattern Training Collector",
+          "path": "C:\\Users\\dwrek\\.consciousness\\PATTERN_TRAINING_COLLECTOR.py",
+          "purpose": "Collects training data for patterns"
+        },
+        {
+          "name": "Seven Domains Architecture Mapper",
+          "path": "C:\\Users\\dwrek\\.consciousness\\SEVEN_DOMAINS_ARCHITECTURE_MAPPER.py",
+          "purpose": "Maps systems to Seven Domains framework"
+        },
+        {
+          "name": "Friction Detector",
+          "path": "C:\\Users\\dwrek\\.consciousness\\FRICTION_DETECTOR.py",
+          "purpose": "Identifies friction points in workflows"
+        },
+        {
+          "name": "Convergence Metrics",
+          "path": "C:\\Users\\dwrek\\.consciousness\\CONVERGENCE_METRICS.py",
+          "purpose": "Tracks convergence towards goals"
+        },
+        {
+          "name": "Structure Auditor",
+          "path": "C:\\Users\\dwrek\\.consciousness\\STRUCTURE_AUDITOR.py",
+          "purpose": "Audits structural integrity"
+        }
+      ]
+    },
+
+    "6_AUTOMATION_DAEMONS": {
+      "description": "Background automation processes",
+      "abilities": [
+        {
+          "name": "Daily Maintenance",
+          "path": "C:\\Users\\dwrek\\.consciousness\\DAILY_MAINTENANCE.py",
+          "purpose": "Automated daily cleanup and maintenance"
+        },
+        {
+          "name": "Scorecard Automation",
+          "path": "C:\\Users\\dwrek\\.consciousness\\SCORECARD_AUTOMATION.py",
+          "purpose": "Automatic scorecard updates"
+        },
+        {
+          "name": "Bulk Knowledge Generator",
+          "path": "C:\\Users\\dwrek\\.consciousness\\BULK_KNOWLEDGE_GENERATOR.py",
+          "purpose": "Mass knowledge creation"
+        },
+        {
+          "name": "Bug Tracker",
+          "path": "C:\\Users\\dwrek\\.consciousness\\BUG_TRACKER.py",
+          "purpose": "Automated bug tracking"
+        },
+        {
+          "name": "Deployment Sensor",
+          "path": "C:\\Users\\dwrek\\.consciousness\\DEPLOYMENT_SENSOR.py",
+          "purpose": "Monitors deployments"
+        },
+        {
+          "name": "Persistent Watcher",
+          "path": "C:\\Users\\dwrek\\.consciousness\\PERSISTENT_WATCHER.py",
+          "purpose": "Long-running file watcher"
+        }
+      ]
+    },
+
+    "7_COMMUNICATION_VORTEX": {
+      "description": "Information flow and messaging",
+      "abilities": [
+        {
+          "name": "Communications Vortex",
+          "path": "C:\\Users\\dwrek\\.consciousness\\COMMUNICATIONS_VORTEX.py",
+          "purpose": "Central communication hub"
+        },
+        {
+          "name": "Vortex Integration Kit",
+          "path": "C:\\Users\\dwrek\\.consciousness\\VORTEX_INTEGRATION_KIT.py",
+          "purpose": "Integrates external systems into vortex"
+        },
+        {
+          "name": "Vortex Demo",
+          "path": "C:\\Users\\dwrek\\.consciousness\\VORTEX_DEMO.py",
+          "purpose": "Demonstration of vortex capabilities"
+        },
+        {
+          "name": "Multi Device Orchestrator",
+          "path": "C:\\Users\\dwrek\\.consciousness\\MULTI_DEVICE_ORCHESTRATOR.py",
+          "purpose": "Coordinates across multiple devices"
+        }
+      ]
+    },
+
+    "8_SESSION_MANAGEMENT": {
+      "description": "Session capture and continuity",
+      "abilities": [
+        {
+          "name": "Session Auto Summarizer",
+          "path": "C:\\Users\\dwrek\\.consciousness\\SESSION_AUTO_SUMMARIZER.py",
+          "purpose": "Automatically summarizes sessions"
+        },
+        {
+          "name": "Session End Hook",
+          "path": "C:\\Users\\dwrek\\.consciousness\\SESSION_END_HOOK.py",
+          "purpose": "Runs at session end"
+        },
+        {
+          "name": "Compile Session Now",
+          "path": "C:\\Users\\dwrek\\.consciousness\\COMPILE_SESSION_NOW.py",
+          "purpose": "Compiles session into knowledge"
+        },
+        {
+          "name": "State Manager",
+          "path": "C:\\Users\\dwrek\\.consciousness\\STATE_MANAGER.py",
+          "purpose": "Manages system state"
+        },
+        {
+          "name": "State Sync",
+          "path": "C:\\Users\\dwrek\\.consciousness\\STATE_SYNC.py",
+          "purpose": "Synchronizes state across systems"
+        },
+        {
+          "name": "Hub Backup Recovery",
+          "path": "C:\\Users\\dwrek\\.consciousness\\HUB_BACKUP_RECOVERY.py",
+          "purpose": "Backup and recovery for hub"
+        }
+      ]
+    }
+  },
+
+  "100x_deployment_scripts": {
+    "total": 61,
+    "key_systems": [
+      {
+        "name": "Cyclotron Daemon",
+        "path": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\CYCLOTRON_DAEMON.py",
+        "purpose": "Main file watcher with auto-indexing"
+      },
+      {
+        "name": "Cyclotron Search",
+        "path": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\CYCLOTRON_SEARCH.py",
+        "purpose": "Filename search API (port 6668)"
+      },
+      {
+        "name": "Cyclotron Search V2",
+        "path": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\CYCLOTRON_SEARCH_V2.py",
+        "purpose": "Content search API (port 6669)"
+      },
+      {
+        "name": "Cyclotron Semantic API",
+        "path": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\CYCLOTRON_SEMANTIC_API.py",
+        "purpose": "Semantic search (port 6670)"
+      },
+      {
+        "name": "Autonomous Orchestrator",
+        "path": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\AUTONOMOUS_ORCHESTRATOR.py",
+        "purpose": "Autonomous task orchestration"
+      },
+      {
+        "name": "Self Healing System",
+        "path": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\SELF_HEALING_SYSTEM.py",
+        "purpose": "Auto-recovery from errors"
+      },
+      {
+        "name": "Operations Daemon",
+        "path": "C:\\Users\\dwrek\\100X_DEPLOYMENT\\OPERATIONS_DAEMON.py",
+        "purpose": "Background operations"
+      }
+    ]
+  },
+
+  "active_ports": {
+    "6668": "Cyclotron filename search",
+    "6669": "Cyclotron content search",
+    "6670": "Cyclotron semantic search",
+    "11434": "Ollama LLM server"
+  },
+
+  "running_daemons": {
+    "CLAUDE_COCKPIT.py": "Situational awareness (10s updates)",
+    "SCREEN_WATCHER_DAEMON.py": "Visual awareness (5s updates)"
+  },
+
+  "verified_abilities": {
+    "total": 12,
+    "list": [
+      "Screen capture and analysis",
+      "Mouse movement",
+      "Mouse clicking",
+      "Keyboard typing",
+      "Text-to-speech",
+      "Wake word detection (pvporcupine)",
+      "Browser automation (Playwright)",
+      "File operations",
+      "Git operations",
+      "API calls",
+      "System monitoring",
+      "Multi-instance coordination"
+    ]
+  }
+}

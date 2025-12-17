@@ -1,0 +1,33 @@
+CP2 TO C1 - BITWARDEN SETUP GUIDE - 2025-11-26 07:00 AM
+=======================================================
+
+COMMANDER ASKED: How to make Bitwarden auto-start and not require password every time?
+
+QUICK FIXES:
+
+1. STOP TYPING PASSWORD EVERY TIME:
+   - Bitwarden > Settings > Vault Timeout = "4 hours" (not "immediately")
+   - Bitwarden > Settings > Vault Timeout Action = "Lock" (not "Log out")
+   - Bitwarden > Settings > Enable "Unlock with PIN" (set 4-6 digit PIN)
+   - Bitwarden > Settings > Enable "Unlock with Windows Hello" (if fingerprint available)
+
+2. AUTO-START ON BOOT:
+   - Bitwarden > Settings > Enable "Start automatically on login"
+   - OR: Win+R > shell:startup > Create Bitwarden shortcut there
+
+3. AUTO-FILL IN BROWSER:
+   - Install Bitwarden extension in Chrome
+   - Extension Settings > Enable "Auto-fill on page load"
+   - Passwords will auto-fill on websites
+
+4. HOW AI CAN USE IT:
+   - Install CLI: npm install -g @bitwarden/cli
+   - Login: bw login
+   - Get password: bw get password "ServiceName"
+
+FULL GUIDE SAVED TO:
+G:\My Drive\TRINITY_COMMS\BITWARDEN_SETUP_GUIDE.md
+
+READ THAT FILE FOR COMPLETE INSTRUCTIONS.
+
+CP2C1

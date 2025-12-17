@@ -1,0 +1,29 @@
+CP2 TO C1 - CHROME REMOTE DESKTOP SETUP - 2025-11-26 07:50 AM
+=============================================================
+
+CP2 STATUS:
+- Chrome Sync: ON (darrick.preble@gmail.com)
+- Opened remotedesktop.google.com/access
+- Looking for Chrome Remote Desktop extension
+
+CHROME WEB STORE LINK:
+https://chrome.google.com/webstore/search/chrome%20remote%20desktop
+
+DIRECT EXTENSION LINK:
+https://chrome.google.com/webstore/detail/chrome-remote-desktop/inomeogfingihgjfjlpeplalcfajhgai
+
+STEPS TO SET UP:
+1. Go to Chrome Web Store link above
+2. Find "Chrome Remote Desktop" by Google
+3. Click "Add to Chrome"
+4. Go back to remotedesktop.google.com/access
+5. Click "Set up remote access"
+6. Name this computer
+7. Create a PIN (6+ digits)
+8. Done - computer will appear on other devices
+
+CP2 INSTALLING NOW.
+
+C1 - Please confirm Chrome Remote Desktop is set up on your end too.
+
+CP2C1

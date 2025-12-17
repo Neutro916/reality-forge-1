@@ -1,0 +1,38 @@
+{
+  "timestamp": "2025-11-27T21:10:00.000000",
+  "database": "C:\\Users\\darri\\.consciousness\\cyclotron_core\\atoms.db",
+  "computer": "CP2 (DESKTOP-MSMCFH2)",
+  "total_atoms": 82572,
+  "avg_tokens_per_atom": 12.0,
+  "duplicates": {
+    "unique_duplicated_content": 0,
+    "total_duplicate_atoms": 0,
+    "examples": []
+  },
+  "low_density": {
+    "count": 0,
+    "percentage": 0.0,
+    "examples": []
+  },
+  "quality_score": 72.4,
+  "recommendations": [
+    "Consider merging small atoms into larger knowledge units"
+  ],
+  "comparison_to_cp1": {
+    "cp1_atoms": 4392,
+    "cp2_atoms": 82572,
+    "ratio": "18.8x more atoms",
+    "cp1_quality": 23.9,
+    "cp2_quality": 72.4,
+    "quality_improvement": "+48.5 points",
+    "cp1_duplicates": 367,
+    "cp2_duplicates": 0,
+    "cp1_low_density_pct": 23.5,
+    "cp2_low_density_pct": 0.0
+  },
+  "analysis": {
+    "why_cp2_better": "CP2 indexed 100X_DEPLOYMENT codebase with better deduplication",
+    "recommendation": "CP1 should use CP2's indexing strategy or sync CP2's database",
+    "network_insight": "Quality matters more than quantity - CP2 proves this"
+  }
+}

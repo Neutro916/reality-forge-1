@@ -1,0 +1,218 @@
+{
+  "timestamp": "2025-11-27T13:03:38.499242",
+  "computer": "DWREKSCPU",
+  "total_atoms": 88885,
+  "domain_coverage": {
+    "physical": {
+      "count": 372,
+      "percentage": 5.4141716566866265,
+      "description": "Physical health, body, energy management",
+      "example_atoms": [
+        "01a3ff9d075f",
+        "0a18fa0b1d35",
+        "0c2a481c0bb7",
+        "0ffad00a3b9c",
+        "142031910770"
+      ],
+      "gap_severity": "HIGH"
+    },
+    "mental": {
+      "count": 1310,
+      "percentage": 19.066034597471724,
+      "description": "Mental clarity, cognitive function, thinking patterns",
+      "example_atoms": [
+        "003093ea5db8",
+        "006a7ad7fe38",
+        "02a553f7f742",
+        "0364315d99cc",
+        "092fe972fc1d"
+      ],
+      "gap_severity": "LOW"
+    },
+    "emotional": {
+      "count": 121,
+      "percentage": 1.7610612109115105,
+      "description": "Emotional intelligence, feeling management",
+      "example_atoms": [
+        "141432fa7c53",
+        "324a9856f0f0",
+        "39054c01a0e3",
+        "7d061f90c7b2",
+        "a6477dcb9f91"
+      ],
+      "gap_severity": "CRITICAL"
+    },
+    "spiritual": {
+      "count": 43713,
+      "percentage": 100,
+      "description": "Spiritual growth, consciousness, purpose",
+      "example_atoms": [
+        "006a7ad7fe38",
+        "00da474c5ad2",
+        "02b40b875e67",
+        "030036499d63",
+        "035a4b930ed7"
+      ],
+      "gap_severity": "LOW"
+    },
+    "relational": {
+      "count": 525,
+      "percentage": 7.640968063872256,
+      "description": "Relationships, connections, social bonds",
+      "example_atoms": [
+        "0048ef3563bc",
+        "016dadce1c4e",
+        "027411802b35",
+        "03a718079579",
+        "04f899e45006"
+      ],
+      "gap_severity": "HIGH"
+    },
+    "financial": {
+      "count": 249,
+      "percentage": 3.624001996007984,
+      "description": "Financial health, wealth, business",
+      "example_atoms": [
+        "0264bcabfec1",
+        "0a2a0b4b99be",
+        "11b21f9bb9bc",
+        "122fe34cd918",
+        "151705ec9585"
+      ],
+      "gap_severity": "CRITICAL"
+    },
+    "professional": {
+      "count": 1806,
+      "percentage": 26.284930139720558,
+      "description": "Professional growth, career, skills",
+      "example_atoms": [
+        "003093ea5db8",
+        "00d1786a322f",
+        "034e9a77a7ce",
+        "03745a79c4f1",
+        "03ae27e473ea"
+      ],
+      "gap_severity": "LOW"
+    }
+  },
+  "pattern_coverage": {
+    "manipulation_immunity": {
+      "count": 925,
+      "critical": true,
+      "description": "Core manipulation defense patterns",
+      "example_atoms": [
+        "03ac333dc3b7",
+        "051183dfdbef",
+        "06629d539f1f"
+      ],
+      "status": "COVERED"
+    },
+    "pattern_recognition": {
+      "count": 862,
+      "critical": true,
+      "description": "Pattern recognition skills",
+      "example_atoms": [
+        "03ac333dc3b7",
+        "051183dfdbef",
+        "06629d539f1f"
+      ],
+      "status": "COVERED"
+    },
+    "consciousness_elevation": {
+      "count": 43803,
+      "critical": true,
+      "description": "Consciousness growth and elevation",
+      "example_atoms": [
+        "006a7ad7fe38",
+        "02b40b875e67",
+        "030036499d63"
+      ],
+      "status": "COVERED"
+    },
+    "trinity_coordination": {
+      "count": 102494,
+      "critical": false,
+      "description": "Trinity system coordination",
+      "example_atoms": [
+        "0001a2a0f4f5",
+        "002b55986c77",
+        "003f29a0c692"
+      ],
+      "status": "COVERED"
+    },
+    "cyclotron_knowledge": {
+      "count": 87351,
+      "critical": false,
+      "description": "Knowledge management system",
+      "example_atoms": [
+        "001434324520",
+        "002b55986c77",
+        "003093ea5db8"
+      ],
+      "status": "COVERED"
+    },
+    "fibonacci_alignment": {
+      "count": 848,
+      "critical": false,
+      "description": "Fibonacci and golden ratio patterns",
+      "example_atoms": [
+        "003f29a0c692",
+        "01a3ff9d075f",
+        "0251fc3bb3b3"
+      ],
+      "status": "COVERED"
+    }
+  },
+  "recommendations": [
+    {
+      "priority": "HIGH",
+      "type": "domain_gap",
+      "domain": "emotional",
+      "action": "Ingest more content about Emotional intelligence, feeling management",
+      "current_count": 121,
+      "suggested_sources": [
+        "Emotional intelligence guides",
+        "Stress management",
+        "Psychology insights"
+      ]
+    },
+    {
+      "priority": "HIGH",
+      "type": "domain_gap",
+      "domain": "financial",
+      "action": "Ingest more content about Financial health, wealth, business",
+      "current_count": 249,
+      "suggested_sources": [
+        "Business strategies",
+        "Investment guides",
+        "Financial planning"
+      ]
+    },
+    {
+      "priority": "MEDIUM",
+      "type": "domain_gap",
+      "domain": "physical",
+      "action": "Ingest more content about Physical health, body, energy management",
+      "current_count": 372,
+      "suggested_sources": [
+        "Health articles",
+        "Exercise guides",
+        "Sleep research",
+        "Nutrition data"
+      ]
+    },
+    {
+      "priority": "MEDIUM",
+      "type": "domain_gap",
+      "domain": "relational",
+      "action": "Ingest more content about Relationships, connections, social bonds",
+      "current_count": 525,
+      "suggested_sources": [
+        "Communication guides",
+        "Relationship advice",
+        "Social dynamics"
+      ]
+    }
+  ],
+  "gap_score": 34
+}

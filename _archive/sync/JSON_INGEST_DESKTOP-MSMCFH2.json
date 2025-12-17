@@ -1,0 +1,8 @@
+{
+  "timestamp": "2025-11-27T12:24:34.729782",
+  "dry_run": false,
+  "files_scanned": 302,
+  "new_atoms": 166,
+  "skipped_duplicates": 108,
+  "errors": 7
+}

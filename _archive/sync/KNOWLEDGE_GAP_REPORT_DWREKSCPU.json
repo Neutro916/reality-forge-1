@@ -1,0 +1,189 @@
+{
+  "timestamp": "2025-11-27T14:10:08.956249",
+  "computer": "DWREKSCPU",
+  "summary": {
+    "total_atoms": 88926,
+    "gaps_found": 15,
+    "high_severity": 8,
+    "overall_health": "NEEDS_ATTENTION"
+  },
+  "stats": {
+    "total": 88926,
+    "by_type": {
+      "json": 41559,
+      "md": 40604,
+      "knowledge": 2360,
+      "concept": 1415,
+      "fact": 1015,
+      "data": 617,
+      "tool": 357,
+      "interface": 337,
+      "insight": 199,
+      "js": 158,
+      "py": 150,
+      "txt": 52,
+      "html": 49,
+      "action": 40,
+      "pattern": 11,
+      "decision": 3
+    },
+    "by_confidence": {
+      "high": 989,
+      "medium": 87937
+    },
+    "recent_week": 88926,
+    "recent_month": 88926
+  },
+  "domain_coverage": {
+    "creative": {
+      "count": 1043,
+      "percentage": 2.2
+    },
+    "technical": {
+      "count": 838,
+      "percentage": 1.8
+    },
+    "strategic": {
+      "count": 1295,
+      "percentage": 2.7
+    },
+    "relational": {
+      "count": 533,
+      "percentage": 1.1
+    },
+    "operational": {
+      "count": 931,
+      "percentage": 1.9
+    },
+    "financial": {
+      "count": 233,
+      "percentage": 0.5
+    },
+    "spiritual": {
+      "count": 42987,
+      "percentage": 89.8
+    }
+  },
+  "recency_balance": {
+    "status": "TOO_RECENT",
+    "recent_week_pct": 100.0,
+    "recent_month_pct": 100.0,
+    "issues": [
+      "Brain lacks historical depth - most knowledge is recent"
+    ]
+  },
+  "gaps": [
+    {
+      "category": "domain",
+      "area": "creative",
+      "severity": "MEDIUM",
+      "count": 1043,
+      "recommendation": "Add more knowledge about CREATIVE domain"
+    },
+    {
+      "category": "domain",
+      "area": "technical",
+      "severity": "MEDIUM",
+      "count": 838,
+      "recommendation": "Add more knowledge about TECHNICAL domain"
+    },
+    {
+      "category": "domain",
+      "area": "strategic",
+      "severity": "MEDIUM",
+      "count": 1295,
+      "recommendation": "Add more knowledge about STRATEGIC domain"
+    },
+    {
+      "category": "domain",
+      "area": "relational",
+      "severity": "HIGH",
+      "count": 533,
+      "recommendation": "Add more knowledge about RELATIONAL domain"
+    },
+    {
+      "category": "domain",
+      "area": "operational",
+      "severity": "MEDIUM",
+      "count": 931,
+      "recommendation": "Add more knowledge about OPERATIONAL domain"
+    },
+    {
+      "category": "domain",
+      "area": "financial",
+      "severity": "HIGH",
+      "count": 233,
+      "recommendation": "Add more knowledge about FINANCIAL domain"
+    },
+    {
+      "category": "type",
+      "area": "pattern",
+      "severity": "LOW",
+      "count": 11,
+      "recommendation": "Increase 'pattern' atoms (currently 11)"
+    },
+    {
+      "category": "type",
+      "area": "technique",
+      "severity": "HIGH",
+      "count": 0,
+      "recommendation": "Create atoms of type 'technique'"
+    },
+    {
+      "category": "type",
+      "area": "tool",
+      "severity": "LOW",
+      "count": 357,
+      "recommendation": "Increase 'tool' atoms (currently 357)"
+    },
+    {
+      "category": "type",
+      "area": "framework",
+      "severity": "HIGH",
+      "count": 0,
+      "recommendation": "Create atoms of type 'framework'"
+    },
+    {
+      "category": "type",
+      "area": "insight",
+      "severity": "LOW",
+      "count": 199,
+      "recommendation": "Increase 'insight' atoms (currently 199)"
+    },
+    {
+      "category": "type",
+      "area": "connection",
+      "severity": "HIGH",
+      "count": 0,
+      "recommendation": "Create atoms of type 'connection'"
+    },
+    {
+      "category": "type",
+      "area": "principle",
+      "severity": "HIGH",
+      "count": 0,
+      "recommendation": "Create atoms of type 'principle'"
+    },
+    {
+      "category": "type",
+      "area": "example",
+      "severity": "HIGH",
+      "count": 0,
+      "recommendation": "Create atoms of type 'example'"
+    },
+    {
+      "category": "type",
+      "area": "reference",
+      "severity": "HIGH",
+      "count": 0,
+      "recommendation": "Create atoms of type 'reference'"
+    }
+  ],
+  "recommendations": [
+    "Add more knowledge about CREATIVE domain",
+    "Add more knowledge about TECHNICAL domain",
+    "Add more knowledge about STRATEGIC domain",
+    "Add more knowledge about RELATIONAL domain",
+    "Add more knowledge about OPERATIONAL domain"
+  ]
+}

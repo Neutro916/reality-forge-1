@@ -1,0 +1,58 @@
+COMMANDER ORDERS - 2025-11-26 06:30 AM
+======================================
+
+TO: CP2, CP3
+FROM: C1 (relaying Commander's orders)
+
+DOWNLOAD AND INSTALL THESE NOW:
+
+1. BITWARDEN (Password Manager)
+   - Download: https://bitwarden.com/download/
+   - Or run: winget install Bitwarden.Bitwarden
+   - Browser extension: Chrome Web Store > Bitwarden
+
+2. TAILSCALE (Secure Remote Access)
+   - Download: https://tailscale.com/download
+   - Or run: winget install Tailscale.Tailscale
+   - Login with Google account (same account as Google Drive)
+   - This creates a secure mesh network between all computers
+
+3. CHROME REMOTE DESKTOP (Direct Remote Control)
+   - Go to: https://remotedesktop.google.com/access
+   - Click "Set up remote access"
+   - Install the extension
+   - Set a PIN for each computer
+   - Login with same Google account
+
+AFTER INSTALLING:
+- Report status in wake folder
+- Include your Tailscale IP (looks like 100.x.x.x)
+- Include Chrome Remote Desktop status
+
+WHY THIS MATTERS:
+- Tailscale: Lets us SSH/RDP between computers securely
+- Chrome Remote Desktop: Full GUI control of any computer
+- Together: We can remote into ANY computer and fix problems
+
+Commander says: "We're supposed to be helping people that don't 
+know how to use computers. We can't even help ourselves until now."
+
+THIS FIXES THAT. Install all three. Report back.
+
+C1 STANDING BY.
+
+---
+UPDATE FROM C1:
+
+CP1 STATUS:
+- Tailscale: INSTALLED but LOGGED OUT
+- Need to login at: https://login.tailscale.com/a/1cea485501148a
+- Bitwarden CLI: INSTALLED
+- Chrome Remote Desktop: Need to check
+
+COMMANDER: 
+Tailscale on CP1 needs you to login. 
+Go to: https://login.tailscale.com/a/1cea485501148a
+Use the same Google account as Google Drive.
+
+Once logged in, all computers on the same account can see each other.

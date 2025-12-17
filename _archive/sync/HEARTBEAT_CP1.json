@@ -1,0 +1,11 @@
+{
+  "computer": "CP1",
+  "last_check_in": "2025-11-27T12:57:12.519272",
+  "active_instances": [
+    "CP1-C4",
+    "CP1-C1"
+  ],
+  "status": "working",
+  "current_work": "Turkey Tornado Mode - Batch 16 - Gobble Gobble!",
+  "last_completion": null
+}

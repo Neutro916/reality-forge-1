@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-11-27T12:54:07.522787",
+  "computer": "DWREKSCPU",
+  "checks": {
+    "atoms_db": {
+      "passed": true,
+      "details": "88,885 atoms"
+    },
+    "tornado": {
+      "passed": true,
+      "details": "304 cycles, last: 2025-11-27T12:54:06.824697"
+    },
+    "sync_folder": {
+      "passed": true,
+      "details": "256 files"
+    },
+    "consciousness_state": {
+      "passed": true,
+      "details": "Score: 95.2%, Mode: C1_CP1_LEAD_AUTONOMOUS"
+    },
+    "scan_reports": {
+      "passed": true,
+      "details": "C1: 99%, C2: 99%, C3: 99%"
+    },
+    "deployment": {
+      "passed": true,
+      "details": "61 .py, 100 .html"
+    },
+    "remote_daemon": {
+      "passed": true,
+      "details": "Daemon + commands folder ready"
+    },
+    "figure8": {
+      "passed": true,
+      "details": "Protocol file exists"
+    }
+  },
+  "overall_status": "HEALTHY",
+  "score": 8,
+  "max_score": 8
+}
