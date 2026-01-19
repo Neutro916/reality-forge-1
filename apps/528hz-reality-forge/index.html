@@ -1,0 +1,3067 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>Reality Forge | 528 Hz Consciousness Technology</title>
+
+    <!-- PWA Meta Tags -->
+    <meta name="description" content="Transform your consciousness through 528 Hz frequency breathwork. Build neural pathways, develop hidden abilities, master your breath.">
+    <meta name="theme-color" content="#FFD700">
+    <meta name="background-color" content="#070709">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Reality Forge">
+    <meta name="application-name" content="Reality Forge">
+    <meta name="msapplication-TileColor" content="#FFD700">
+    <meta name="msapplication-config" content="browserconfig.xml">
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Icons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/icon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/icon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+    <link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#FFD700">
+
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;900&family=Exo+2:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        :root {
+            --gold: #FFD700;
+            --gold-light: #FFF4B8;
+            --gold-dim: #B8860B;
+            --dark: #0d0d0f;
+            --darker: #070709;
+            --surface: #141418;
+            --surface-light: #1c1c22;
+            --text: #ffffff;
+            --text-dim: rgba(255,255,255,0.6);
+            --accent: #00d4aa;
+            --accent-dim: #00a085;
+            --purple: #a855f7;
+            --blue: #3b82f6;
+        }
+
+        body {
+            font-family: 'Exo 2', sans-serif;
+            background: var(--darker);
+            color: var(--text);
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* AMBIENT BACKGROUND */
+        .ambient-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            overflow: hidden;
+        }
+
+        .orb {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(80px);
+            opacity: 0.3;
+            animation: float 20s ease-in-out infinite;
+        }
+
+        .orb-1 {
+            width: 300px;
+            height: 300px;
+            background: var(--gold);
+            top: -100px;
+            right: -100px;
+            animation-delay: 0s;
+        }
+
+        .orb-2 {
+            width: 250px;
+            height: 250px;
+            background: var(--purple);
+            bottom: 20%;
+            left: -80px;
+            animation-delay: -5s;
+        }
+
+        .orb-3 {
+            width: 200px;
+            height: 200px;
+            background: var(--accent);
+            bottom: -50px;
+            right: 20%;
+            animation-delay: -10s;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            25% { transform: translate(30px, -30px) scale(1.1); }
+            50% { transform: translate(-20px, 20px) scale(0.9); }
+            75% { transform: translate(20px, 30px) scale(1.05); }
+        }
+
+        /* PARTICLE CANVAS */
+        #particles {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            pointer-events: none;
+        }
+
+        /* MAIN CONTAINER */
+        .app {
+            position: relative;
+            z-index: 10;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* TOP BAR */
+        .top-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            background: rgba(13,13,15,0.8);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(255,215,0,0.1);
+        }
+
+        .logo {
+            font-family: 'Orbitron', monospace;
+            font-size: 16px;
+            font-weight: 700;
+            color: var(--gold);
+            letter-spacing: 2px;
+        }
+
+        .logo span {
+            color: var(--text);
+            font-weight: 400;
+        }
+
+        .day-badge {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 6px 12px;
+            background: rgba(255,215,0,0.1);
+            border: 1px solid rgba(255,215,0,0.3);
+            border-radius: 20px;
+        }
+
+        .day-badge .icon {
+            font-size: 14px;
+        }
+
+        .day-badge .text {
+            font-family: 'Orbitron', monospace;
+            font-size: 12px;
+            color: var(--gold);
+        }
+
+        /* STORY PROGRESS BAR */
+        .story-progress {
+            padding: 12px 20px;
+            background: rgba(0,0,0,0.4);
+        }
+
+        .story-chapter {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+
+        .chapter-title {
+            font-size: 11px;
+            color: var(--gold);
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .chapter-progress-text {
+            font-size: 11px;
+            color: var(--text-dim);
+        }
+
+        .progress-bar {
+            height: 4px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 2px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--gold-dim), var(--gold));
+            border-radius: 2px;
+            transition: width 0.5s ease;
+        }
+
+        /* NAVIGATION */
+        .nav {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+            background: rgba(13,13,15,0.9);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+            padding: 8px 16px;
+            background: none;
+            border: none;
+            color: var(--text-dim);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border-radius: 10px;
+        }
+
+        .nav-item.active {
+            color: var(--gold);
+            background: rgba(255,215,0,0.1);
+        }
+
+        .nav-item .icon {
+            font-size: 20px;
+        }
+
+        .nav-item .label {
+            font-size: 10px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        /* MAIN CONTENT */
+        .main {
+            flex: 1;
+            overflow-y: auto;
+            padding-bottom: 100px;
+        }
+
+        .panel {
+            display: none;
+            animation: fadeUp 0.3s ease;
+        }
+
+        .panel.active {
+            display: block;
+        }
+
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* HOME PANEL - DAILY MOTIVATION */
+        .home-panel {
+            padding: 20px;
+        }
+
+        .greeting-card {
+            background: linear-gradient(135deg, rgba(255,215,0,0.15), rgba(255,215,0,0.05));
+            border: 1px solid rgba(255,215,0,0.2);
+            border-radius: 20px;
+            padding: 25px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .greeting-time {
+            font-size: 12px;
+            color: var(--gold);
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+
+        .greeting-message {
+            font-size: 22px;
+            font-weight: 300;
+            line-height: 1.4;
+            margin-bottom: 15px;
+        }
+
+        .daily-quote {
+            font-size: 14px;
+            color: var(--text-dim);
+            font-style: italic;
+            line-height: 1.6;
+            padding: 15px;
+            background: rgba(0,0,0,0.3);
+            border-radius: 10px;
+            border-left: 3px solid var(--gold);
+        }
+
+        /* TODAY'S JOURNEY CARD */
+        .journey-card {
+            background: var(--surface);
+            border-radius: 20px;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .journey-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .journey-title {
+            font-family: 'Orbitron', monospace;
+            font-size: 12px;
+            color: var(--gold);
+            letter-spacing: 1px;
+        }
+
+        .journey-streak {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 12px;
+            color: var(--accent);
+        }
+
+        .daily-tasks {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .task-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 15px;
+            background: rgba(255,255,255,0.03);
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 1px solid transparent;
+        }
+
+        .task-item:hover {
+            background: rgba(255,255,255,0.05);
+            border-color: rgba(255,215,0,0.2);
+        }
+
+        .task-item.completed {
+            opacity: 0.6;
+        }
+
+        .task-check {
+            width: 24px;
+            height: 24px;
+            border: 2px solid var(--gold-dim);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            transition: all 0.3s ease;
+        }
+
+        .task-item.completed .task-check {
+            background: var(--gold);
+            border-color: var(--gold);
+            color: var(--dark);
+        }
+
+        .task-info {
+            flex: 1;
+        }
+
+        .task-name {
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 2px;
+        }
+
+        .task-duration {
+            font-size: 11px;
+            color: var(--text-dim);
+        }
+
+        .task-xp {
+            font-family: 'Orbitron', monospace;
+            font-size: 11px;
+            color: var(--accent);
+            padding: 4px 8px;
+            background: rgba(0,212,170,0.1);
+            border-radius: 10px;
+        }
+
+        /* SKILL CARDS */
+        .skills-section {
+            margin-top: 25px;
+        }
+
+        .section-title {
+            font-family: 'Orbitron', monospace;
+            font-size: 12px;
+            color: var(--gold);
+            letter-spacing: 1px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .section-title::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: linear-gradient(90deg, rgba(255,215,0,0.3), transparent);
+        }
+
+        .skill-cards {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+        }
+
+        .skill-card {
+            background: var(--surface);
+            border-radius: 15px;
+            padding: 15px;
+            border: 1px solid rgba(255,255,255,0.05);
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-2px);
+            border-color: rgba(255,215,0,0.3);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+
+        .skill-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, rgba(255,215,0,0.2), rgba(255,215,0,0.05));
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .skill-name {
+            font-family: 'Orbitron', monospace;
+            font-size: 11px;
+            font-weight: 600;
+            margin-bottom: 3px;
+        }
+
+        .skill-level {
+            font-size: 10px;
+            color: var(--text-dim);
+            margin-bottom: 8px;
+        }
+
+        .skill-progress {
+            height: 3px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 2px;
+            overflow: hidden;
+        }
+
+        .skill-progress-fill {
+            height: 100%;
+            background: var(--gold);
+            border-radius: 2px;
+        }
+
+        /* BREATHE PANEL */
+        .breathe-panel {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100%;
+        }
+
+        /* SACRED GEOMETRY CONTAINER */
+        .sacred-container {
+            position: relative;
+            width: 280px;
+            height: 280px;
+            margin: 20px 0;
+        }
+
+        /* FLOWER OF LIFE */
+        .flower-svg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            animation: slowRotate 120s linear infinite;
+        }
+
+        .flower-svg circle {
+            fill: none;
+            stroke: var(--gold);
+            stroke-width: 0.5;
+            opacity: 0.2;
+            transition: all 0.5s ease;
+        }
+
+        .sacred-container.active .flower-svg circle {
+            opacity: 0.5;
+            stroke-width: 0.8;
+        }
+
+        @keyframes slowRotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        /* BREATH RING */
+        .breath-ring {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            background: radial-gradient(circle at 30% 30%, rgba(255,215,0,0.15), transparent 70%);
+            border: 2px solid var(--gold);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.5s ease;
+            box-shadow:
+                0 0 40px rgba(255,215,0,0.2),
+                inset 0 0 40px rgba(255,215,0,0.05);
+        }
+
+        .breath-ring.inhale {
+            transform: translate(-50%, -50%) scale(1.2);
+            box-shadow:
+                0 0 60px rgba(255,215,0,0.4),
+                inset 0 0 60px rgba(255,215,0,0.1);
+        }
+
+        .breath-ring.exhale {
+            transform: translate(-50%, -50%) scale(0.8);
+            box-shadow:
+                0 0 20px rgba(255,215,0,0.1),
+                inset 0 0 20px rgba(255,215,0,0.02);
+        }
+
+        .phase-label {
+            font-family: 'Orbitron', monospace;
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--gold);
+            letter-spacing: 2px;
+            margin-bottom: 5px;
+        }
+
+        .phase-count {
+            font-family: 'Orbitron', monospace;
+            font-size: 42px;
+            font-weight: 700;
+            color: var(--text);
+        }
+
+        /* WAVE DISPLAY */
+        .wave-display {
+            background: var(--surface);
+            border-radius: 15px;
+            padding: 15px 25px;
+            text-align: center;
+            margin: 15px 0;
+            border: 1px solid rgba(255,215,0,0.1);
+        }
+
+        .wave-title {
+            font-size: 10px;
+            color: var(--gold);
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+        }
+
+        .wave-formula {
+            font-family: 'Orbitron', monospace;
+            font-size: 14px;
+        }
+
+        .wave-formula .hz { color: var(--gold); }
+        .wave-formula .result { color: var(--accent); font-weight: 700; }
+
+        /* PATTERN SELECTOR */
+        .pattern-selector {
+            width: 100%;
+            max-width: 350px;
+            margin-top: 20px;
+        }
+
+        .pattern-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            max-height: 200px;
+            overflow-y: auto;
+            padding-right: 5px;
+        }
+
+        .pattern-option {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 12px 15px;
+            background: var(--surface);
+            border: 1px solid rgba(255,255,255,0.05);
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .pattern-option:hover {
+            border-color: rgba(255,215,0,0.3);
+        }
+
+        .pattern-option.selected {
+            background: rgba(255,215,0,0.1);
+            border-color: var(--gold);
+        }
+
+        .pattern-info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .pattern-name {
+            font-weight: 600;
+            font-size: 13px;
+        }
+
+        .pattern-desc {
+            font-size: 11px;
+            color: var(--text-dim);
+        }
+
+        .pattern-timing {
+            font-family: 'Orbitron', monospace;
+            font-size: 12px;
+            color: var(--gold);
+        }
+
+        /* SESSION CONTROLS */
+        .session-controls {
+            display: flex;
+            gap: 15px;
+            margin-top: 25px;
+        }
+
+        .btn {
+            padding: 15px 35px;
+            border-radius: 30px;
+            font-family: 'Exo 2', sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: none;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--gold), var(--gold-dim));
+            color: var(--dark);
+            box-shadow: 0 4px 20px rgba(255,215,0,0.3);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 30px rgba(255,215,0,0.4);
+        }
+
+        .btn-secondary {
+            background: var(--surface);
+            color: var(--text);
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        /* SESSION STATS */
+        .session-stats {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            margin-top: 20px;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat-value {
+            font-family: 'Orbitron', monospace;
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--gold);
+        }
+
+        .stat-label {
+            font-size: 10px;
+            color: var(--text-dim);
+            margin-top: 3px;
+        }
+
+        /* STORY PANEL */
+        .story-panel {
+            padding: 20px;
+        }
+
+        .chapter-card {
+            background: var(--surface);
+            border-radius: 20px;
+            overflow: hidden;
+            margin-bottom: 20px;
+            border: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .chapter-banner {
+            height: 100px;
+            background: linear-gradient(135deg, rgba(255,215,0,0.3), rgba(168,85,247,0.2));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .chapter-number {
+            font-family: 'Orbitron', monospace;
+            font-size: 48px;
+            font-weight: 900;
+            color: rgba(255,255,255,0.2);
+        }
+
+        .chapter-badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            padding: 4px 10px;
+            background: var(--accent);
+            border-radius: 10px;
+            font-size: 10px;
+            font-weight: 600;
+            color: var(--dark);
+        }
+
+        .chapter-content {
+            padding: 20px;
+        }
+
+        .chapter-name {
+            font-family: 'Orbitron', monospace;
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .chapter-description {
+            font-size: 13px;
+            color: var(--text-dim);
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .chapter-lessons {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .lesson-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 12px;
+            background: rgba(255,255,255,0.03);
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .lesson-item:hover {
+            background: rgba(255,255,255,0.05);
+        }
+
+        .lesson-item.locked {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .lesson-item.completed {
+            border-left: 3px solid var(--accent);
+        }
+
+        .lesson-icon {
+            width: 30px;
+            height: 30px;
+            background: rgba(255,215,0,0.1);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+        }
+
+        .lesson-info {
+            flex: 1;
+        }
+
+        .lesson-name {
+            font-size: 13px;
+            font-weight: 500;
+        }
+
+        .lesson-duration {
+            font-size: 10px;
+            color: var(--text-dim);
+        }
+
+        .lesson-status {
+            font-size: 16px;
+        }
+
+        /* TIMELINE */
+        .timeline-section {
+            margin-top: 25px;
+        }
+
+        .timeline {
+            position: relative;
+            padding-left: 25px;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 8px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: linear-gradient(180deg, var(--gold), var(--purple), var(--accent));
+        }
+
+        .timeline-item {
+            position: relative;
+            padding: 15px 0;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -21px;
+            top: 20px;
+            width: 10px;
+            height: 10px;
+            background: var(--gold);
+            border-radius: 50%;
+            box-shadow: 0 0 10px var(--gold);
+        }
+
+        .timeline-item.locked::before {
+            background: rgba(255,255,255,0.3);
+            box-shadow: none;
+        }
+
+        .timeline-day {
+            font-family: 'Orbitron', monospace;
+            font-size: 10px;
+            color: var(--gold);
+            margin-bottom: 5px;
+        }
+
+        .timeline-title {
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 3px;
+        }
+
+        .timeline-desc {
+            font-size: 12px;
+            color: var(--text-dim);
+        }
+
+        /* SQUAD PANEL */
+        .squad-panel {
+            padding: 20px;
+        }
+
+        .squad-header {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .squad-title {
+            font-family: 'Orbitron', monospace;
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        .squad-subtitle {
+            font-size: 13px;
+            color: var(--text-dim);
+        }
+
+        .squad-modes {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .squad-mode-btn {
+            flex: 1;
+            padding: 15px;
+            background: var(--surface);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 15px;
+            color: var(--text);
+            font-family: 'Exo 2', sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .squad-mode-btn.active {
+            background: rgba(255,215,0,0.1);
+            border-color: var(--gold);
+            color: var(--gold);
+        }
+
+        .room-display {
+            background: var(--surface);
+            border-radius: 20px;
+            padding: 30px;
+            text-align: center;
+            border: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .room-label {
+            font-size: 12px;
+            color: var(--text-dim);
+            margin-bottom: 10px;
+        }
+
+        .room-code {
+            font-family: 'Orbitron', monospace;
+            font-size: 36px;
+            font-weight: 900;
+            letter-spacing: 8px;
+            color: var(--gold);
+            text-shadow: 0 0 30px rgba(255,215,0,0.5);
+        }
+
+        .room-input {
+            width: 100%;
+            padding: 15px;
+            background: var(--darker);
+            border: 1px solid rgba(255,215,0,0.3);
+            border-radius: 15px;
+            color: var(--text);
+            font-family: 'Orbitron', monospace;
+            font-size: 24px;
+            text-align: center;
+            letter-spacing: 5px;
+            margin-bottom: 15px;
+        }
+
+        .room-input:focus {
+            outline: none;
+            border-color: var(--gold);
+            box-shadow: 0 0 20px rgba(255,215,0,0.2);
+        }
+
+        /* MIND PANEL - NEURO SKILLS */
+        .mind-panel {
+            padding: 20px;
+        }
+
+        .neuro-intro {
+            background: linear-gradient(135deg, rgba(168,85,247,0.2), rgba(59,130,246,0.1));
+            border-radius: 20px;
+            padding: 25px;
+            margin-bottom: 25px;
+            border: 1px solid rgba(168,85,247,0.3);
+        }
+
+        .neuro-intro-title {
+            font-family: 'Orbitron', monospace;
+            font-size: 14px;
+            color: var(--purple);
+            margin-bottom: 10px;
+        }
+
+        .neuro-intro-text {
+            font-size: 14px;
+            line-height: 1.7;
+            color: var(--text-dim);
+        }
+
+        .neuro-skill-card {
+            background: var(--surface);
+            border-radius: 20px;
+            padding: 20px;
+            margin-bottom: 15px;
+            border: 1px solid rgba(255,255,255,0.05);
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .neuro-skill-card:hover {
+            transform: translateY(-2px);
+            border-color: rgba(255,215,0,0.2);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+
+        .neuro-skill-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 12px;
+        }
+
+        .neuro-skill-icon {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, rgba(255,215,0,0.2), rgba(255,215,0,0.05));
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+
+        .neuro-skill-title {
+            flex: 1;
+        }
+
+        .neuro-skill-name {
+            font-family: 'Orbitron', monospace;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 3px;
+        }
+
+        .neuro-skill-full {
+            font-size: 11px;
+            color: var(--text-dim);
+        }
+
+        .neuro-skill-desc {
+            font-size: 13px;
+            line-height: 1.6;
+            color: var(--text-dim);
+            margin-bottom: 12px;
+        }
+
+        .neuro-skill-timeline {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .timeline-badge {
+            padding: 5px 10px;
+            background: rgba(0,212,170,0.1);
+            border-radius: 15px;
+            font-size: 10px;
+            color: var(--accent);
+        }
+
+        /* MODAL */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.9);
+            z-index: 100;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .modal-overlay.active {
+            display: flex;
+        }
+
+        .modal {
+            background: var(--surface);
+            border-radius: 25px;
+            max-width: 400px;
+            width: 100%;
+            max-height: 80vh;
+            overflow-y: auto;
+            border: 1px solid rgba(255,215,0,0.2);
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .modal-title {
+            font-family: 'Orbitron', monospace;
+            font-size: 14px;
+            color: var(--gold);
+        }
+
+        .modal-close {
+            background: none;
+            border: none;
+            color: var(--text-dim);
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .modal-body {
+            padding: 20px;
+        }
+
+        /* FLASHCARD IN MODAL */
+        .flashcard {
+            background: linear-gradient(135deg, rgba(255,215,0,0.1), rgba(255,215,0,0.02));
+            border: 1px solid rgba(255,215,0,0.3);
+            border-radius: 20px;
+            padding: 30px;
+            min-height: 180px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .flashcard-text {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .flashcard-nav {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+            align-items: center;
+        }
+
+        .flashcard-counter {
+            font-family: 'Orbitron', monospace;
+            font-size: 12px;
+            color: var(--gold);
+        }
+
+        /* SETTINGS PANEL (Inside Mind) */
+        .settings-section {
+            margin-top: 30px;
+        }
+
+        .setting-group {
+            background: var(--surface);
+            border-radius: 15px;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+
+        .setting-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .setting-item:last-child {
+            border-bottom: none;
+        }
+
+        .setting-label {
+            font-size: 14px;
+        }
+
+        .toggle {
+            width: 50px;
+            height: 28px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 14px;
+            cursor: pointer;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+
+        .toggle.active {
+            background: var(--gold);
+        }
+
+        .toggle::after {
+            content: '';
+            position: absolute;
+            top: 3px;
+            left: 3px;
+            width: 22px;
+            height: 22px;
+            background: white;
+            border-radius: 50%;
+            transition: all 0.3s ease;
+        }
+
+        .toggle.active::after {
+            left: 25px;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 380px) {
+            .skill-cards {
+                grid-template-columns: 1fr;
+            }
+
+            .sacred-container {
+                width: 240px;
+                height: 240px;
+            }
+
+            .breath-ring {
+                width: 130px;
+                height: 130px;
+            }
+
+            .phase-count {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- AMBIENT BACKGROUND -->
+    <div class="ambient-bg">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <!-- PARTICLES -->
+    <canvas id="particles"></canvas>
+
+    <!-- APP -->
+    <div class="app">
+        <!-- TOP BAR -->
+        <header class="top-bar">
+            <div class="logo">REALITY<span>FORGE</span></div>
+            <div class="day-badge">
+                <span class="icon">☀️</span>
+                <span class="text">DAY <span id="day-number">1</span></span>
+            </div>
+        </header>
+
+        <!-- STORY PROGRESS -->
+        <div class="story-progress">
+            <div class="story-chapter">
+                <span class="chapter-title" id="chapter-name">Chapter 1: Awakening</span>
+                <span class="chapter-progress-text" id="chapter-progress-text">Day 1 of 14</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill" id="chapter-fill" style="width: 7%"></div>
+            </div>
+        </div>
+
+        <!-- NAVIGATION -->
+        <nav class="nav">
+            <button class="nav-item active" onclick="showPanel('home')">
+                <span class="icon">🏠</span>
+                <span class="label">Today</span>
+            </button>
+            <button class="nav-item" onclick="showPanel('breathe')">
+                <span class="icon">🌬️</span>
+                <span class="label">Breathe</span>
+            </button>
+            <button class="nav-item" onclick="showPanel('freestyle')">
+                <span class="icon">✨</span>
+                <span class="label">Freestyle</span>
+            </button>
+            <button class="nav-item" onclick="showPanel('journal')">
+                <span class="icon">📝</span>
+                <span class="label">Notes</span>
+            </button>
+            <button class="nav-item" onclick="showPanel('mind')">
+                <span class="icon">🧠</span>
+                <span class="label">Mind</span>
+            </button>
+        </nav>
+
+        <!-- MAIN CONTENT -->
+        <main class="main">
+            <!-- HOME PANEL -->
+            <div class="panel active" id="panel-home">
+                <div class="home-panel">
+                    <!-- GREETING -->
+                    <div class="greeting-card">
+                        <div class="greeting-time" id="greeting-time">Good Morning</div>
+                        <div class="greeting-message">Your mind is shaping reality today.</div>
+                        <div class="daily-quote" id="daily-quote">
+                            "The breath is the bridge between the conscious and unconscious mind."
+                        </div>
+                    </div>
+
+                    <!-- TODAY'S JOURNEY -->
+                    <div class="journey-card">
+                        <div class="journey-header">
+                            <span class="journey-title">TODAY'S PATH</span>
+                            <span class="journey-streak">🔥 <span id="streak-count">1</span> day streak</span>
+                        </div>
+                        <div class="daily-tasks" id="daily-tasks">
+                            <div class="task-item" onclick="toggleTask(0)">
+                                <div class="task-check">✓</div>
+                                <div class="task-info">
+                                    <div class="task-name">Morning Breathwork</div>
+                                    <div class="task-duration">5-10 minutes</div>
+                                </div>
+                                <div class="task-xp">+50 XP</div>
+                            </div>
+                            <div class="task-item" onclick="toggleTask(1)">
+                                <div class="task-check">✓</div>
+                                <div class="task-info">
+                                    <div class="task-name">Read Today's Lesson</div>
+                                    <div class="task-duration">3 minutes</div>
+                                </div>
+                                <div class="task-xp">+30 XP</div>
+                            </div>
+                            <div class="task-item" onclick="toggleTask(2)">
+                                <div class="task-check">✓</div>
+                                <div class="task-info">
+                                    <div class="task-name">Evening Reflection</div>
+                                    <div class="task-duration">2 minutes</div>
+                                </div>
+                                <div class="task-xp">+20 XP</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SKILLS IN DEVELOPMENT -->
+                    <div class="skills-section">
+                        <div class="section-title">DEVELOPING ABILITIES</div>
+                        <div class="skill-cards">
+                            <div class="skill-card" onclick="showSkillDetail('nkt')">
+                                <div class="skill-icon">🧬</div>
+                                <div class="skill-name">NKT</div>
+                                <div class="skill-level">Neural Kinetic</div>
+                                <div class="skill-progress">
+                                    <div class="skill-progress-fill" style="width: 5%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-card" onclick="showSkillDetail('nlp')">
+                                <div class="skill-icon">💬</div>
+                                <div class="skill-name">NLP</div>
+                                <div class="skill-level">Neuro-Linguistic</div>
+                                <div class="skill-progress">
+                                    <div class="skill-progress-fill" style="width: 7%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-card" onclick="showSkillDetail('bci')">
+                                <div class="skill-icon">🔌</div>
+                                <div class="skill-name">BCI</div>
+                                <div class="skill-level">Brain-Computer</div>
+                                <div class="skill-progress">
+                                    <div class="skill-progress-fill" style="width: 3%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-card" onclick="showSkillDetail('echo')">
+                                <div class="skill-icon">👁️</div>
+                                <div class="skill-name">ECHO</div>
+                                <div class="skill-level">Spatial Sense</div>
+                                <div class="skill-progress">
+                                    <div class="skill-progress-fill" style="width: 2%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BREATHE PANEL -->
+            <div class="panel" id="panel-breathe">
+                <div class="breathe-panel">
+                    <!-- SACRED GEOMETRY -->
+                    <div class="sacred-container" id="sacred-container">
+                        <svg class="flower-svg" viewBox="0 0 200 200">
+                            <circle cx="100" cy="100" r="30"/>
+                            <circle cx="100" cy="70" r="30"/>
+                            <circle cx="126" cy="85" r="30"/>
+                            <circle cx="126" cy="115" r="30"/>
+                            <circle cx="100" cy="130" r="30"/>
+                            <circle cx="74" cy="115" r="30"/>
+                            <circle cx="74" cy="85" r="30"/>
+                            <circle cx="100" cy="40" r="30"/>
+                            <circle cx="152" cy="70" r="30"/>
+                            <circle cx="152" cy="130" r="30"/>
+                            <circle cx="100" cy="160" r="30"/>
+                            <circle cx="48" cy="130" r="30"/>
+                            <circle cx="48" cy="70" r="30"/>
+                        </svg>
+
+                        <div class="breath-ring" id="breath-ring">
+                            <div class="phase-label" id="phase-label">READY</div>
+                            <div class="phase-count" id="phase-count">0</div>
+                        </div>
+                    </div>
+
+                    <!-- WAVE DISPLAY -->
+                    <div class="wave-display">
+                        <div class="wave-title">WAVE MATHEMATICS</div>
+                        <div class="wave-formula">
+                            <span class="hz">528 Hz</span> × <span id="wave-sec">0</span>s =
+                            <span class="result" id="wave-total">0</span> waves
+                        </div>
+                    </div>
+
+                    <!-- SESSION STATS -->
+                    <div class="session-stats">
+                        <div class="stat">
+                            <div class="stat-value" id="stat-cycles">0</div>
+                            <div class="stat-label">Cycles</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-value" id="stat-time">0:00</div>
+                            <div class="stat-label">Time</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-value" id="stat-waves">0</div>
+                            <div class="stat-label">Total Waves</div>
+                        </div>
+                    </div>
+
+                    <!-- CONTROLS -->
+                    <div class="session-controls">
+                        <button class="btn btn-primary" id="btn-session" onclick="toggleSession()">
+                            Begin
+                        </button>
+                    </div>
+
+                    <!-- PATTERN SELECTOR -->
+                    <div class="pattern-selector">
+                        <div class="section-title">BREATH PATTERN</div>
+                        <div class="pattern-list" id="pattern-list">
+                            <!-- Generated by JS -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FREESTYLE PANEL -->
+            <div class="panel" id="panel-freestyle">
+                <div class="freestyle-panel" style="padding: 20px;">
+                    <!-- FREESTYLE INTRO -->
+                    <div style="background: linear-gradient(135deg, rgba(255,215,0,0.15), rgba(255,215,0,0.05)); border-radius: 20px; padding: 20px; margin-bottom: 20px; border: 1px solid rgba(255,215,0,0.2);">
+                        <div style="font-family: 'Orbitron', monospace; font-size: 14px; color: var(--gold); margin-bottom: 8px;">BUILD YOUR OWN</div>
+                        <div style="font-size: 13px; color: var(--text-dim); line-height: 1.6;">
+                            Create custom breath patterns with up to 7 phases. Set the duration for each phase, name your pattern, and save it for future use.
+                        </div>
+                    </div>
+
+                    <!-- PHASE BUILDER -->
+                    <div style="background: var(--surface); border-radius: 20px; padding: 20px; margin-bottom: 20px; border: 1px solid rgba(255,255,255,0.05);">
+                        <div class="section-title">7-PHASE BUILDER</div>
+
+                        <div id="phase-builder" style="display: flex; flex-direction: column; gap: 10px;">
+                            <!-- Phase 1 -->
+                            <div class="phase-row" style="display: flex; align-items: center; gap: 10px; padding: 12px; background: rgba(255,255,255,0.03); border-radius: 12px;">
+                                <div style="width: 24px; height: 24px; background: var(--gold); color: var(--dark); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700;">1</div>
+                                <select id="phase1-type" style="flex: 1; padding: 10px; background: var(--darker); border: 1px solid rgba(255,215,0,0.3); border-radius: 8px; color: white; font-family: inherit;">
+                                    <option value="inhale">Inhale</option>
+                                    <option value="hold">Hold</option>
+                                    <option value="exhale">Exhale</option>
+                                    <option value="rest">Rest</option>
+                                    <option value="skip">Skip</option>
+                                </select>
+                                <input type="number" id="phase1-time" value="4" min="0" max="60" style="width: 60px; padding: 10px; background: var(--darker); border: 1px solid rgba(255,215,0,0.3); border-radius: 8px; color: var(--gold); font-family: 'Orbitron', monospace; text-align: center;">
+                                <span style="font-size: 12px; color: var(--text-dim);">sec</span>
+                            </div>
+
+                            <!-- Phase 2 -->
+                            <div class="phase-row" style="display: flex; align-items: center; gap: 10px; padding: 12px; background: rgba(255,255,255,0.03); border-radius: 12px;">
+                                <div style="width: 24px; height: 24px; background: var(--gold); color: var(--dark); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700;">2</div>
+                                <select id="phase2-type" style="flex: 1; padding: 10px; background: var(--darker); border: 1px solid rgba(255,215,0,0.3); border-radius: 8px; color: white; font-family: inherit;">
+                                    <option value="inhale">Inhale</option>
+                                    <option value="hold" selected>Hold</option>
+                                    <option value="exhale">Exhale</option>
+                                    <option value="rest">Rest</option>
+                                    <option value="skip">Skip</option>
+                                </select>
+                                <input type="number" id="phase2-time" value="4" min="0" max="60" style="width: 60px; padding: 10px; background: var(--darker); border: 1px solid rgba(255,215,0,0.3); border-radius: 8px; color: var(--gold); font-family: 'Orbitron', monospace; text-align: center;">
+                                <span style="font-size: 12px; color: var(--text-dim);">sec</span>
+                            </div>
+
+                            <!-- Phase 3 -->
+                            <div class="phase-row" style="display: flex; align-items: center; gap: 10px; padding: 12px; background: rgba(255,255,255,0.03); border-radius: 12px;">
+                                <div style="width: 24px; height: 24px; background: var(--gold); color: var(--dark); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700;">3</div>
+                                <select id="phase3-type" style="flex: 1; padding: 10px; background: var(--darker); border: 1px solid rgba(255,215,0,0.3); border-radius: 8px; color: white; font-family: inherit;">
+                                    <option value="inhale">Inhale</option>
+                                    <option value="hold">Hold</option>
+                                    <option value="exhale" selected>Exhale</option>
+                                    <option value="rest">Rest</option>
+                                    <option value="skip">Skip</option>
+                                </select>
+                                <input type="number" id="phase3-time" value="4" min="0" max="60" style="width: 60px; padding: 10px; background: var(--darker); border: 1px solid rgba(255,215,0,0.3); border-radius: 8px; color: var(--gold); font-family: 'Orbitron', monospace; text-align: center;">
+                                <span style="font-size: 12px; color: var(--text-dim);">sec</span>
+                            </div>
+
+                            <!-- Phase 4 -->
+                            <div class="phase-row" style="display: flex; align-items: center; gap: 10px; padding: 12px; background: rgba(255,255,255,0.03); border-radius: 12px;">
+                                <div style="width: 24px; height: 24px; background: rgba(255,215,0,0.5); color: var(--dark); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700;">4</div>
+                                <select id="phase4-type" style="flex: 1; padding: 10px; background: var(--darker); border: 1px solid rgba(255,215,0,0.3); border-radius: 8px; color: white; font-family: inherit;">
+                                    <option value="inhale">Inhale</option>
+                                    <option value="hold">Hold</option>
+                                    <option value="exhale">Exhale</option>
+                                    <option value="rest" selected>Rest</option>
+                                    <option value="skip">Skip</option>
+                                </select>
+                                <input type="number" id="phase4-time" value="4" min="0" max="60" style="width: 60px; padding: 10px; background: var(--darker); border: 1px solid rgba(255,215,0,0.3); border-radius: 8px; color: var(--gold); font-family: 'Orbitron', monospace; text-align: center;">
+                                <span style="font-size: 12px; color: var(--text-dim);">sec</span>
+                            </div>
+
+                            <!-- Phase 5 -->
+                            <div class="phase-row" style="display: flex; align-items: center; gap: 10px; padding: 12px; background: rgba(255,255,255,0.03); border-radius: 12px;">
+                                <div style="width: 24px; height: 24px; background: rgba(255,215,0,0.3); color: var(--dark); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700;">5</div>
+                                <select id="phase5-type" style="flex: 1; padding: 10px; background: var(--darker); border: 1px solid rgba(255,215,0,0.3); border-radius: 8px; color: white; font-family: inherit;">
+                                    <option value="inhale">Inhale</option>
+                                    <option value="hold">Hold</option>
+                                    <option value="exhale">Exhale</option>
+                                    <option value="rest">Rest</option>
+                                    <option value="skip" selected>Skip</option>
+                                </select>
+                                <input type="number" id="phase5-time" value="0" min="0" max="60" style="width: 60px; padding: 10px; background: var(--darker); border: 1px solid rgba(255,215,0,0.3); border-radius: 8px; color: var(--gold); font-family: 'Orbitron', monospace; text-align: center;">
+                                <span style="font-size: 12px; color: var(--text-dim);">sec</span>
+                            </div>
+
+                            <!-- Phase 6 -->
+                            <div class="phase-row" style="display: flex; align-items: center; gap: 10px; padding: 12px; background: rgba(255,255,255,0.03); border-radius: 12px;">
+                                <div style="width: 24px; height: 24px; background: rgba(255,215,0,0.3); color: var(--dark); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700;">6</div>
+                                <select id="phase6-type" style="flex: 1; padding: 10px; background: var(--darker); border: 1px solid rgba(255,215,0,0.3); border-radius: 8px; color: white; font-family: inherit;">
+                                    <option value="inhale">Inhale</option>
+                                    <option value="hold">Hold</option>
+                                    <option value="exhale">Exhale</option>
+                                    <option value="rest">Rest</option>
+                                    <option value="skip" selected>Skip</option>
+                                </select>
+                                <input type="number" id="phase6-time" value="0" min="0" max="60" style="width: 60px; padding: 10px; background: var(--darker); border: 1px solid rgba(255,215,0,0.3); border-radius: 8px; color: var(--gold); font-family: 'Orbitron', monospace; text-align: center;">
+                                <span style="font-size: 12px; color: var(--text-dim);">sec</span>
+                            </div>
+
+                            <!-- Phase 7 -->
+                            <div class="phase-row" style="display: flex; align-items: center; gap: 10px; padding: 12px; background: rgba(255,255,255,0.03); border-radius: 12px;">
+                                <div style="width: 24px; height: 24px; background: rgba(255,215,0,0.3); color: var(--dark); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700;">7</div>
+                                <select id="phase7-type" style="flex: 1; padding: 10px; background: var(--darker); border: 1px solid rgba(255,215,0,0.3); border-radius: 8px; color: white; font-family: inherit;">
+                                    <option value="inhale">Inhale</option>
+                                    <option value="hold">Hold</option>
+                                    <option value="exhale">Exhale</option>
+                                    <option value="rest">Rest</option>
+                                    <option value="skip" selected>Skip</option>
+                                </select>
+                                <input type="number" id="phase7-time" value="0" min="0" max="60" style="width: 60px; padding: 10px; background: var(--darker); border: 1px solid rgba(255,215,0,0.3); border-radius: 8px; color: var(--gold); font-family: 'Orbitron', monospace; text-align: center;">
+                                <span style="font-size: 12px; color: var(--text-dim);">sec</span>
+                            </div>
+                        </div>
+
+                        <!-- CYCLE PREVIEW -->
+                        <div style="margin-top: 15px; padding: 15px; background: rgba(0,0,0,0.3); border-radius: 12px; text-align: center;">
+                            <div style="font-size: 11px; color: var(--text-dim); margin-bottom: 5px;">CYCLE PREVIEW</div>
+                            <div id="freestyle-preview" style="font-family: 'Orbitron', monospace; font-size: 18px; color: var(--gold);">4-4-4-4</div>
+                            <div id="freestyle-total" style="font-size: 12px; color: var(--text-dim); margin-top: 5px;">16 seconds per cycle</div>
+                        </div>
+                    </div>
+
+                    <!-- SAVE PATTERN -->
+                    <div style="background: var(--surface); border-radius: 20px; padding: 20px; margin-bottom: 20px; border: 1px solid rgba(255,255,255,0.05);">
+                        <div class="section-title">SAVE PATTERN</div>
+                        <input type="text" id="custom-pattern-name" placeholder="Name your pattern..." style="width: 100%; padding: 12px 15px; background: var(--darker); border: 1px solid rgba(255,215,0,0.3); border-radius: 12px; color: white; font-family: inherit; margin-bottom: 15px;">
+                        <div style="display: flex; gap: 10px;">
+                            <button class="btn btn-secondary" style="flex: 1;" onclick="startFreestyle()">Practice Now</button>
+                            <button class="btn btn-primary" style="flex: 1;" onclick="saveCustomPattern()">Save Pattern</button>
+                        </div>
+                    </div>
+
+                    <!-- SAVED PATTERNS -->
+                    <div style="background: var(--surface); border-radius: 20px; padding: 20px; border: 1px solid rgba(255,255,255,0.05);">
+                        <div class="section-title">MY PATTERNS</div>
+                        <div id="saved-patterns" style="display: flex; flex-direction: column; gap: 10px;">
+                            <div style="text-align: center; padding: 20px; color: var(--text-dim); font-size: 13px;">
+                                No saved patterns yet. Create one above!
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- QUICK TEMPLATES -->
+                    <div style="margin-top: 20px;">
+                        <div class="section-title">QUICK TEMPLATES</div>
+                        <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
+                            <button onclick="loadTemplate('relaxation')" style="padding: 15px; background: var(--surface); border: 1px solid rgba(255,255,255,0.1); border-radius: 12px; color: white; cursor: pointer; text-align: left;">
+                                <div style="font-weight: 600; margin-bottom: 3px;">Relaxation</div>
+                                <div style="font-size: 11px; color: var(--gold);">4-0-8-0</div>
+                            </button>
+                            <button onclick="loadTemplate('energy')" style="padding: 15px; background: var(--surface); border: 1px solid rgba(255,255,255,0.1); border-radius: 12px; color: white; cursor: pointer; text-align: left;">
+                                <div style="font-weight: 600; margin-bottom: 3px;">Energy</div>
+                                <div style="font-size: 11px; color: var(--gold);">2-0-2-0</div>
+                            </button>
+                            <button onclick="loadTemplate('focus')" style="padding: 15px; background: var(--surface); border: 1px solid rgba(255,255,255,0.1); border-radius: 12px; color: white; cursor: pointer; text-align: left;">
+                                <div style="font-weight: 600; margin-bottom: 3px;">Focus</div>
+                                <div style="font-size: 11px; color: var(--gold);">4-8-4-0</div>
+                            </button>
+                            <button onclick="loadTemplate('sleep')" style="padding: 15px; background: var(--surface); border: 1px solid rgba(255,255,255,0.1); border-radius: 12px; color: white; cursor: pointer; text-align: left;">
+                                <div style="font-weight: 600; margin-bottom: 3px;">Sleep</div>
+                                <div style="font-size: 11px; color: var(--gold);">4-7-8-0</div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- JOURNAL/NOTES PANEL -->
+            <div class="panel" id="panel-journal">
+                <div style="padding: 20px;">
+                    <!-- TODAY'S NOTE -->
+                    <div style="background: var(--surface); border-radius: 20px; padding: 20px; margin-bottom: 20px; border: 1px solid rgba(255,255,255,0.05);">
+                        <div class="section-title">TODAY'S PROTOCOL</div>
+                        <div style="font-size: 12px; color: var(--gold); margin-bottom: 15px;">Day <span id="journal-day">1</span> • <span id="journal-date"></span></div>
+
+                        <div style="margin-bottom: 15px;">
+                            <div style="font-size: 12px; color: var(--text-dim); margin-bottom: 8px;">What pattern did you practice?</div>
+                            <input type="text" id="note-pattern" placeholder="e.g., Box Breathing 4-4-4-4" style="width: 100%; padding: 12px 15px; background: var(--darker); border: 1px solid rgba(255,215,0,0.3); border-radius: 12px; color: white; font-family: inherit;">
+                        </div>
+
+                        <div style="margin-bottom: 15px;">
+                            <div style="font-size: 12px; color: var(--text-dim); margin-bottom: 8px;">Duration</div>
+                            <input type="text" id="note-duration" placeholder="e.g., 10 minutes, 15 cycles" style="width: 100%; padding: 12px 15px; background: var(--darker); border: 1px solid rgba(255,215,0,0.3); border-radius: 12px; color: white; font-family: inherit;">
+                        </div>
+
+                        <div style="margin-bottom: 15px;">
+                            <div style="font-size: 12px; color: var(--text-dim); margin-bottom: 8px;">How did it feel? Any observations?</div>
+                            <textarea id="note-reflection" placeholder="Write your thoughts..." style="width: 100%; padding: 12px 15px; background: var(--darker); border: 1px solid rgba(255,215,0,0.3); border-radius: 12px; color: white; font-family: inherit; min-height: 100px; resize: vertical;"></textarea>
+                        </div>
+
+                        <div style="margin-bottom: 15px;">
+                            <div style="font-size: 12px; color: var(--text-dim); margin-bottom: 8px;">Energy level after</div>
+                            <div style="display: flex; gap: 10px;">
+                                <button class="energy-btn" data-level="1" onclick="setEnergy(1)" style="flex: 1; padding: 10px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; color: white; cursor: pointer;">😴 Low</button>
+                                <button class="energy-btn" data-level="2" onclick="setEnergy(2)" style="flex: 1; padding: 10px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; color: white; cursor: pointer;">😊 Normal</button>
+                                <button class="energy-btn" data-level="3" onclick="setEnergy(3)" style="flex: 1; padding: 10px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; color: white; cursor: pointer;">⚡ High</button>
+                            </div>
+                        </div>
+
+                        <button class="btn btn-primary" style="width: 100%;" onclick="saveNote()">Save Today's Note</button>
+                    </div>
+
+                    <!-- PAST NOTES -->
+                    <div style="background: var(--surface); border-radius: 20px; padding: 20px; border: 1px solid rgba(255,255,255,0.05);">
+                        <div class="section-title">PROTOCOL HISTORY</div>
+                        <div id="notes-history" style="display: flex; flex-direction: column; gap: 10px; max-height: 400px; overflow-y: auto;">
+                            <div style="text-align: center; padding: 30px; color: var(--text-dim); font-size: 13px;">
+                                No notes yet. Start documenting your practice!
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- INSIGHTS -->
+                    <div style="margin-top: 20px; background: linear-gradient(135deg, rgba(0,212,170,0.15), rgba(0,212,170,0.05)); border-radius: 20px; padding: 20px; border: 1px solid rgba(0,212,170,0.2);">
+                        <div style="font-family: 'Orbitron', monospace; font-size: 12px; color: var(--accent); margin-bottom: 10px;">WHY JOURNAL?</div>
+                        <div style="font-size: 13px; color: var(--text-dim); line-height: 1.6;">
+                            Tracking your practice accelerates progress. You'll notice patterns,
+                            discover what works best for you, and build evidence of your transformation.
+                            Your notes become a personal protocol guide.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- STORY/JOURNEY PANEL -->
+                <div class="story-panel">
+                    <!-- CURRENT CHAPTER -->
+                    <div class="chapter-card">
+                        <div class="chapter-banner">
+                            <span class="chapter-number">01</span>
+                            <span class="chapter-badge">ACTIVE</span>
+                        </div>
+                        <div class="chapter-content">
+                            <div class="chapter-name">Awakening</div>
+                            <div class="chapter-description">
+                                Your journey begins with the breath. In these first 14 days,
+                                you'll learn the foundations that will unlock everything that follows.
+                                The breath is not just air—it's the bridge between your conscious
+                                and unconscious mind.
+                            </div>
+                            <div class="chapter-lessons" id="chapter-lessons">
+                                <!-- Generated by JS -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- TIMELINE -->
+                    <div class="timeline-section">
+                        <div class="section-title">YOUR 90-DAY PATH</div>
+                        <div class="timeline" id="timeline">
+                            <!-- Generated by JS -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SQUAD PANEL -->
+            <div class="panel" id="panel-squad">
+                <div class="squad-panel">
+                    <div class="squad-header">
+                        <div class="squad-title">Breathe Together</div>
+                        <div class="squad-subtitle">Connect with others on the same journey</div>
+                    </div>
+
+                    <div class="squad-modes">
+                        <button class="squad-mode-btn active" onclick="setSquadMode('host')">Host</button>
+                        <button class="squad-mode-btn" onclick="setSquadMode('join')">Join</button>
+                    </div>
+
+                    <div class="room-display" id="room-display">
+                        <!-- HOST MODE -->
+                        <div id="host-view">
+                            <div class="room-label">Your Room Code</div>
+                            <div class="room-code" id="room-code">----</div>
+                            <button class="btn btn-primary" style="margin-top:20px; width:100%" onclick="createRoom()">
+                                Create Room
+                            </button>
+                        </div>
+
+                        <!-- JOIN MODE (hidden) -->
+                        <div id="join-view" style="display:none">
+                            <div class="room-label">Enter Room Code</div>
+                            <input type="text" class="room-input" id="join-input" placeholder="CODE" maxlength="4">
+                            <button class="btn btn-primary" style="width:100%" onclick="joinRoom()">
+                                Join Room
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MIND PANEL -->
+            <div class="panel" id="panel-mind">
+                <div class="mind-panel">
+                    <!-- NEURO INTRO -->
+                    <div class="neuro-intro">
+                        <div class="neuro-intro-title">THE HIDDEN SKILLS</div>
+                        <div class="neuro-intro-text">
+                            As you practice daily, you're not just breathing—you're developing
+                            advanced neural abilities. These skills are building silently in the
+                            background, becoming part of who you are.
+                        </div>
+                    </div>
+
+                    <!-- NEURO SKILLS -->
+                    <div class="neuro-skill-card" onclick="openNeuroModal('nkt')">
+                        <div class="neuro-skill-header">
+                            <div class="neuro-skill-icon">🧬</div>
+                            <div class="neuro-skill-title">
+                                <div class="neuro-skill-name">NKT</div>
+                                <div class="neuro-skill-full">Neural Kinetic Therapy</div>
+                            </div>
+                        </div>
+                        <div class="neuro-skill-desc">
+                            Manual counting during breathwork builds dedicated neural circuits.
+                            Each count creates and strengthens pathways that eventually become automatic.
+                        </div>
+                        <div class="neuro-skill-timeline">
+                            <span class="timeline-badge">90 days → Foundation</span>
+                            <span class="timeline-badge">4 months → Habit</span>
+                            <span class="timeline-badge">10 years → Mastery</span>
+                        </div>
+                    </div>
+
+                    <div class="neuro-skill-card" onclick="openNeuroModal('nlp')">
+                        <div class="neuro-skill-header">
+                            <div class="neuro-skill-icon">💬</div>
+                            <div class="neuro-skill-title">
+                                <div class="neuro-skill-name">NLP</div>
+                                <div class="neuro-skill-full">Neuro-Linguistic Programming</div>
+                            </div>
+                        </div>
+                        <div class="neuro-skill-desc">
+                            Daily affirmations and breath anchoring install new belief patterns.
+                            Your breath becomes a trigger for positive mental states.
+                        </div>
+                        <div class="neuro-skill-timeline">
+                            <span class="timeline-badge">14 days → Habit</span>
+                            <span class="timeline-badge">90 days → Identity</span>
+                        </div>
+                    </div>
+
+                    <div class="neuro-skill-card" onclick="openNeuroModal('bci')">
+                        <div class="neuro-skill-header">
+                            <div class="neuro-skill-icon">🔌</div>
+                            <div class="neuro-skill-title">
+                                <div class="neuro-skill-name">BCI</div>
+                                <div class="neuro-skill-full">Brain-Computer Interface Training</div>
+                            </div>
+                        </div>
+                        <div class="neuro-skill-desc">
+                            Breath control trains your brain to produce consistent, readable signals.
+                            This is the foundation for neurofeedback and future brain-computer tech.
+                        </div>
+                        <div class="neuro-skill-timeline">
+                            <span class="timeline-badge">60 days → Basic control</span>
+                            <span class="timeline-badge">6 months → Bidirectional</span>
+                        </div>
+                    </div>
+
+                    <div class="neuro-skill-card" onclick="openNeuroModal('echo')">
+                        <div class="neuro-skill-header">
+                            <div class="neuro-skill-icon">👁️</div>
+                            <div class="neuro-skill-title">
+                                <div class="neuro-skill-name">Echolocation</div>
+                                <div class="neuro-skill-full">Spatial Awareness Enhancement</div>
+                            </div>
+                        </div>
+                        <div class="neuro-skill-desc">
+                            Extended focus during breath holds heightens sensory awareness beyond
+                            normal sight. Your other senses sharpen dramatically.
+                        </div>
+                        <div class="neuro-skill-timeline">
+                            <span class="timeline-badge">4 months → Awareness</span>
+                            <span class="timeline-badge">10 years → Mastery</span>
+                        </div>
+                    </div>
+
+                    <div class="neuro-skill-card" onclick="openNeuroModal('muscle')">
+                        <div class="neuro-skill-header">
+                            <div class="neuro-skill-icon">💪</div>
+                            <div class="neuro-skill-title">
+                                <div class="neuro-skill-name">Muscle Memory</div>
+                                <div class="neuro-skill-full">Procedural Memory Enhancement</div>
+                            </div>
+                        </div>
+                        <div class="neuro-skill-desc">
+                            Repetitive breath patterns encode into your procedural memory system.
+                            Skills become automatic, freeing conscious mind for higher tasks.
+                        </div>
+                        <div class="neuro-skill-timeline">
+                            <span class="timeline-badge">21 days → Pattern set</span>
+                            <span class="timeline-badge">66 days → Automatic</span>
+                        </div>
+                    </div>
+
+                    <div class="neuro-skill-card" onclick="openNeuroModal('neuro')">
+                        <div class="neuro-skill-header">
+                            <div class="neuro-skill-icon">⚡</div>
+                            <div class="neuro-skill-title">
+                                <div class="neuro-skill-name">Neuroplasticity</div>
+                                <div class="neuro-skill-full">Brain Structure Modification</div>
+                            </div>
+                        </div>
+                        <div class="neuro-skill-desc">
+                            Your brain physically changes through practice. Gray matter increases,
+                            new neural connections form, and old limiting patterns dissolve.
+                        </div>
+                        <div class="neuro-skill-timeline">
+                            <span class="timeline-badge">8 weeks → Measurable change</span>
+                            <span class="timeline-badge">Lifelong → Continuous growth</span>
+                        </div>
+                    </div>
+
+                    <!-- SETTINGS -->
+                    <div class="settings-section">
+                        <div class="section-title">SETTINGS</div>
+                        <div class="setting-group">
+                            <div class="setting-item">
+                                <span class="setting-label">528 Hz Audio</span>
+                                <div class="toggle active" id="toggle-audio" onclick="toggleSetting('audio')"></div>
+                            </div>
+                            <div class="setting-item">
+                                <span class="setting-label">Vibration</span>
+                                <div class="toggle active" id="toggle-vib" onclick="toggleSetting('vib')"></div>
+                            </div>
+                            <div class="setting-item">
+                                <span class="setting-label">Sacred Geometry</span>
+                                <div class="toggle active" id="toggle-geo" onclick="toggleSetting('geo')"></div>
+                            </div>
+                            <div class="setting-item">
+                                <span class="setting-label">Wave Counter</span>
+                                <div class="toggle active" id="toggle-wave" onclick="toggleSetting('wave')"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- MODAL -->
+    <div class="modal-overlay" id="modal-overlay">
+        <div class="modal">
+            <div class="modal-header">
+                <span class="modal-title" id="modal-title">Lesson</span>
+                <button class="modal-close" onclick="closeModal()">×</button>
+            </div>
+            <div class="modal-body" id="modal-body">
+                <!-- Dynamic content -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // ============================================
+        // REALITY FORGE - 528 Hz CONSCIOUSNESS TECHNOLOGY
+        // ============================================
+
+        // DATA
+        const PATTERNS = [
+            { name: "Box Breathing", timing: "4-4-4-4", inhale: 4, hold: 4, exhale: 4, rest: 4, desc: "Foundation for focus" },
+            { name: "Trinity", timing: "3-3-3", inhale: 3, hold: 3, exhale: 3, rest: 0, desc: "Body-Mind-Soul alignment" },
+            { name: "Tesla", timing: "3-6-9", inhale: 3, hold: 6, exhale: 9, rest: 0, desc: "Universal frequency" },
+            { name: "4-7-8 Calm", timing: "4-7-8", inhale: 4, hold: 7, exhale: 8, rest: 0, desc: "Nervous system reset" },
+            { name: "Coherence", timing: "5-0-5", inhale: 5, hold: 0, exhale: 5, rest: 0, desc: "Heart-brain sync" },
+            { name: "Power Breath", timing: "2-0-2", inhale: 2, hold: 0, exhale: 2, rest: 0, desc: "Energy activation" },
+            { name: "Kundalini", timing: "4-16-8", inhale: 4, hold: 16, exhale: 8, rest: 0, desc: "Deep awakening" },
+            { name: "Golden Ratio", timing: "5-8-13", inhale: 5, hold: 8, exhale: 13, rest: 0, desc: "Fibonacci flow" }
+        ];
+
+        const CHAPTERS = [
+            { id: 1, name: "Awakening", days: [1, 14], desc: "Discover the power of breath" },
+            { id: 2, name: "Foundation", days: [15, 30], desc: "Build consistent practice" },
+            { id: 3, name: "Deepening", days: [31, 45], desc: "Explore inner landscapes" },
+            { id: 4, name: "Expansion", days: [46, 60], desc: "Expand your awareness" },
+            { id: 5, name: "Integration", days: [61, 75], desc: "Connect mind and body" },
+            { id: 6, name: "Mastery", days: [76, 90], desc: "Embody transformation" }
+        ];
+
+        const QUOTES = [
+            "The breath is the bridge between the conscious and unconscious mind.",
+            "Every breath you take is a chance to rewire your neural pathways.",
+            "528 Hz: The frequency of transformation and DNA repair.",
+            "Your brain changes shape based on what you repeatedly do.",
+            "The body keeps score, but the breath keeps time.",
+            "Neural pathways strengthen with every conscious breath.",
+            "What fires together, wires together.",
+            "You are programming your own consciousness.",
+            "The gap between stimulus and response is where freedom lives.",
+            "Attention is the currency of transformation."
+        ];
+
+        const LESSONS = [
+            { day: 1, title: "Why Breath Matters", duration: "3 min", type: "read" },
+            { day: 2, title: "The 528 Hz Frequency", duration: "3 min", type: "read" },
+            { day: 3, title: "Building Neural Circuits", duration: "4 min", type: "read" },
+            { day: 4, title: "The Power of Counting", duration: "3 min", type: "read" },
+            { day: 5, title: "Habit Formation Science", duration: "4 min", type: "read" },
+            { day: 6, title: "Your First Week Review", duration: "5 min", type: "reflection" },
+            { day: 7, title: "Week 1 Complete!", duration: "2 min", type: "milestone" }
+        ];
+
+        // STATE
+        let state = {
+            day: 1,
+            streak: 1,
+            xp: 0,
+            tasks: [false, false, false],
+            currentPattern: PATTERNS[0],
+            isRunning: false,
+            cycles: 0,
+            totalTime: 0,
+            totalWaves: 0,
+            settings: {
+                audio: true,
+                vib: true,
+                geo: true,
+                wave: true
+            },
+            squadMode: 'host',
+            roomCode: null
+        };
+
+        let breathInterval = null;
+        let timerInterval = null;
+        let audioCtx = null;
+        let oscillator = null;
+
+        // ============================================
+        // INITIALIZATION
+        // ============================================
+
+        document.addEventListener('DOMContentLoaded', () => {
+            loadState();
+            initParticles();
+            updateGreeting();
+            renderPatterns();
+            renderLessons();
+            renderTimeline();
+            applySettings();
+        });
+
+        function loadState() {
+            const saved = localStorage.getItem('realityforge528');
+            if (saved) {
+                const parsed = JSON.parse(saved);
+                state = { ...state, ...parsed };
+            }
+            updateUI();
+        }
+
+        function saveState() {
+            localStorage.setItem('realityforge528', JSON.stringify(state));
+        }
+
+        function updateUI() {
+            document.getElementById('day-number').textContent = state.day;
+            document.getElementById('streak-count').textContent = state.streak;
+
+            // Chapter progress
+            const chapter = CHAPTERS.find(c => state.day >= c.days[0] && state.day <= c.days[1]) || CHAPTERS[0];
+            document.getElementById('chapter-name').textContent = `Chapter ${chapter.id}: ${chapter.name}`;
+            document.getElementById('chapter-progress-text').textContent = `Day ${state.day} of ${chapter.days[1]}`;
+
+            const chapterProgress = ((state.day - chapter.days[0]) / (chapter.days[1] - chapter.days[0] + 1)) * 100;
+            document.getElementById('chapter-fill').style.width = `${Math.max(5, chapterProgress)}%`;
+
+            // Task completion
+            state.tasks.forEach((completed, i) => {
+                const taskEl = document.querySelectorAll('.task-item')[i];
+                if (taskEl) {
+                    taskEl.classList.toggle('completed', completed);
+                }
+            });
+        }
+
+        // ============================================
+        // PARTICLES
+        // ============================================
+
+        function initParticles() {
+            const canvas = document.getElementById('particles');
+            const ctx = canvas.getContext('2d');
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+
+            const particles = [];
+            for (let i = 0; i < 40; i++) {
+                particles.push({
+                    x: Math.random() * canvas.width,
+                    y: Math.random() * canvas.height,
+                    vx: (Math.random() - 0.5) * 0.3,
+                    vy: (Math.random() - 0.5) * 0.3,
+                    size: Math.random() * 2 + 0.5,
+                    alpha: Math.random() * 0.3 + 0.1
+                });
+            }
+
+            function animate() {
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                particles.forEach(p => {
+                    p.x += p.vx;
+                    p.y += p.vy;
+                    if (p.x < 0 || p.x > canvas.width) p.vx *= -1;
+                    if (p.y < 0 || p.y > canvas.height) p.vy *= -1;
+
+                    ctx.beginPath();
+                    ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+                    ctx.fillStyle = `rgba(255, 215, 0, ${p.alpha})`;
+                    ctx.fill();
+                });
+                requestAnimationFrame(animate);
+            }
+            animate();
+
+            window.addEventListener('resize', () => {
+                canvas.width = window.innerWidth;
+                canvas.height = window.innerHeight;
+            });
+        }
+
+        // ============================================
+        // NAVIGATION
+        // ============================================
+
+        function showPanel(id) {
+            document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+            document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+
+            event.currentTarget.classList.add('active');
+            document.getElementById(`panel-${id}`).classList.add('active');
+        }
+
+        // ============================================
+        // GREETING & QUOTES
+        // ============================================
+
+        function updateGreeting() {
+            const hour = new Date().getHours();
+            let greeting = 'Good Evening';
+            if (hour < 12) greeting = 'Good Morning';
+            else if (hour < 17) greeting = 'Good Afternoon';
+
+            document.getElementById('greeting-time').textContent = greeting;
+            document.getElementById('daily-quote').textContent = `"${QUOTES[state.day % QUOTES.length]}"`;
+        }
+
+        // ============================================
+        // TASKS
+        // ============================================
+
+        function toggleTask(index) {
+            state.tasks[index] = !state.tasks[index];
+            if (state.tasks[index]) {
+                state.xp += [50, 30, 20][index];
+            }
+            updateUI();
+            saveState();
+
+            // Check if all tasks complete
+            if (state.tasks.every(t => t)) {
+                setTimeout(() => {
+                    if (confirm('All tasks complete! Ready for tomorrow?')) {
+                        advanceDay();
+                    }
+                }, 500);
+            }
+        }
+
+        function advanceDay() {
+            state.day = Math.min(90, state.day + 1);
+            state.streak++;
+            state.tasks = [false, false, false];
+            updateUI();
+            updateGreeting();
+            renderLessons();
+            renderTimeline();
+            saveState();
+        }
+
+        // ============================================
+        // PATTERNS
+        // ============================================
+
+        function renderPatterns() {
+            const list = document.getElementById('pattern-list');
+            list.innerHTML = PATTERNS.map((p, i) => `
+                <div class="pattern-option ${i === 0 ? 'selected' : ''}" onclick="selectPattern(${i})">
+                    <div class="pattern-info">
+                        <div class="pattern-name">${p.name}</div>
+                        <div class="pattern-desc">${p.desc}</div>
+                    </div>
+                    <div class="pattern-timing">${p.timing}</div>
+                </div>
+            `).join('');
+        }
+
+        function selectPattern(index) {
+            state.currentPattern = PATTERNS[index];
+            document.querySelectorAll('.pattern-option').forEach((el, i) => {
+                el.classList.toggle('selected', i === index);
+            });
+        }
+
+        // ============================================
+        // BREATH SESSION
+        // ============================================
+
+        function toggleSession() {
+            if (state.isRunning) {
+                stopSession();
+            } else {
+                startSession();
+            }
+        }
+
+        function startSession() {
+            state.isRunning = true;
+            state.cycles = 0;
+            state.totalTime = 0;
+            state.totalWaves = 0;
+
+            document.getElementById('btn-session').textContent = 'Stop';
+            document.getElementById('sacred-container').classList.add('active');
+
+            if (state.settings.audio) startAudio();
+
+            runBreathCycle();
+
+            timerInterval = setInterval(() => {
+                state.totalTime++;
+                document.getElementById('stat-time').textContent = formatTime(state.totalTime);
+            }, 1000);
+        }
+
+        function stopSession() {
+            state.isRunning = false;
+            clearInterval(breathInterval);
+            clearInterval(timerInterval);
+
+            document.getElementById('btn-session').textContent = 'Begin';
+            document.getElementById('sacred-container').classList.remove('active');
+            document.getElementById('breath-ring').className = 'breath-ring';
+            document.getElementById('phase-label').textContent = 'READY';
+            document.getElementById('phase-count').textContent = '0';
+
+            stopAudio();
+
+            // Mark breathwork task complete if did at least 3 cycles
+            if (state.cycles >= 3 && !state.tasks[0]) {
+                state.tasks[0] = true;
+                state.xp += 50;
+                updateUI();
+                saveState();
+            }
+        }
+
+        function runBreathCycle() {
+            const p = state.currentPattern;
+            const phases = [];
+            if (p.inhale > 0) phases.push({ name: 'INHALE', duration: p.inhale, key: 'inhale' });
+            if (p.hold > 0) phases.push({ name: 'HOLD', duration: p.hold, key: 'hold' });
+            if (p.exhale > 0) phases.push({ name: 'EXHALE', duration: p.exhale, key: 'exhale' });
+            if (p.rest > 0) phases.push({ name: 'REST', duration: p.rest, key: 'rest' });
+
+            let phaseIndex = 0;
+            let timeInPhase = 0;
+
+            function tick() {
+                if (!state.isRunning) return;
+
+                const phase = phases[phaseIndex];
+                const remaining = phase.duration - timeInPhase;
+
+                document.getElementById('breath-ring').className = 'breath-ring ' + phase.key;
+                document.getElementById('phase-label').textContent = phase.name;
+                document.getElementById('phase-count').textContent = remaining;
+
+                document.getElementById('wave-sec').textContent = timeInPhase + 1;
+                document.getElementById('wave-total').textContent = ((timeInPhase + 1) * 528).toLocaleString();
+
+                if (timeInPhase === 0 && state.settings.vib) {
+                    triggerVibration(phase.key);
+                }
+
+                state.totalWaves += 528;
+                document.getElementById('stat-waves').textContent = formatNumber(state.totalWaves);
+
+                timeInPhase++;
+
+                if (timeInPhase >= phase.duration) {
+                    timeInPhase = 0;
+                    phaseIndex++;
+                    if (phaseIndex >= phases.length) {
+                        phaseIndex = 0;
+                        state.cycles++;
+                        document.getElementById('stat-cycles').textContent = state.cycles;
+                    }
+                }
+            }
+
+            tick();
+            breathInterval = setInterval(tick, 1000);
+        }
+
+        // ============================================
+        // AUDIO
+        // ============================================
+
+        function startAudio() {
+            try {
+                audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+                oscillator = audioCtx.createOscillator();
+                const gain = audioCtx.createGain();
+
+                oscillator.type = 'sine';
+                oscillator.frequency.setValueAtTime(528, audioCtx.currentTime);
+                gain.gain.setValueAtTime(0.1, audioCtx.currentTime);
+
+                oscillator.connect(gain);
+                gain.connect(audioCtx.destination);
+                oscillator.start();
+            } catch (e) {
+                console.log('Audio not supported');
+            }
+        }
+
+        function stopAudio() {
+            if (oscillator) {
+                oscillator.stop();
+                oscillator = null;
+            }
+            if (audioCtx) {
+                audioCtx.close();
+                audioCtx = null;
+            }
+        }
+
+        // ============================================
+        // VIBRATION
+        // ============================================
+
+        function triggerVibration(phase) {
+            if (!navigator.vibrate) return;
+            switch (phase) {
+                case 'inhale': navigator.vibrate(100); break;
+                case 'hold': navigator.vibrate([100, 100, 100]); break;
+                case 'exhale': navigator.vibrate(2000); break;
+                case 'rest': navigator.vibrate([100, 100, 100]); break;
+            }
+        }
+
+        // ============================================
+        // JOURNEY/STORY
+        // ============================================
+
+        function renderLessons() {
+            const container = document.getElementById('chapter-lessons');
+            const dayLessons = LESSONS.filter(l => l.day <= 7); // First week
+            container.innerHTML = dayLessons.map(lesson => {
+                const completed = state.day > lesson.day;
+                const locked = state.day < lesson.day;
+                return `
+                    <div class="lesson-item ${completed ? 'completed' : ''} ${locked ? 'locked' : ''}"
+                         onclick="${!locked ? `openLesson(${lesson.day})` : ''}">
+                        <div class="lesson-icon">${lesson.type === 'milestone' ? '🏆' : '📚'}</div>
+                        <div class="lesson-info">
+                            <div class="lesson-name">${lesson.title}</div>
+                            <div class="lesson-duration">${lesson.duration}</div>
+                        </div>
+                        <div class="lesson-status">${completed ? '✓' : locked ? '🔒' : '→'}</div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function renderTimeline() {
+            const container = document.getElementById('timeline');
+            container.innerHTML = CHAPTERS.map(ch => {
+                const locked = state.day < ch.days[0];
+                return `
+                    <div class="timeline-item ${locked ? 'locked' : ''}">
+                        <div class="timeline-day">Days ${ch.days[0]}-${ch.days[1]}</div>
+                        <div class="timeline-title">${ch.name}</div>
+                        <div class="timeline-desc">${ch.desc}</div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function openLesson(day) {
+            const lesson = LESSONS.find(l => l.day === day);
+            if (!lesson) return;
+
+            document.getElementById('modal-title').textContent = lesson.title;
+            document.getElementById('modal-body').innerHTML = `
+                <div style="line-height:1.8; font-size:14px;">
+                    ${getLessonContent(day)}
+                </div>
+                <button class="btn btn-primary" style="width:100%; margin-top:20px;" onclick="completeLesson()">
+                    Complete Lesson
+                </button>
+            `;
+            document.getElementById('modal-overlay').classList.add('active');
+        }
+
+        function getLessonContent(day) {
+            const content = {
+                1: `<p>Your breath is the one autonomic function you can consciously control. This makes it the bridge between your conscious and unconscious mind.</p>
+                    <p>When you control your breath, you're not just taking in air—you're sending signals to your entire nervous system about how to respond to the world.</p>
+                    <p><strong>Key insight:</strong> Every breath you take is an opportunity to reshape your neural pathways.</p>`,
+                2: `<p>528 Hz is known as the "miracle frequency." It's associated with DNA repair and transformation.</p>
+                    <p>When you breathe while listening to 528 Hz, the waves pass through you. At 4 seconds of inhale: 528 × 4 = 2,112 healing waves.</p>
+                    <p><strong>Key insight:</strong> You're not just breathing—you're bathing your cells in healing vibration.</p>`,
+                3: `<p>Your brain is plastic—it changes shape based on what you repeatedly do. This is neuroplasticity.</p>
+                    <p>Every time you consciously breathe with focus, you're strengthening specific neural pathways. What fires together, wires together.</p>
+                    <p><strong>Key insight:</strong> You're literally sculpting your brain with each practice session.</p>`,
+                4: `<p>Manual counting during breathwork isn't just for timing—it's Neural Kinetic Therapy (NKT).</p>
+                    <p>The act of counting engages your prefrontal cortex and creates strong neural connections that eventually become automatic.</p>
+                    <p><strong>Key insight:</strong> Count consciously now so your brain counts automatically later.</p>`,
+                5: `<p>Research shows it takes about 66 days on average for a behavior to become automatic. But the foundation starts at 14-21 days.</p>
+                    <p>You're building an identity shift, not just a habit. The goal is to become someone who breathes consciously.</p>
+                    <p><strong>Key insight:</strong> You're not trying hard—you're becoming different.</p>`,
+                6: `<p>Take a moment to reflect on your first week:</p>
+                    <ul>
+                        <li>What did you notice during your breath sessions?</li>
+                        <li>When was it easiest to practice? Hardest?</li>
+                        <li>What's one thing you'd like to focus on next week?</li>
+                    </ul>
+                    <p><strong>Key insight:</strong> Awareness of your progress accelerates your progress.</p>`,
+                7: `<p><strong>Congratulations!</strong> You've completed Week 1 of your 90-day journey.</p>
+                    <p>You've begun rewiring your brain. The neural pathways for conscious breathing are forming. The hardest part—starting—is behind you.</p>
+                    <p>Keep going. Each day compounds on the last.</p>`
+            };
+            return content[day] || '<p>Content coming soon...</p>';
+        }
+
+        function completeLesson() {
+            if (!state.tasks[1]) {
+                state.tasks[1] = true;
+                state.xp += 30;
+                updateUI();
+                saveState();
+            }
+            closeModal();
+        }
+
+        // ============================================
+        // SQUAD
+        // ============================================
+
+        function setSquadMode(mode) {
+            state.squadMode = mode;
+            document.querySelectorAll('.squad-mode-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.textContent.toLowerCase() === mode);
+            });
+            document.getElementById('host-view').style.display = mode === 'host' ? 'block' : 'none';
+            document.getElementById('join-view').style.display = mode === 'join' ? 'block' : 'none';
+        }
+
+        function createRoom() {
+            const chars = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
+            let code = '';
+            for (let i = 0; i < 4; i++) code += chars.charAt(Math.floor(Math.random() * chars.length));
+            state.roomCode = code;
+            document.getElementById('room-code').textContent = code;
+        }
+
+        function joinRoom() {
+            const code = document.getElementById('join-input').value.toUpperCase();
+            if (code.length === 4) {
+                state.roomCode = code;
+                alert(`Joined room ${code}! (Firebase integration coming soon)`);
+            }
+        }
+
+        // ============================================
+        // NEURO SKILLS
+        // ============================================
+
+        function openNeuroModal(skill) {
+            const data = {
+                nkt: {
+                    title: 'Neural Kinetic Therapy',
+                    content: `
+                        <p><strong>What is NKT?</strong></p>
+                        <p>Neural Kinetic Therapy is the process of building neural circuits through deliberate, repetitive physical and mental actions.</p>
+                        <p><strong>How breath training develops it:</strong></p>
+                        <ul>
+                            <li>Manual counting engages the prefrontal cortex</li>
+                            <li>Repetition strengthens synaptic connections</li>
+                            <li>Eventually, conscious counting becomes automatic</li>
+                        </ul>
+                        <p><strong>Timeline:</strong></p>
+                        <ul>
+                            <li>90 days: Foundation circuits form</li>
+                            <li>4 months: Behavior becomes habitual</li>
+                            <li>10 years: Complete mastery and teaching ability</li>
+                        </ul>
+                    `
+                },
+                nlp: {
+                    title: 'Neuro-Linguistic Programming',
+                    content: `
+                        <p><strong>What is NLP?</strong></p>
+                        <p>NLP is the science of how language and thought patterns affect behavior and neural wiring.</p>
+                        <p><strong>How breath training develops it:</strong></p>
+                        <ul>
+                            <li>Daily affirmations paired with breath become anchored</li>
+                            <li>Breath rhythm becomes a trigger for positive states</li>
+                            <li>Self-talk during practice reprograms beliefs</li>
+                        </ul>
+                        <p><strong>Timeline:</strong></p>
+                        <ul>
+                            <li>14 days: New habits begin forming</li>
+                            <li>90 days: Beliefs become identity</li>
+                        </ul>
+                    `
+                },
+                bci: {
+                    title: 'Brain-Computer Interface Training',
+                    content: `
+                        <p><strong>What is BCI?</strong></p>
+                        <p>Brain-Computer Interface is direct communication between the brain and external devices.</p>
+                        <p><strong>How breath training prepares you:</strong></p>
+                        <ul>
+                            <li>Consistent breath = consistent brain signals</li>
+                            <li>You're learning to produce readable neural patterns</li>
+                            <li>This is foundation for neurofeedback technology</li>
+                        </ul>
+                        <p><strong>Timeline:</strong></p>
+                        <ul>
+                            <li>60 days: Basic signal consistency</li>
+                            <li>6 months: Bidirectional control capability</li>
+                        </ul>
+                    `
+                },
+                echo: {
+                    title: 'Echolocation / Spatial Awareness',
+                    content: `
+                        <p><strong>What is it?</strong></p>
+                        <p>Enhanced spatial awareness beyond normal vision—perceiving your environment through heightened senses.</p>
+                        <p><strong>How breath training develops it:</strong></p>
+                        <ul>
+                            <li>Breath holds increase sensory acuity</li>
+                            <li>Reduced mental noise heightens perception</li>
+                            <li>Other senses sharpen during focused practice</li>
+                        </ul>
+                        <p><strong>Timeline:</strong></p>
+                        <ul>
+                            <li>4 months: Noticeable awareness increase</li>
+                            <li>10 years: Full spatial perception mastery</li>
+                        </ul>
+                    `
+                },
+                muscle: {
+                    title: 'Muscle Memory / Procedural Memory',
+                    content: `
+                        <p><strong>What is it?</strong></p>
+                        <p>The encoding of skills into procedural memory so they become automatic.</p>
+                        <p><strong>How breath training develops it:</strong></p>
+                        <ul>
+                            <li>Repetitive patterns encode into motor cortex</li>
+                            <li>Breath rhythms become unconscious</li>
+                            <li>Frees conscious mind for higher tasks</li>
+                        </ul>
+                        <p><strong>Timeline:</strong></p>
+                        <ul>
+                            <li>21 days: Pattern begins setting</li>
+                            <li>66 days: Becomes fully automatic</li>
+                        </ul>
+                    `
+                },
+                neuro: {
+                    title: 'Neuroplasticity',
+                    content: `
+                        <p><strong>What is it?</strong></p>
+                        <p>Your brain's ability to physically change its structure based on experience.</p>
+                        <p><strong>How breath training develops it:</strong></p>
+                        <ul>
+                            <li>Gray matter increases in attention regions</li>
+                            <li>New neural connections form with each session</li>
+                            <li>Old limiting patterns dissolve through disuse</li>
+                        </ul>
+                        <p><strong>Timeline:</strong></p>
+                        <ul>
+                            <li>8 weeks: Measurable brain changes</li>
+                            <li>Lifelong: Continuous growth potential</li>
+                        </ul>
+                    `
+                }
+            };
+
+            const info = data[skill];
+            document.getElementById('modal-title').textContent = info.title;
+            document.getElementById('modal-body').innerHTML = `<div style="line-height:1.8; font-size:14px;">${info.content}</div>`;
+            document.getElementById('modal-overlay').classList.add('active');
+        }
+
+        // ============================================
+        // SETTINGS
+        // ============================================
+
+        function toggleSetting(key) {
+            state.settings[key] = !state.settings[key];
+            document.getElementById(`toggle-${key}`).classList.toggle('active', state.settings[key]);
+            applySettings();
+            saveState();
+        }
+
+        function applySettings() {
+            document.querySelector('.flower-svg').style.display = state.settings.geo ? 'block' : 'none';
+            document.querySelector('.wave-display').style.display = state.settings.wave ? 'block' : 'none';
+
+            Object.keys(state.settings).forEach(key => {
+                const toggle = document.getElementById(`toggle-${key}`);
+                if (toggle) toggle.classList.toggle('active', state.settings[key]);
+            });
+        }
+
+        // ============================================
+        // MODAL
+        // ============================================
+
+        function closeModal() {
+            document.getElementById('modal-overlay').classList.remove('active');
+        }
+
+        document.getElementById('modal-overlay').addEventListener('click', (e) => {
+            if (e.target.id === 'modal-overlay') closeModal();
+        });
+
+        // ============================================
+        // UTILITIES
+        // ============================================
+
+        function formatTime(s) {
+            const m = Math.floor(s / 60);
+            const sec = s % 60;
+            return `${m}:${sec.toString().padStart(2, '0')}`;
+        }
+
+        function formatNumber(n) {
+            if (n >= 1000000) return (n / 1000000).toFixed(1) + 'M';
+            if (n >= 1000) return (n / 1000).toFixed(1) + 'K';
+            return n;
+        }
+
+        // DEV: Press D to advance day
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'd' || e.key === 'D') {
+                advanceDay();
+            }
+        });
+
+        // ============================================
+        // FREESTYLE BREATH BUILDER
+        // ============================================
+
+        let customPatterns = [];
+        let notes = [];
+        let currentEnergy = 2;
+
+        // Load custom patterns and notes from localStorage
+        function loadCustomData() {
+            const savedPatterns = localStorage.getItem('rf528_custom_patterns');
+            if (savedPatterns) customPatterns = JSON.parse(savedPatterns);
+
+            const savedNotes = localStorage.getItem('rf528_notes');
+            if (savedNotes) notes = JSON.parse(savedNotes);
+
+            renderSavedPatterns();
+            renderNotesHistory();
+            updateJournalDate();
+        }
+
+        // Initialize on load
+        document.addEventListener('DOMContentLoaded', () => {
+            loadCustomData();
+            setupPhaseListeners();
+        });
+
+        function setupPhaseListeners() {
+            for (let i = 1; i <= 7; i++) {
+                const typeEl = document.getElementById(`phase${i}-type`);
+                const timeEl = document.getElementById(`phase${i}-time`);
+                if (typeEl) typeEl.addEventListener('change', updateFreestylePreview);
+                if (timeEl) timeEl.addEventListener('input', updateFreestylePreview);
+            }
+        }
+
+        function updateFreestylePreview() {
+            const phases = [];
+            let total = 0;
+
+            for (let i = 1; i <= 7; i++) {
+                const type = document.getElementById(`phase${i}-type`).value;
+                const time = parseInt(document.getElementById(`phase${i}-time`).value) || 0;
+
+                if (type !== 'skip' && time > 0) {
+                    phases.push(time);
+                    total += time;
+                }
+            }
+
+            document.getElementById('freestyle-preview').textContent = phases.join('-') || '0';
+            document.getElementById('freestyle-total').textContent = `${total} seconds per cycle`;
+        }
+
+        function getFreestylePhases() {
+            const phases = [];
+            for (let i = 1; i <= 7; i++) {
+                const type = document.getElementById(`phase${i}-type`).value;
+                const time = parseInt(document.getElementById(`phase${i}-time`).value) || 0;
+                if (type !== 'skip' && time > 0) {
+                    phases.push({ type, time, name: type.toUpperCase() });
+                }
+            }
+            return phases;
+        }
+
+        function startFreestyle() {
+            const phases = getFreestylePhases();
+            if (phases.length === 0) {
+                alert('Please set at least one phase with time > 0');
+                return;
+            }
+
+            // Build custom pattern object
+            const customPattern = {
+                name: 'Custom',
+                timing: phases.map(p => p.time).join('-'),
+                phases: phases
+            };
+
+            // Store temporarily and switch to breathe panel
+            state.currentPattern = customPattern;
+            state.currentPattern.isCustom = true;
+
+            // Navigate to breathe panel
+            showPanel('breathe');
+
+            // Start session after short delay
+            setTimeout(() => {
+                startSession();
+            }, 500);
+        }
+
+        function saveCustomPattern() {
+            const name = document.getElementById('custom-pattern-name').value.trim();
+            if (!name) {
+                alert('Please enter a name for your pattern');
+                return;
+            }
+
+            const phases = getFreestylePhases();
+            if (phases.length === 0) {
+                alert('Please set at least one phase with time > 0');
+                return;
+            }
+
+            const pattern = {
+                id: Date.now(),
+                name: name,
+                timing: phases.map(p => p.time).join('-'),
+                phases: phases,
+                createdAt: new Date().toISOString()
+            };
+
+            customPatterns.push(pattern);
+            localStorage.setItem('rf528_custom_patterns', JSON.stringify(customPatterns));
+
+            document.getElementById('custom-pattern-name').value = '';
+            renderSavedPatterns();
+
+            alert(`Pattern "${name}" saved!`);
+        }
+
+        function renderSavedPatterns() {
+            const container = document.getElementById('saved-patterns');
+
+            if (customPatterns.length === 0) {
+                container.innerHTML = `
+                    <div style="text-align: center; padding: 20px; color: var(--text-dim); font-size: 13px;">
+                        No saved patterns yet. Create one above!
+                    </div>
+                `;
+                return;
+            }
+
+            container.innerHTML = customPatterns.map(p => `
+                <div style="display: flex; align-items: center; gap: 10px; padding: 15px; background: rgba(255,255,255,0.03); border-radius: 12px; border: 1px solid rgba(255,215,0,0.1);">
+                    <div style="flex: 1;">
+                        <div style="font-weight: 600; margin-bottom: 3px;">${p.name}</div>
+                        <div style="font-size: 12px; color: var(--gold);">${p.timing}</div>
+                    </div>
+                    <button onclick="useCustomPattern(${p.id})" style="padding: 8px 15px; background: var(--gold); color: var(--dark); border: none; border-radius: 8px; cursor: pointer; font-weight: 600; font-size: 12px;">Use</button>
+                    <button onclick="deleteCustomPattern(${p.id})" style="padding: 8px 12px; background: rgba(255,0,0,0.2); color: #ff6666; border: none; border-radius: 8px; cursor: pointer; font-size: 12px;">×</button>
+                </div>
+            `).join('');
+        }
+
+        function useCustomPattern(id) {
+            const pattern = customPatterns.find(p => p.id === id);
+            if (!pattern) return;
+
+            state.currentPattern = {
+                name: pattern.name,
+                timing: pattern.timing,
+                phases: pattern.phases,
+                isCustom: true
+            };
+
+            showPanel('breathe');
+            setTimeout(() => startSession(), 500);
+        }
+
+        function deleteCustomPattern(id) {
+            if (!confirm('Delete this pattern?')) return;
+            customPatterns = customPatterns.filter(p => p.id !== id);
+            localStorage.setItem('rf528_custom_patterns', JSON.stringify(customPatterns));
+            renderSavedPatterns();
+        }
+
+        function loadTemplate(type) {
+            const templates = {
+                relaxation: { phases: ['inhale', 'skip', 'exhale', 'skip'], times: [4, 0, 8, 0] },
+                energy: { phases: ['inhale', 'skip', 'exhale', 'skip'], times: [2, 0, 2, 0] },
+                focus: { phases: ['inhale', 'hold', 'exhale', 'skip'], times: [4, 8, 4, 0] },
+                sleep: { phases: ['inhale', 'hold', 'exhale', 'skip'], times: [4, 7, 8, 0] }
+            };
+
+            const t = templates[type];
+            if (!t) return;
+
+            for (let i = 1; i <= 4; i++) {
+                document.getElementById(`phase${i}-type`).value = t.phases[i-1];
+                document.getElementById(`phase${i}-time`).value = t.times[i-1];
+            }
+            for (let i = 5; i <= 7; i++) {
+                document.getElementById(`phase${i}-type`).value = 'skip';
+                document.getElementById(`phase${i}-time`).value = 0;
+            }
+
+            updateFreestylePreview();
+        }
+
+        // ============================================
+        // JOURNAL / NOTES
+        // ============================================
+
+        function updateJournalDate() {
+            const now = new Date();
+            const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+            document.getElementById('journal-date').textContent = now.toLocaleDateString('en-US', options);
+            document.getElementById('journal-day').textContent = state.day;
+        }
+
+        function setEnergy(level) {
+            currentEnergy = level;
+            document.querySelectorAll('.energy-btn').forEach(btn => {
+                const btnLevel = parseInt(btn.dataset.level);
+                btn.style.background = btnLevel === level ? 'var(--gold)' : 'rgba(255,255,255,0.05)';
+                btn.style.color = btnLevel === level ? 'var(--dark)' : 'white';
+                btn.style.borderColor = btnLevel === level ? 'var(--gold)' : 'rgba(255,255,255,0.1)';
+            });
+        }
+
+        function saveNote() {
+            const pattern = document.getElementById('note-pattern').value.trim();
+            const duration = document.getElementById('note-duration').value.trim();
+            const reflection = document.getElementById('note-reflection').value.trim();
+
+            if (!pattern && !reflection) {
+                alert('Please enter at least a pattern or reflection');
+                return;
+            }
+
+            const note = {
+                id: Date.now(),
+                day: state.day,
+                date: new Date().toISOString(),
+                pattern,
+                duration,
+                reflection,
+                energy: currentEnergy
+            };
+
+            notes.unshift(note); // Add to beginning
+            localStorage.setItem('rf528_notes', JSON.stringify(notes));
+
+            // Clear form
+            document.getElementById('note-pattern').value = '';
+            document.getElementById('note-duration').value = '';
+            document.getElementById('note-reflection').value = '';
+            setEnergy(2);
+
+            renderNotesHistory();
+            alert('Note saved!');
+        }
+
+        function renderNotesHistory() {
+            const container = document.getElementById('notes-history');
+
+            if (notes.length === 0) {
+                container.innerHTML = `
+                    <div style="text-align: center; padding: 30px; color: var(--text-dim); font-size: 13px;">
+                        No notes yet. Start documenting your practice!
+                    </div>
+                `;
+                return;
+            }
+
+            const energyEmoji = { 1: '😴', 2: '😊', 3: '⚡' };
+
+            container.innerHTML = notes.slice(0, 20).map(n => `
+                <div style="padding: 15px; background: rgba(255,255,255,0.03); border-radius: 12px; border-left: 3px solid var(--gold);">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 8px;">
+                        <span style="font-size: 12px; color: var(--gold);">Day ${n.day}</span>
+                        <span style="font-size: 11px; color: var(--text-dim);">${new Date(n.date).toLocaleDateString()}</span>
+                    </div>
+                    ${n.pattern ? `<div style="font-weight: 600; margin-bottom: 5px;">${n.pattern}</div>` : ''}
+                    ${n.duration ? `<div style="font-size: 12px; color: var(--accent); margin-bottom: 5px;">${n.duration}</div>` : ''}
+                    ${n.reflection ? `<div style="font-size: 13px; color: var(--text-dim); line-height: 1.5;">${n.reflection}</div>` : ''}
+                    <div style="margin-top: 8px; font-size: 12px;">Energy: ${energyEmoji[n.energy] || '😊'}</div>
+                </div>
+            `).join('');
+        }
+
+        // Override runBreathCycle to handle custom 7-phase patterns
+        const originalRunBreathCycle = runBreathCycle;
+        runBreathCycle = function() {
+            if (state.currentPattern.isCustom && state.currentPattern.phases) {
+                runCustomBreathCycle();
+            } else {
+                originalRunBreathCycle();
+            }
+        };
+
+        function runCustomBreathCycle() {
+            const phases = state.currentPattern.phases;
+            let phaseIndex = 0;
+            let timeInPhase = 0;
+
+            function tick() {
+                if (!state.isRunning) return;
+
+                const phase = phases[phaseIndex];
+                const remaining = phase.time - timeInPhase;
+
+                document.getElementById('breath-ring').className = 'breath-ring ' + phase.type;
+                document.getElementById('phase-label').textContent = phase.name;
+                document.getElementById('phase-count').textContent = remaining;
+
+                document.getElementById('wave-sec').textContent = timeInPhase + 1;
+                document.getElementById('wave-total').textContent = ((timeInPhase + 1) * 528).toLocaleString();
+
+                if (timeInPhase === 0 && state.settings.vib) {
+                    triggerVibration(phase.type);
+                }
+
+                state.totalWaves += 528;
+                document.getElementById('stat-waves').textContent = formatNumber(state.totalWaves);
+
+                timeInPhase++;
+
+                if (timeInPhase >= phase.time) {
+                    timeInPhase = 0;
+                    phaseIndex++;
+                    if (phaseIndex >= phases.length) {
+                        phaseIndex = 0;
+                        state.cycles++;
+                        document.getElementById('stat-cycles').textContent = state.cycles;
+                    }
+                }
+            }
+
+            tick();
+            breathInterval = setInterval(tick, 1000);
+        }
+
+        // ============================================
+        // PWA - SERVICE WORKER & INSTALL
+        // ============================================
+
+        let deferredPrompt;
+
+        // Register Service Worker
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('sw.js')
+                    .then((registration) => {
+                        console.log('Reality Forge SW registered:', registration.scope);
+                    })
+                    .catch((error) => {
+                        console.log('Reality Forge SW registration failed:', error);
+                    });
+            });
+        }
+
+        // Capture install prompt
+        window.addEventListener('beforeinstallprompt', (e) => {
+            e.preventDefault();
+            deferredPrompt = e;
+            showInstallButton();
+        });
+
+        function showInstallButton() {
+            // Add install button to the UI if not already installed
+            if (!document.getElementById('install-btn')) {
+                const btn = document.createElement('button');
+                btn.id = 'install-btn';
+                btn.innerHTML = '📲 Install App';
+                btn.style.cssText = `
+                    position: fixed;
+                    bottom: 20px;
+                    right: 20px;
+                    padding: 12px 20px;
+                    background: linear-gradient(135deg, var(--gold), var(--gold-dim));
+                    color: var(--dark);
+                    border: none;
+                    border-radius: 25px;
+                    font-family: 'Orbitron', monospace;
+                    font-size: 12px;
+                    font-weight: 600;
+                    cursor: pointer;
+                    z-index: 1000;
+                    box-shadow: 0 4px 20px rgba(255,215,0,0.4);
+                    animation: pulse 2s ease-in-out infinite;
+                `;
+                btn.onclick = installApp;
+                document.body.appendChild(btn);
+
+                // Add pulse animation
+                const style = document.createElement('style');
+                style.textContent = `
+                    @keyframes pulse {
+                        0%, 100% { transform: scale(1); }
+                        50% { transform: scale(1.05); }
+                    }
+                `;
+                document.head.appendChild(style);
+            }
+        }
+
+        async function installApp() {
+            if (!deferredPrompt) return;
+
+            deferredPrompt.prompt();
+            const { outcome } = await deferredPrompt.userChoice;
+
+            if (outcome === 'accepted') {
+                console.log('Reality Forge installed!');
+                const btn = document.getElementById('install-btn');
+                if (btn) btn.remove();
+            }
+
+            deferredPrompt = null;
+        }
+
+        // Detect if app is installed
+        window.addEventListener('appinstalled', () => {
+            console.log('Reality Forge installed successfully!');
+            const btn = document.getElementById('install-btn');
+            if (btn) btn.remove();
+            deferredPrompt = null;
+        });
+
+        // Check if running as PWA
+        if (window.matchMedia('(display-mode: standalone)').matches) {
+            console.log('Running as installed PWA');
+        }
+    </script>
+</body>
+</html>
