@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PEMF Therapy Controller | Reality Forge</title>
+
+    <!-- PWA Meta Tags -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#00d4ff">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="PEMF Forge">
+    <link rel="apple-touch-icon" href="assets/icon-152.png">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/auth.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="logo">
+                <div class="pulse-icon"></div>
+                <h1>PEMF<span>FORGE</span></h1>
+            </div>
+
+            <div class="header-right">
+                <!-- Sync Status -->
+                <div class="sync-status synced" id="syncStatus">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="23 4 23 10 17 10"/>
+                        <polyline points="1 20 1 14 7 14"/>
+                        <path d="M3.51 9a9 9 0 0114.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0020.49 15"/>
+                    </svg>
+                    <span>Synced</span>
+                </div>
+
+                <!-- Device Connection -->
+                <div class="connection-status" id="connectionStatus">
+                    <span class="status-dot disconnected"></span>
+                    <span class="status-text">Disconnected</span>
+                </div>
+
+                <!-- Profile Menu -->
+                <div class="profile-menu" id="profileMenu">
+                    <button class="profile-btn" id="profileBtn">
+                        <div class="profile-avatar" id="profileAvatar">
+                            <span id="avatarInitial">?</span>
+                        </div>
+                        <span class="profile-name" id="profileName">Guest</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="profile-dropdown" id="profileDropdown">
+                        <div class="profile-dropdown-header">
+                            <div class="name" id="dropdownName">Guest User</div>
+                            <div class="email" id="dropdownEmail">Not signed in</div>
+                        </div>
+                        <button class="profile-dropdown-item" id="loginBtn" onclick="window.location.href='login.html'">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M15 3h4a2 2 0 012 2v14a2 2 0 01-2 2h-4M10 17l5-5-5-5M15 12H3"/>
+                            </svg>
+                            Sign In
+                        </button>
+                        <button class="profile-dropdown-item hidden" id="profileSettingsBtn">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/>
+                                <circle cx="12" cy="7" r="4"/>
+                            </svg>
+                            My Profile
+                        </button>
+                        <button class="profile-dropdown-item hidden" id="syncNowBtn">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="23 4 23 10 17 10"/>
+                                <path d="M20.49 15a9 9 0 11-2.12-9.36L23 10"/>
+                            </svg>
+                            Sync Now
+                        </button>
+                        <button class="profile-dropdown-item logout hidden" id="logoutBtn">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 21H5a2 2 0 01-2-2V5a2 2 0 012-2h4M16 17l5-5-5-5M21 12H9"/>
+                            </svg>
+                            Sign Out
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Navigation -->
+        <nav class="main-nav">
+            <button class="nav-btn active" data-view="control">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"/>
+                    <path d="M12 6v6l4 2"/>
+                </svg>
+                Control
+            </button>
+            <button class="nav-btn" data-view="protocols">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 6h16M4 12h16M4 18h10"/>
+                </svg>
+                Protocols
+            </button>
+            <button class="nav-btn" data-view="history">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                </svg>
+                History
+            </button>
+            <button class="nav-btn" data-view="settings">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="3"/>
+                    <path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 112.83-2.83l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z"/>
+                </svg>
+                Settings
+            </button>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main class="content-area">
+            <!-- Control View -->
+            <section class="view active" id="controlView">
+                <div class="control-panel">
+                    <!-- Device Connection -->
+                    <div class="panel-section device-section">
+                        <h2>Device Connection</h2>
+                        <button class="connect-btn" id="connectBtn">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M6.5 6.5l11 11M17.5 6.5l-11 11"/>
+                                <circle cx="12" cy="12" r="9"/>
+                            </svg>
+                            Connect PEMF Device
+                        </button>
+                        <div class="device-info hidden" id="deviceInfo">
+                            <p><strong>Device:</strong> <span id="deviceName">-</span></p>
+                            <p><strong>Battery:</strong> <span id="deviceBattery">-</span></p>
+                            <p><strong>Firmware:</strong> <span id="deviceFirmware">-</span></p>
+                        </div>
+                    </div>
+
+                    <!-- Frequency Control -->
+                    <div class="panel-section frequency-section">
+                        <h2>Frequency Control</h2>
+                        <div class="frequency-display">
+                            <div class="freq-value" id="freqDisplay">0.00</div>
+                            <div class="freq-unit">Hz</div>
+                        </div>
+                        <div class="frequency-slider-container">
+                            <input type="range" id="frequencySlider" min="0.1" max="100" step="0.1" value="7.83">
+                            <div class="freq-marks">
+                                <span>0.1</span>
+                                <span>25</span>
+                                <span>50</span>
+                                <span>75</span>
+                                <span>100</span>
+                            </div>
+                        </div>
+                        <div class="preset-frequencies">
+                            <button class="freq-preset" data-freq="7.83" title="Schumann Resonance - Earth's frequency">7.83 Hz</button>
+                            <button class="freq-preset" data-freq="10" title="Alpha Waves - Relaxation">10 Hz</button>
+                            <button class="freq-preset" data-freq="14.1" title="Healing frequency">14.1 Hz</button>
+                            <button class="freq-preset" data-freq="23" title="Beta/Gamma - Focus & Alertness">23 Hz</button>
+                            <button class="freq-preset" data-freq="40" title="Gamma - Peak cognition">40 Hz</button>
+                            <button class="freq-preset" data-freq="73" title="Cellular regeneration">73 Hz</button>
+                        </div>
+                        <a href="guide.html" class="freq-guide-link">📖 Frequency Guide & DIY Instructions</a>
+                    </div>
+
+                    <!-- Intensity Control -->
+                    <div class="panel-section intensity-section">
+                        <h2>Intensity</h2>
+                        <div class="intensity-gauge">
+                            <div class="gauge-fill" id="intensityFill"></div>
+                            <div class="gauge-value" id="intensityValue">50%</div>
+                        </div>
+                        <input type="range" id="intensitySlider" min="0" max="100" value="50">
+                        <div class="intensity-labels">
+                            <span>Low</span>
+                            <span>Medium</span>
+                            <span>High</span>
+                        </div>
+                    </div>
+
+                    <!-- Waveform Selection -->
+                    <div class="panel-section waveform-section">
+                        <h2>Waveform</h2>
+                        <div class="waveform-options">
+                            <button class="waveform-btn active" data-waveform="sine">
+                                <svg viewBox="0 0 60 30">
+                                    <path d="M0,15 Q15,0 30,15 T60,15" fill="none" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                                Sine
+                            </button>
+                            <button class="waveform-btn" data-waveform="square">
+                                <svg viewBox="0 0 60 30">
+                                    <path d="M0,25 L0,5 L15,5 L15,25 L30,25 L30,5 L45,5 L45,25 L60,25" fill="none" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                                Square
+                            </button>
+                            <button class="waveform-btn" data-waveform="sawtooth">
+                                <svg viewBox="0 0 60 30">
+                                    <path d="M0,25 L15,5 L15,25 L30,5 L30,25 L45,5 L45,25 L60,5" fill="none" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                                Sawtooth
+                            </button>
+                            <button class="waveform-btn" data-waveform="pulse">
+                                <svg viewBox="0 0 60 30">
+                                    <path d="M0,25 L5,25 L5,5 L10,5 L10,25 L25,25 L25,5 L30,5 L30,25 L45,25 L45,5 L50,5 L50,25 L60,25" fill="none" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                                Pulse
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Timer Control -->
+                    <div class="panel-section timer-section">
+                        <h2>Session Timer</h2>
+                        <div class="timer-display">
+                            <span id="timerMinutes">00</span>:<span id="timerSeconds">00</span>
+                        </div>
+                        <div class="timer-presets">
+                            <button class="timer-preset" data-minutes="5">5 min</button>
+                            <button class="timer-preset" data-minutes="10">10 min</button>
+                            <button class="timer-preset active" data-minutes="15">15 min</button>
+                            <button class="timer-preset" data-minutes="20">20 min</button>
+                            <button class="timer-preset" data-minutes="30">30 min</button>
+                            <button class="timer-preset" data-minutes="60">60 min</button>
+                        </div>
+                        <input type="range" id="timerSlider" min="1" max="120" value="15">
+                    </div>
+
+                    <!-- Master Control -->
+                    <div class="panel-section master-control">
+                        <button class="start-btn" id="startBtn">
+                            <span class="btn-icon play">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M8 5v14l11-7z"/>
+                                </svg>
+                            </span>
+                            <span class="btn-icon stop hidden">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <rect x="6" y="4" width="4" height="16"/>
+                                    <rect x="14" y="4" width="4" height="16"/>
+                                </svg>
+                            </span>
+                            <span class="btn-text">Start Session</span>
+                        </button>
+                        <div class="session-progress hidden" id="sessionProgress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" id="progressFill"></div>
+                            </div>
+                            <p class="progress-text">Session in progress...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Live Visualization -->
+                <div class="visualization-panel">
+                    <canvas id="waveformCanvas"></canvas>
+                    <div class="viz-info">
+                        <div class="viz-stat">
+                            <span class="label">Frequency</span>
+                            <span class="value" id="vizFreq">7.83 Hz</span>
+                        </div>
+                        <div class="viz-stat">
+                            <span class="label">Intensity</span>
+                            <span class="value" id="vizIntensity">50%</span>
+                        </div>
+                        <div class="viz-stat">
+                            <span class="label">Field Strength</span>
+                            <span class="value" id="vizField">-- μT</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Protocols View -->
+            <section class="view" id="protocolsView">
+                <div class="protocols-header">
+                    <h2>Treatment Protocols</h2>
+                    <button class="create-protocol-btn" id="createProtocolBtn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 5v14M5 12h14"/>
+                        </svg>
+                        Create Custom
+                    </button>
+                </div>
+
+                <div class="protocol-categories">
+                    <button class="category-btn active" data-category="all">All</button>
+                    <button class="category-btn" data-category="healing">Healing</button>
+                    <button class="category-btn" data-category="energy">Energy</button>
+                    <button class="category-btn" data-category="sleep">Sleep</button>
+                    <button class="category-btn" data-category="pain">Pain Relief</button>
+                    <button class="category-btn" data-category="focus">Focus</button>
+                </div>
+
+                <div class="protocols-grid" id="protocolsGrid">
+                    <!-- Protocols loaded dynamically -->
+                </div>
+
+                <!-- Protocol Creator Modal -->
+                <div class="modal hidden" id="protocolModal">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3>Create Custom Protocol</h3>
+                            <button class="close-modal" id="closeModal">&times;</button>
+                        </div>
+                        <form id="protocolForm">
+                            <div class="form-group">
+                                <label for="protocolName">Protocol Name</label>
+                                <input type="text" id="protocolName" required placeholder="Enter protocol name">
+                            </div>
+                            <div class="form-group">
+                                <label for="protocolCategory">Category</label>
+                                <select id="protocolCategory">
+                                    <option value="healing">Healing</option>
+                                    <option value="energy">Energy</option>
+                                    <option value="sleep">Sleep</option>
+                                    <option value="pain">Pain Relief</option>
+                                    <option value="focus">Focus</option>
+                                    <option value="custom">Custom</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="protocolDescription">Description</label>
+                                <textarea id="protocolDescription" rows="3" placeholder="Describe the protocol purpose"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label>Steps (Frequency Sequences)</label>
+                                <div id="protocolSteps">
+                                    <div class="step-item">
+                                        <input type="number" placeholder="Freq (Hz)" class="step-freq" min="0.1" max="100" step="0.1">
+                                        <input type="number" placeholder="Duration (min)" class="step-duration" min="1" max="60">
+                                        <input type="number" placeholder="Intensity %" class="step-intensity" min="1" max="100">
+                                        <select class="step-waveform">
+                                            <option value="sine">Sine</option>
+                                            <option value="square">Square</option>
+                                            <option value="sawtooth">Sawtooth</option>
+                                            <option value="pulse">Pulse</option>
+                                        </select>
+                                        <button type="button" class="remove-step hidden">&times;</button>
+                                    </div>
+                                </div>
+                                <button type="button" class="add-step-btn" id="addStepBtn">+ Add Step</button>
+                            </div>
+                            <div class="form-actions">
+                                <button type="button" class="btn-secondary" id="cancelProtocol">Cancel</button>
+                                <button type="submit" class="btn-primary">Save Protocol</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <!-- History View -->
+            <section class="view" id="historyView">
+                <div class="history-header">
+                    <h2>Session History</h2>
+                    <div class="history-stats">
+                        <div class="stat-card">
+                            <span class="stat-value" id="totalSessions">0</span>
+                            <span class="stat-label">Total Sessions</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-value" id="totalMinutes">0</span>
+                            <span class="stat-label">Total Minutes</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-value" id="streakDays">0</span>
+                            <span class="stat-label">Day Streak</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="history-filters">
+                    <select id="historyPeriod">
+                        <option value="week">Last 7 Days</option>
+                        <option value="month">Last 30 Days</option>
+                        <option value="all">All Time</option>
+                    </select>
+                    <button class="export-btn" id="exportHistory">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/>
+                        </svg>
+                        Export
+                    </button>
+                </div>
+
+                <div class="history-chart-container">
+                    <canvas id="historyChart"></canvas>
+                </div>
+
+                <div class="history-list" id="historyList">
+                    <!-- Sessions loaded dynamically -->
+                </div>
+            </section>
+
+            <!-- Settings View -->
+            <section class="view" id="settingsView">
+                <h2>Settings</h2>
+
+                <div class="settings-section">
+                    <h3>Device Settings</h3>
+                    <div class="setting-item">
+                        <label>Auto-connect to last device</label>
+                        <input type="checkbox" id="autoConnect" class="toggle">
+                    </div>
+                    <div class="setting-item">
+                        <label>Device timeout (minutes)</label>
+                        <input type="number" id="deviceTimeout" min="1" max="60" value="30">
+                    </div>
+                </div>
+
+                <div class="settings-section">
+                    <h3>Safety Settings</h3>
+                    <div class="setting-item">
+                        <label>Maximum session duration (minutes)</label>
+                        <input type="number" id="maxDuration" min="5" max="120" value="60">
+                    </div>
+                    <div class="setting-item">
+                        <label>Maximum intensity (%)</label>
+                        <input type="number" id="maxIntensity" min="10" max="100" value="100">
+                    </div>
+                    <div class="setting-item">
+                        <label>Session cooldown period (minutes)</label>
+                        <input type="number" id="cooldownPeriod" min="0" max="60" value="15">
+                    </div>
+                    <div class="setting-item">
+                        <label>Show safety warnings</label>
+                        <input type="checkbox" id="safetyWarnings" class="toggle" checked>
+                    </div>
+                </div>
+
+                <div class="settings-section">
+                    <h3>Notifications</h3>
+                    <div class="setting-item">
+                        <label>Session reminders</label>
+                        <input type="checkbox" id="sessionReminders" class="toggle">
+                    </div>
+                    <div class="setting-item">
+                        <label>Sound alerts</label>
+                        <input type="checkbox" id="soundAlerts" class="toggle" checked>
+                    </div>
+                    <div class="setting-item">
+                        <label>Session completion notification</label>
+                        <input type="checkbox" id="completionNotif" class="toggle" checked>
+                    </div>
+                </div>
+
+                <div class="settings-section">
+                    <h3>Display</h3>
+                    <div class="setting-item">
+                        <label>Dark mode</label>
+                        <input type="checkbox" id="darkMode" class="toggle" checked>
+                    </div>
+                    <div class="setting-item">
+                        <label>Show visualization</label>
+                        <input type="checkbox" id="showViz" class="toggle" checked>
+                    </div>
+                    <div class="setting-item">
+                        <label>Temperature unit</label>
+                        <select id="tempUnit">
+                            <option value="celsius">Celsius</option>
+                            <option value="fahrenheit">Fahrenheit</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="settings-section">
+                    <h3>Data</h3>
+                    <div class="setting-item">
+                        <button class="btn-secondary" id="clearHistory">Clear Session History</button>
+                    </div>
+                    <div class="setting-item">
+                        <button class="btn-secondary" id="resetSettings">Reset All Settings</button>
+                    </div>
+                    <div class="setting-item">
+                        <button class="btn-secondary" id="backupData">Backup Data</button>
+                    </div>
+                </div>
+
+                <div class="settings-section">
+                    <h3>About</h3>
+                    <div class="about-info">
+                        <p><strong>PEMF Forge</strong> v1.0.0</p>
+                        <p>Part of the Reality Forge System</p>
+                        <p>Domain: 07_TRANSCEND (Consciousness & Frequencies)</p>
+                        <p class="warning-text">
+                            <strong>Safety Notice:</strong> Consult your healthcare provider before using PEMF therapy.
+                            Not recommended for individuals with pacemakers, defibrillators, or other electronic implants.
+                            Avoid use during pregnancy without medical supervision.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Safety Warning Modal -->
+        <div class="modal hidden" id="safetyModal">
+            <div class="modal-content safety-warning">
+                <div class="modal-header">
+                    <h3>Safety Information</h3>
+                </div>
+                <div class="safety-content">
+                    <p><strong>Please read before use:</strong></p>
+                    <ul>
+                        <li>PEMF therapy is not a substitute for professional medical advice</li>
+                        <li>Do NOT use if you have a pacemaker, defibrillator, or other electronic implant</li>
+                        <li>Avoid use during pregnancy without medical supervision</li>
+                        <li>Discontinue use if you experience any discomfort</li>
+                        <li>Keep sessions within recommended duration limits</li>
+                        <li>Allow proper cooldown time between sessions</li>
+                    </ul>
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="acceptSafety">
+                        <label for="acceptSafety">I have read and understand the safety information</label>
+                    </div>
+                </div>
+                <div class="modal-actions">
+                    <button class="btn-primary" id="acceptSafetyBtn" disabled>Continue</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Toast Notifications -->
+        <div class="toast-container" id="toastContainer"></div>
+    </div>
+
+    <script src="js/protocols.js"></script>
+    <script src="js/bluetooth.js"></script>
+    <script src="js/history.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/app.js"></script>
+
+    <!-- Service Worker for PWA -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js').catch(err => console.log('SW:', err));
+        }
+
+        // Profile dropdown toggle
+        document.getElementById('profileBtn')?.addEventListener('click', () => {
+            document.getElementById('profileDropdown')?.classList.toggle('active');
+        });
+
+        // Close dropdown on outside click
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.profile-menu')) {
+                document.getElementById('profileDropdown')?.classList.remove('active');
+            }
+        });
+
+        // Update UI based on auth state
+        function updateAuthUI() {
+            const isLoggedIn = PEMFAuth?.isAuthenticated;
+            const user = PEMFAuth?.currentUser;
+
+            document.getElementById('loginBtn')?.classList.toggle('hidden', isLoggedIn);
+            document.getElementById('profileSettingsBtn')?.classList.toggle('hidden', !isLoggedIn);
+            document.getElementById('syncNowBtn')?.classList.toggle('hidden', !isLoggedIn);
+            document.getElementById('logoutBtn')?.classList.toggle('hidden', !isLoggedIn);
+
+            if (isLoggedIn && user) {
+                document.getElementById('profileName').textContent = user.name.split(' ')[0];
+                document.getElementById('avatarInitial').textContent = user.name.charAt(0).toUpperCase();
+                document.getElementById('dropdownName').textContent = user.name;
+                document.getElementById('dropdownEmail').textContent = user.email;
+            }
+        }
+
+        // Logout handler
+        document.getElementById('logoutBtn')?.addEventListener('click', () => {
+            PEMFAuth?.logout();
+        });
+
+        // Sync now handler
+        document.getElementById('syncNowBtn')?.addEventListener('click', () => {
+            PEMFAuth?.syncData();
+        });
+
+        // Update UI on load
+        document.addEventListener('DOMContentLoaded', () => {
+            setTimeout(updateAuthUI, 100);
+        });
+    </script>
+</body>
+</html>
