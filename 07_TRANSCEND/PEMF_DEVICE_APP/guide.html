@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PEMF Guide & DIY Instructions | PEMF Forge</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/guide.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="guide-container">
+        <!-- Header -->
+        <header class="guide-header">
+            <a href="index.html" class="back-btn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M19 12H5M12 19l-7-7 7-7"/>
+                </svg>
+                Back to App
+            </a>
+            <h1>PEMF Complete Guide</h1>
+        </header>
+
+        <!-- Table of Contents -->
+        <nav class="toc">
+            <h2>Contents</h2>
+            <ul>
+                <li><a href="#what-is-pemf">What is PEMF?</a></li>
+                <li><a href="#frequency-types">Understanding Frequency Types</a></li>
+                <li><a href="#brainwaves">Brainwave Frequencies</a></li>
+                <li><a href="#recommended-frequencies">Recommended PEMF Frequencies</a></li>
+                <li><a href="#your-23hz">Your 23 Hz Frequency</a></li>
+                <li><a href="#waveforms">Waveform Types Explained</a></li>
+                <li><a href="#diy-device">DIY PEMF Device Guide</a></li>
+                <li><a href="#safety">Safety Guidelines</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="guide-content">
+
+            <!-- What is PEMF -->
+            <section id="what-is-pemf" class="guide-section">
+                <h2>What is PEMF?</h2>
+                <div class="info-card highlight">
+                    <p><strong>PEMF</strong> = <strong>P</strong>ulsed <strong>E</strong>lectro<strong>M</strong>agnetic <strong>F</strong>ield</p>
+                </div>
+
+                <p>PEMF therapy uses electromagnetic pulses to stimulate cellular activity in the body. Unlike static magnets, PEMF devices generate <em>pulsing</em> magnetic fields that can penetrate deep into tissues.</p>
+
+                <div class="concept-box">
+                    <h3>How It Works</h3>
+                    <div class="diagram">
+                        <pre>
+┌─────────────────────────────────────────────────────────────┐
+│                                                             │
+│   PEMF COIL          MAGNETIC FIELD         YOUR BODY      │
+│                                                             │
+│    ┌─────┐           ～～～～～～～           ┌─────────┐   │
+│    │ ))) │  ──────►  ～ ～ ～ ～ ～  ──────►  │  CELLS  │   │
+│    │ ((( │           ～～～～～～～           │ ○ ○ ○ ○ │   │
+│    └─────┘           Pulsing waves           └─────────┘   │
+│                      penetrate tissue                       │
+│                                                             │
+│   Electrical         Electromagnetic        Cellular        │
+│   Signal             Pulses                 Stimulation     │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+                        </pre>
+                    </div>
+                    <ol>
+                        <li><strong>Signal Generation:</strong> The controller generates an electrical signal at a specific frequency</li>
+                        <li><strong>Coil Activation:</strong> Current flows through a coil, creating a magnetic field</li>
+                        <li><strong>Pulsing:</strong> The field pulses on/off at the set frequency (e.g., 23 times per second at 23 Hz)</li>
+                        <li><strong>Cellular Effect:</strong> Cells respond to the pulsing field, potentially improving function</li>
+                    </ol>
+                </div>
+            </section>
+
+            <!-- Frequency Types -->
+            <section id="frequency-types" class="guide-section">
+                <h2>Understanding Frequency Types</h2>
+
+                <p>The term "frequency" can refer to different things. Here's how they relate:</p>
+
+                <div class="comparison-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Type</th>
+                                <th>What It Is</th>
+                                <th>Range</th>
+                                <th>In PEMF</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class="badge magnetic">Magnetic Field</span></td>
+                                <td>Invisible force field created by electrical current</td>
+                                <td>0.1 - 100+ Hz (PEMF)</td>
+                                <td>This is what PEMF produces - pulsing magnetic waves</td>
+                            </tr>
+                            <tr>
+                                <td><span class="badge brainwave">Brainwave</span></td>
+                                <td>Electrical activity in your brain</td>
+                                <td>0.5 - 100 Hz</td>
+                                <td>PEMF can <em>entrain</em> (synchronize) brainwaves to match</td>
+                            </tr>
+                            <tr>
+                                <td><span class="badge audio">Audio/Sound</span></td>
+                                <td>Vibrations you can hear</td>
+                                <td>20 - 20,000 Hz</td>
+                                <td>NOT the same as PEMF, but some frequencies overlap</td>
+                            </tr>
+                            <tr>
+                                <td><span class="badge electrical">Electrical Signal</span></td>
+                                <td>Electrons flowing through wires</td>
+                                <td>Any Hz</td>
+                                <td>This drives the coil to create the magnetic field</td>
+                            </tr>
+                            <tr>
+                                <td><span class="badge radio">Radio/EMF</span></td>
+                                <td>Electromagnetic radiation</td>
+                                <td>3 kHz - 300 GHz</td>
+                                <td>PEMF is much lower frequency - not radio waves</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="info-card">
+                    <h3>Key Insight</h3>
+                    <p>PEMF frequencies (0.1-100 Hz) are in the same range as brainwaves. This is why PEMF can influence brain states - a 10 Hz PEMF signal can encourage your brain to produce more 10 Hz (Alpha) waves.</p>
+                </div>
+            </section>
+
+            <!-- Brainwaves -->
+            <section id="brainwaves" class="guide-section">
+                <h2>Brainwave Frequencies</h2>
+
+                <p>Your brain produces electrical signals at different frequencies depending on your mental state. PEMF can help <strong>entrain</strong> (guide) your brain toward desired states.</p>
+
+                <div class="brainwave-chart">
+                    <!-- Delta -->
+                    <div class="brainwave-row delta">
+                        <div class="wave-info">
+                            <h3>Delta Waves</h3>
+                            <span class="freq-range">0.5 - 4 Hz</span>
+                        </div>
+                        <div class="wave-visual">
+                            <svg viewBox="0 0 200 40">
+                                <path d="M0,20 Q25,5 50,20 T100,20 T150,20 T200,20" fill="none" stroke="currentColor" stroke-width="3"/>
+                            </svg>
+                        </div>
+                        <div class="wave-description">
+                            <strong>Deep Sleep & Healing</strong>
+                            <ul>
+                                <li>Deepest meditation</li>
+                                <li>Dreamless sleep</li>
+                                <li>Physical regeneration</li>
+                                <li>Immune system boost</li>
+                            </ul>
+                            <div class="pemf-use">PEMF Use: 1-4 Hz for deep relaxation, sleep, healing</div>
+                        </div>
+                    </div>
+
+                    <!-- Theta -->
+                    <div class="brainwave-row theta">
+                        <div class="wave-info">
+                            <h3>Theta Waves</h3>
+                            <span class="freq-range">4 - 8 Hz</span>
+                        </div>
+                        <div class="wave-visual">
+                            <svg viewBox="0 0 200 40">
+                                <path d="M0,20 Q12,5 25,20 T50,20 T75,20 T100,20 T125,20 T150,20 T175,20 T200,20" fill="none" stroke="currentColor" stroke-width="3"/>
+                            </svg>
+                        </div>
+                        <div class="wave-description">
+                            <strong>Meditation & Creativity</strong>
+                            <ul>
+                                <li>Light meditation</li>
+                                <li>REM sleep / dreams</li>
+                                <li>Creativity & intuition</li>
+                                <li>Memory consolidation</li>
+                            </ul>
+                            <div class="pemf-use">PEMF Use: 4-8 Hz for meditation, creativity, light sleep</div>
+                        </div>
+                    </div>
+
+                    <!-- Alpha -->
+                    <div class="brainwave-row alpha">
+                        <div class="wave-info">
+                            <h3>Alpha Waves</h3>
+                            <span class="freq-range">8 - 12 Hz</span>
+                        </div>
+                        <div class="wave-visual">
+                            <svg viewBox="0 0 200 40">
+                                <path d="M0,20 Q8,5 16,20 T32,20 T48,20 T64,20 T80,20 T96,20 T112,20 T128,20 T144,20 T160,20 T176,20 T192,20" fill="none" stroke="currentColor" stroke-width="3"/>
+                            </svg>
+                        </div>
+                        <div class="wave-description">
+                            <strong>Relaxed Awareness</strong>
+                            <ul>
+                                <li>Calm, relaxed state</li>
+                                <li>Mental coordination</li>
+                                <li>Stress reduction</li>
+                                <li>Learning readiness</li>
+                            </ul>
+                            <div class="pemf-use">PEMF Use: 10 Hz is the "sweet spot" for relaxation</div>
+                        </div>
+                    </div>
+
+                    <!-- Beta -->
+                    <div class="brainwave-row beta">
+                        <div class="wave-info">
+                            <h3>Beta Waves</h3>
+                            <span class="freq-range">12 - 30 Hz</span>
+                        </div>
+                        <div class="wave-visual">
+                            <svg viewBox="0 0 200 40">
+                                <path d="M0,20 Q4,8 8,20 T16,20 T24,20 T32,20 T40,20 T48,20 T56,20 T64,20 T72,20 T80,20 T88,20 T96,20 T104,20 T112,20 T120,20 T128,20 T136,20 T144,20 T152,20 T160,20 T168,20 T176,20 T184,20 T192,20 T200,20" fill="none" stroke="currentColor" stroke-width="3"/>
+                            </svg>
+                        </div>
+                        <div class="wave-description">
+                            <strong>Active Thinking & Focus</strong>
+                            <ul>
+                                <li>Normal waking state</li>
+                                <li>Active concentration</li>
+                                <li>Problem solving</li>
+                                <li>Active conversation</li>
+                            </ul>
+                            <div class="pemf-use">PEMF Use: 14-23 Hz for focus, alertness, energy</div>
+                        </div>
+                    </div>
+
+                    <!-- Gamma -->
+                    <div class="brainwave-row gamma">
+                        <div class="wave-info">
+                            <h3>Gamma Waves</h3>
+                            <span class="freq-range">30 - 100 Hz</span>
+                        </div>
+                        <div class="wave-visual">
+                            <svg viewBox="0 0 200 40">
+                                <path d="M0,20 Q2,10 4,20 T8,20 T12,20 T16,20 T20,20 T24,20 T28,20 T32,20 T36,20 T40,20 T44,20 T48,20 T52,20 T56,20 T60,20 T64,20 T68,20 T72,20 T76,20 T80,20 T84,20 T88,20 T92,20 T96,20 T100,20 T104,20 T108,20 T112,20 T116,20 T120,20 T124,20 T128,20 T132,20 T136,20 T140,20 T144,20 T148,20 T152,20 T156,20 T160,20 T164,20 T168,20 T172,20 T176,20 T180,20 T184,20 T188,20 T192,20 T196,20 T200,20" fill="none" stroke="currentColor" stroke-width="3"/>
+                            </svg>
+                        </div>
+                        <div class="wave-description">
+                            <strong>Peak Performance</strong>
+                            <ul>
+                                <li>Higher mental activity</li>
+                                <li>Peak concentration</li>
+                                <li>Cognitive enhancement</li>
+                                <li>Information processing</li>
+                            </ul>
+                            <div class="pemf-use">PEMF Use: 40 Hz for cognition, memory, peak mental state</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="special-frequency">
+                    <h3>Special: Schumann Resonance (7.83 Hz)</h3>
+                    <p>This is Earth's natural electromagnetic frequency - the resonance between the Earth's surface and ionosphere. It sits at the boundary between Theta and Alpha waves.</p>
+                    <ul>
+                        <li>Often called "Earth's heartbeat"</li>
+                        <li>Humans evolved with this frequency</li>
+                        <li>Used for grounding and overall wellness</li>
+                        <li>Many PEMF practitioners start here</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Recommended Frequencies -->
+            <section id="recommended-frequencies" class="guide-section">
+                <h2>Recommended PEMF Frequencies</h2>
+
+                <div class="frequency-grid">
+                    <div class="freq-card">
+                        <div class="freq-header">
+                            <span class="freq-value">1-3 Hz</span>
+                            <span class="freq-name">Deep Healing</span>
+                        </div>
+                        <ul>
+                            <li>Tissue repair</li>
+                            <li>Bone healing</li>
+                            <li>Deep relaxation</li>
+                            <li>Pain reduction</li>
+                        </ul>
+                        <div class="freq-intensity">Intensity: Low-Medium</div>
+                    </div>
+
+                    <div class="freq-card">
+                        <div class="freq-header">
+                            <span class="freq-value">7.83 Hz</span>
+                            <span class="freq-name">Schumann</span>
+                        </div>
+                        <ul>
+                            <li>Earth's frequency</li>
+                            <li>General wellness</li>
+                            <li>Grounding</li>
+                            <li>Stress relief</li>
+                        </ul>
+                        <div class="freq-intensity">Intensity: Medium</div>
+                    </div>
+
+                    <div class="freq-card">
+                        <div class="freq-header">
+                            <span class="freq-value">10 Hz</span>
+                            <span class="freq-name">Alpha Peak</span>
+                        </div>
+                        <ul>
+                            <li>Relaxation</li>
+                            <li>Anxiety reduction</li>
+                            <li>Mental clarity</li>
+                            <li>Pre-sleep</li>
+                        </ul>
+                        <div class="freq-intensity">Intensity: Medium</div>
+                    </div>
+
+                    <div class="freq-card">
+                        <div class="freq-header">
+                            <span class="freq-value">14.1 Hz</span>
+                            <span class="freq-name">Healing</span>
+                        </div>
+                        <ul>
+                            <li>Cellular repair</li>
+                            <li>Inflammation</li>
+                            <li>Circulation</li>
+                            <li>Recovery</li>
+                        </ul>
+                        <div class="freq-intensity">Intensity: Medium-High</div>
+                    </div>
+
+                    <div class="freq-card highlight">
+                        <div class="freq-header">
+                            <span class="freq-value">23 Hz</span>
+                            <span class="freq-name">Your Frequency</span>
+                        </div>
+                        <ul>
+                            <li>Beta/Gamma border</li>
+                            <li>Focus & alertness</li>
+                            <li>Mental energy</li>
+                            <li>Cognitive boost</li>
+                        </ul>
+                        <div class="freq-intensity">Intensity: Medium</div>
+                    </div>
+
+                    <div class="freq-card">
+                        <div class="freq-header">
+                            <span class="freq-value">40 Hz</span>
+                            <span class="freq-name">Gamma Peak</span>
+                        </div>
+                        <ul>
+                            <li>Peak cognition</li>
+                            <li>Memory</li>
+                            <li>Information processing</li>
+                            <li>Neuroplasticity</li>
+                        </ul>
+                        <div class="freq-intensity">Intensity: Medium</div>
+                    </div>
+
+                    <div class="freq-card">
+                        <div class="freq-header">
+                            <span class="freq-value">73 Hz</span>
+                            <span class="freq-name">Cellular</span>
+                        </div>
+                        <ul>
+                            <li>DNA repair</li>
+                            <li>Cell regeneration</li>
+                            <li>Mitochondria</li>
+                            <li>Energy production</li>
+                        </ul>
+                        <div class="freq-intensity">Intensity: Low-Medium</div>
+                    </div>
+
+                    <div class="freq-card">
+                        <div class="freq-header">
+                            <span class="freq-value">100 Hz</span>
+                            <span class="freq-name">High Frequency</span>
+                        </div>
+                        <ul>
+                            <li>Acute pain</li>
+                            <li>Muscle spasms</li>
+                            <li>Quick energy</li>
+                            <li>Circulation</li>
+                        </ul>
+                        <div class="freq-intensity">Intensity: Low (higher freq = lower intensity)</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Your 23 Hz -->
+            <section id="your-23hz" class="guide-section">
+                <h2>Your 23 Hz Frequency - Detailed Analysis</h2>
+
+                <div class="highlight-box">
+                    <h3>23 Hz sits at the High Beta / Low Gamma boundary</h3>
+                    <p>This is an excellent choice for focus and mental energy without overstimulation.</p>
+                </div>
+
+                <div class="analysis-grid">
+                    <div class="analysis-card">
+                        <h4>Why 23 Hz Works</h4>
+                        <ul>
+                            <li><strong>Active but calm:</strong> High enough for alertness, not so high it causes anxiety</li>
+                            <li><strong>Natural state:</strong> Your brain produces this during focused work</li>
+                            <li><strong>Sustainable:</strong> Can be used for longer sessions than higher gamma</li>
+                            <li><strong>Versatile:</strong> Good for work, study, creative projects</li>
+                        </ul>
+                    </div>
+
+                    <div class="analysis-card">
+                        <h4>Best Uses for 23 Hz</h4>
+                        <ul>
+                            <li>Morning energy boost</li>
+                            <li>Work/study sessions</li>
+                            <li>Overcoming afternoon fatigue</li>
+                            <li>Pre-workout activation</li>
+                            <li>Creative problem solving</li>
+                        </ul>
+                    </div>
+
+                    <div class="analysis-card">
+                        <h4>Recommended Settings</h4>
+                        <table class="settings-table">
+                            <tr><td>Frequency:</td><td><strong>23 Hz</strong></td></tr>
+                            <tr><td>Intensity:</td><td>40-60%</td></tr>
+                            <tr><td>Waveform:</td><td>Sine or Square</td></tr>
+                            <tr><td>Duration:</td><td>15-30 minutes</td></tr>
+                            <tr><td>Best time:</td><td>Morning or early afternoon</td></tr>
+                        </table>
+                    </div>
+
+                    <div class="analysis-card">
+                        <h4>Protocol Suggestion</h4>
+                        <div class="protocol-steps">
+                            <div class="step">
+                                <span class="step-num">1</span>
+                                <span>Start at 10 Hz for 5 min (warm up)</span>
+                            </div>
+                            <div class="step">
+                                <span class="step-num">2</span>
+                                <span>Increase to 23 Hz for 15-20 min</span>
+                            </div>
+                            <div class="step">
+                                <span class="step-num">3</span>
+                                <span>Optional: finish at 14 Hz for 5 min</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Waveforms -->
+            <section id="waveforms" class="guide-section">
+                <h2>Waveform Types Explained</h2>
+
+                <p>The waveform determines <em>how</em> the magnetic field pulses - its shape over time.</p>
+
+                <div class="waveform-grid">
+                    <div class="waveform-card">
+                        <h3>Sine Wave</h3>
+                        <div class="waveform-svg">
+                            <svg viewBox="0 0 200 60">
+                                <path d="M0,30 Q25,5 50,30 T100,30 T150,30 T200,30" fill="none" stroke="#00d4ff" stroke-width="3"/>
+                            </svg>
+                        </div>
+                        <p><strong>Smooth, natural oscillation</strong></p>
+                        <ul>
+                            <li>Most gentle on the body</li>
+                            <li>Mimics natural biorhythms</li>
+                            <li>Best for: relaxation, sleep, meditation</li>
+                            <li>Good for sensitive individuals</li>
+                        </ul>
+                    </div>
+
+                    <div class="waveform-card">
+                        <h3>Square Wave</h3>
+                        <div class="waveform-svg">
+                            <svg viewBox="0 0 200 60">
+                                <path d="M0,45 L0,15 L50,15 L50,45 L100,45 L100,15 L150,15 L150,45 L200,45" fill="none" stroke="#00d4ff" stroke-width="3"/>
+                            </svg>
+                        </div>
+                        <p><strong>Sharp on/off pulses</strong></p>
+                        <ul>
+                            <li>More stimulating effect</li>
+                            <li>Stronger cellular response</li>
+                            <li>Best for: energy, focus, pain relief</li>
+                            <li>Contains multiple frequency harmonics</li>
+                        </ul>
+                    </div>
+
+                    <div class="waveform-card">
+                        <h3>Sawtooth Wave</h3>
+                        <div class="waveform-svg">
+                            <svg viewBox="0 0 200 60">
+                                <path d="M0,45 L50,15 L50,45 L100,15 L100,45 L150,15 L150,45 L200,15" fill="none" stroke="#00d4ff" stroke-width="3"/>
+                            </svg>
+                        </div>
+                        <p><strong>Gradual rise, sharp drop</strong></p>
+                        <ul>
+                            <li>Rich in harmonics</li>
+                            <li>Deep tissue penetration</li>
+                            <li>Best for: healing, circulation</li>
+                            <li>Good for muscle recovery</li>
+                        </ul>
+                    </div>
+
+                    <div class="waveform-card">
+                        <h3>Pulse Wave</h3>
+                        <div class="waveform-svg">
+                            <svg viewBox="0 0 200 60">
+                                <path d="M0,45 L10,45 L10,15 L20,15 L20,45 L60,45 L60,15 L70,15 L70,45 L110,45 L110,15 L120,15 L120,45 L160,45 L160,15 L170,15 L170,45 L200,45" fill="none" stroke="#00d4ff" stroke-width="3"/>
+                            </svg>
+                        </div>
+                        <p><strong>Short bursts with gaps</strong></p>
+                        <ul>
+                            <li>Most intense stimulation</li>
+                            <li>Brief, powerful pulses</li>
+                            <li>Best for: acute pain, inflammation</li>
+                            <li>Use lower intensity with this waveform</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <h3>Quick Guide</h3>
+                    <table>
+                        <tr><td><strong>Relaxation/Sleep:</strong></td><td>Sine wave</td></tr>
+                        <tr><td><strong>Focus/Energy:</strong></td><td>Square wave</td></tr>
+                        <tr><td><strong>Healing/Recovery:</strong></td><td>Sawtooth wave</td></tr>
+                        <tr><td><strong>Pain Relief:</strong></td><td>Pulse wave (low intensity)</td></tr>
+                    </table>
+                </div>
+            </section>
+
+            <!-- DIY Device -->
+            <section id="diy-device" class="guide-section">
+                <h2>DIY PEMF Device Guide</h2>
+
+                <div class="warning-box">
+                    <h3>⚠️ Safety First</h3>
+                    <p>Building your own PEMF device requires basic electronics knowledge. Always prioritize safety and start with low power. This guide is for educational purposes.</p>
+                </div>
+
+                <h3>Basic PEMF System Components</h3>
+
+                <div class="component-diagram">
+                    <pre>
+┌─────────────────────────────────────────────────────────────────────────┐
+│                         PEMF DEVICE ARCHITECTURE                         │
+├─────────────────────────────────────────────────────────────────────────┤
+│                                                                          │
+│  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐    ┌───────┐  │
+│  │   SIGNAL     │    │   AMPLIFIER  │    │    COIL      │    │ USER  │  │
+│  │  GENERATOR   │───►│   DRIVER     │───►│  (OUTPUT)    │───►│       │  │
+│  │              │    │              │    │              │    │       │  │
+│  └──────────────┘    └──────────────┘    └──────────────┘    └───────┘  │
+│        │                    │                   │                        │
+│        ▼                    ▼                   ▼                        │
+│  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐               │
+│  │ - Arduino    │    │ - MOSFET     │    │ - Copper     │               │
+│  │ - 555 Timer  │    │ - H-Bridge   │    │   wire coil  │               │
+│  │ - Phone app  │    │ - Audio amp  │    │ - Flat coil  │               │
+│  │ - This app!  │    │              │    │ - Solenoid   │               │
+│  └──────────────┘    └──────────────┘    └──────────────┘               │
+│                                                                          │
+│  POWER SUPPLY: 9V - 24V DC (depending on design)                        │
+│                                                                          │
+└─────────────────────────────────────────────────────────────────────────┘
+                    </pre>
+                </div>
+
+                <h3>Method 1: Simple Audio-Based PEMF (Easiest)</h3>
+                <div class="method-card">
+                    <h4>Parts Needed:</h4>
+                    <ul class="parts-list">
+                        <li>Old headphones or speaker (for the coil)</li>
+                        <li>Audio amplifier (small class D amp, ~$10)</li>
+                        <li>Phone or computer (to generate frequencies)</li>
+                        <li>Magnet wire OR use existing speaker coil</li>
+                    </ul>
+
+                    <h4>Steps:</h4>
+                    <ol class="build-steps">
+                        <li>
+                            <strong>Get/Make a Coil:</strong>
+                            <p>Option A: Take apart old headphones - the speaker inside has a coil</p>
+                            <p>Option B: Wind 100-200 turns of magnet wire (22-26 AWG) around a 3-4" diameter form</p>
+                        </li>
+                        <li>
+                            <strong>Connect to Amplifier:</strong>
+                            <p>Connect coil to the speaker output of a small audio amplifier</p>
+                        </li>
+                        <li>
+                            <strong>Generate Signal:</strong>
+                            <p>Use this app or a tone generator app to create frequencies (1-100 Hz)</p>
+                            <p>Connect phone audio out to amplifier input</p>
+                        </li>
+                        <li>
+                            <strong>Test:</strong>
+                            <p>Start with low volume (intensity). You can test the field with a compass - it should wiggle at the frequency rate.</p>
+                        </li>
+                    </ol>
+
+                    <div class="circuit-diagram">
+                        <pre>
+SIMPLE AUDIO PEMF:
+
+  Phone/Computer          Audio Amplifier           Coil
+  ┌──────────┐           ┌──────────────┐        ┌──────┐
+  │ This App │──audio───►│  Class D     │──────►│ ))) │
+  │ (tones)  │  cable    │  Amp         │ wires │ ((( │
+  └──────────┘           └──────────────┘        └──────┘
+                               │
+                              ═╧═
+                             Power
+                        (9-12V adapter)
+                        </pre>
+                    </div>
+                </div>
+
+                <h3>Method 2: Arduino-Based PEMF (More Control)</h3>
+                <div class="method-card">
+                    <h4>Parts Needed:</h4>
+                    <ul class="parts-list">
+                        <li>Arduino Nano/Uno (~$5-15)</li>
+                        <li>MOSFET (IRF520 or similar)</li>
+                        <li>Flyback diode (1N4007)</li>
+                        <li>Resistor 10kΩ</li>
+                        <li>PEMF coil (see below)</li>
+                        <li>12-24V power supply</li>
+                        <li>Potentiometer for intensity (optional)</li>
+                        <li>LCD display (optional)</li>
+                    </ul>
+
+                    <h4>Circuit Diagram:</h4>
+                    <div class="circuit-diagram">
+                        <pre>
+ARDUINO PEMF DRIVER:
+
+                                    +12-24V
+                                       │
+                                       │
+                         COIL          │
+                        ┌─────┐        │
+                    ┌───┤ ))) ├────────┤
+                    │   │ ((( │        │
+                    │   └─────┘        │
+                    │      │       ┌───┴───┐
+                    │      └───────┤FLYBACK│ (1N4007 diode)
+                    │              │ DIODE │ - Protects MOSFET
+              Drain │              └───┬───┘
+                    │                  │
+               ┌────┴────┐             │
+               │         │             │
+               │ MOSFET  │─────────────┘
+               │ IRF520  │
+               │         │
+               └────┬────┘
+              Gate  │   Source
+                    │      │
+            10kΩ    │      │
+    Arduino ─┬──────┘      │
+    Pin 9    │             │
+             └─────────────┴──── GND
+
+ARDUINO CODE (simplified):
+
+int pemfPin = 9;
+float frequency = 23.0;  // Your 23 Hz!
+int intensity = 128;     // 0-255 (PWM)
+
+void setup() {
+  pinMode(pemfPin, OUTPUT);
+}
+
+void loop() {
+  // Calculate period
+  float period = 1000.0 / frequency;
+  float halfPeriod = period / 2;
+
+  // Generate square wave
+  analogWrite(pemfPin, intensity);
+  delay(halfPeriod);
+  analogWrite(pemfPin, 0);
+  delay(halfPeriod);
+}
+                        </pre>
+                    </div>
+                </div>
+
+                <h3>Building the Coil</h3>
+                <div class="method-card">
+                    <h4>Flat Spiral Coil (Recommended for body use)</h4>
+                    <div class="coil-diagram">
+                        <pre>
+FLAT SPIRAL COIL (Top View):
+
+         ┌─────────────────┐
+        ╱                   ╲
+       │  ┌───────────────┐  │
+       │ ╱                 ╲ │
+       ││  ┌─────────────┐ ││
+       ││ ╱               ╲││
+       │││  ┌───────────┐ │││
+       │││ ╱             ╲│││
+       ││││    CENTER    ││││  ◄── Start winding here
+       │││ ╲             ╱│││
+       │││  └───────────┘ │││
+       ││ ╲               ╱││
+       ││  └─────────────┘ ││
+       │ ╲                 ╱ │
+       │  └───────────────┘  │
+        ╲                   ╱
+         └─────────────────┘
+
+Specifications:
+- Wire: 22-24 AWG magnet wire (enameled copper)
+- Turns: 50-100 turns
+- Diameter: 4-8 inches (10-20 cm)
+- Wind flat like a pancake, not cylindrical
+
+SIDE VIEW:
+    ═══════════════════════════  ◄── Should be flat
+    (all windings in same plane)
+                        </pre>
+                    </div>
+
+                    <h4>Coil Building Steps:</h4>
+                    <ol class="build-steps">
+                        <li>Get a flat surface (cardboard, plastic sheet)</li>
+                        <li>Start at center, secure wire with tape</li>
+                        <li>Wind outward in a spiral, keeping turns close together</li>
+                        <li>Wind 50-100 turns depending on desired strength</li>
+                        <li>Secure outer end with tape</li>
+                        <li>Leave 12" wire leads at both ends for connection</li>
+                        <li>Optional: Pot in epoxy or cover with fabric for durability</li>
+                    </ol>
+
+                    <h4>Coil Specifications by Use:</h4>
+                    <table class="specs-table">
+                        <tr>
+                            <th>Use</th>
+                            <th>Diameter</th>
+                            <th>Turns</th>
+                            <th>Wire</th>
+                        </tr>
+                        <tr>
+                            <td>Localized (knee, elbow)</td>
+                            <td>4-6"</td>
+                            <td>50-75</td>
+                            <td>22 AWG</td>
+                        </tr>
+                        <tr>
+                            <td>Larger area (back, torso)</td>
+                            <td>8-12"</td>
+                            <td>75-100</td>
+                            <td>20-22 AWG</td>
+                        </tr>
+                        <tr>
+                            <td>Full body mat</td>
+                            <td>Multiple coils</td>
+                            <td>50 each</td>
+                            <td>18-20 AWG</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <h3>Method 3: Bluetooth PEMF (Works with This App!)</h3>
+                <div class="method-card">
+                    <h4>Parts Needed:</h4>
+                    <ul class="parts-list">
+                        <li>ESP32 board (~$8)</li>
+                        <li>MOSFET driver circuit (same as Arduino)</li>
+                        <li>PEMF coil</li>
+                        <li>12V power supply</li>
+                        <li>3D printed or purchased enclosure</li>
+                    </ul>
+
+                    <p>The ESP32 can receive Bluetooth commands from this app! You'll need to:</p>
+                    <ol>
+                        <li>Program ESP32 with BLE GATT service matching our UUIDs</li>
+                        <li>Parse frequency, intensity, waveform commands</li>
+                        <li>Generate PWM output to drive MOSFET</li>
+                        <li>Pair with this app using the Connect button</li>
+                    </ol>
+
+                    <p><em>Full ESP32 code available in our GitHub repository (coming soon)</em></p>
+                </div>
+
+                <h3>Testing Your Device</h3>
+                <div class="test-card">
+                    <h4>Safety Tests (Do ALL of these!):</h4>
+                    <ol>
+                        <li><strong>Visual Check:</strong> No loose wires, proper insulation</li>
+                        <li><strong>Resistance Test:</strong> Coil should read 1-20 ohms (not open/short)</li>
+                        <li><strong>No Shorts:</strong> No continuity between power and ground when off</li>
+                        <li><strong>Heat Test:</strong> Run for 5 min, check for excessive heat</li>
+                        <li><strong>Field Test:</strong> Use compass near coil - should deflect with pulses</li>
+                    </ol>
+
+                    <h4>Measuring Field Strength:</h4>
+                    <p>You can use a smartphone magnetometer app to measure approximate field strength. PEMF devices typically produce 0.1-100 microtesla (μT) at the coil surface.</p>
+                </div>
+            </section>
+
+            <!-- Safety -->
+            <section id="safety" class="guide-section">
+                <h2>Safety Guidelines</h2>
+
+                <div class="safety-grid">
+                    <div class="safety-card danger">
+                        <h3>DO NOT USE IF:</h3>
+                        <ul>
+                            <li>You have a pacemaker or defibrillator</li>
+                            <li>You have any electronic implant</li>
+                            <li>You are pregnant (without doctor approval)</li>
+                            <li>You have epilepsy (some frequencies may trigger)</li>
+                            <li>You have active bleeding</li>
+                        </ul>
+                    </div>
+
+                    <div class="safety-card caution">
+                        <h3>USE CAUTION IF:</h3>
+                        <ul>
+                            <li>You have metal implants (pins, plates)</li>
+                            <li>You have a history of seizures</li>
+                            <li>You are taking blood thinners</li>
+                            <li>You have low blood pressure</li>
+                            <li>You are feeling unwell</li>
+                        </ul>
+                    </div>
+
+                    <div class="safety-card good">
+                        <h3>BEST PRACTICES:</h3>
+                        <ul>
+                            <li>Start with low intensity, short sessions</li>
+                            <li>Drink water before and after sessions</li>
+                            <li>Allow 15+ min between sessions</li>
+                            <li>Don't exceed 60 min per session</li>
+                            <li>Stop if you feel any discomfort</li>
+                            <li>Consult healthcare provider for medical use</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <h3>Intensity Guidelines</h3>
+                    <table>
+                        <tr>
+                            <th>Level</th>
+                            <th>Setting</th>
+                            <th>Use For</th>
+                        </tr>
+                        <tr>
+                            <td>Low</td>
+                            <td>10-30%</td>
+                            <td>Sleep, sensitive areas, beginners</td>
+                        </tr>
+                        <tr>
+                            <td>Medium</td>
+                            <td>30-60%</td>
+                            <td>General wellness, daily use</td>
+                        </tr>
+                        <tr>
+                            <td>High</td>
+                            <td>60-100%</td>
+                            <td>Pain relief, deep tissue (experienced users)</td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Quick Reference -->
+            <section class="guide-section">
+                <h2>Quick Reference Card</h2>
+                <div class="quick-ref">
+                    <div class="ref-column">
+                        <h4>By Goal:</h4>
+                        <ul>
+                            <li><strong>Sleep:</strong> 1-4 Hz, Sine, Low</li>
+                            <li><strong>Relax:</strong> 7.83-10 Hz, Sine, Med</li>
+                            <li><strong>Focus:</strong> 14-23 Hz, Square, Med</li>
+                            <li><strong>Energy:</strong> 20-30 Hz, Square, Med</li>
+                            <li><strong>Pain:</strong> 3-10 Hz, Pulse, Med-High</li>
+                            <li><strong>Healing:</strong> 7.83-14 Hz, Saw, Med</li>
+                        </ul>
+                    </div>
+                    <div class="ref-column">
+                        <h4>Session Length:</h4>
+                        <ul>
+                            <li><strong>Quick boost:</strong> 5-10 min</li>
+                            <li><strong>Standard:</strong> 15-20 min</li>
+                            <li><strong>Deep session:</strong> 30-45 min</li>
+                            <li><strong>Maximum:</strong> 60 min</li>
+                            <li><strong>Cooldown:</strong> 15+ min between</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- Footer -->
+        <footer class="guide-footer">
+            <p>PEMF Forge | Part of Reality Forge | Domain: 07_TRANSCEND</p>
+            <p><a href="index.html">← Back to App</a></p>
+        </footer>
+    </div>
+</body>
+</html>

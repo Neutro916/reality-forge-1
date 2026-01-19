@@ -50,6 +50,32 @@ const PEMFProtocols = {
             isDefault: true
         },
         {
+            id: '23hz-focus',
+            name: '23 Hz Focus & Alertness',
+            category: 'focus',
+            description: 'Your custom 23 Hz frequency at the Beta/Gamma border. Excellent for sustained focus, mental energy, and cognitive work without overstimulation.',
+            totalDuration: 25,
+            steps: [
+                { frequency: 10, duration: 5, intensity: 45, waveform: 'sine' },
+                { frequency: 23, duration: 15, intensity: 50, waveform: 'square' },
+                { frequency: 14, duration: 5, intensity: 45, waveform: 'sine' }
+            ],
+            benefits: ['Sustained focus', 'Mental clarity', 'Cognitive enhancement', 'Alertness without anxiety'],
+            isDefault: true
+        },
+        {
+            id: '23hz-quick',
+            name: '23 Hz Quick Boost',
+            category: 'energy',
+            description: 'Quick 10-minute session at 23 Hz for instant mental energy and focus.',
+            totalDuration: 10,
+            steps: [
+                { frequency: 23, duration: 10, intensity: 50, waveform: 'square' }
+            ],
+            benefits: ['Quick energy', 'Instant focus', 'Mental activation', 'Afternoon fatigue relief'],
+            isDefault: true
+        },
+        {
             id: 'deep-tissue-repair',
             name: 'Deep Tissue Repair',
             category: 'healing',
