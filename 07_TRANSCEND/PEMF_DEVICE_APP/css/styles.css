@@ -90,6 +90,12 @@ body {
     border-bottom: 1px solid var(--border-color);
 }
 
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+}
+
 .logo {
     display: flex;
     align-items: center;

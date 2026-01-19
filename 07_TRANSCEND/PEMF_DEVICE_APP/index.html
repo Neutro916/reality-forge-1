@@ -4,7 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PEMF Therapy Controller | Reality Forge</title>
+
+    <!-- PWA Meta Tags -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#00d4ff">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="PEMF Forge">
+    <link rel="apple-touch-icon" href="assets/icon-152.png">
+
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/auth.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -17,9 +28,68 @@
                 <div class="pulse-icon"></div>
                 <h1>PEMF<span>FORGE</span></h1>
             </div>
-            <div class="connection-status" id="connectionStatus">
-                <span class="status-dot disconnected"></span>
-                <span class="status-text">Disconnected</span>
+
+            <div class="header-right">
+                <!-- Sync Status -->
+                <div class="sync-status synced" id="syncStatus">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="23 4 23 10 17 10"/>
+                        <polyline points="1 20 1 14 7 14"/>
+                        <path d="M3.51 9a9 9 0 0114.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0020.49 15"/>
+                    </svg>
+                    <span>Synced</span>
+                </div>
+
+                <!-- Device Connection -->
+                <div class="connection-status" id="connectionStatus">
+                    <span class="status-dot disconnected"></span>
+                    <span class="status-text">Disconnected</span>
+                </div>
+
+                <!-- Profile Menu -->
+                <div class="profile-menu" id="profileMenu">
+                    <button class="profile-btn" id="profileBtn">
+                        <div class="profile-avatar" id="profileAvatar">
+                            <span id="avatarInitial">?</span>
+                        </div>
+                        <span class="profile-name" id="profileName">Guest</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="profile-dropdown" id="profileDropdown">
+                        <div class="profile-dropdown-header">
+                            <div class="name" id="dropdownName">Guest User</div>
+                            <div class="email" id="dropdownEmail">Not signed in</div>
+                        </div>
+                        <button class="profile-dropdown-item" id="loginBtn" onclick="window.location.href='login.html'">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M15 3h4a2 2 0 012 2v14a2 2 0 01-2 2h-4M10 17l5-5-5-5M15 12H3"/>
+                            </svg>
+                            Sign In
+                        </button>
+                        <button class="profile-dropdown-item hidden" id="profileSettingsBtn">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/>
+                                <circle cx="12" cy="7" r="4"/>
+                            </svg>
+                            My Profile
+                        </button>
+                        <button class="profile-dropdown-item hidden" id="syncNowBtn">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="23 4 23 10 17 10"/>
+                                <path d="M20.49 15a9 9 0 11-2.12-9.36L23 10"/>
+                            </svg>
+                            Sync Now
+                        </button>
+                        <button class="profile-dropdown-item logout hidden" id="logoutBtn">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 21H5a2 2 0 01-2-2V5a2 2 0 012-2h4M16 17l5-5-5-5M21 12H9"/>
+                            </svg>
+                            Sign Out
+                        </button>
+                    </div>
+                </div>
             </div>
         </header>
 
@@ -466,6 +536,59 @@
     <script src="js/protocols.js"></script>
     <script src="js/bluetooth.js"></script>
     <script src="js/history.js"></script>
+    <script src="js/auth.js"></script>
     <script src="js/app.js"></script>
+
+    <!-- Service Worker for PWA -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js').catch(err => console.log('SW:', err));
+        }
+
+        // Profile dropdown toggle
+        document.getElementById('profileBtn')?.addEventListener('click', () => {
+            document.getElementById('profileDropdown')?.classList.toggle('active');
+        });
+
+        // Close dropdown on outside click
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.profile-menu')) {
+                document.getElementById('profileDropdown')?.classList.remove('active');
+            }
+        });
+
+        // Update UI based on auth state
+        function updateAuthUI() {
+            const isLoggedIn = PEMFAuth?.isAuthenticated;
+            const user = PEMFAuth?.currentUser;
+
+            document.getElementById('loginBtn')?.classList.toggle('hidden', isLoggedIn);
+            document.getElementById('profileSettingsBtn')?.classList.toggle('hidden', !isLoggedIn);
+            document.getElementById('syncNowBtn')?.classList.toggle('hidden', !isLoggedIn);
+            document.getElementById('logoutBtn')?.classList.toggle('hidden', !isLoggedIn);
+
+            if (isLoggedIn && user) {
+                document.getElementById('profileName').textContent = user.name.split(' ')[0];
+                document.getElementById('avatarInitial').textContent = user.name.charAt(0).toUpperCase();
+                document.getElementById('dropdownName').textContent = user.name;
+                document.getElementById('dropdownEmail').textContent = user.email;
+            }
+        }
+
+        // Logout handler
+        document.getElementById('logoutBtn')?.addEventListener('click', () => {
+            PEMFAuth?.logout();
+        });
+
+        // Sync now handler
+        document.getElementById('syncNowBtn')?.addEventListener('click', () => {
+            PEMFAuth?.syncData();
+        });
+
+        // Update UI on load
+        document.addEventListener('DOMContentLoaded', () => {
+            setTimeout(updateAuthUI, 100);
+        });
+    </script>
 </body>
 </html>
