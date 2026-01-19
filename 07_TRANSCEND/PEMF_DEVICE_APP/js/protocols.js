@@ -22,10 +22,10 @@ const PEMFProtocols = {
             isDefault: true
         },
         {
-            id: 'alpha-relaxation',
-            name: 'Alpha Wave Relaxation',
+            id: 'mid-range-relaxation',
+            name: '8-12 Hz Relaxation',
             category: 'sleep',
-            description: 'Promotes alpha brainwave state for deep relaxation and meditation. Ideal for pre-sleep preparation.',
+            description: 'Mid-range frequencies for relaxation. Ideal for pre-sleep preparation.',
             totalDuration: 30,
             steps: [
                 { frequency: 12, duration: 5, intensity: 40, waveform: 'sine' },
@@ -39,7 +39,7 @@ const PEMFProtocols = {
             id: 'energy-boost',
             name: 'Morning Energy Boost',
             category: 'energy',
-            description: 'Energizing protocol using beta frequencies to increase alertness and mental clarity.',
+            description: 'Energizing protocol using 14-20 Hz range to increase alertness and mental clarity.',
             totalDuration: 15,
             steps: [
                 { frequency: 14.1, duration: 5, intensity: 55, waveform: 'square' },
@@ -53,7 +53,7 @@ const PEMFProtocols = {
             id: '23hz-focus',
             name: '23 Hz Focus & Alertness',
             category: 'focus',
-            description: 'Your custom 23 Hz frequency at the Beta/Gamma border. Excellent for sustained focus, mental energy, and cognitive work without overstimulation.',
+            description: 'Custom 23 Hz frequency preset. Use for sustained focus and mental energy.',
             totalDuration: 25,
             steps: [
                 { frequency: 10, duration: 5, intensity: 45, waveform: 'sine' },
@@ -121,7 +121,7 @@ const PEMFProtocols = {
             id: 'deep-sleep',
             name: 'Deep Sleep Induction',
             category: 'sleep',
-            description: 'Gradually descending frequencies to guide the brain into deep delta sleep.',
+            description: 'Gradually descending frequencies from 10 Hz down to 2 Hz for sleep.',
             totalDuration: 45,
             steps: [
                 { frequency: 10, duration: 10, intensity: 40, waveform: 'sine' },
@@ -136,7 +136,7 @@ const PEMFProtocols = {
             id: 'focus-concentration',
             name: 'Focus & Concentration',
             category: 'focus',
-            description: 'Beta frequency protocol for enhanced cognitive performance and sustained focus.',
+            description: '14-18 Hz frequency protocol for enhanced cognitive performance and sustained focus.',
             totalDuration: 25,
             steps: [
                 { frequency: 14, duration: 5, intensity: 50, waveform: 'sine' },
@@ -147,10 +147,10 @@ const PEMFProtocols = {
             isDefault: true
         },
         {
-            id: 'gamma-clarity',
-            name: 'Gamma Peak Performance',
+            id: 'high-frequency',
+            name: '30-40 Hz High Frequency',
             category: 'focus',
-            description: 'High-frequency gamma waves for peak mental performance and insight.',
+            description: 'High-frequency 30-40 Hz protocol for peak mental performance.',
             totalDuration: 20,
             steps: [
                 { frequency: 30, duration: 5, intensity: 45, waveform: 'sine' },
@@ -361,23 +361,20 @@ const PEMFProtocols = {
     },
 
     /**
-     * Get frequency info and associated benefits
+     * Get frequency info
      */
     getFrequencyInfo(frequency) {
         const frequencyRanges = [
-            { min: 0.1, max: 3, name: 'Delta', description: 'Deep sleep, healing' },
-            { min: 3, max: 8, name: 'Theta', description: 'Meditation, creativity' },
-            { min: 8, max: 12, name: 'Alpha', description: 'Relaxation, calm focus' },
-            { min: 12, max: 30, name: 'Beta', description: 'Active thinking, focus' },
-            { min: 30, max: 100, name: 'Gamma', description: 'Peak performance, insight' }
+            { min: 0.1, max: 3, name: 'Very Low', description: '0.1-3 Hz range' },
+            { min: 3, max: 10, name: 'Low', description: '3-10 Hz range' },
+            { min: 10, max: 30, name: 'Medium', description: '10-30 Hz range' },
+            { min: 30, max: 100, name: 'High', description: '30-100 Hz range' }
         ];
 
         // Special frequencies
         const specialFreqs = {
             7.83: { name: 'Schumann Resonance', description: 'Earth\'s fundamental frequency' },
-            10: { name: 'Alpha Peak', description: 'Optimal relaxation frequency' },
-            40: { name: 'Gamma Peak', description: 'Cognitive enhancement frequency' },
-            73: { name: 'Cellular Repair', description: 'DNA/cellular regeneration' }
+            23: { name: 'Custom Preset', description: '23 Hz frequency' }
         };
 
         // Check for special frequency
