@@ -1,0 +1,29 @@
+
+{
+    // VS Code "Turtle" Protocol Configuration
+    // This file is the constitution for our development environment.
+    // It ensures a stable, consistent, and powerful shell for The Architect.
+
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.profiles.windows": {
+        "Git Bash": {
+            "path": "C:\\Program Files\\Git\\bin\\bash.exe",
+            "args": ["-i", "-l"]
+        }
+    },
+
+    // Injecting our core tool paths directly into the terminal's environment.
+    // This is the "Hardaway" fix for the PATH. It bypasses the broken system PATH.
+    "terminal.integrated.env.windows": {
+        "PATH": "${env:PATH};C:\\Python314;C:\\Python314\\Scripts;C:\\Program Files\\nodejs"
+    },
+
+    "python.defaultInterpreterPath": "C:\\Python314\\python.exe",
+    "python.terminal.activateEnvironment": false,
+
+    // Editor settings for a clean and efficient workspace
+    "files.eol": "\n",
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "files.trimTrailingWhitespace": true
+}

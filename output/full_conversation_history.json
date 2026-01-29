@@ -1,0 +1,842 @@
+{
+  "metadata": {
+    "ingestion_utc": "2026-01-28T19:04:18.743066",
+    "source_file": "D:\\Users\\natra\\Downloads\\data-2026-01-20-10-51-36-batch-0000\\conversations.json",
+    "total_conversations_processed": 119
+  },
+  "conversations": [
+    {
+      "id": "conv_1",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_2",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_3",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_4",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_5",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_6",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_7",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_8",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_9",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_10",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_11",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_12",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_13",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_14",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_15",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_16",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_17",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_18",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_19",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_20",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_21",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_22",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_23",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_24",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_25",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_26",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_27",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_28",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_29",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_30",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_31",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_32",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_33",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_34",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_35",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_36",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_37",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_38",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_39",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_40",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_41",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_42",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_43",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_44",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_45",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_46",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_47",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_48",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_49",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_50",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_51",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_52",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_53",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_54",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_55",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_56",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_57",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_58",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_59",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_60",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_61",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_62",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_63",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_64",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_65",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_66",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_67",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_68",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_69",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_70",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_71",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_72",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_73",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_74",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_75",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_76",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_77",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_78",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_79",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_80",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_81",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_82",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_83",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_84",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_85",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_86",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_87",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_88",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_89",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_90",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_91",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_92",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_93",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_94",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_95",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_96",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_97",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_98",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_99",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_100",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_101",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_102",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_103",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_104",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_105",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_106",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_107",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_108",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_109",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_110",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_111",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_112",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_113",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_114",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_115",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_116",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_117",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_118",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    },
+    {
+      "id": "conv_119",
+      "title": "Untitled",
+      "create_time": "N/A",
+      "message_count": 0,
+      "messages": []
+    }
+  ]
+}
