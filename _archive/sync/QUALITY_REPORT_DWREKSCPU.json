@@ -1,0 +1,332 @@
+{
+  "timestamp": "2025-11-27T13:53:00.901519",
+  "computer": "DWREKSCPU",
+  "summary": {
+    "total_atoms": 88878,
+    "avg_score": 0.761,
+    "distribution": {
+      "acceptable": 418,
+      "good": 86886,
+      "excellent": 1574
+    }
+  },
+  "by_type": {
+    "insight": {
+      "count": 199,
+      "avg_score": 0.671
+    },
+    "concept": {
+      "count": 1415,
+      "avg_score": 0.784
+    },
+    "fact": {
+      "count": 1015,
+      "avg_score": 0.75
+    },
+    "interface": {
+      "count": 337,
+      "avg_score": 0.751
+    },
+    "tool": {
+      "count": 357,
+      "avg_score": 0.751
+    },
+    "data": {
+      "count": 617,
+      "avg_score": 0.75
+    },
+    "action": {
+      "count": 40,
+      "avg_score": 0.66
+    },
+    "pattern": {
+      "count": 11,
+      "avg_score": 0.673
+    },
+    "decision": {
+      "count": 3,
+      "avg_score": 0.61
+    },
+    "knowledge": {
+      "count": 2312,
+      "avg_score": 0.841
+    },
+    "json": {
+      "count": 41559,
+      "avg_score": 0.726
+    },
+    "md": {
+      "count": 40604,
+      "avg_score": 0.793
+    },
+    "js": {
+      "count": 158,
+      "avg_score": 0.689
+    },
+    "py": {
+      "count": 150,
+      "avg_score": 0.729
+    },
+    "txt": {
+      "count": 52,
+      "avg_score": 0.702
+    },
+    "html": {
+      "count": 49,
+      "avg_score": 0.739
+    }
+  },
+  "low_quality_samples": [],
+  "high_quality_samples": [
+    {
+      "id": "419e4f6765a6",
+      "type": "knowledge",
+      "score": 0.961
+    },
+    {
+      "id": "a245bc6a50a7",
+      "type": "knowledge",
+      "score": 0.961
+    },
+    {
+      "id": "d08f450ab48d",
+      "type": "knowledge",
+      "score": 0.961
+    },
+    {
+      "id": "63ba2b8e4b45",
+      "type": "knowledge",
+      "score": 0.961
+    },
+    {
+      "id": "1c2a414c3a33",
+      "type": "knowledge",
+      "score": 0.961
+    },
+    {
+      "id": "efcd701cd1ac",
+      "type": "knowledge",
+      "score": 0.961
+    },
+    {
+      "id": "017b71e17f32",
+      "type": "knowledge",
+      "score": 0.961
+    },
+    {
+      "id": "2f8530b73ada",
+      "type": "knowledge",
+      "score": 0.961
+    },
+    {
+      "id": "dc66e46c90c0",
+      "type": "knowledge",
+      "score": 0.961
+    },
+    {
+      "id": "6d354e34c494",
+      "type": "knowledge",
+      "score": 0.961
+    },
+    {
+      "id": "344ed0309416",
+      "type": "knowledge",
+      "score": 0.961
+    },
+    {
+      "id": "2571f44f6863",
+      "type": "knowledge",
+      "score": 0.961
+    },
+    {
+      "id": "96952e623b8a",
+      "type": "knowledge",
+      "score": 0.961
+    },
+    {
+      "id": "0cc51e26ee96",
+      "type": "knowledge",
+      "score": 0.961
+    },
+    {
+      "id": "628a3e101f6c",
+      "type": "knowledge",
+      "score": 0.961
+    },
+    {
+      "id": "90b540cfecd9",
+      "type": "knowledge",
+      "score": 0.961
+    },
+    {
+      "id": "657093dcba8a",
+      "type": "knowledge",
+      "score": 0.961
+    },
+    {
+      "id": "b7718742414f",
+      "type": "knowledge",
+      "score": 0.961
+    },
+    {
+      "id": "2a4ad679c2cc",
+      "type": "knowledge",
+      "score": 0.961
+    },
+    {
+      "id": "2f41aba5a5d4",
+      "type": "knowledge",
+      "score": 0.961
+    },
+    {
+      "id": "2eac9f64607d",
+      "type": "knowledge",
+      "score": 0.961
+    },
+    {
+      "id": "c04c66cf1e93",
+      "type": "knowledge",
+      "score": 0.961
+    },
+    {
+      "id": "b3da9b3440a4",
+      "type": "knowledge",
+      "score": 0.961
+    },
+    {
+      "id": "2fa976c7d8b9",
+      "type": "knowledge",
+      "score": 0.961
+    },
+    {
+      "id": "5e6d363b9f1e",
+      "type": "knowledge",
+      "score": 0.961
+    },
+    {
+      "id": "e9d6b0ca6423",
+      "type": "knowledge",
+      "score": 0.961
+    },
+    {
+      "id": "0cae48ff7b61",
+      "type": "knowledge",
+      "score": 0.961
+    },
+    {
+      "id": "08131ace9443",
+      "type": "knowledge",
+      "score": 0.961
+    },
+    {
+      "id": "2300d2fd62d4",
+      "type": "knowledge",
+      "score": 0.961
+    },
+    {
+      "id": "44bdecda7ffa",
+      "type": "knowledge",
+      "score": 0.961
+    },
+    {
+      "id": "9eef4886f950",
+      "type": "knowledge",
+      "score": 0.961
+    },
+    {
+      "id": "00c445c088aa",
+      "type": "knowledge",
+      "score": 0.961
+    },
+    {
+      "id": "ac8bfdef7830",
+      "type": "knowledge",
+      "score": 0.961
+    },
+    {
+      "id": "197bff1c9a15",
+      "type": "knowledge",
+      "score": 0.961
+    },
+    {
+      "id": "7bef10ddf3be",
+      "type": "knowledge",
+      "score": 0.961
+    },
+    {
+      "id": "c8262c58c4eb",
+      "type": "knowledge",
+      "score": 0.961
+    },
+    {
+      "id": "62c5c618e96a",
+      "type": "knowledge",
+      "score": 0.961
+    },
+    {
+      "id": "25e660e6e5dc",
+      "type": "knowledge",
+      "score": 0.961
+    },
+    {
+      "id": "2db4fd3697e1",
+      "type": "knowledge",
+      "score": 0.946
+    },
+    {
+      "id": "33d11008cbca",
+      "type": "knowledge",
+      "score": 0.946
+    },
+    {
+      "id": "ffcad6ad8b2c",
+      "type": "knowledge",
+      "score": 0.946
+    },
+    {
+      "id": "9e54c9cf54ab",
+      "type": "knowledge",
+      "score": 0.946
+    },
+    {
+      "id": "908b0c397851",
+      "type": "knowledge",
+      "score": 0.946
+    },
+    {
+      "id": "74a11153e09d",
+      "type": "knowledge",
+      "score": 0.946
+    },
+    {
+      "id": "4feae5fac105",
+      "type": "knowledge",
+      "score": 0.946
+    },
+    {
+      "id": "ba3e808d609b",
+      "type": "knowledge",
+      "score": 0.946
+    },
+    {
+      "id": "a38485eb0dec",
+      "type": "knowledge",
+      "score": 0.946
+    },
+    {
+      "id": "84683b3e5a54",
+      "type": "knowledge",
+      "score": 0.946
+    },
+    {
+      "id": "1e0bbc9eba21",
+      "type": "knowledge",
+      "score": 0.946
+    },
+    {
+      "id": "06d73a1888a0",
+      "type": "knowledge",
+      "score": 0.946
+    }
+  ]
+}

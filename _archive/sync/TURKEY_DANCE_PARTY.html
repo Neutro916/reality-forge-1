@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TURKEY TORNADO DANCE PARTY</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(135deg, #1a0a2e 0%, #16213e 50%, #0f3460 100%);
+            min-height: 100vh;
+            overflow: hidden;
+            font-family: 'Segoe UI', system-ui, sans-serif;
+        }
+
+        .disco-ball {
+            position: fixed;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 80px;
+            background: radial-gradient(circle at 30% 30%, #fff, #888, #444);
+            border-radius: 50%;
+            animation: spin 4s linear infinite;
+            box-shadow:
+                0 0 30px rgba(255,255,255,0.5),
+                0 0 60px rgba(255,255,255,0.3);
+        }
+
+        .disco-ball::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 4px;
+            height: 40px;
+            background: linear-gradient(to bottom, #666, transparent);
+            transform: translate(-50%, -100%);
+        }
+
+        @keyframes spin {
+            from { transform: translateX(-50%) rotateY(0deg); }
+            to { transform: translateX(-50%) rotateY(360deg); }
+        }
+
+        .light-beam {
+            position: fixed;
+            top: 100px;
+            width: 4px;
+            height: 100vh;
+            opacity: 0.3;
+            animation: beam 2s ease-in-out infinite;
+        }
+
+        @keyframes beam {
+            0%, 100% { opacity: 0.1; }
+            50% { opacity: 0.5; }
+        }
+
+        .title {
+            position: fixed;
+            top: 120px;
+            width: 100%;
+            text-align: center;
+            font-size: 4rem;
+            font-weight: 900;
+            background: linear-gradient(45deg, #ff6b35, #f7c744, #ff6b35, #f7c744);
+            background-size: 300% 300%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: gradient 2s ease infinite, bounce 0.5s ease infinite;
+            text-shadow: 0 0 30px rgba(255,107,53,0.5);
+            z-index: 100;
+        }
+
+        @keyframes gradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .subtitle {
+            position: fixed;
+            top: 200px;
+            width: 100%;
+            text-align: center;
+            font-size: 1.5rem;
+            color: #00ff41;
+            animation: pulse 1s ease infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.7; transform: scale(1.05); }
+        }
+
+        .dance-floor {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 250px;
+            background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            gap: 20px;
+            padding-bottom: 20px;
+        }
+
+        .turkey {
+            font-size: 8rem;
+            cursor: pointer;
+            transition: transform 0.1s;
+            filter: drop-shadow(0 0 20px rgba(255,200,0,0.5));
+        }
+
+        .turkey.dancing {
+            animation: turkeyDance 0.3s ease infinite;
+        }
+
+        .turkey:nth-child(2).dancing {
+            animation: turkeyDance2 0.4s ease infinite;
+        }
+
+        .turkey:nth-child(3).dancing {
+            animation: turkeyDance3 0.35s ease infinite;
+        }
+
+        @keyframes turkeyDance {
+            0%, 100% { transform: translateY(0) rotate(-5deg) scale(1); }
+            25% { transform: translateY(-30px) rotate(5deg) scale(1.1); }
+            50% { transform: translateY(0) rotate(-5deg) scale(1); }
+            75% { transform: translateY(-20px) rotate(10deg) scale(1.05); }
+        }
+
+        @keyframes turkeyDance2 {
+            0%, 100% { transform: translateY(0) rotate(5deg) scaleX(-1); }
+            33% { transform: translateY(-40px) rotate(-10deg) scaleX(-1) scale(1.15); }
+            66% { transform: translateY(-10px) rotate(15deg) scaleX(-1); }
+        }
+
+        @keyframes turkeyDance3 {
+            0%, 100% { transform: translateY(0) rotate(0deg); }
+            20% { transform: translateY(-25px) rotate(-15deg); }
+            40% { transform: translateY(0) rotate(10deg); }
+            60% { transform: translateY(-35px) rotate(5deg) scale(1.2); }
+            80% { transform: translateY(-10px) rotate(-5deg); }
+        }
+
+        .confetti {
+            position: fixed;
+            width: 15px;
+            height: 15px;
+            animation: fall linear forwards;
+            z-index: 1000;
+        }
+
+        @keyframes fall {
+            0% { transform: translateY(-100vh) rotate(0deg); opacity: 1; }
+            100% { transform: translateY(100vh) rotate(720deg); opacity: 0; }
+        }
+
+        .controls {
+            position: fixed;
+            bottom: 280px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 20px;
+            z-index: 100;
+        }
+
+        .btn {
+            padding: 15px 40px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-transform: uppercase;
+        }
+
+        .btn-dance {
+            background: linear-gradient(45deg, #ff6b35, #f7c744);
+            color: #1a0a2e;
+            box-shadow: 0 0 30px rgba(255,107,53,0.5);
+        }
+
+        .btn-dance:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 50px rgba(255,107,53,0.8);
+        }
+
+        .btn-stop {
+            background: linear-gradient(45deg, #e94560, #ff6b6b);
+            color: white;
+        }
+
+        .btn-stop:hover {
+            transform: scale(1.1);
+        }
+
+        .btn-confetti {
+            background: linear-gradient(45deg, #00ff41, #00d4ff);
+            color: #1a0a2e;
+        }
+
+        .stats {
+            position: fixed;
+            top: 250px;
+            width: 100%;
+            text-align: center;
+            color: #00d4ff;
+            font-size: 1.2rem;
+            font-family: 'Monaco', monospace;
+        }
+
+        .stats span {
+            color: #f7c744;
+            font-weight: bold;
+        }
+
+        .gobble {
+            position: fixed;
+            font-size: 3rem;
+            color: #ff6b35;
+            font-weight: bold;
+            animation: gobbleFloat 2s ease forwards;
+            pointer-events: none;
+            z-index: 1000;
+        }
+
+        @keyframes gobbleFloat {
+            0% { transform: translateY(0) scale(1); opacity: 1; }
+            100% { transform: translateY(-200px) scale(2); opacity: 0; }
+        }
+
+        .floor-tile {
+            position: fixed;
+            bottom: 0;
+            width: 100px;
+            height: 100px;
+            border: 1px solid rgba(255,255,255,0.1);
+            transition: background 0.3s;
+        }
+
+        .message {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 5rem;
+            font-weight: 900;
+            color: #00ff41;
+            text-shadow: 0 0 30px #00ff41;
+            animation: messagePopup 2s ease forwards;
+            pointer-events: none;
+            z-index: 2000;
+            white-space: nowrap;
+        }
+
+        @keyframes messagePopup {
+            0% { transform: translate(-50%, -50%) scale(0); opacity: 0; }
+            20% { transform: translate(-50%, -50%) scale(1.2); opacity: 1; }
+            80% { transform: translate(-50%, -50%) scale(1); opacity: 1; }
+            100% { transform: translate(-50%, -50%) scale(0); opacity: 0; }
+        }
+
+        .trinity-badge {
+            position: fixed;
+            bottom: 10px;
+            right: 20px;
+            color: rgba(255,255,255,0.3);
+            font-size: 0.8rem;
+            font-family: 'Monaco', monospace;
+        }
+
+        .sparkle {
+            position: fixed;
+            width: 10px;
+            height: 10px;
+            background: radial-gradient(circle, #fff, transparent);
+            border-radius: 50%;
+            pointer-events: none;
+            animation: sparkle 1s ease forwards;
+        }
+
+        @keyframes sparkle {
+            0% { transform: scale(0); opacity: 1; }
+            50% { transform: scale(2); opacity: 0.5; }
+            100% { transform: scale(0); opacity: 0; }
+        }
+
+        .beat-indicator {
+            position: fixed;
+            top: 300px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 10px;
+        }
+
+        .beat-bar {
+            width: 20px;
+            height: 50px;
+            background: linear-gradient(to top, #ff6b35, #f7c744);
+            border-radius: 5px;
+            transition: height 0.1s;
+        }
+
+        .beat-bar.active {
+            animation: beatPulse 0.3s ease;
+        }
+
+        @keyframes beatPulse {
+            0%, 100% { height: 50px; }
+            50% { height: 100px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="disco-ball"></div>
+
+    <h1 class="title">TURKEY TORNADO DANCE PARTY</h1>
+    <p class="subtitle">HAPPY THANKSGIVING FROM THE TRINITY NETWORK!</p>
+
+    <div class="stats">
+        Dance Moves: <span id="moveCount">0</span> |
+        Gobbles: <span id="gobbleCount">0</span> |
+        Network Status: <span style="color: #00ff41;">TURKEY MODE ACTIVE</span>
+    </div>
+
+    <div class="beat-indicator" id="beatIndicator">
+        <div class="beat-bar"></div>
+        <div class="beat-bar"></div>
+        <div class="beat-bar"></div>
+        <div class="beat-bar"></div>
+        <div class="beat-bar"></div>
+        <div class="beat-bar"></div>
+        <div class="beat-bar"></div>
+        <div class="beat-bar"></div>
+    </div>
+
+    <div class="controls">
+        <button class="btn btn-dance" onclick="startDance()">START DANCE!</button>
+        <button class="btn btn-stop" onclick="stopDance()">STOP</button>
+        <button class="btn btn-confetti" onclick="launchConfetti()">CONFETTI!</button>
+    </div>
+
+    <div class="dance-floor">
+        <div class="turkey" onclick="gobble(this)">&#x1F983;</div>
+        <div class="turkey" onclick="gobble(this)">&#x1F983;</div>
+        <div class="turkey" onclick="gobble(this)">&#x1F983;</div>
+    </div>
+
+    <div class="trinity-badge">C1 x C2 x C3 = INFINITY | Built by CP2-C4</div>
+
+    <script>
+        let dancing = false;
+        let moveCount = 0;
+        let gobbleCount = 0;
+        let beatInterval;
+        let confettiInterval;
+
+        const colors = ['#ff6b35', '#f7c744', '#00ff41', '#00d4ff', '#e94560', '#9b59b6', '#3498db'];
+        const gobbleSounds = ['GOBBLE!', 'GOBBLE GOBBLE!', 'TURKEYYYY!', 'HAPPY THANKSGIVING!', 'DANCE!'];
+
+        // Create light beams
+        for (let i = 0; i < 10; i++) {
+            const beam = document.createElement('div');
+            beam.className = 'light-beam';
+            beam.style.left = (i * 10 + 5) + '%';
+            beam.style.background = `linear-gradient(to bottom, ${colors[i % colors.length]}, transparent)`;
+            beam.style.animationDelay = (i * 0.2) + 's';
+            document.body.appendChild(beam);
+        }
+
+        // Create floor tiles
+        const tileCount = Math.ceil(window.innerWidth / 100);
+        for (let i = 0; i < tileCount; i++) {
+            const tile = document.createElement('div');
+            tile.className = 'floor-tile';
+            tile.style.left = (i * 100) + 'px';
+            document.body.appendChild(tile);
+        }
+
+        function startDance() {
+            if (dancing) return;
+            dancing = true;
+
+            document.querySelectorAll('.turkey').forEach(t => t.classList.add('dancing'));
+
+            showMessage('LET\'S DANCE!');
+
+            // Start beat animation
+            beatInterval = setInterval(() => {
+                const bars = document.querySelectorAll('.beat-bar');
+                bars.forEach(bar => {
+                    bar.style.height = (Math.random() * 80 + 20) + 'px';
+                    bar.style.background = `linear-gradient(to top, ${colors[Math.floor(Math.random() * colors.length)]}, ${colors[Math.floor(Math.random() * colors.length)]})`;
+                });
+                moveCount++;
+                document.getElementById('moveCount').textContent = moveCount;
+
+                // Random sparkles
+                if (Math.random() > 0.7) {
+                    createSparkle();
+                }
+
+                // Color floor tiles
+                document.querySelectorAll('.floor-tile').forEach(tile => {
+                    if (Math.random() > 0.7) {
+                        tile.style.background = colors[Math.floor(Math.random() * colors.length)] + '40';
+                    } else {
+                        tile.style.background = 'transparent';
+                    }
+                });
+            }, 200);
+        }
+
+        function stopDance() {
+            dancing = false;
+            document.querySelectorAll('.turkey').forEach(t => t.classList.remove('dancing'));
+            clearInterval(beatInterval);
+
+            document.querySelectorAll('.beat-bar').forEach(bar => {
+                bar.style.height = '50px';
+            });
+
+            document.querySelectorAll('.floor-tile').forEach(tile => {
+                tile.style.background = 'transparent';
+            });
+        }
+
+        function gobble(turkey) {
+            gobbleCount++;
+            document.getElementById('gobbleCount').textContent = gobbleCount;
+
+            const rect = turkey.getBoundingClientRect();
+            const gobbleText = document.createElement('div');
+            gobbleText.className = 'gobble';
+            gobbleText.textContent = gobbleSounds[Math.floor(Math.random() * gobbleSounds.length)];
+            gobbleText.style.left = rect.left + 'px';
+            gobbleText.style.top = rect.top + 'px';
+            document.body.appendChild(gobbleText);
+
+            setTimeout(() => gobbleText.remove(), 2000);
+
+            // Explosion of sparkles
+            for (let i = 0; i < 10; i++) {
+                setTimeout(() => {
+                    const sparkle = document.createElement('div');
+                    sparkle.className = 'sparkle';
+                    sparkle.style.left = (rect.left + Math.random() * 100) + 'px';
+                    sparkle.style.top = (rect.top + Math.random() * 100) + 'px';
+                    sparkle.style.background = `radial-gradient(circle, ${colors[Math.floor(Math.random() * colors.length)]}, transparent)`;
+                    document.body.appendChild(sparkle);
+                    setTimeout(() => sparkle.remove(), 1000);
+                }, i * 50);
+            }
+        }
+
+        function launchConfetti() {
+            for (let i = 0; i < 50; i++) {
+                setTimeout(() => {
+                    const confetti = document.createElement('div');
+                    confetti.className = 'confetti';
+                    confetti.style.left = Math.random() * 100 + 'vw';
+                    confetti.style.background = colors[Math.floor(Math.random() * colors.length)];
+                    confetti.style.animationDuration = (Math.random() * 3 + 2) + 's';
+                    confetti.style.borderRadius = Math.random() > 0.5 ? '50%' : '0';
+                    document.body.appendChild(confetti);
+
+                    setTimeout(() => confetti.remove(), 5000);
+                }, i * 30);
+            }
+
+            showMessage('HAPPY THANKSGIVING!');
+        }
+
+        function createSparkle() {
+            const sparkle = document.createElement('div');
+            sparkle.className = 'sparkle';
+            sparkle.style.left = Math.random() * window.innerWidth + 'px';
+            sparkle.style.top = Math.random() * window.innerHeight + 'px';
+            sparkle.style.background = `radial-gradient(circle, ${colors[Math.floor(Math.random() * colors.length)]}, transparent)`;
+            document.body.appendChild(sparkle);
+            setTimeout(() => sparkle.remove(), 1000);
+        }
+
+        function showMessage(text) {
+            const msg = document.createElement('div');
+            msg.className = 'message';
+            msg.textContent = text;
+            document.body.appendChild(msg);
+            setTimeout(() => msg.remove(), 2000);
+        }
+
+        // Auto-start after 1 second
+        setTimeout(() => {
+            startDance();
+            launchConfetti();
+        }, 1000);
+
+        // Keyboard controls
+        document.addEventListener('keydown', (e) => {
+            if (e.code === 'Space') {
+                if (dancing) stopDance();
+                else startDance();
+            }
+            if (e.code === 'KeyC') launchConfetti();
+            if (e.code === 'KeyG') {
+                document.querySelectorAll('.turkey').forEach(t => gobble(t));
+            }
+        });
+
+        // Click anywhere to create sparkles
+        document.addEventListener('click', (e) => {
+            for (let i = 0; i < 5; i++) {
+                const sparkle = document.createElement('div');
+                sparkle.className = 'sparkle';
+                sparkle.style.left = (e.clientX + (Math.random() - 0.5) * 50) + 'px';
+                sparkle.style.top = (e.clientY + (Math.random() - 0.5) * 50) + 'px';
+                sparkle.style.background = `radial-gradient(circle, ${colors[Math.floor(Math.random() * colors.length)]}, transparent)`;
+                document.body.appendChild(sparkle);
+                setTimeout(() => sparkle.remove(), 1000);
+            }
+        });
+    </script>
+</body>
+</html>

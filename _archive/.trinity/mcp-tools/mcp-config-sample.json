@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "trinity": {
+      "command": "node",
+      "args": ["C:\\Users\\dwrek\\.trinity\\trinity-mcp-server.js"],
+      "env": {},
+      "description": "Trinity Orchestration System - Autonomous Multi-Claude Coordination"
+    }
+  }
+}

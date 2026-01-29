@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7 Domains of Gratitude | Character Forge</title>
+    <meta name="description" content="Discover where gratitude shows up in your life. A 60-second interactive experience for Thanksgiving.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background: linear-gradient(135deg, #1a0a2e 0%, #16213e 50%, #0f3460 100%);
+            min-height: 100vh;
+            color: white;
+            overflow-x: hidden;
+        }
+
+        /* Header Section */
+        .header {
+            text-align: center;
+            padding: 40px 20px;
+            position: relative;
+        }
+
+        .turkey-container {
+            font-size: 5rem;
+            margin-bottom: 20px;
+            animation: turkeyBob 2s ease-in-out infinite;
+        }
+
+        @keyframes turkeyBob {
+            0%, 100% { transform: translateY(0) rotate(-3deg); }
+            50% { transform: translateY(-10px) rotate(3deg); }
+        }
+
+        .main-title {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 10px;
+            background: linear-gradient(45deg, #ff6b35, #f7c744);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: rgba(255,255,255,0.8);
+            margin-bottom: 20px;
+        }
+
+        .brand {
+            font-size: 0.9rem;
+            color: #00ff41;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        /* Intro Section */
+        .intro {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .intro p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: rgba(255,255,255,0.9);
+            margin-bottom: 15px;
+        }
+
+        .highlight {
+            color: #f7c744;
+            font-weight: 600;
+        }
+
+        /* Domains Grid */
+        .domains-section {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 1.8rem;
+            margin-bottom: 30px;
+            color: #00d4ff;
+        }
+
+        .domains-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .domain-card {
+            background: rgba(255,255,255,0.05);
+            border: 2px solid rgba(255,255,255,0.1);
+            border-radius: 16px;
+            padding: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .domain-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(255,255,255,0.1), transparent);
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .domain-card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(255,255,255,0.3);
+        }
+
+        .domain-card:hover::before {
+            opacity: 1;
+        }
+
+        .domain-card.selected {
+            border-color: #00ff41;
+            background: rgba(0,255,65,0.1);
+            transform: scale(1.02);
+        }
+
+        .domain-card.selected .domain-check {
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        .domain-icon {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+
+        .domain-name {
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .domain-question {
+            font-size: 1rem;
+            color: rgba(255,255,255,0.7);
+            margin-bottom: 15px;
+            font-style: italic;
+        }
+
+        .domain-examples {
+            font-size: 0.9rem;
+            color: rgba(255,255,255,0.6);
+            line-height: 1.6;
+        }
+
+        .domain-check {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            width: 30px;
+            height: 30px;
+            background: #00ff41;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #1a0a2e;
+            font-weight: bold;
+            opacity: 0;
+            transform: scale(0);
+            transition: all 0.3s;
+        }
+
+        /* Colors for each domain */
+        .domain-physical { border-left: 4px solid #e74c3c; }
+        .domain-physical .domain-icon { color: #e74c3c; }
+
+        .domain-financial { border-left: 4px solid #f7c744; }
+        .domain-financial .domain-icon { color: #f7c744; }
+
+        .domain-mental { border-left: 4px solid #3498db; }
+        .domain-mental .domain-icon { color: #3498db; }
+
+        .domain-emotional { border-left: 4px solid #e91e8c; }
+        .domain-emotional .domain-icon { color: #e91e8c; }
+
+        .domain-social { border-left: 4px solid #9b59b6; }
+        .domain-social .domain-icon { color: #9b59b6; }
+
+        .domain-creative { border-left: 4px solid #1abc9c; }
+        .domain-creative .domain-icon { color: #1abc9c; }
+
+        .domain-integration { border-left: 4px solid #00ff41; }
+        .domain-integration .domain-icon { color: #00ff41; }
+
+        /* Results Section */
+        .results-section {
+            max-width: 700px;
+            margin: 60px auto;
+            padding: 40px 20px;
+            text-align: center;
+            background: rgba(255,255,255,0.05);
+            border-radius: 20px;
+            display: none;
+        }
+
+        .results-section.visible {
+            display: block;
+            animation: fadeIn 0.5s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .results-title {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #f7c744;
+        }
+
+        .results-message {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: rgba(255,255,255,0.9);
+            margin-bottom: 30px;
+        }
+
+        .selected-domains {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+
+        .selected-badge {
+            padding: 10px 20px;
+            background: rgba(0,255,65,0.2);
+            border: 1px solid #00ff41;
+            border-radius: 30px;
+            font-size: 1rem;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            max-width: 600px;
+            margin: 60px auto;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .cta-text {
+            font-size: 1.2rem;
+            color: rgba(255,255,255,0.8);
+            margin-bottom: 25px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 18px 50px;
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: #1a0a2e;
+            background: linear-gradient(45deg, #ff6b35, #f7c744);
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.3s;
+            box-shadow: 0 10px 30px rgba(255,107,53,0.3);
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(255,107,53,0.4);
+        }
+
+        .cta-note {
+            margin-top: 15px;
+            font-size: 0.9rem;
+            color: rgba(255,255,255,0.5);
+        }
+
+        /* Counter */
+        .counter {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: rgba(0,0,0,0.8);
+            padding: 15px 25px;
+            border-radius: 50px;
+            font-size: 1rem;
+            color: #00ff41;
+            border: 1px solid #00ff41;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: rgba(255,255,255,0.4);
+            font-size: 0.9rem;
+        }
+
+        .footer a {
+            color: #00d4ff;
+            text-decoration: none;
+        }
+
+        /* Floating elements */
+        .leaf {
+            position: fixed;
+            font-size: 2rem;
+            opacity: 0.3;
+            pointer-events: none;
+            animation: floatLeaf 10s linear infinite;
+        }
+
+        @keyframes floatLeaf {
+            0% { transform: translateY(-100vh) rotate(0deg); }
+            100% { transform: translateY(100vh) rotate(360deg); }
+        }
+
+        /* Mobile adjustments */
+        @media (max-width: 768px) {
+            .main-title {
+                font-size: 1.8rem;
+            }
+
+            .turkey-container {
+                font-size: 4rem;
+            }
+
+            .domains-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .counter {
+                bottom: 10px;
+                right: 10px;
+                padding: 10px 15px;
+                font-size: 0.85rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Floating leaves -->
+    <div class="leaf" style="left: 10%; animation-delay: 0s;">&#x1F342;</div>
+    <div class="leaf" style="left: 30%; animation-delay: 2s;">&#x1F341;</div>
+    <div class="leaf" style="left: 50%; animation-delay: 4s;">&#x1F342;</div>
+    <div class="leaf" style="left: 70%; animation-delay: 6s;">&#x1F341;</div>
+    <div class="leaf" style="left: 90%; animation-delay: 8s;">&#x1F342;</div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="turkey-container">&#x1F983;</div>
+        <h1 class="main-title">7 Domains of Gratitude</h1>
+        <p class="subtitle">Discover where gratitude shows up in your life</p>
+        <p class="brand">Character Forge</p>
+    </header>
+
+    <!-- Intro -->
+    <section class="intro">
+        <p>This Thanksgiving, we're thinking about gratitude differently.</p>
+        <p>Not just <span class="highlight">"what"</span> we're thankful for, but <span class="highlight">"where"</span> gratitude shows up in our lives.</p>
+        <p>Select the domains where you feel most grateful this year.</p>
+    </section>
+
+    <!-- Domains Grid -->
+    <section class="domains-section">
+        <h2 class="section-title">Tap the domains you're grateful for</h2>
+
+        <div class="domains-grid">
+            <div class="domain-card domain-physical" onclick="toggleDomain(this, 'Physical')">
+                <div class="domain-check">&#x2713;</div>
+                <div class="domain-icon">&#x1F3C3;</div>
+                <h3 class="domain-name">Physical</h3>
+                <p class="domain-question">"Are you grateful for your body this year?"</p>
+                <p class="domain-examples">Health, energy, movement, rest, the meals shared with loved ones</p>
+            </div>
+
+            <div class="domain-card domain-financial" onclick="toggleDomain(this, 'Financial')">
+                <div class="domain-check">&#x2713;</div>
+                <div class="domain-icon">&#x1F4B0;</div>
+                <h3 class="domain-name">Financial</h3>
+                <p class="domain-question">"Abundance isn't just about money"</p>
+                <p class="domain-examples">Resources, security, opportunities, the ability to give to others</p>
+            </div>
+
+            <div class="domain-card domain-mental" onclick="toggleDomain(this, 'Mental')">
+                <div class="domain-check">&#x2713;</div>
+                <div class="domain-icon">&#x1F9E0;</div>
+                <h3 class="domain-name">Mental</h3>
+                <p class="domain-question">"The clarity you've gained"</p>
+                <p class="domain-examples">Knowledge, insights, decisions made, lessons learned this year</p>
+            </div>
+
+            <div class="domain-card domain-emotional" onclick="toggleDomain(this, 'Emotional')">
+                <div class="domain-check">&#x2713;</div>
+                <div class="domain-icon">&#x2764;&#xFE0F;</div>
+                <h3 class="domain-name">Emotional</h3>
+                <p class="domain-question">"Hearts full of connection"</p>
+                <p class="domain-examples">Love given and received, feelings processed, emotional growth</p>
+            </div>
+
+            <div class="domain-card domain-social" onclick="toggleDomain(this, 'Social')">
+                <div class="domain-check">&#x2713;</div>
+                <div class="domain-icon">&#x1F465;</div>
+                <h3 class="domain-name">Social</h3>
+                <p class="domain-question">"The people who showed up"</p>
+                <p class="domain-examples">Relationships, community, support systems, new connections</p>
+            </div>
+
+            <div class="domain-card domain-creative" onclick="toggleDomain(this, 'Creative')">
+                <div class="domain-check">&#x2713;</div>
+                <div class="domain-icon">&#x1F3A8;</div>
+                <h3 class="domain-name">Creative</h3>
+                <p class="domain-question">"What you created this year"</p>
+                <p class="domain-examples">Ideas, projects, expression, innovation, things built</p>
+            </div>
+
+            <div class="domain-card domain-integration" onclick="toggleDomain(this, 'Integration')">
+                <div class="domain-check">&#x2713;</div>
+                <div class="domain-icon">&#x2696;&#xFE0F;</div>
+                <h3 class="domain-name">Integration</h3>
+                <p class="domain-question">"Bringing it all together"</p>
+                <p class="domain-examples">Alignment, purpose, wholeness, living authentically</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results -->
+    <section class="results-section" id="results">
+        <h2 class="results-title">&#x1F983; Your Gratitude Profile</h2>
+        <p class="results-message" id="resultsMessage"></p>
+        <div class="selected-domains" id="selectedDomains"></div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+        <p class="cta-text">Want to understand your patterns across all 7 domains?<br>Discover how they shape your leadership.</p>
+        <a href="#" class="cta-button" onclick="showThankYou()">Take the Free Assessment</a>
+        <p class="cta-note">60 seconds. No sign-up required to start.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Happy Thanksgiving from <a href="#">Character Forge</a></p>
+        <p style="margin-top: 10px;">&#x1F983; May your gratitude overflow in all 7 domains</p>
+    </footer>
+
+    <!-- Counter -->
+    <div class="counter" id="counter">0 domains selected</div>
+
+    <script>
+        let selectedDomains = [];
+
+        const messages = {
+            0: "Tap on the domains that resonate with you.",
+            1: "Great start! Which other domains are you grateful for?",
+            2: "Two domains of gratitude - wonderful!",
+            3: "Three domains selected. You're connecting the dots.",
+            4: "Four domains! Gratitude is flowing.",
+            5: "Five domains of gratitude - you see abundance everywhere.",
+            6: "Six domains! You're deeply connected to your life.",
+            7: "All 7 domains! You've achieved gratitude mastery."
+        };
+
+        const detailedMessages = {
+            1: "You've identified one key domain of gratitude. Sometimes focus is power. This domain clearly resonates deeply with where you are right now.",
+            2: "Two domains stand out for you. There's often a connection between the domains we're most grateful for and the areas where we've grown the most.",
+            3: "Three domains of gratitude - you're seeing patterns. Notice how these domains might support each other in your life.",
+            4: "With four domains, you're recognizing abundance in multiple areas. This balance often reflects intentional living.",
+            5: "Five domains! You're clearly someone who looks for the good in many areas. This perspective is rare and valuable.",
+            6: "Six domains of gratitude suggests deep self-awareness. You understand that fulfillment comes from multiple sources.",
+            7: "All seven domains! You've achieved what we call 'gratitude integration' - seeing abundance across your entire life. This is the foundation of authentic leadership."
+        };
+
+        function toggleDomain(element, domain) {
+            element.classList.toggle('selected');
+
+            if (element.classList.contains('selected')) {
+                selectedDomains.push(domain);
+                createSparkle(element);
+            } else {
+                selectedDomains = selectedDomains.filter(d => d !== domain);
+            }
+
+            updateCounter();
+            updateResults();
+        }
+
+        function updateCounter() {
+            const counter = document.getElementById('counter');
+            const count = selectedDomains.length;
+            counter.textContent = `${count} domain${count !== 1 ? 's' : ''} selected`;
+
+            if (count >= 3) {
+                counter.style.background = 'rgba(0,255,65,0.2)';
+                counter.style.borderColor = '#00ff41';
+            } else {
+                counter.style.background = 'rgba(0,0,0,0.8)';
+                counter.style.borderColor = '#00ff41';
+            }
+        }
+
+        function updateResults() {
+            const results = document.getElementById('results');
+            const message = document.getElementById('resultsMessage');
+            const domains = document.getElementById('selectedDomains');
+            const count = selectedDomains.length;
+
+            if (count >= 1) {
+                results.classList.add('visible');
+                message.textContent = detailedMessages[count] || detailedMessages[7];
+
+                domains.innerHTML = selectedDomains.map(d =>
+                    `<span class="selected-badge">${d}</span>`
+                ).join('');
+            } else {
+                results.classList.remove('visible');
+            }
+        }
+
+        function createSparkle(element) {
+            const rect = element.getBoundingClientRect();
+            const colors = ['#ff6b35', '#f7c744', '#00ff41', '#00d4ff', '#e91e8c'];
+
+            for (let i = 0; i < 8; i++) {
+                const sparkle = document.createElement('div');
+                sparkle.style.cssText = `
+                    position: fixed;
+                    width: 8px;
+                    height: 8px;
+                    background: ${colors[Math.floor(Math.random() * colors.length)]};
+                    border-radius: 50%;
+                    pointer-events: none;
+                    z-index: 1000;
+                    left: ${rect.left + rect.width/2 + (Math.random() - 0.5) * 100}px;
+                    top: ${rect.top + rect.height/2 + (Math.random() - 0.5) * 100}px;
+                    animation: sparkle 0.6s ease forwards;
+                `;
+                document.body.appendChild(sparkle);
+                setTimeout(() => sparkle.remove(), 600);
+            }
+        }
+
+        // Add sparkle animation
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes sparkle {
+                0% { transform: scale(0); opacity: 1; }
+                50% { transform: scale(1.5); opacity: 0.8; }
+                100% { transform: scale(0); opacity: 0; }
+            }
+        `;
+        document.head.appendChild(style);
+
+        function showThankYou() {
+            alert('Taking you to the full Character Forge assessment...\n\n(In production, this would link to your assessment page)');
+        }
+    </script>
+</body>
+</html>

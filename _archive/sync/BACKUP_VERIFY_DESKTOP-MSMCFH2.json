@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-11-27T12:48:58.978157",
+  "computer": "DESKTOP-MSMCFH2",
+  "overall_status": "PASS",
+  "score": "5/5",
+  "checks": [
+    {
+      "name": "source_db",
+      "status": "PASS",
+      "message": "Healthy: 82,738 atoms (32.3MB)"
+    },
+    {
+      "name": "hub_backups",
+      "status": "PASS",
+      "message": "3 backups, latest 0.1h old (6 files)"
+    },
+    {
+      "name": "cyclotron_backups",
+      "status": "PASS",
+      "message": "1 backups, 82,738 atoms, 32.3MB"
+    },
+    {
+      "name": "cloud_sync",
+      "status": "PASS",
+      "message": "Cloud backup 0.4h old (32.3MB)"
+    },
+    {
+      "name": "backup_scripts",
+      "status": "PASS",
+      "message": "All 2 scripts present"
+    }
+  ],
+  "summary": {
+    "overall": "PASS",
+    "passed": 5,
+    "warned": 0,
+    "failed": 0,
+    "total": 5,
+    "score": "5/5"
+  }
+}

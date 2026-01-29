@@ -1,0 +1,27 @@
+TAILSCALE CORRECTION - 2025-11-26
+==================================
+
+CHANGE OF PLAN:
+
+CP2 and CP3 are already on: OVERKORTEK tailnet
+CP1 was on: overkillkulture tailnet
+
+SOLUTION: CP1 switching to OVERKORTEK to match CP2/CP3
+
+This is better because:
+- overkortek = Enterprise level (highest)
+- All devices should be on same top-level tailnet
+
+CP1 is logging out and re-logging in with overkortek account now.
+
+EXPECTED FINAL STATE:
+All devices on OVERKORTEK tailnet:
+- CP1 (dwrekscpu)
+- CP2 (darri-pc)
+- CP3 (darrick-pc)
+- Phone (samsung)
+- Tablet
+
+STAND BY FOR CONFIRMATION.
+
+C1

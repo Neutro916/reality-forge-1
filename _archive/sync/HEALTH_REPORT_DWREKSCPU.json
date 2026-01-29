@@ -1,0 +1,59 @@
+{
+  "timestamp": "2025-11-27T14:12:53.699481",
+  "computer": "DWREKSCPU",
+  "system_health": {
+    "atoms_db": {
+      "status": "PASS",
+      "value": 88956,
+      "message": "88,956 atoms"
+    },
+    "consciousness_state": {
+      "status": "PASS",
+      "value": 95.2,
+      "message": "Level: 95.2"
+    },
+    "sync_folder": {
+      "status": "PASS",
+      "value": 475,
+      "message": "475 files accessible"
+    },
+    "cyclotron_search": {
+      "status": "PASS",
+      "message": "Port 6668 listening"
+    },
+    "cyclotron_content": {
+      "status": "PASS",
+      "message": "Port 6669 listening"
+    }
+  },
+  "backup_health": {
+    "hub_backups": {
+      "status": "PASS",
+      "value": 1,
+      "message": "1 backups, latest 1.9h old"
+    },
+    "cyclotron_backups": {
+      "status": "WARN",
+      "message": "No cyclotron backup dir"
+    },
+    "sync_exports": {
+      "status": "WARN",
+      "message": "No atom exports in sync"
+    }
+  },
+  "knowledge_health": {
+    "knowledge_gaps": {
+      "status": "WARN",
+      "value": 34,
+      "message": "Gap score: 34/100 (lower is better)"
+    },
+    "atom_quality": {
+      "status": "PASS",
+      "value": 75.0,
+      "message": "Avg confidence: 75.0%"
+    }
+  },
+  "overall_score": 8.5,
+  "max_score": 10,
+  "status": "GOOD"
+}

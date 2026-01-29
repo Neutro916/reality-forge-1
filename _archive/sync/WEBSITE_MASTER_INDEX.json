@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "total_pages": 106,
+    "last_updated": "2025-11-27",
+    "base_url": "https://conciousnessrevolution.io",
+    "deployment_folder": "C:/Users/dwrek/100X_DEPLOYMENT"
+  },
+  "categories": {
+    "LANDING_PAGES": {
+      "description": "Main entry points for visitors",
+      "pages": [
+        {"file": "index.html", "title": "Main Landing", "purpose": "Primary entry point", "priority": "P0"},
+        {"file": "landing.html", "title": "Landing Page", "purpose": "Alternative landing", "priority": "P1"},
+        {"file": "WELCOME.html", "title": "Welcome", "purpose": "Welcome message", "priority": "P1"},
+        {"file": "ABOUT.html", "title": "About", "purpose": "Company info", "priority": "P1"}
+      ]
+    },
+    "ARAYA_AI": {
+      "description": "Araya AI chat and related pages",
+      "pages": [
+        {"file": "araya-chat.html", "title": "Araya Chat", "purpose": "Main AI chat interface", "priority": "P0"},
+        {"file": "ARAYA_CONSCIOUS_CHAT.html", "title": "Conscious Chat", "purpose": "Enhanced chat", "priority": "P1"},
+        {"file": "araya-beta-signup.html", "title": "Beta Signup", "purpose": "Beta tester registration", "priority": "P0"},
+        {"file": "araya-welcome.html", "title": "Araya Welcome", "purpose": "Araya onboarding", "priority": "P1"}
+      ]
+    },
+    "PATTERN_TOOLS": {
+      "description": "Pattern recognition and manipulation detection tools",
+      "pages": [
+        {"file": "manipulation_detector.html", "title": "Manipulation Detector", "purpose": "Detect manipulation patterns", "priority": "P0"},
+        {"file": "GASLIGHTING_DETECTOR.html", "title": "Gaslighting Detector", "purpose": "Detect gaslighting", "priority": "P0"},
+        {"file": "LOVE_BOMBING_DETECTOR.html", "title": "Love Bombing Detector", "purpose": "Detect love bombing", "priority": "P1"},
+        {"file": "GUILT_TRIP_DETECTOR.html", "title": "Guilt Trip Detector", "purpose": "Detect guilt trips", "priority": "P1"},
+        {"file": "EMOTIONAL_BLACKMAIL_DETECTOR.html", "title": "Emotional Blackmail", "purpose": "Detect blackmail patterns", "priority": "P1"},
+        {"file": "BREADCRUMBING_DETECTOR.html", "title": "Breadcrumbing Detector", "purpose": "Detect breadcrumbing", "priority": "P1"},
+        {"file": "FUTURE_FAKING_DETECTOR.html", "title": "Future Faking Detector", "purpose": "Detect future faking", "priority": "P1"},
+        {"file": "HOOVERING_DETECTOR.html", "title": "Hoovering Detector", "purpose": "Detect hoovering", "priority": "P1"},
+        {"file": "TRIANGULATION_DETECTOR.html", "title": "Triangulation Detector", "purpose": "Detect triangulation", "priority": "P1"},
+        {"file": "PROJECTION_DETECTOR.html", "title": "Projection Detector", "purpose": "Detect projection", "priority": "P1"},
+        {"file": "SCAPEGOATING_DETECTOR.html", "title": "Scapegoating Detector", "purpose": "Detect scapegoating", "priority": "P1"},
+        {"file": "DOUBLE_BIND_DECODER.html", "title": "Double Bind Decoder", "purpose": "Decode double binds", "priority": "P1"},
+        {"file": "WORD_SALAD_TRANSLATOR.html", "title": "Word Salad Translator", "purpose": "Translate word salad", "priority": "P1"},
+        {"file": "SILENT_TREATMENT_DECODER.html", "title": "Silent Treatment Decoder", "purpose": "Decode silent treatment", "priority": "P1"},
+        {"file": "PASSIVE_AGGRESSIVE_DECODER.html", "title": "Passive Aggressive", "purpose": "Decode passive aggression", "priority": "P1"},
+        {"file": "STONEWALLING_ANALYZER.html", "title": "Stonewalling Analyzer", "purpose": "Analyze stonewalling", "priority": "P1"},
+        {"file": "MOVING_GOALPOSTS_DETECTOR.html", "title": "Moving Goalposts", "purpose": "Detect moving goalposts", "priority": "P1"},
+        {"file": "INTERMITTENT_REINFORCEMENT_DETECTOR.html", "title": "Intermittent Reinforcement", "purpose": "Detect intermittent reinforcement", "priority": "P1"},
+        {"file": "TOXIC_POSITIVITY_DETECTOR.html", "title": "Toxic Positivity", "purpose": "Detect toxic positivity", "priority": "P1"},
+        {"file": "VICTIM_BLAMING_DETECTOR.html", "title": "Victim Blaming", "purpose": "Detect victim blaming", "priority": "P1"}
+      ]
+    },
+    "ANALYSIS_TOOLS": {
+      "description": "General analysis and decision tools",
+      "pages": [
+        {"file": "CONVERSATION_ANALYZER.html", "title": "Conversation Analyzer", "purpose": "Analyze conversations", "priority": "P0"},
+        {"file": "EMAIL_ANALYZER.html", "title": "Email Analyzer", "purpose": "Analyze emails", "priority": "P1"},
+        {"file": "CONTRACT_ANALYZER.html", "title": "Contract Analyzer", "purpose": "Analyze contracts", "priority": "P1"},
+        {"file": "MEETING_ANALYZER.html", "title": "Meeting Analyzer", "purpose": "Analyze meetings", "priority": "P1"},
+        {"file": "MEDIA_ANALYZER.html", "title": "Media Analyzer", "purpose": "Analyze media", "priority": "P1"},
+        {"file": "NEGOTIATION_ANALYZER.html", "title": "Negotiation Analyzer", "purpose": "Analyze negotiations", "priority": "P1"},
+        {"file": "ARGUMENT_MAPPER.html", "title": "Argument Mapper", "purpose": "Map arguments", "priority": "P1"},
+        {"file": "DECISION_MATRIX.html", "title": "Decision Matrix", "purpose": "Decision framework", "priority": "P1"},
+        {"file": "SELF_TALK_ANALYZER.html", "title": "Self Talk Analyzer", "purpose": "Analyze self-talk", "priority": "P1"}
+      ]
+    },
+    "TRACKERS": {
+      "description": "Tracking and monitoring tools",
+      "pages": [
+        {"file": "COMMITMENT_TRACKER.html", "title": "Commitment Tracker", "purpose": "Track commitments", "priority": "P1"},
+        {"file": "PROMISE_TRACKER.html", "title": "Promise Tracker", "purpose": "Track promises", "priority": "P1"},
+        {"file": "BOUNDARY_VIOLATION_TRACKER.html", "title": "Boundary Violation", "purpose": "Track violations", "priority": "P1"},
+        {"file": "MANIPULATION_IMMUNITY_TRACKER.html", "title": "Immunity Tracker", "purpose": "Track immunity progress", "priority": "P0"},
+        {"file": "RELATIONSHIP_PATTERN_TRACKER.html", "title": "Relationship Patterns", "purpose": "Track patterns", "priority": "P1"},
+        {"file": "TIMELINE_PROJECTION.html", "title": "Timeline Projection", "purpose": "Project timelines", "priority": "P1"},
+        {"file": "TIMELINE_PROJECTOR.html", "title": "Timeline Projector", "purpose": "Project timelines alt", "priority": "P2"}
+      ]
+    },
+    "DETECTORS": {
+      "description": "Detection and verification tools",
+      "pages": [
+        {"file": "INFLUENCE_DETECTOR.html", "title": "Influence Detector", "purpose": "Detect influence", "priority": "P1"},
+        {"file": "PRESSURE_DETECTOR.html", "title": "Pressure Detector", "purpose": "Detect pressure", "priority": "P1"},
+        {"file": "SALES_PITCH_DETECTOR.html", "title": "Sales Pitch Detector", "purpose": "Detect sales tactics", "priority": "P1"},
+        {"file": "AUTHORITY_BIAS_DETECTOR.html", "title": "Authority Bias", "purpose": "Detect authority bias", "priority": "P1"},
+        {"file": "NEWS_BIAS_DETECTOR.html", "title": "News Bias", "purpose": "Detect news bias", "priority": "P1"},
+        {"file": "SUNK_COST_DETECTOR.html", "title": "Sunk Cost", "purpose": "Detect sunk cost fallacy", "priority": "P1"},
+        {"file": "TURN_DETECTOR.html", "title": "Turn Detector", "purpose": "Detect turns", "priority": "P2"},
+        {"file": "QUICK_TRUTH_DETECTOR.html", "title": "Quick Truth", "purpose": "Quick truth check", "priority": "P1"},
+        {"file": "SOURCE_VERIFIER.html", "title": "Source Verifier", "purpose": "Verify sources", "priority": "P1"},
+        {"file": "TRUTH_SIGNAL_FINDER.html", "title": "Truth Signal", "purpose": "Find truth signals", "priority": "P1"}
+      ]
+    },
+    "CONSCIOUSNESS_TOOLS": {
+      "description": "Consciousness and self-improvement tools",
+      "pages": [
+        {"file": "consciousness-analyzer.html", "title": "Consciousness Analyzer", "purpose": "Analyze consciousness", "priority": "P0"},
+        {"file": "consciousness-tools.html", "title": "Consciousness Tools", "purpose": "Tool collection", "priority": "P0"},
+        {"file": "CONSCIOUSNESS_TRAINER.html", "title": "Consciousness Trainer", "purpose": "Train consciousness", "priority": "P1"},
+        {"file": "consciousness_bridge.html", "title": "Consciousness Bridge", "purpose": "Bridge tool", "priority": "P2"},
+        {"file": "DAILY_CONSCIOUSNESS_CHECK.html", "title": "Daily Check", "purpose": "Daily consciousness check", "priority": "P1"},
+        {"file": "EMOTIONAL_STATE_CHECKER.html", "title": "Emotional State", "purpose": "Check emotional state", "priority": "P1"},
+        {"file": "DECISION_FATIGUE_CHECK.html", "title": "Decision Fatigue", "purpose": "Check decision fatigue", "priority": "P1"},
+        {"file": "REALITY_CHECK.html", "title": "Reality Check", "purpose": "Reality verification", "priority": "P1"},
+        {"file": "BELIEF_CHECKER.html", "title": "Belief Checker", "purpose": "Check beliefs", "priority": "P1"}
+      ]
+    },
+    "SEVEN_DOMAINS": {
+      "description": "Seven domains framework pages",
+      "pages": [
+        {"file": "seven_domains.html", "title": "Seven Domains", "purpose": "Main domains page", "priority": "P0"},
+        {"file": "SEVEN_DOMAINS_DASHBOARD.html", "title": "Domains Dashboard", "purpose": "Domains dashboard", "priority": "P0"},
+        {"file": "seven-domains.html", "title": "Seven Domains Alt", "purpose": "Alternative", "priority": "P2"},
+        {"file": "seven-domains-assessment.html", "title": "Domains Assessment", "purpose": "Assessment tool", "priority": "P1"}
+      ]
+    },
+    "USER_MANAGEMENT": {
+      "description": "User authentication and onboarding",
+      "pages": [
+        {"file": "login.html", "title": "Login", "purpose": "User login", "priority": "P0"},
+        {"file": "signup.html", "title": "Signup", "purpose": "User registration", "priority": "P0"},
+        {"file": "onboard.html", "title": "Onboard", "purpose": "Onboarding start", "priority": "P1"},
+        {"file": "onboarding.html", "title": "Onboarding", "purpose": "Onboarding flow", "priority": "P1"},
+        {"file": "onboarding_complete.html", "title": "Onboarding Complete", "purpose": "Completion page", "priority": "P1"},
+        {"file": "10-believers-access.html", "title": "10 Believers", "purpose": "Early access", "priority": "P1"}
+      ]
+    },
+    "DASHBOARDS": {
+      "description": "Admin and status dashboards",
+      "pages": [
+        {"file": "admin-dashboard.html", "title": "Admin Dashboard", "purpose": "Admin control", "priority": "P0"},
+        {"file": "analytics_dashboard.html", "title": "Analytics", "purpose": "Analytics view", "priority": "P1"},
+        {"file": "health-monitor.html", "title": "Health Monitor", "purpose": "System health", "priority": "P1"},
+        {"file": "go-live-status-dashboard.html", "title": "Go Live Status", "purpose": "Launch status", "priority": "P1"},
+        {"file": "course-dashboard.html", "title": "Course Dashboard", "purpose": "Course overview", "priority": "P1"},
+        {"file": "tool_discovery.html", "title": "Tool Discovery", "purpose": "Discover tools", "priority": "P1"}
+      ]
+    },
+    "TRINITY_SYSTEM": {
+      "description": "Trinity coordination interfaces",
+      "pages": [
+        {"file": "TRINITY_3_PANEL_INTERFACE.html", "title": "3 Panel Interface", "purpose": "Trinity control", "priority": "P0"},
+        {"file": "TRINITY_CONSOLIDATION_HUB.html", "title": "Consolidation Hub", "purpose": "Trinity consolidation", "priority": "P1"},
+        {"file": "TRINITY_NETWORK_STATUS.html", "title": "Network Status", "purpose": "Trinity network", "priority": "P1"},
+        {"file": "TRINITY_NEXUS_DASHBOARD.html", "title": "Nexus Dashboard", "purpose": "Trinity nexus", "priority": "P1"},
+        {"file": "TRIPLE_TORNADO_DASHBOARD.html", "title": "Triple Tornado", "purpose": "Tornado status", "priority": "P1"}
+      ]
+    },
+    "OPERATOR_COCKPITS": {
+      "description": "Operator-specific workspaces",
+      "pages": [
+        {"file": "BETA_TESTER_COCKPIT.html", "title": "Beta Tester Cockpit", "purpose": "Maggie secretary work", "priority": "P0"},
+        {"file": "OPERATOR_COCKPIT_MAGGIE.html", "title": "Maggie Cockpit", "purpose": "Maggie tasks", "priority": "P0"},
+        {"file": "OPERATOR_COCKPIT_JOSH.html", "title": "Josh Cockpit", "purpose": "Josh tasks", "priority": "P0"},
+        {"file": "OPERATOR_COCKPIT_ALEX.html", "title": "Alex Cockpit", "purpose": "Alex tasks", "priority": "P0"}
+      ]
+    },
+    "CYCLOTRON_BRAIN": {
+      "description": "Brain/knowledge interfaces",
+      "pages": [
+        {"file": "CYCLOTRON_BRAIN_DASHBOARD.html", "title": "Brain Dashboard", "purpose": "Brain overview", "priority": "P0"},
+        {"file": "CYCLOTRON_SEARCH.html", "title": "Cyclotron Search", "purpose": "Search brain", "priority": "P0"},
+        {"file": "DATA_WIRING_DIAGRAM.html", "title": "Data Wiring", "purpose": "Data flow diagram", "priority": "P1"},
+        {"file": "ARCHITECTURE_SIMULATOR_DASHBOARD.html", "title": "Architecture Sim", "purpose": "Architecture simulation", "priority": "P2"}
+      ]
+    },
+    "HELPER_TOOLS": {
+      "description": "Response and boundary helpers",
+      "pages": [
+        {"file": "BOUNDARY_SETTER.html", "title": "Boundary Setter", "purpose": "Set boundaries", "priority": "P1"},
+        {"file": "RESPONSE_PLANNER.html", "title": "Response Planner", "purpose": "Plan responses", "priority": "P1"},
+        {"file": "PERSONAL_ATTACK_SHIELD.html", "title": "Attack Shield", "purpose": "Shield from attacks", "priority": "P1"},
+        {"file": "APOLOGY_ANALYZER.html", "title": "Apology Analyzer", "purpose": "Analyze apologies", "priority": "P1"},
+        {"file": "CRITICISM_VS_FEEDBACK.html", "title": "Criticism vs Feedback", "purpose": "Distinguish criticism", "priority": "P1"}
+      ]
+    },
+    "FINANCIAL_TOOLS": {
+      "description": "Financial decision tools",
+      "pages": [
+        {"file": "FINANCIAL_DECISION_CHECKER.html", "title": "Financial Decisions", "purpose": "Check financial decisions", "priority": "P1"}
+      ]
+    },
+    "COURSES": {
+      "description": "Learning and courses",
+      "pages": [
+        {"file": "pattern-recognition-course.html", "title": "Pattern Course", "purpose": "Pattern recognition course", "priority": "P1"},
+        {"file": "course-welcome.html", "title": "Course Welcome", "purpose": "Course introduction", "priority": "P1"}
+      ]
+    },
+    "ALIGNMENT_TOOLS": {
+      "description": "Value and goal alignment",
+      "pages": [
+        {"file": "VALUES_ALIGNMENT_CHECK.html", "title": "Values Alignment", "purpose": "Check values", "priority": "P1"},
+        {"file": "GOAL_ALIGNMENT_CHECK.html", "title": "Goal Alignment", "purpose": "Check goals", "priority": "P1"}
+      ]
+    },
+    "LIBRARY": {
+      "description": "Pattern library and collections",
+      "pages": [
+        {"file": "PATTERN_LIBRARY.html", "title": "Pattern Library", "purpose": "Browse patterns", "priority": "P0"}
+      ]
+    },
+    "MISC": {
+      "description": "Other/uncategorized",
+      "pages": [
+        {"file": "bugs.html", "title": "Bugs", "purpose": "Bug tracker", "priority": "P1"},
+        {"file": "command-bar.html", "title": "Command Bar", "purpose": "Command interface", "priority": "P2"},
+        {"file": "turkey-tornado.html", "title": "Turkey Tornado", "purpose": "Turkey Day tool", "priority": "P2"}
+      ]
+    }
+  },
+  "statistics": {
+    "total_pages": 106,
+    "p0_priority": 22,
+    "p1_priority": 70,
+    "p2_priority": 14,
+    "categories": 18
+  }
+}

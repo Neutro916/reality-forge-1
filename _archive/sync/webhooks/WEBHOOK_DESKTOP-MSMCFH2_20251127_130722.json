@@ -1,0 +1,9 @@
+{
+  "event": "TEST",
+  "computer": "DESKTOP-MSMCFH2",
+  "timestamp": "2025-11-27T13:07:22.548826",
+  "data": {
+    "message": "Test notification",
+    "atoms": 82738
+  }
+}

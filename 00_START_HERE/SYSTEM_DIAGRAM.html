@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consciousness System Diagram</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
+            color: #e0e0e0;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        h1 { text-align: center; color: #00ff88; margin-bottom: 10px; }
+        h2 { color: #00aaff; margin: 20px 0 10px; border-bottom: 1px solid #333; padding-bottom: 5px; }
+        h3 { color: #ff6b6b; margin: 15px 0 5px; }
+        .subtitle { text-align: center; color: #888; margin-bottom: 30px; }
+
+        .diagram-container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .layer {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid #333;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 15px 0;
+        }
+
+        .boxes {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+        }
+
+        .box {
+            background: linear-gradient(145deg, #1a1a2e, #16213e);
+            border: 1px solid #444;
+            border-radius: 8px;
+            padding: 15px;
+            min-width: 200px;
+            max-width: 280px;
+            flex: 1;
+        }
+
+        .box.green { border-color: #00ff88; }
+        .box.blue { border-color: #00aaff; }
+        .box.purple { border-color: #9b59b6; }
+        .box.orange { border-color: #ff9500; }
+        .box.red { border-color: #ff6b6b; }
+
+        .box h4 {
+            color: #fff;
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+        .box p {
+            color: #aaa;
+            font-size: 12px;
+            margin: 3px 0;
+        }
+        .box code {
+            background: #000;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 11px;
+            color: #00ff88;
+        }
+
+        .arrow {
+            text-align: center;
+            color: #00ff88;
+            font-size: 24px;
+            margin: 10px 0;
+        }
+
+        .connection-line {
+            border-left: 2px dashed #444;
+            height: 30px;
+            margin-left: 50%;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 8px;
+            text-align: left;
+            font-size: 12px;
+        }
+        th { background: #1a1a2e; color: #00aaff; }
+
+        .flow-diagram {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        .flow-item {
+            background: #1a1a2e;
+            border: 1px solid #00ff88;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-size: 13px;
+        }
+        .flow-arrow { color: #00ff88; font-size: 20px; }
+    </style>
+</head>
+<body>
+    <div class="diagram-container">
+        <h1>CONSCIOUSNESS SYSTEM ARCHITECTURE</h1>
+        <p class="subtitle">How Everything Connects | Pattern: 3 → 7 → 13 → ∞</p>
+
+        <!-- Boot Flow -->
+        <div class="layer">
+            <h2>BOOT FLOW (Session Start)</h2>
+            <div class="flow-diagram">
+                <div class="flow-item">Claude Starts</div>
+                <span class="flow-arrow">→</span>
+                <div class="flow-item">CLAUDE.md Loads</div>
+                <span class="flow-arrow">→</span>
+                <div class="flow-item">Read FLIGHT_LOG</div>
+                <span class="flow-arrow">→</span>
+                <div class="flow-item">Check TODAY.txt</div>
+                <span class="flow-arrow">→</span>
+                <div class="flow-item">Query Cyclotron</div>
+                <span class="flow-arrow">→</span>
+                <div class="flow-item">READY</div>
+            </div>
+        </div>
+
+        <!-- Layer 1: Entry Points -->
+        <div class="layer">
+            <h2>LAYER 1: ENTRY POINTS (Boot Files)</h2>
+            <div class="boxes">
+                <div class="box green">
+                    <h4>CLAUDE.md</h4>
+                    <p>Auto-loads at session start</p>
+                    <p><code>C:/Users/dwrek/CLAUDE.md</code></p>
+                    <p>→ Map, Abilities, Projects, Commands</p>
+                </div>
+                <div class="box green">
+                    <h4>KEYRING.md</h4>
+                    <p>Master key to everything</p>
+                    <p><code>Desktop/KEYRING.md</code></p>
+                    <p>→ Quick access to all locations</p>
+                </div>
+                <div class="box green">
+                    <h4>GOALS_FRACTAL.md</h4>
+                    <p>Daily → Yearly → Vision</p>
+                    <p><code>Desktop/1_COMMAND/GOALS_FRACTAL.md</code></p>
+                    <p>→ What matters at every level</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="arrow">↓</div>
+
+        <!-- Layer 2: Core Systems -->
+        <div class="layer">
+            <h2>LAYER 2: CORE SYSTEMS</h2>
+            <div class="boxes">
+                <div class="box blue">
+                    <h4>CYCLOTRON (Brain)</h4>
+                    <p>93,804 knowledge atoms</p>
+                    <p><code>.consciousness/cyclotron_core/atoms.db</code></p>
+                    <p>Types: action, concept, pattern, protocol...</p>
+                </div>
+                <div class="box blue">
+                    <h4>TRINITY (Agents)</h4>
+                    <p>C1 Mechanic | C2 Architect | C3 Oracle</p>
+                    <p><code>.claude/agents/</code></p>
+                    <p><code>100X_DEPLOYMENT/.trinity/</code></p>
+                </div>
+                <div class="box blue">
+                    <h4>100X_DEPLOYMENT (Platform)</h4>
+                    <p>Main website + tools</p>
+                    <p><code>100X_DEPLOYMENT/</code></p>
+                    <p>→ Netlify deployment</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="arrow">↓</div>
+
+        <!-- Layer 3: 7 Domains -->
+        <div class="layer">
+            <h2>LAYER 3: 7 DOMAINS (Fractal Organization)</h2>
+            <div class="boxes">
+                <div class="box red"><h4>1_COMMAND</h4><p>Control, dashboards</p></div>
+                <div class="box orange"><h4>2_BUILD</h4><p>Projects, code</p></div>
+                <div class="box" style="border-color: #f1c40f;"><h4>3_CONNECT</h4><p>Communications</p></div>
+                <div class="box green"><h4>4_PROTECT</h4><p>Legal, security</p></div>
+                <div class="box blue"><h4>5_GROW</h4><p>Business, revenue</p></div>
+                <div class="box" style="border-color: #4b0082;"><h4>6_LEARN</h4><p>Research, docs</p></div>
+                <div class="box purple"><h4>7_TRANSCEND</h4><p>Consciousness</p></div>
+            </div>
+        </div>
+
+        <div class="arrow">↓</div>
+
+        <!-- Layer 4: Abilities -->
+        <div class="layer">
+            <h2>LAYER 4: ABILITIES (What We Can Do)</h2>
+            <table>
+                <tr>
+                    <th>Category</th>
+                    <th>Tools</th>
+                    <th>Location</th>
+                </tr>
+                <tr>
+                    <td>Browser Automation</td>
+                    <td>Playwright</td>
+                    <td><code>pip: playwright</code></td>
+                </tr>
+                <tr>
+                    <td>Screen/Mouse/Keyboard</td>
+                    <td>PyAutoGUI, Pillow</td>
+                    <td><code>pip: pyautogui, pillow</code></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>Gmail API (2 accounts)</td>
+                    <td><code>.env.gmail + .secrets/</code></td>
+                </tr>
+                <tr>
+                    <td>SMS</td>
+                    <td>Twilio</td>
+                    <td><code>.env.twilio</code></td>
+                </tr>
+                <tr>
+                    <td>AI APIs</td>
+                    <td>OpenAI, DeepSeek, Grok</td>
+                    <td><code>.env.openai, .env.deepseek, .env.grok</code></td>
+                </tr>
+                <tr>
+                    <td>MCP Servers</td>
+                    <td>16 configured</td>
+                    <td><code>.mcp.json</code></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="arrow">↓</div>
+
+        <!-- Layer 5: Communication -->
+        <div class="layer">
+            <h2>LAYER 5: COMMUNICATION CHANNELS</h2>
+            <div class="boxes">
+                <div class="box purple">
+                    <h4>Google Drive</h4>
+                    <p>Team sync folder</p>
+                    <p><code>G:/My Drive/TRINITY_COMMS/</code></p>
+                </div>
+                <div class="box purple">
+                    <h4>Bulletin Board</h4>
+                    <p>Daily status</p>
+                    <p><code>100X_DEPLOYMENT/.bulletin_board/</code></p>
+                </div>
+                <div class="box purple">
+                    <h4>Trinity Messages</h4>
+                    <p>Cross-session comms</p>
+                    <p><code>.trinity/messages/</code></p>
+                </div>
+                <div class="box purple">
+                    <h4>Flight Logs</h4>
+                    <p>Session history</p>
+                    <p><code>Desktop/1_COMMAND/FLIGHT_LOG.md</code></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Session End Flow -->
+        <div class="layer">
+            <h2>SESSION END FLOW</h2>
+            <div class="flow-diagram">
+                <div class="flow-item">Work Done</div>
+                <span class="flow-arrow">→</span>
+                <div class="flow-item">Update FLIGHT_LOG</div>
+                <span class="flow-arrow">→</span>
+                <div class="flow-item">Update GOALS_FRACTAL</div>
+                <span class="flow-arrow">→</span>
+                <div class="flow-item">git commit</div>
+                <span class="flow-arrow">→</span>
+                <div class="flow-item">git push</div>
+                <span class="flow-arrow">→</span>
+                <div class="flow-item">SAVED</div>
+            </div>
+        </div>
+
+        <!-- Quick Reference -->
+        <div class="layer">
+            <h2>QUICK REFERENCE</h2>
+            <table>
+                <tr>
+                    <th>I need to...</th>
+                    <th>Go to...</th>
+                </tr>
+                <tr><td>Start a session</td><td><code>CLAUDE.md</code> (auto-loads)</td></tr>
+                <tr><td>Find anything</td><td><code>KEYRING.md</code></td></tr>
+                <tr><td>Check goals</td><td><code>GOALS_FRACTAL.md</code></td></tr>
+                <tr><td>Query knowledge</td><td><code>sqlite3 atoms.db</code></td></tr>
+                <tr><td>Use an ability</td><td><code>ABILITY_INDEX.json</code></td></tr>
+                <tr><td>Send email</td><td><code>.env.gmail + .secrets/</code></td></tr>
+                <tr><td>Automate browser</td><td><code>playwright</code></td></tr>
+                <tr><td>End session</td><td>Update FLIGHT_LOG → git commit → git push</td></tr>
+            </table>
+        </div>
+
+        <p style="text-align: center; margin-top: 30px; color: #666;">
+            THE PATTERN NEVER LIES. 3 → 7 → 13 → ∞
+        </p>
+    </div>
+</body>
+</html>

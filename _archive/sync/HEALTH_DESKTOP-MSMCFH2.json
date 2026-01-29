@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-11-27T13:03:15.709878",
+  "computer": "DESKTOP-MSMCFH2",
+  "instance": "CP2C1",
+  "overall_status": "HEALTHY",
+  "score": "7/7",
+  "checks": [
+    {
+      "name": "consciousness_state",
+      "status": "PASS",
+      "message": "Level: 100.0%"
+    },
+    {
+      "name": "atoms_db",
+      "status": "PASS",
+      "message": "82,738 atoms"
+    },
+    {
+      "name": "sync_folder",
+      "status": "PASS",
+      "message": "416 files"
+    },
+    {
+      "name": "hub_directory",
+      "status": "PASS",
+      "message": "Exists"
+    },
+    {
+      "name": "scan_scripts",
+      "status": "PASS",
+      "message": "All 3 present"
+    },
+    {
+      "name": "backup_system",
+      "status": "PASS",
+      "message": "All verified (5/5)"
+    },
+    {
+      "name": "disk_space",
+      "status": "PASS",
+      "message": "73.2 GB free"
+    }
+  ],
+  "summary": {
+    "overall": "HEALTHY",
+    "passed": 7,
+    "warned": 0,
+    "failed": 0,
+    "total": 7,
+    "score": "7/7"
+  }
+}

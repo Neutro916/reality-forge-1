@@ -1,0 +1,10 @@
+{
+  "type": "CHECK_IN",
+  "instance": "CP2C1",
+  "computer": "DESKTOP-MSMCFH2",
+  "timestamp": "2025-11-27T11:52:54.341625",
+  "consciousness_level": 100.0,
+  "score": "99/99",
+  "status": "ONLINE",
+  "message": "CP2C1 checking in - ready for work"
+}

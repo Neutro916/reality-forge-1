@@ -1,0 +1,97 @@
+{
+  "computer": "DESKTOP-MSMCFH2",
+  "timestamp": "2025-11-27T12:15:15.863079",
+  "services": [
+    {
+      "service": "Pattern Theory API",
+      "ready": true,
+      "status": "READY",
+      "checks": [
+        {
+          "check": "directory_exists",
+          "status": "PASS",
+          "detail": "C:\\Users\\darri\\100X_DEPLOYMENT\\PATTERN_THEORY_ENGINE"
+        },
+        {
+          "check": "server.py",
+          "status": "PASS",
+          "detail": "Found"
+        },
+        {
+          "check": "port_env_var",
+          "status": "PASS",
+          "detail": "Uses $PORT"
+        },
+        {
+          "check": "requirements.txt",
+          "status": "PASS",
+          "detail": "2 dependencies"
+        },
+        {
+          "check": "railway.json",
+          "status": "PASS",
+          "detail": "startCommand: python server.py"
+        },
+        {
+          "check": "Procfile",
+          "status": "PASS",
+          "detail": "web: python api/PATTERN_THEORY_API.py"
+        },
+        {
+          "check": "api_module",
+          "status": "PASS",
+          "detail": "PATTERN_THEORY_API.py found"
+        },
+        {
+          "check": "core_module",
+          "status": "PASS",
+          "detail": "PATTERN_THEORY_ENGINE.py found"
+        }
+      ],
+      "summary": "8 PASS, 0 WARN, 0 FAIL"
+    },
+    {
+      "service": "HTML Dashboards",
+      "ready": true,
+      "status": "READY",
+      "checks": [
+        {
+          "check": "html_count",
+          "status": "PASS",
+          "detail": "115 HTML files found"
+        },
+        {
+          "check": "key_dashboards",
+          "status": "PASS",
+          "detail": "Found: 4/4"
+        }
+      ],
+      "summary": "115 dashboards, 4 key ones found"
+    },
+    {
+      "service": "Consciousness Tools",
+      "ready": true,
+      "status": "READY",
+      "checks": [
+        {
+          "check": "python_tools",
+          "status": "PASS",
+          "detail": "66 Python tools"
+        },
+        {
+          "check": "key_tools",
+          "status": "PASS",
+          "detail": "Found 6/6"
+        },
+        {
+          "check": "atoms_db",
+          "status": "PASS",
+          "detail": "32.0 MB"
+        }
+      ],
+      "summary": "66 tools, 6 key ones"
+    }
+  ],
+  "ready_count": 3,
+  "total_count": 3
+}

@@ -1,0 +1,553 @@
+{
+  "computer": "DESKTOP-MSMCFH2",
+  "summary": {
+    "total_utils": 33,
+    "stub_files": 33,
+    "full_implementations": 0,
+    "unused_files": 33,
+    "total_size_kb": 5.9,
+    "stub_names": [
+      "API_UTILS",
+      "BACKUP_UTILS",
+      "BOOT_UTILS",
+      "CACHE_UTILS",
+      "CHECK_UTILS",
+      "CONFIG_UTILS",
+      "COORDINATION_UTILS",
+      "DB_UTILS",
+      "ENV_UTILS",
+      "EXPORT_UTILS",
+      "FILE_UTILS",
+      "FOLDER_UTILS",
+      "HASH_UTILS",
+      "HEARTBEAT_UTILS",
+      "INDEX_UTILS",
+      "JSON_UTILS",
+      "LOG_UTILS",
+      "MANIFEST_UTILS",
+      "METRICS_UTILS",
+      "PATH_UTILS",
+      "PATTERN_UTILS",
+      "QUEUE_UTILS",
+      "REPORT_UTILS",
+      "SCAN_UTILS",
+      "STATUS_UTILS",
+      "SYNC_UTILS",
+      "TASK_UTILS",
+      "TEXT_UTILS",
+      "TIME_UTILS",
+      "TORNADO_UTILS",
+      "TRINITY_UTILS",
+      "VALIDATE_UTILS",
+      "WORK_UTILS"
+    ],
+    "unused_names": [
+      "API_UTILS",
+      "BACKUP_UTILS",
+      "BOOT_UTILS",
+      "CACHE_UTILS",
+      "CHECK_UTILS",
+      "CONFIG_UTILS",
+      "COORDINATION_UTILS",
+      "DB_UTILS",
+      "ENV_UTILS",
+      "EXPORT_UTILS",
+      "FILE_UTILS",
+      "FOLDER_UTILS",
+      "HASH_UTILS",
+      "HEARTBEAT_UTILS",
+      "INDEX_UTILS",
+      "JSON_UTILS",
+      "LOG_UTILS",
+      "MANIFEST_UTILS",
+      "METRICS_UTILS",
+      "PATH_UTILS",
+      "PATTERN_UTILS",
+      "QUEUE_UTILS",
+      "REPORT_UTILS",
+      "SCAN_UTILS",
+      "STATUS_UTILS",
+      "SYNC_UTILS",
+      "TASK_UTILS",
+      "TEXT_UTILS",
+      "TIME_UTILS",
+      "TORNADO_UTILS",
+      "TRINITY_UTILS",
+      "VALIDATE_UTILS",
+      "WORK_UTILS"
+    ]
+  },
+  "utils": [
+    {
+      "name": "API_UTILS",
+      "file": "API_UTILS.py",
+      "path": "C:\\Users\\darri\\.consciousness\\API_UTILS.py",
+      "size_bytes": 154,
+      "lines": 4,
+      "is_stub": true,
+      "functions": [
+        "get"
+      ],
+      "classes": [],
+      "imports_count": 2,
+      "complexity": "STUB"
+    },
+    {
+      "name": "BACKUP_UTILS",
+      "file": "BACKUP_UTILS.py",
+      "path": "C:\\Users\\darri\\.consciousness\\BACKUP_UTILS.py",
+      "size_bytes": 186,
+      "lines": 5,
+      "is_stub": true,
+      "functions": [
+        "backup"
+      ],
+      "classes": [],
+      "imports_count": 2,
+      "complexity": "STUB"
+    },
+    {
+      "name": "BOOT_UTILS",
+      "file": "BOOT_UTILS.py",
+      "path": "C:\\Users\\darri\\.consciousness\\BOOT_UTILS.py",
+      "size_bytes": 220,
+      "lines": 4,
+      "is_stub": true,
+      "functions": [
+        "boot"
+      ],
+      "classes": [],
+      "imports_count": 0,
+      "complexity": "STUB"
+    },
+    {
+      "name": "CACHE_UTILS",
+      "file": "CACHE_UTILS.py",
+      "path": "C:\\Users\\darri\\.consciousness\\CACHE_UTILS.py",
+      "size_bytes": 151,
+      "lines": 5,
+      "is_stub": true,
+      "functions": [
+        "get",
+        "set"
+      ],
+      "classes": [],
+      "imports_count": 0,
+      "complexity": "STUB"
+    },
+    {
+      "name": "CHECK_UTILS",
+      "file": "CHECK_UTILS.py",
+      "path": "C:\\Users\\darri\\.consciousness\\CHECK_UTILS.py",
+      "size_bytes": 182,
+      "lines": 5,
+      "is_stub": true,
+      "functions": [
+        "file_exists",
+        "is_dir"
+      ],
+      "classes": [],
+      "imports_count": 1,
+      "complexity": "STUB"
+    },
+    {
+      "name": "CONFIG_UTILS",
+      "file": "CONFIG_UTILS.py",
+      "path": "C:\\Users\\darri\\.consciousness\\CONFIG_UTILS.py",
+      "size_bytes": 180,
+      "lines": 5,
+      "is_stub": true,
+      "functions": [
+        "load_config",
+        "save_config"
+      ],
+      "classes": [],
+      "imports_count": 1,
+      "complexity": "STUB"
+    },
+    {
+      "name": "COORDINATION_UTILS",
+      "file": "COORDINATION_UTILS.py",
+      "path": "C:\\Users\\darri\\.consciousness\\COORDINATION_UTILS.py",
+      "size_bytes": 209,
+      "lines": 4,
+      "is_stub": true,
+      "functions": [
+        "multiply_not_add"
+      ],
+      "classes": [],
+      "imports_count": 0,
+      "complexity": "STUB"
+    },
+    {
+      "name": "DB_UTILS",
+      "file": "DB_UTILS.py",
+      "path": "C:\\Users\\darri\\.consciousness\\DB_UTILS.py",
+      "size_bytes": 159,
+      "lines": 4,
+      "is_stub": true,
+      "functions": [
+        "query"
+      ],
+      "classes": [],
+      "imports_count": 1,
+      "complexity": "STUB"
+    },
+    {
+      "name": "ENV_UTILS",
+      "file": "ENV_UTILS.py",
+      "path": "C:\\Users\\darri\\.consciousness\\ENV_UTILS.py",
+      "size_bytes": 193,
+      "lines": 5,
+      "is_stub": true,
+      "functions": [
+        "get_env",
+        "set_env"
+      ],
+      "classes": [],
+      "imports_count": 1,
+      "complexity": "STUB"
+    },
+    {
+      "name": "EXPORT_UTILS",
+      "file": "EXPORT_UTILS.py",
+      "path": "C:\\Users\\darri\\.consciousness\\EXPORT_UTILS.py",
+      "size_bytes": 192,
+      "lines": 7,
+      "is_stub": true,
+      "functions": [
+        "to_json"
+      ],
+      "classes": [],
+      "imports_count": 1,
+      "complexity": "STUB"
+    },
+    {
+      "name": "FILE_UTILS",
+      "file": "FILE_UTILS.py",
+      "path": "C:\\Users\\darri\\.consciousness\\FILE_UTILS.py",
+      "size_bytes": 163,
+      "lines": 5,
+      "is_stub": true,
+      "functions": [
+        "read",
+        "write"
+      ],
+      "classes": [],
+      "imports_count": 1,
+      "complexity": "STUB"
+    },
+    {
+      "name": "FOLDER_UTILS",
+      "file": "FOLDER_UTILS.py",
+      "path": "C:\\Users\\darri\\.consciousness\\FOLDER_UTILS.py",
+      "size_bytes": 238,
+      "lines": 5,
+      "is_stub": true,
+      "functions": [
+        "ensure_dir",
+        "list_dirs"
+      ],
+      "classes": [],
+      "imports_count": 1,
+      "complexity": "STUB"
+    },
+    {
+      "name": "HASH_UTILS",
+      "file": "HASH_UTILS.py",
+      "path": "C:\\Users\\darri\\.consciousness\\HASH_UTILS.py",
+      "size_bytes": 157,
+      "lines": 4,
+      "is_stub": true,
+      "functions": [
+        "hash_file"
+      ],
+      "classes": [],
+      "imports_count": 1,
+      "complexity": "STUB"
+    },
+    {
+      "name": "HEARTBEAT_UTILS",
+      "file": "HEARTBEAT_UTILS.py",
+      "path": "C:\\Users\\darri\\.consciousness\\HEARTBEAT_UTILS.py",
+      "size_bytes": 218,
+      "lines": 5,
+      "is_stub": true,
+      "functions": [
+        "heartbeat"
+      ],
+      "classes": [],
+      "imports_count": 2,
+      "complexity": "STUB"
+    },
+    {
+      "name": "INDEX_UTILS",
+      "file": "INDEX_UTILS.py",
+      "path": "C:\\Users\\darri\\.consciousness\\INDEX_UTILS.py",
+      "size_bytes": 185,
+      "lines": 6,
+      "is_stub": true,
+      "functions": [
+        "create_index"
+      ],
+      "classes": [],
+      "imports_count": 1,
+      "complexity": "STUB"
+    },
+    {
+      "name": "JSON_UTILS",
+      "file": "JSON_UTILS.py",
+      "path": "C:\\Users\\darri\\.consciousness\\JSON_UTILS.py",
+      "size_bytes": 156,
+      "lines": 5,
+      "is_stub": true,
+      "functions": [
+        "parse",
+        "stringify"
+      ],
+      "classes": [],
+      "imports_count": 1,
+      "complexity": "STUB"
+    },
+    {
+      "name": "LOG_UTILS",
+      "file": "LOG_UTILS.py",
+      "path": "C:\\Users\\darri\\.consciousness\\LOG_UTILS.py",
+      "size_bytes": 150,
+      "lines": 4,
+      "is_stub": true,
+      "functions": [
+        "log"
+      ],
+      "classes": [],
+      "imports_count": 1,
+      "complexity": "STUB"
+    },
+    {
+      "name": "MANIFEST_UTILS",
+      "file": "MANIFEST_UTILS.py",
+      "path": "C:\\Users\\darri\\.consciousness\\MANIFEST_UTILS.py",
+      "size_bytes": 180,
+      "lines": 4,
+      "is_stub": true,
+      "functions": [
+        "list_files"
+      ],
+      "classes": [],
+      "imports_count": 1,
+      "complexity": "STUB"
+    },
+    {
+      "name": "METRICS_UTILS",
+      "file": "METRICS_UTILS.py",
+      "path": "C:\\Users\\darri\\.consciousness\\METRICS_UTILS.py",
+      "size_bytes": 184,
+      "lines": 5,
+      "is_stub": true,
+      "functions": [
+        "record"
+      ],
+      "classes": [],
+      "imports_count": 1,
+      "complexity": "STUB"
+    },
+    {
+      "name": "PATH_UTILS",
+      "file": "PATH_UTILS.py",
+      "path": "C:\\Users\\darri\\.consciousness\\PATH_UTILS.py",
+      "size_bytes": 144,
+      "lines": 5,
+      "is_stub": true,
+      "functions": [],
+      "classes": [],
+      "imports_count": 1,
+      "complexity": "EMPTY"
+    },
+    {
+      "name": "PATTERN_UTILS",
+      "file": "PATTERN_UTILS.py",
+      "path": "C:\\Users\\darri\\.consciousness\\PATTERN_UTILS.py",
+      "size_bytes": 176,
+      "lines": 4,
+      "is_stub": true,
+      "functions": [
+        "next_pattern"
+      ],
+      "classes": [],
+      "imports_count": 0,
+      "complexity": "STUB"
+    },
+    {
+      "name": "QUEUE_UTILS",
+      "file": "QUEUE_UTILS.py",
+      "path": "C:\\Users\\darri\\.consciousness\\QUEUE_UTILS.py",
+      "size_bytes": 163,
+      "lines": 5,
+      "is_stub": true,
+      "functions": [
+        "push",
+        "pop"
+      ],
+      "classes": [],
+      "imports_count": 0,
+      "complexity": "STUB"
+    },
+    {
+      "name": "REPORT_UTILS",
+      "file": "REPORT_UTILS.py",
+      "path": "C:\\Users\\darri\\.consciousness\\REPORT_UTILS.py",
+      "size_bytes": 210,
+      "lines": 6,
+      "is_stub": true,
+      "functions": [
+        "generate_report"
+      ],
+      "classes": [],
+      "imports_count": 1,
+      "complexity": "STUB"
+    },
+    {
+      "name": "SCAN_UTILS",
+      "file": "SCAN_UTILS.py",
+      "path": "C:\\Users\\darri\\.consciousness\\SCAN_UTILS.py",
+      "size_bytes": 162,
+      "lines": 4,
+      "is_stub": true,
+      "functions": [
+        "count_files"
+      ],
+      "classes": [],
+      "imports_count": 1,
+      "complexity": "STUB"
+    },
+    {
+      "name": "STATUS_UTILS",
+      "file": "STATUS_UTILS.py",
+      "path": "C:\\Users\\darri\\.consciousness\\STATUS_UTILS.py",
+      "size_bytes": 219,
+      "lines": 5,
+      "is_stub": true,
+      "functions": [
+        "status_report"
+      ],
+      "classes": [],
+      "imports_count": 1,
+      "complexity": "STUB"
+    },
+    {
+      "name": "SYNC_UTILS",
+      "file": "SYNC_UTILS.py",
+      "path": "C:\\Users\\darri\\.consciousness\\SYNC_UTILS.py",
+      "size_bytes": 193,
+      "lines": 6,
+      "is_stub": true,
+      "functions": [
+        "sync_exists"
+      ],
+      "classes": [],
+      "imports_count": 1,
+      "complexity": "STUB"
+    },
+    {
+      "name": "TASK_UTILS",
+      "file": "TASK_UTILS.py",
+      "path": "C:\\Users\\darri\\.consciousness\\TASK_UTILS.py",
+      "size_bytes": 177,
+      "lines": 7,
+      "is_stub": true,
+      "functions": [
+        "load_tasks"
+      ],
+      "classes": [],
+      "imports_count": 2,
+      "complexity": "STUB"
+    },
+    {
+      "name": "TEXT_UTILS",
+      "file": "TEXT_UTILS.py",
+      "path": "C:\\Users\\darri\\.consciousness\\TEXT_UTILS.py",
+      "size_bytes": 147,
+      "lines": 4,
+      "is_stub": true,
+      "functions": [
+        "word_count",
+        "line_count"
+      ],
+      "classes": [],
+      "imports_count": 0,
+      "complexity": "STUB"
+    },
+    {
+      "name": "TIME_UTILS",
+      "file": "TIME_UTILS.py",
+      "path": "C:\\Users\\darri\\.consciousness\\TIME_UTILS.py",
+      "size_bytes": 195,
+      "lines": 5,
+      "is_stub": true,
+      "functions": [
+        "now_iso",
+        "timestamp"
+      ],
+      "classes": [],
+      "imports_count": 1,
+      "complexity": "STUB"
+    },
+    {
+      "name": "TORNADO_UTILS",
+      "file": "TORNADO_UTILS.py",
+      "path": "C:\\Users\\darri\\.consciousness\\TORNADO_UTILS.py",
+      "size_bytes": 232,
+      "lines": 7,
+      "is_stub": true,
+      "functions": [
+        "get_tornado_state"
+      ],
+      "classes": [],
+      "imports_count": 2,
+      "complexity": "STUB"
+    },
+    {
+      "name": "TRINITY_UTILS",
+      "file": "TRINITY_UTILS.py",
+      "path": "C:\\Users\\darri\\.consciousness\\TRINITY_UTILS.py",
+      "size_bytes": 191,
+      "lines": 4,
+      "is_stub": true,
+      "functions": [
+        "get_role"
+      ],
+      "classes": [],
+      "imports_count": 0,
+      "complexity": "STUB"
+    },
+    {
+      "name": "VALIDATE_UTILS",
+      "file": "VALIDATE_UTILS.py",
+      "path": "C:\\Users\\darri\\.consciousness\\VALIDATE_UTILS.py",
+      "size_bytes": 169,
+      "lines": 6,
+      "is_stub": true,
+      "functions": [
+        "validate_json"
+      ],
+      "classes": [],
+      "imports_count": 1,
+      "complexity": "STUB"
+    },
+    {
+      "name": "WORK_UTILS",
+      "file": "WORK_UTILS.py",
+      "path": "C:\\Users\\darri\\.consciousness\\WORK_UTILS.py",
+      "size_bytes": 242,
+      "lines": 4,
+      "is_stub": true,
+      "functions": [
+        "assign_task",
+        "complete_task"
+      ],
+      "classes": [],
+      "imports_count": 0,
+      "complexity": "STUB"
+    }
+  ]
+}

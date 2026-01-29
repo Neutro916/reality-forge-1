@@ -1,0 +1,166 @@
+{
+  "timestamp": "2025-11-27T06:36:07.236217",
+  "instance": "C2-Scan",
+  "pieces": {
+    "34": {
+      "name": ".consciousness/INDEX.md exists",
+      "status": "PASS",
+      "location": ".consciousness/"
+    },
+    "35": {
+      "name": ".consciousness/hub/INDEX.md exists",
+      "status": "PASS",
+      "location": ".consciousness/hub/"
+    },
+    "36": {
+      "name": "RESCUED_GEMS/INDEX.md exists",
+      "status": "PASS",
+      "location": ".consciousness/RESCUED_GEMS/"
+    },
+    "37": {
+      "name": "100X_DEPLOYMENT/INDEX.md exists",
+      "status": "PASS",
+      "location": "100X_DEPLOYMENT/"
+    },
+    "38": {
+      "name": "BACKEND/INDEX.md exists",
+      "status": "PASS",
+      "location": "100X_DEPLOYMENT/BACKEND/"
+    },
+    "39": {
+      "name": "All folders have INDEX (56 missing)",
+      "status": "FAIL",
+      "location": "ALL"
+    },
+    "40": {
+      "name": "MASTER_INDEX.md comprehensive",
+      "status": "PASS",
+      "location": "~/"
+    },
+    "41": {
+      "name": "Python files counted (76)",
+      "status": "PASS",
+      "location": ".consciousness/"
+    },
+    "42": {
+      "name": "HTML files counted (99)",
+      "status": "PASS",
+      "location": "100X_DEPLOYMENT/"
+    },
+    "43": {
+      "name": "MD files counted (33)",
+      "status": "PASS",
+      "location": ".consciousness/"
+    },
+    "44": {
+      "name": "No empty folders in .consciousness",
+      "status": "PASS",
+      "location": ".consciousness/"
+    },
+    "45": {
+      "name": "Git repo exists",
+      "status": "PASS",
+      "location": "100X_DEPLOYMENT/"
+    },
+    "46": {
+      "name": ".gitignore exists",
+      "status": "PASS",
+      "location": "100X_DEPLOYMENT/"
+    },
+    "47": {
+      "name": "No .env in root (secrets)",
+      "status": "PASS",
+      "location": "100X_DEPLOYMENT/"
+    },
+    "48": {
+      "name": "Backup docs exist",
+      "status": "PASS",
+      "location": ".consciousness/"
+    },
+    "51": {
+      "name": "MCP tools configured",
+      "status": "PASS",
+      "location": "~/.trinity/"
+    },
+    "52": {
+      "name": "Hub folder has files",
+      "status": "PASS",
+      "location": ".consciousness/hub/"
+    },
+    "53": {
+      "name": "WAKE_SIGNAL.json exists",
+      "status": "PASS",
+      "location": ".consciousness/hub/"
+    },
+    "54": {
+      "name": "C1_SCAN_REPORT exists",
+      "status": "PASS",
+      "location": ".consciousness/hub/"
+    },
+    "55": {
+      "name": "MASTER_WORK_ORDER exists",
+      "status": "PASS",
+      "location": ".consciousness/hub/"
+    },
+    "56": {
+      "name": "TORNADO_STATE exists",
+      "status": "PASS",
+      "location": ".consciousness/"
+    },
+    "57": {
+      "name": "FIGURE_8 protocol exists",
+      "status": "PASS",
+      "location": ".consciousness/"
+    },
+    "61": {
+      "name": "LIGHTER: No files >500 lines (8 found)",
+      "status": "FAIL",
+      "location": ".consciousness/*.py"
+    },
+    "62": {
+      "name": "LIGHTER: CHEAT_CODE compact",
+      "status": "PASS",
+      "location": ".consciousness/"
+    },
+    "63": {
+      "name": "FASTER: TORNADO exists",
+      "status": "PASS",
+      "location": ".consciousness/"
+    },
+    "64": {
+      "name": "FASTER: BRAIN_SEARCH exists",
+      "status": "PASS",
+      "location": ".consciousness/"
+    },
+    "65": {
+      "name": "STRONGER: State persists",
+      "status": "PASS",
+      "location": ".consciousness/"
+    },
+    "66": {
+      "name": "STRONGER: Atoms DB exists",
+      "status": "PASS",
+      "location": "cyclotron_core/"
+    },
+    "67": {
+      "name": "ELEGANT: One INDEX links all",
+      "status": "PASS",
+      "location": "~/"
+    },
+    "68": {
+      "name": "ELEGANT: Cheat code exists",
+      "status": "PASS",
+      "location": ".consciousness/"
+    },
+    "69": {
+      "name": "EFFICIENT: No duplicate DBs",
+      "status": "PASS",
+      "location": "ALL"
+    },
+    "70": {
+      "name": "EFFICIENT: Cached indexes",
+      "status": "PASS",
+      "location": "cyclotron_core/"
+    }
+  }
+}

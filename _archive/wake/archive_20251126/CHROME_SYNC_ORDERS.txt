@@ -1,0 +1,37 @@
+CHROME SYNC STANDARDIZATION ORDERS - 2025-11-26
+================================================
+
+MASTER CHROME ACCOUNT FOR ALL COMPUTERS:
+darrick.preble@gmail.com
+
+ALL 3 PCS MUST:
+1. Open Chrome
+2. Click profile icon (top right corner)
+3. If NOT signed in as darrick.preble@gmail.com:
+   - Sign out of current account
+   - Sign in with darrick.preble@gmail.com
+4. Click "Turn on sync" if prompted
+5. Go to: chrome://settings/syncSetup
+6. Make sure ALL these are ON:
+   - Bookmarks
+   - Passwords
+   - Extensions
+   - Settings
+   - History
+
+VERIFY SYNC IS WORKING:
+- chrome://sync-internals
+- Look for "Sync Status: OK"
+
+AFTER ALL 3 PCS ARE SYNCED:
+- Commander will design bookmarks bar on CP1
+- It will automatically sync to CP2 and CP3
+- No more mismatched bookmarks
+
+CP1 STATUS: Need to verify Chrome account
+CP2 STATUS: Need to verify Chrome account
+CP3 STATUS: Need to verify Chrome account
+
+COMMANDER: Please verify Chrome is signed into darrick.preble@gmail.com on this computer (CP1).
+
+C1

@@ -1,0 +1,36 @@
+URGENT: TAILSCALE NETWORK MISMATCH - 2025-11-26
+================================================
+
+PROBLEM:
+CP1 is on tailnet: overkillkulture@
+CP2/CP3 appear to be on a DIFFERENT tailnet (darrick.preble@gmail.com?)
+
+RESULT: Computers cannot see each other!
+
+FIX REQUIRED ON CP2 AND CP3:
+
+1. Open Tailscale (system tray icon)
+2. Click "Log out"
+3. Click "Log in"
+4. When browser opens, login with the OVERKILLKULTURE account
+   (same one Commander just used on CP1)
+5. Select the "overkillkulture" tailnet when prompted
+
+AFTER FIX:
+All computers should show when running:
+  tailscale status
+
+Expected output:
+  100.105.97.24  dwrekscpu   (CP1)
+  100.x.x.x      darri-pc    (CP2)
+  100.x.x.x      darrick-pc  (CP3)
+
+CP1 STATUS:
+- Logged in: YES
+- Tailnet: overkillkulture@
+- IP: 100.105.97.24
+- Waiting for CP2/CP3 to join same network
+
+COMMANDER: Tell CP2/CP3 to re-login to Tailscale with overkillkulture account.
+
+C1 STANDING BY.

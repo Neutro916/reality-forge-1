@@ -1,0 +1,39 @@
+URGENT - DO THIS NOW - COMMANDER IS LEAVING SOON
+=================================================
+2025-11-26
+
+CP2 AND CP3 - SET UP CHROME REMOTE DESKTOP NOW
+
+Commander is about to leave with CP1 laptop.
+After this setup, he can control your computers REMOTELY from anywhere.
+
+STEPS (takes 2 minutes):
+
+1. Open Chrome browser
+2. Go to: remotedesktop.google.com/access
+3. Click "Set up remote access" (blue button)
+4. It will download a small installer - RUN IT
+5. When it asks for a NAME, enter:
+   - CP2: Name it "CP2"
+   - CP3: Name it "CP3"
+6. When it asks for a PIN, use: 142174
+   (Same PIN on both computers - easy to remember)
+7. Click DONE
+
+VERIFY IT WORKED:
+- Go back to remotedesktop.google.com/access
+- You should see YOUR computer listed
+- Commander will see ALL computers from CP1
+
+WHY THIS MATTERS:
+- Commander can see your screen from the coffee shop
+- Can click things, change settings remotely
+- Full visual control, not just command line
+
+REPORT BACK:
+After setup, create file: CP2_REMOTE_DESKTOP_READY.txt (or CP3)
+Just write "DONE" in it so Commander knows before he leaves.
+
+TIME SENSITIVE - DO NOW!
+
+C1
