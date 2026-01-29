@@ -1,0 +1,89 @@
+{
+    "metadata": {
+        "search_utc": "2026-01-28T22:18:15.097602",
+        "drives_searched": [
+            "D:/",
+            "E:/"
+        ],
+        "keywords": [
+            "sacred geometry",
+            "dong son",
+            "wheel of life",
+            "fibonacci",
+            "lucas",
+            "pell"
+        ],
+        "total_files_found": 10
+    },
+    "results_by_keyword": {
+        "sacred geometry": [],
+        "dong son": [],
+        "wheel of life": [],
+        "fibonacci": [
+            {
+                "path": "D:\\Breathing_App_Essentials\\breath_patterns\\FIBONACCI-LUCAS-SPIRAL-DIRECTION.txt",
+                "size_bytes": 19806,
+                "modified_utc": "2026-01-25T14:23:48.046916",
+                "match_type": "filename"
+            },
+            {
+                "path": "D:\\Documents\\FIBONACCI-LUCAS-SPIRAL-DIRECTION.txt",
+                "size_bytes": 19806,
+                "modified_utc": "2025-12-14T17:54:45",
+                "match_type": "filename"
+            }
+        ],
+        "lucas": [
+            {
+                "path": "D:\\Breathing_App_Essentials\\breath_patterns\\FIBONACCI-LUCAS-SPIRAL-DIRECTION.txt",
+                "size_bytes": 19806,
+                "modified_utc": "2026-01-25T14:23:48.046916",
+                "match_type": "filename"
+            },
+            {
+                "path": "D:\\Documents\\FIBONACCI-LUCAS-SPIRAL-DIRECTION.txt",
+                "size_bytes": 19806,
+                "modified_utc": "2025-12-14T17:54:45",
+                "match_type": "filename"
+            }
+        ],
+        "pell": [
+            {
+                "path": "D:\\AND STUDIO\\lib\\modules\\intellij.libraries.ai.grazie.spell.gec.engine.local.jar",
+                "size_bytes": 12727941,
+                "modified_utc": "2026-01-09T10:27:42",
+                "match_type": "filename"
+            },
+            {
+                "path": "D:\\AND STUDIO\\lib\\modules\\intellij.spellchecker.jar",
+                "size_bytes": 774194,
+                "modified_utc": "2026-01-09T10:27:40",
+                "match_type": "filename"
+            },
+            {
+                "path": "D:\\AND STUDIO\\lib\\modules\\intellij.spellchecker.xml.jar",
+                "size_bytes": 61600,
+                "modified_utc": "2026-01-09T10:27:40",
+                "match_type": "filename"
+            },
+            {
+                "path": "D:\\Media_Archive\\audio\\H.E.R.-pella-Slide-Audio-ft.-YG-1_5dafed1e9fe54.mp3",
+                "size_bytes": 6631424,
+                "modified_utc": "2025-03-21T11:57:27",
+                "match_type": "filename"
+            },
+            {
+                "path": "D:\\My Files(DESKTOP-19SDBGK)\\Native\\C\\ProgramData\\Chrome\\Other bookmarks\\Artifact locations list  SpellForce 3 Generelle diskussioner.url",
+                "size_bytes": 368,
+                "modified_utc": "2025-07-01T23:03:23.438286",
+                "match_type": "filename"
+            },
+            {
+                "path": "D:\\Users\\natra\\.vscode\\extensions\\ms-python.vscode-pylance-2025.10.4\\dist\\bundled\\stubs\\sympy-stubs\\polys\\appellseqs.pyi",
+                "size_bytes": 540,
+                "modified_utc": "2026-01-20T02:46:50.950932",
+                "match_type": "filename"
+            }
+        ]
+    }
+}

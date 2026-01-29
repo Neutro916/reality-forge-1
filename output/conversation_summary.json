@@ -1,0 +1,842 @@
+{
+    "metadata": {
+        "summary_creation_utc": "2026-01-28T23:11:07.849559",
+        "source_file": "D:\\Users\\natra\\Downloads\\data-2026-01-20-10-51-36-batch-0000\\conversations.json",
+        "total_conversations_found": 119
+    },
+    "conversations": [
+        {
+            "id": "unknown_id_1",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_2",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_3",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_4",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_5",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_6",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_7",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_8",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_9",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_10",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_11",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_12",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_13",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_14",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_15",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_16",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_17",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_18",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_19",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_20",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_21",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_22",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_23",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_24",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_25",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_26",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_27",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_28",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_29",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_30",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_31",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_32",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_33",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_34",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_35",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_36",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_37",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_38",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_39",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_40",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_41",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_42",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_43",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_44",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_45",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_46",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_47",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_48",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_49",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_50",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_51",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_52",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_53",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_54",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_55",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_56",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_57",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_58",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_59",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_60",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_61",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_62",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_63",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_64",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_65",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_66",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_67",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_68",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_69",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_70",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_71",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_72",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_73",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_74",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_75",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_76",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_77",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_78",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_79",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_80",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_81",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_82",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_83",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_84",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_85",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_86",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_87",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_88",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_89",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_90",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_91",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_92",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_93",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_94",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_95",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_96",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_97",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_98",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_99",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_100",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_101",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_102",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_103",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_104",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_105",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_106",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_107",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_108",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_109",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_110",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_111",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_112",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_113",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_114",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_115",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_116",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_117",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_118",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        },
+        {
+            "id": "unknown_id_119",
+            "timestamp": "N/A",
+            "title": "Untitled",
+            "message_count": 0,
+            "preview": []
+        }
+    ]
+}

@@ -1,0 +1,403 @@
+{
+    "metadata": {
+        "index_creation_utc": "2026-01-28T21:47:28.602163",
+        "scan_directory": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan",
+        "total_documents_indexed": 56,
+        "version": "1.0.0",
+        "description": "Cryptographically verified index of all business plan documents."
+    },
+    "documents": [
+        {
+            "filename": "100X_PLATFORM_STRATEGY.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\100X_PLATFORM_STRATEGY.md",
+            "size_bytes": 26191,
+            "modified_utc": "2026-01-25T14:33:10.403161",
+            "sha256_hash": "12d3bdd51ec5c577cf47f975a03e37edafb1377c229ee7a884970e589e1b0cd8"
+        },
+        {
+            "filename": "10_YEAR_OLD_GENIUS_STANDARD.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\10_YEAR_OLD_GENIUS_STANDARD.md",
+            "size_bytes": 18628,
+            "modified_utc": "2026-01-25T14:33:10.340675",
+            "sha256_hash": "3bda892ac3723890377b54deccc1fc99b755f9df8e31c5e4eca375611230baa3"
+        },
+        {
+            "filename": "14_INCH_CENTER_HUB_ACTUAL.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\14_INCH_CENTER_HUB_ACTUAL.md",
+            "size_bytes": 15328,
+            "modified_utc": "2026-01-25T14:33:10.356295",
+            "sha256_hash": "e46c7840e05f0400befad91a104fb9aea1ad3307e3fd6ef937f2d7a907142113"
+        },
+        {
+            "filename": "14_INCH_RADIO_COIL_PREMIUM.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\14_INCH_RADIO_COIL_PREMIUM.md",
+            "size_bytes": 4978,
+            "modified_utc": "2026-01-25T14:33:10.356295",
+            "sha256_hash": "a364c2719c77dfc7a2cd7a2b1317361fc5cf1debf1c988eb4341116c9ffa9742"
+        },
+        {
+            "filename": "15_DAY_LAUNCH_PLAN.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\15_DAY_LAUNCH_PLAN.md",
+            "size_bytes": 13883,
+            "modified_utc": "2026-01-25T14:33:10.356295",
+            "sha256_hash": "0fbecef03a995bcbe38a2a2ba8f875595732e404bbfb6011208c7d9d82e29084"
+        },
+        {
+            "filename": "3D_PRINT_PRODUCTION_PLAN.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\3D_PRINT_PRODUCTION_PLAN.md",
+            "size_bytes": 12350,
+            "modified_utc": "2026-01-25T14:33:10.325050",
+            "sha256_hash": "4326745bc2e2f1e0232693525a3cdd018f98b037e5aad516524e91a8dad10985"
+        },
+        {
+            "filename": "4_APPS_COMPLETE_PURPOSES_HIDDEN_SKILLS.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\4_APPS_COMPLETE_PURPOSES_HIDDEN_SKILLS.md",
+            "size_bytes": 25986,
+            "modified_utc": "2026-01-25T14:33:10.325050",
+            "sha256_hash": "70f3d30eafa3e896a0a0d81cb84bea8f974077c20a4811f79b02d621ebf88f7f"
+        },
+        {
+            "filename": "5K_VALUE_ONGOING_ENGAGEMENT.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\5K_VALUE_ONGOING_ENGAGEMENT.md",
+            "size_bytes": 15259,
+            "modified_utc": "2026-01-25T14:33:10.340675",
+            "sha256_hash": "8f78699e1308d6ebc515faa2b2559cd04efd3f7a6536aa88fb1348e1b562ea29"
+        },
+        {
+            "filename": "7-second-protocol.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\7-second-protocol.md",
+            "size_bytes": 13502,
+            "modified_utc": "2026-01-25T14:33:10.340675",
+            "sha256_hash": "8a98281059efb5f5e5fb485346cd824a250661bdf9df3c62ea5f55a06340159b"
+        },
+        {
+            "filename": "90_DAY_ACCOUNTABILITY_SYSTEM.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\90_DAY_ACCOUNTABILITY_SYSTEM.md",
+            "size_bytes": 25724,
+            "modified_utc": "2026-01-25T14:33:10.356295",
+            "sha256_hash": "013cc3b9f733517bc514d1bbc5ffbd5490cc1a1b2cdf9b5514b2d8613ab5a4b9"
+        },
+        {
+            "filename": "ACTION_CHECKLIST.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\ACTION_CHECKLIST.md",
+            "size_bytes": 17491,
+            "modified_utc": "2026-01-25T14:33:10.418780",
+            "sha256_hash": "624434f57e2ba5690be1bf95ec28f005c456aeb54476898ea8eba92499f673f7"
+        },
+        {
+            "filename": "ACTUAL_MANUFACTURING_REALITY.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\ACTUAL_MANUFACTURING_REALITY.md",
+            "size_bytes": 14228,
+            "modified_utc": "2026-01-25T14:33:10.418780",
+            "sha256_hash": "a192c15e024a323ebdbaf8b4765c9ec6e745efebf48ebd79c903eebaf2b396bb"
+        },
+        {
+            "filename": "APP1_CORRECTION_3_MONTHS.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\APP1_CORRECTION_3_MONTHS.md",
+            "size_bytes": 4264,
+            "modified_utc": "2026-01-25T14:33:10.418780",
+            "sha256_hash": "1adc492481e6e64fa21341f2c6d5ca3e2ad90b9708bcf116eda98a1b4dacecae"
+        },
+        {
+            "filename": "APP2_DANGER_CO2_COMPRESSION.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\APP2_DANGER_CO2_COMPRESSION.md",
+            "size_bytes": 22278,
+            "modified_utc": "2026-01-25T14:33:10.418780",
+            "sha256_hash": "a9a63ed9f3046cf81eb61930421b9b9fb5cf7cf7bb57ac60524a673ad0e3ef27"
+        },
+        {
+            "filename": "APP_3_GROUP_ROOMS_UPDATE.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\APP_3_GROUP_ROOMS_UPDATE.md",
+            "size_bytes": 11432,
+            "modified_utc": "2026-01-25T14:33:10.418780",
+            "sha256_hash": "43052082636ce9c7371b97e3e127b11253de34c219a57b4fa3d1aac485c12d2a"
+        },
+        {
+            "filename": "BCI_MATRIX_ANALYSIS_COMPLETE.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\BCI_MATRIX_ANALYSIS_COMPLETE.md",
+            "size_bytes": 17343,
+            "modified_utc": "2026-01-25T14:33:10.418780",
+            "sha256_hash": "7e2a693901e37d9241e8dbec30cf4c6d9d7c8af81754ca750a6de94543e3669d"
+        },
+        {
+            "filename": "BETA_TESTER_EXCLUSIVE_ACCESS.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\BETA_TESTER_EXCLUSIVE_ACCESS.md",
+            "size_bytes": 15765,
+            "modified_utc": "2026-01-25T14:33:10.434401",
+            "sha256_hash": "55334d39409548809edfe28d0fb786441a120cfe00298dc441197976f02b3890"
+        },
+        {
+            "filename": "BUILD_FOR_BEAST_PHYSICAL_REQUIREMENTS.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\BUILD_FOR_BEAST_PHYSICAL_REQUIREMENTS.md",
+            "size_bytes": 23925,
+            "modified_utc": "2026-01-25T14:33:10.434401",
+            "sha256_hash": "676d8ada1aa9ced0812355a29c9e8ab2b51b28076d2c9a36491e89bd694c4948"
+        },
+        {
+            "filename": "BUSINESS_MANAGEMENT_FLEXIBLE_VIBRATION.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\BUSINESS_MANAGEMENT_FLEXIBLE_VIBRATION.md",
+            "size_bytes": 19960,
+            "modified_utc": "2026-01-25T14:33:10.465647",
+            "sha256_hash": "2f852b9cae5edc1cc561b940acbbd847733b774fa1035231502f30e6790e740e"
+        },
+        {
+            "filename": "BUSINESS_PLAN_ACCESS_ALLDAY_REMINDER_FINAL.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\BUSINESS_PLAN_ACCESS_ALLDAY_REMINDER_FINAL.md",
+            "size_bytes": 21861,
+            "modified_utc": "2026-01-25T14:33:10.465647",
+            "sha256_hash": "cfd6665eb938eedf662b7fa90b25519ccace0e0cad90d9affde50c4ed0a8d44f"
+        },
+        {
+            "filename": "COMPLETE_KNOWLEDGE_PRICING_VALUE.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\COMPLETE_KNOWLEDGE_PRICING_VALUE.md",
+            "size_bytes": 39982,
+            "modified_utc": "2026-01-25T14:33:10.465647",
+            "sha256_hash": "8fee956b39d19a569c15c2f9a0bfa0097d33d380d9b0394ab326a1064e47370a"
+        },
+        {
+            "filename": "COMPLETE_PRODUCTION_CAPABILITIES.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\COMPLETE_PRODUCTION_CAPABILITIES.md",
+            "size_bytes": 17188,
+            "modified_utc": "2026-01-25T14:33:10.465647",
+            "sha256_hash": "30970bb0a87b56cef43f8ac9eae372b324bbbd5e229b24f23f20af61f1fd016b"
+        },
+        {
+            "filename": "COMPLETE_SESSION_HIGHLIGHTS.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\COMPLETE_SESSION_HIGHLIGHTS.md",
+            "size_bytes": 44005,
+            "modified_utc": "2026-01-25T14:33:10.481265",
+            "sha256_hash": "58aa08f6f157debebb5227fbb0a9dd931e5ee4b16f3e7ade6da81993dd8fe35f"
+        },
+        {
+            "filename": "COMPLETE_SYSTEM_5_APPS_PHYSICAL.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\COMPLETE_SYSTEM_5_APPS_PHYSICAL.md",
+            "size_bytes": 20349,
+            "modified_utc": "2026-01-25T14:33:10.481265",
+            "sha256_hash": "bde55491252e517f7f2bdd7bee3ac1df15a838c4f882cbb17e9733f232530ed5"
+        },
+        {
+            "filename": "COMPLETE_TWO_PATH_SYSTEM_FINAL.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\COMPLETE_TWO_PATH_SYSTEM_FINAL.md",
+            "size_bytes": 30973,
+            "modified_utc": "2026-01-25T14:33:10.481265",
+            "sha256_hash": "6a610a05a3f14c59584be1057c4018e04cdd97bd07825c5a827f7e9f1c97b3c5"
+        },
+        {
+            "filename": "CORRECTED_MONETIZATION_TRUTH.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\CORRECTED_MONETIZATION_TRUTH.md",
+            "size_bytes": 11964,
+            "modified_utc": "2026-01-25T14:33:10.481265",
+            "sha256_hash": "f056e7c53c6b6bcc7a4a6a39e63f1030efb353d361c2d6272ba09d1d7e69d42d"
+        },
+        {
+            "filename": "CORRECTED_NO_BETA_FULL_TRANSPARENCY.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\CORRECTED_NO_BETA_FULL_TRANSPARENCY.md",
+            "size_bytes": 18981,
+            "modified_utc": "2026-01-25T14:33:10.481265",
+            "sha256_hash": "f0fc162dd132045500b0e624f139cb53ca51d2c007e6418b6b881356e099f08c"
+        },
+        {
+            "filename": "CORRECTED_PRICING_OPSEC_FINAL.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\CORRECTED_PRICING_OPSEC_FINAL.md",
+            "size_bytes": 15728,
+            "modified_utc": "2026-01-25T14:33:10.481265",
+            "sha256_hash": "683501f23213dfd94b849345f8e69cd07ab51264344f6829cb4dfd27fb4a1273"
+        },
+        {
+            "filename": "CORRECTED_REALISTIC_REQUIREMENTS.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\CORRECTED_REALISTIC_REQUIREMENTS.md",
+            "size_bytes": 21418,
+            "modified_utc": "2026-01-25T14:33:10.481265",
+            "sha256_hash": "b782a644d4d66290b52363431001ae9f7831ac1cb1e44c41210729561711a208"
+        },
+        {
+            "filename": "CORRECTION_BCI_NO_PEMF.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\CORRECTION_BCI_NO_PEMF.md",
+            "size_bytes": 13006,
+            "modified_utc": "2026-01-25T14:33:10.496886",
+            "sha256_hash": "6439f2252e0c4e4105e451e7d7e11b0bffff4e285b1d76ff15d7a191be5251e2"
+        },
+        {
+            "filename": "DAY_1_COMPLETE_4APP_HIDDEN_SKILLS.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\DAY_1_COMPLETE_4APP_HIDDEN_SKILLS.md",
+            "size_bytes": 32787,
+            "modified_utc": "2026-01-25T14:33:10.496886",
+            "sha256_hash": "9c406029594d76a8fcabd3d61de0bd37a846e1d49f2c4010cfd53b36fe1e2ff8"
+        },
+        {
+            "filename": "DAY_1_COMPLETE_INTRODUCTION.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\DAY_1_COMPLETE_INTRODUCTION.md",
+            "size_bytes": 25973,
+            "modified_utc": "2026-01-25T14:33:10.496886",
+            "sha256_hash": "684531c1dbfe81106893769d68454176035a09bcac38a5364b9d76560b7072ae"
+        },
+        {
+            "filename": "EXECUTIVE_SUMMARY.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\EXECUTIVE_SUMMARY.md",
+            "size_bytes": 9261,
+            "modified_utc": "2026-01-25T14:33:10.512509",
+            "sha256_hash": "4d36eca6460854c9f1d84f0c4a836f1e933a275502a23b954a2038cf4b793360"
+        },
+        {
+            "filename": "EXTERNAL_DEVICE_SHARED_EXPERIENCE.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\EXTERNAL_DEVICE_SHARED_EXPERIENCE.md",
+            "size_bytes": 14901,
+            "modified_utc": "2026-01-25T14:33:10.528131",
+            "sha256_hash": "f2dd30cdf140bf17c800824fbc5f2de498bd78f968367dac337a813976d743ce"
+        },
+        {
+            "filename": "FINAL_SYSTEM_ENGAGEMENT_BASED.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\FINAL_SYSTEM_ENGAGEMENT_BASED.md",
+            "size_bytes": 21145,
+            "modified_utc": "2026-01-25T14:33:10.528131",
+            "sha256_hash": "59a0799d306cd8ce0bede5439933d434a667e5e9b048e051457f2f420c8533cd"
+        },
+        {
+            "filename": "GUIDANCE_SYSTEM_COMPLETE_FINAL.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\GUIDANCE_SYSTEM_COMPLETE_FINAL.md",
+            "size_bytes": 20225,
+            "modified_utc": "2026-01-25T14:33:10.528131",
+            "sha256_hash": "cc1da668fb3e4d6a92308cf6bf961b14b5acb223167b3b5599dc7d77141d94c9"
+        },
+        {
+            "filename": "HANDSTAND_QUALIFICATION_HARDAWAY.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\HANDSTAND_QUALIFICATION_HARDAWAY.md",
+            "size_bytes": 18341,
+            "modified_utc": "2026-01-25T14:33:10.528131",
+            "sha256_hash": "b2552d775d171895413eb2c7045ecd5fd87ddcd0a5303ce6594cc816b066abbb"
+        },
+        {
+            "filename": "KICKSTARTER_CAMPAIGN.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\KICKSTARTER_CAMPAIGN.md",
+            "size_bytes": 24924,
+            "modified_utc": "2026-01-25T14:33:10.543752",
+            "sha256_hash": "0be76e9e14f5e0222f958ee027e833ac218aaac8fd2aa1af3bf36c71b642339e"
+        },
+        {
+            "filename": "LAUNCH_ROADMAP.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\LAUNCH_ROADMAP.md",
+            "size_bytes": 26189,
+            "modified_utc": "2026-01-25T14:33:10.543752",
+            "sha256_hash": "73f933f4b347b8894645769ad9ff820720f1f8f723eebccdc0d8b440ee5d5d39"
+        },
+        {
+            "filename": "LEVEL_1_FIRST_STEP_MAP.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\LEVEL_1_FIRST_STEP_MAP.md",
+            "size_bytes": 31032,
+            "modified_utc": "2026-01-25T14:33:10.543752",
+            "sha256_hash": "e2954bcee1c2b3e2408f2effc97737461acfd90544ad8a3740a4622530fec9d8"
+        },
+        {
+            "filename": "LEVEL_1_HARDWARE_SCALE.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\LEVEL_1_HARDWARE_SCALE.md",
+            "size_bytes": 18415,
+            "modified_utc": "2026-01-25T14:33:10.559372",
+            "sha256_hash": "7997e50d5e11b3e24f0978340fce14aefa67878b8335447250ed84c0339d9a3c"
+        },
+        {
+            "filename": "LITZ_WIRE_ADVANTAGE.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\LITZ_WIRE_ADVANTAGE.md",
+            "size_bytes": 13821,
+            "modified_utc": "2026-01-25T14:33:10.559372",
+            "sha256_hash": "d48cb48be5c7de462784f1de17013bff0610aaa18fa083377ebcbf802e4b97bc"
+        },
+        {
+            "filename": "MATH_OF_MASTERY.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\MATH_OF_MASTERY.md",
+            "size_bytes": 17164,
+            "modified_utc": "2026-01-25T14:33:10.559372",
+            "sha256_hash": "27f65f1fbafdc62be7133caab411eeef8c80ad96c8c9c1be2ef94531c1d453fc"
+        },
+        {
+            "filename": "MODULAR_SYSTEM_PCB_STRATEGY.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\MODULAR_SYSTEM_PCB_STRATEGY.md",
+            "size_bytes": 10363,
+            "modified_utc": "2026-01-25T14:33:10.559372",
+            "sha256_hash": "5d699343a28acbf9eb6505fafed94aa0fc8ef2005016bd1d9c823368625a1969"
+        },
+        {
+            "filename": "PEACE_WALK_ORGANIC_GROWTH.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\PEACE_WALK_ORGANIC_GROWTH.md",
+            "size_bytes": 15383,
+            "modified_utc": "2026-01-25T14:33:10.559372",
+            "sha256_hash": "cd07b83c87a8c36fecbb13b5bff69b0db9864061de62e37e8c6f77be706912e6"
+        },
+        {
+            "filename": "README.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\README.md",
+            "size_bytes": 15430,
+            "modified_utc": "2026-01-25T14:33:10.590616",
+            "sha256_hash": "f910eb0e84b3ac738398748197f89f12b129e84430c753e4b5ec772c5847cbc9"
+        },
+        {
+            "filename": "REALITY_FORGE_MASTER_CORRECTED.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\REALITY_FORGE_MASTER_CORRECTED.md",
+            "size_bytes": 20555,
+            "modified_utc": "2026-01-25T14:33:10.606236",
+            "sha256_hash": "8d0e6b7a256ca3715a027bb53292671fc4215b309321632f89c5346de277aa64"
+        },
+        {
+            "filename": "REAL_VALUE_TRANSFORMATION.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\REAL_VALUE_TRANSFORMATION.md",
+            "size_bytes": 16104,
+            "modified_utc": "2026-01-25T14:33:10.606236",
+            "sha256_hash": "ecbe60844f1014fce7b2fedc9278710bf56b35bfda719a4197bebbaac7537c70"
+        },
+        {
+            "filename": "START_HERE.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\START_HERE.md",
+            "size_bytes": 9366,
+            "modified_utc": "2026-01-25T14:33:10.606236",
+            "sha256_hash": "aa4a75fb7b2bfefbe86092a521370905654ded4f5e97bd67728061265ea6f7e2"
+        },
+        {
+            "filename": "TT_ACTUAL_BEAST_LEVEL_TIERS.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\TT_ACTUAL_BEAST_LEVEL_TIERS.md",
+            "size_bytes": 17681,
+            "modified_utc": "2026-01-25T14:33:10.621857",
+            "sha256_hash": "fe84c4b67f0ec21fa9174c3bf4070b6a83ce03029475ca8ea4a1f4ddc80f21b7"
+        },
+        {
+            "filename": "TT_COMPLETE_WORDS_AND_ANALYSIS.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\TT_COMPLETE_WORDS_AND_ANALYSIS.md",
+            "size_bytes": 25208,
+            "modified_utc": "2026-01-25T14:33:10.621857",
+            "sha256_hash": "c7baf507428c1f005b9d1b8218059c35967a7b0a3eb34c650ca6eb2640976398"
+        },
+        {
+            "filename": "TT_RESPONSE_TO_DEREK_CRITICAL.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\TT_RESPONSE_TO_DEREK_CRITICAL.md",
+            "size_bytes": 21591,
+            "modified_utc": "2026-01-25T14:33:10.621857",
+            "sha256_hash": "233c9ef20170fd0a985004de1e386b2792d53ee75f3dd59bdd00fdf67ea260eb"
+        },
+        {
+            "filename": "UPDATED_MONETIZATION.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\UPDATED_MONETIZATION.md",
+            "size_bytes": 13966,
+            "modified_utc": "2026-01-25T14:33:10.637481",
+            "sha256_hash": "a391dd40afb0def3605fb11da00eea69e2b1e633eee269d9ebc786d5c580efb2"
+        },
+        {
+            "filename": "VIBRATION_COMPLETE_FINAL.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\VIBRATION_COMPLETE_FINAL.md",
+            "size_bytes": 20734,
+            "modified_utc": "2026-01-25T14:33:10.637481",
+            "sha256_hash": "3986fb13f7eb51bc5a414c5e81f8888a8d997bc91549668193ea725d0c1914b2"
+        },
+        {
+            "filename": "VIBRATION_DEVICES_GROUP_SESSIONS.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\VIBRATION_DEVICES_GROUP_SESSIONS.md",
+            "size_bytes": 15788,
+            "modified_utc": "2026-01-25T14:33:10.668722",
+            "sha256_hash": "8bd7563ecee9260db77ff7d0bf825ba2dfbb132703e9693e4b7ac943394b7e1b"
+        },
+        {
+            "filename": "hardware-specifications.md",
+            "path": "D:\\Breathing_App_Essentials\\business_plan\\businessesplan\\hardware-specifications.md",
+            "size_bytes": 23115,
+            "modified_utc": "2026-01-25T14:33:10.528131",
+            "sha256_hash": "dc198fd80bdd1e2b834c256aaed59b4bcd989e1674b9137040d22ca3fe8ffc5c"
+        }
+    ]
+}
